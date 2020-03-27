@@ -20,6 +20,7 @@ Because of delays in reporting, the most recent three to five days of data may b
 
 ### boro.csv
 This contains rates of confirmed cases, by NYC borough of residence. Rates are:
+- Cumulative since the start of the outbreak
 - Age adjusted according to [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf)
 - Per 100,000 people in the borough
 
