@@ -1,31 +1,44 @@
 # NYC Coronavirus (COVID-19) data
-This repository contains regularly-updated data on coronavirus (COVID-19) in New York City. Data are assembled by the NYC Department of Health. You can view these data on [the Department of Health's website](www.nyc.gov/health).
+This repository contains data on coronavirus (COVID-19) in New York City (NYC), updated daily. Data are assembled by the NYC Department of Health and Mental Hygiene (DOHMH) Incident Command System for COVID-19 Response (Surveillance and Epidemiology Branch in collaboration with Public Information Office Branch). You can view these data on [the Department of Health's website](www.nyc.gov/health). Note that data are  being collected in real-time and are preliminary and subject to change as COVID-19 response continues. 
+
 
 ## Files
 
-### Summary.csv
+### summary.csv
 This file contains summary information, including when the dataset was "cut" - the cut-off date and time for data included in this update. 
 
+Estimated hospitalization counts reflect the total number of people ever admitted to a hospital, not currently admitted.
+
 ### case-hosp-death.csv
-This file includes daily totals of new confirmed cases, hospitalizations, and deaths. 
+This file includes daily counts of new confirmed cases, hospitalizations, and deaths. 
 - Cases are by date of diagnosis
-- Hospitalizations are by date of admission
+- Hospitalizations are by date of admission 
 - Deaths are by date of death
 
-Because of a delay in reporting, the most recent three to five days of data may be in accurate. Those dates may receive updates in the future as new cases, hospitalizations, and deaths get reported.
+Because of delays in reporting, the most recent three to five days of data may be incomplete. Data shown currently will be updated in the future as new cases, hospitalizations, and deaths are reported.
+
 
 ### boro.csv
-This file contains rates of confirmed cases, by boro. Rates are:
-- Seven-day rates: the average rate over the past seven days
-- Age adjusted
-- Per 100,000 people
+This contains rates of confirmed cases, by NYC borough of residence. Rates are:
+- Age adjusted according to [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf)
+- Per 100,000 people in the borough
 
 ### by-age.csv
-This file contains age-specific  rates of confirmed cases, hospitalizations, and deaths. 
+This contains age-specific  rates of confirmed cases, hospitalizations, and deaths. 
 
 ### by-sex.csv
-This file contains rates of confirmed cases, hospitalizations, and deaths.
+This contains rates of confirmed cases, hospitalizations, and deaths.
 
 
+## Technical Notes
+This section may change as data and documentation are updated.
 
-## Metadata: methods, definitions, and more
+### Estimated number of COVID-19 patients ever hospitalized
+At this time, NYC DOHMH does not have the ability to robustly quantify the number of people currently admitted to a hospital given intense resource and time constraints on hospital reporting systems. Therefore, we have estimated the number of individuals diagnosed with COVID-19 who have ever been hospitalized by matching the list of key fields from known cases that are reported by laboratories to the NYC DOHMH Bureau of Communicable Disease surveillance database to other sources of hospital admission information. These other sources include:
+- The NYC DOHMH syndromic surveillance database that tracks daily hospital admissions from all 53 emergency departments across NYC  
+- The New York State Department of Health Hospital Emergency Response Data System (HERDS). 
+
+### Rates per 100,000 people
+Annual citywide, borough-specific, and demographic specific intercensal population estimates from 2018 were developed by NYC DOHMH on the basis of the US Census Bureau’s Population Estimates Program, as of November 2019. 
+
+Rates of cases at the borough-level were calculated using direct standardization for age at diagnosis and weighting by [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf). 
