@@ -1,5 +1,5 @@
 # NYC Coronavirus (COVID-19) data
-This repository contains data on coronavirus (COVID-19) in New York City (NYC), updated daily. Data are assembled by the NYC Department of Health and Mental Hygiene (DOHMH) Incident Command System for COVID-19 Response (Surveillance and Epidemiology Branch in collaboration with Public Information Office Branch). You can view these data on [the Department of Health's website](www.nyc.gov/health). Note that data are  being collected in real-time and are preliminary and subject to change as COVID-19 response continues. 
+This repository contains data on coronavirus (COVID-19) in New York City (NYC), updated daily. Data are assembled by the NYC Department of Health and Mental Hygiene (DOHMH) Incident Command System for COVID-19 Response (Surveillance and Epidemiology Branch in collaboration with Public Information Office Branch). You can view these data on [the Department of Health's website](https://www1.nyc.gov/site/doh/covid/covid-19-data.page). Note that data are  being collected in real-time and are preliminary and subject to change as COVID-19 response continues. 
 
 
 ## Files
@@ -15,7 +15,7 @@ This file includes daily counts of new confirmed cases, hospitalizations, and de
 - Hospitalizations are by date of admission 
 - Deaths are by date of death
 
-Because of delays in reporting, the most recent three to five days of data may be incomplete. Data shown currently will be updated in the future as new cases, hospitalizations, and deaths are reported.
+Because of delays in reporting, the most recent data may be incomplete. Data shown currently will be updated in the future as new cases, hospitalizations, and deaths are reported.
 
 
 ### boro.csv
@@ -29,6 +29,9 @@ This contains age-specific  rates of confirmed cases, hospitalizations, and deat
 
 ### by-sex.csv
 This contains rates of confirmed cases, hospitalizations, and deaths.
+
+### testing.csv
+This file includes counts of New York City residents with specimens collected for SARS-CoV-2 testing by day, the subsets who tested positive as confirmed COVID-19 cases, were ever hospitalized, and who died, as of the date of extraction from the NYC Health Department's disease surveillance database. For each date of extraction, results for all specimen collection dates are appended to the bottom of the dataset. Lags between specimen collection date and report dates of cases, hospitalizations, and deaths can be assessed by comparing counts for the same specimen collection date across multiple data extract dates.
 
 
 ## Technical Notes
