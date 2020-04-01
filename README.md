@@ -33,6 +33,11 @@ This contains rates of confirmed cases, hospitalizations, and deaths.
 ### testing.csv
 This file includes counts of New York City residents with specimens collected for SARS-CoV-2 testing by day, the subsets who tested positive as confirmed COVID-19 cases, were ever hospitalized, and who died, as of the date of extraction from the NYC Health Department's disease surveillance database. For each date of extraction, results for all specimen collection dates are appended to the bottom of the dataset. Lags between specimen collection date and report dates of cases, hospitalizations, and deaths can be assessed by comparing counts for the same specimen collection date across multiple data extract dates.
 
+### tests-by-zcta.csv
+This file includes the cumulative count of New York City residents by ZIP code who:
+- Were ever tested for COVID-19 (SARS-CoV-2) 
+- Tested positive
+The cumulative counts are as of the date of extraction from the NYC Health Department's disease surveillance database.
 
 ## Technical Notes
 This section may change as data and documentation are updated.
