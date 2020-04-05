@@ -1,3 +1,5 @@
+![coronovirus logo](https://docs.google.com/drawings/d/e/2PACX-1vQ3gNEztlysCduUXtzJJhZBOIhFUELj9O2hLLZe5T3FOmbAwLXiXbPGsVgmL-06ZZ1MZUorlXQxfkzB/pub?w=320&h=200)
+
 # NYC Coronavirus (COVID-19) data
 This repository contains data on coronavirus (COVID-19) in New York City (NYC), updated daily. Data are assembled by the NYC Department of Health and Mental Hygiene (DOHMH) Incident Command System for COVID-19 Response (Surveillance and Epidemiology Branch in collaboration with Public Information Office Branch). You can view these data on [the Department of Health's website](https://www1.nyc.gov/site/doh/covid/covid-19-data.page). Note that data are  being collected in real-time and are preliminary and subject to change as COVID-19 response continues. 
 
