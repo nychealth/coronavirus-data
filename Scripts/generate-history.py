@@ -4,11 +4,14 @@
 import glob
 import pandas as pd
 
+#tmpdir = "/tmp/all_versions_exported"
+tmpdir = "c:/cygwin64/tmp/all_versions_exported"
+
 datasets = []
 
-for filename in glob.glob("/tmp/all_versions_exported/*.csv"):
+for filename in glob.glob(tmpdir + "/*.csv"):
     df = pd.read_csv(filename)
-    df["AS_OF"] = filename.split(".")[1]
+    df["AS_OF"] = filename.split(".")[1].replace("\uf03a", ":")
 
     if "DIAGNOSIS_DATE" in df.columns:
         df["DATE_OF_INTEREST"] = pd.to_datetime(df["DIAGNOSIS_DATE"])
