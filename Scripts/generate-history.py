@@ -13,9 +13,7 @@ for filename in glob.glob(tmpdir + "/*.csv"):
     df = pd.read_csv(filename)
     df["AS_OF"] = filename.split(".")[1].replace("\uf03a", ":")
 
-    if "DIAGNOSIS_DATE" in df.columns:
-        df["DATE_OF_INTEREST"] = pd.to_datetime(df["DIAGNOSIS_DATE"])
-        df.drop(columns=["DIAGNOSIS_DATE"], inplace=True)
+    df.rename(columns={df.columns[0]: "DATE_OF_INTEREST"}, inplace=True)
 
     df["AS_OF"] = pd.to_datetime(df["AS_OF"])
     df["DATE_OF_INTEREST"] = pd.to_datetime(df["DATE_OF_INTEREST"])
@@ -27,5 +25,7 @@ for filename in glob.glob(tmpdir + "/*.csv"):
     datasets.append(df)
 
 df = pd.concat(datasets, sort=True)
+
+df.sort_values(["AS_OF", "DATE_OF_INTEREST"], inplace=True)
 
 df.to_csv("history.csv")
