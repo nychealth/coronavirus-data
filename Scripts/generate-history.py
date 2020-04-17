@@ -4,12 +4,12 @@
 import glob
 import pandas as pd
 
-#tmpdir = "/tmp/all_versions_exported"
-tmpdir = "c:/cygwin64/tmp/all_versions_exported"
+tmpdir = "all_versions_exported"
 
 datasets = []
 
 for filename in glob.glob(tmpdir + "/*.csv"):
+    print(filename)
     df = pd.read_csv(filename)
     df["AS_OF"] = filename.split(".")[1].replace("\uf03a", ":")
 
