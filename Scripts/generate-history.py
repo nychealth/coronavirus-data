@@ -1,3 +1,5 @@
+#  -*- coding: utf-8 -*-
+
 """Generate full history
 """
 
@@ -11,7 +13,7 @@ datasets = []
 for filename in glob.glob(tmpdir + "/*.csv"):
     print(filename)
     df = pd.read_csv(filename)
-    df["AS_OF"] = filename.split(".")[1].replace("\uf03a", ":")
+    df["AS_OF"] = filename.split(".")[1].replace("_", ":")
 
     df.rename(columns={df.columns[0]: "DATE_OF_INTEREST"}, inplace=True)
 
