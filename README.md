@@ -17,7 +17,6 @@ This file includes daily counts of new confirmed cases, hospitalizations, and de
 
 Because of delays in reporting, the most recent data may be incomplete. Data shown currently will be updated in the future as new cases, hospitalizations, and deaths are reported.
 
-
 ### boro.csv
 This contains rates of confirmed cases, by NYC borough of residence. Rates are:
 - Cumulative since the start of the outbreak
@@ -30,14 +29,20 @@ This contains age-specific  rates of confirmed cases, hospitalizations, and deat
 ### by-sex.csv
 This contains rates of confirmed cases, hospitalizations, and deaths.
 
-### testing.csv
-This file includes counts of New York City residents with specimens collected for SARS-CoV-2 testing by day, the subsets who tested positive as confirmed COVID-19 cases, were ever hospitalized, and who died, as of the date of extraction from the NYC Health Department's disease surveillance database. For each date of extraction, results for all specimen collection dates are appended to the bottom of the dataset. Lags between specimen collection date and report dates of cases, hospitalizations, and deaths can be assessed by comparing counts for the same specimen collection date across multiple data extract dates.
-
 ### tests-by-zcta.csv
 This file includes the cumulative count of New York City residents by ZIP code of residence who:
 - Were ever tested for COVID-19 (SARS-CoV-2) 
 - Tested positive
 The cumulative counts are as of the date of extraction from the NYC Health Department's disease surveillance database.
+
+### probable-confirmed-dod.csv
+This file includes deaths, by date of interest, for both confirmed COVID-19 deaths, and for probable COVID-19 deaths. Only deaths that occurred on or after March 11 are included (March 11 was the first date of death for a confirmed death). 
+- A death is classified as confirmed if the decedent was a New York City resident who had a positive SARS CoV-2 (COVID-19) laboratory test. 
+- A death is classified as probable if the decedent was a New York City resident (NYC resident or residency pending) who had no known positive laboratory test for SARS-CoV-2 (COVID-19) but the death certificate lists as a cause of death “COVID-19” or an equivalent. 
+
+As new information becomes available, some deaths previously classified as probable may be reclassified as laboratory-confirmed.
+
+
 
 ## Technical Notes
 This section may change as data and documentation are updated.
