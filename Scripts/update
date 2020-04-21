@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Pull and merge latest data first, as in:
+# git fetch --all -p
+# git merge nychealth/master
+
+# Clear out previous datasets
+rm all_versions_exported/*
+
+# Pull history
+Scripts/git-export-all-file-versions case-hosp-death.csv
+
+# Generate history.csv file:
+python Scripts/generate-history.py
+
+# Update Analysis:
+
+jupyter nbconvert --to notebook --inplace --execute Notebooks/Analysis.ipynb
+
+# Update Growth:
+
+jupyter nbconvert --to notebook --inplace --execute Notebooks/Growth.ipynb
