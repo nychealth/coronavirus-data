@@ -13,7 +13,7 @@ Scripts used for setting up data for above notebooks.
 ## Files
 
 ### history.csv
-Full history of reports - all of the data in each committed version of case-hosp-death.csv, indexed by the date on which a new report was committed.
+Full history of reports - all of the data in each committed version of case-hosp-death.csv, indexed by the date on which a new report was committed.  This is ncessary for analyzing delayed reporting.
 
 ### summary.csv
 This file contains summary information, including when the dataset was "cut" - the cut-off date and time for data included in this update. 
