@@ -1,8 +1,13 @@
 #!/bin/bash
 
-# Pull and merge latest data first, as in:
-# git fetch --all -p
-# git merge nychealth/master
+# Script for updating data.  After pulling and merging, it will
+# regenerate the history & update the notebooks.
+
+# First, pull and merge latest data first, as in:
+#    git fetch --all -p
+#    git merge nychealth/master
+
+# Then run this script
 
 # Clear out previous datasets
 rm all_versions_exported/*
