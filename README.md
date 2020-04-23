@@ -2,7 +2,18 @@
 This repository contains data on coronavirus (COVID-19) in New York City (NYC), updated daily. Data are assembled by the NYC Department of Health and Mental Hygiene (DOHMH) Incident Command System for COVID-19 Response (Surveillance and Epidemiology Branch in collaboration with Public Information Office Branch). You can view these data on [the Department of Health's website](https://www1.nyc.gov/site/doh/covid/covid-19-data.page). Note that data are  being collected in real-time and are preliminary and subject to change as COVID-19 response continues. 
 
 
+## Subdirectories
+
+### [Notebooks](Notebooks)
+Jupyter notebooks analyzing the data, including its history.
+
+### [Scripts](Scripts)
+Scripts used for setting up data for above notebooks.
+
 ## Files
+
+### history.csv
+Full history of reports - all of the data in each committed version of case-hosp-death.csv, indexed by the date on which a new report was committed.  This is ncessary for analyzing delayed reporting.
 
 ### summary.csv
 This file contains summary information, including when the dataset was "cut" - the cut-off date and time for data included in this update. 
