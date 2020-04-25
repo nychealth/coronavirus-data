@@ -1,5 +1,14 @@
 # NYC Coronavirus (COVID-19) data
-This repository contains data on coronavirus (COVID-19) in New York City (NYC), updated daily. Data are assembled by the NYC Department of Health and Mental Hygiene (DOHMH) Incident Command System for COVID-19 Response (Surveillance and Epidemiology Branch in collaboration with Public Information Office Branch). You can view these data on [the Department of Health's website](https://www1.nyc.gov/site/doh/covid/covid-19-data.page). Note that data are  being collected in real-time and are preliminary and subject to change as COVID-19 response continues. 
+This repository contains data on coronavirus (COVID-19) in New York City (NYC), updated daily. Data are assembled by the NYC Department of Health and Mental Hygiene (DOHMH) Incident Command System for COVID-19 Response (Surveillance and Epidemiology Branch in collaboration with Public Information Office Branch). You can view these data on [the Department of Health's website](https://www1.nyc.gov/site/doh/covid/covid-19-data.page). Note that data are  being collected in real-time and are preliminary and subject to change as COVID-19 response continues. Information on this page will change as data and documentation are updated. 
+ 
+Data reported by NYC is derived from the Health Department’s surveillance database and will be different from data reported by the New York State Department of Health. The State Department of Health reports data on deaths from: 
+- The State Hospital Emergency Response Data System 
+- Daily calls to hospitals and other facilities that are caring for patients, such as nursing homes 
+
+The NYC Health Department reports data that reflect both: 
+- Positive tests for COVID-19 confirmed by laboratories 
+- Confirmations of a person’s death from the City’s Office of the Chief Medical Examiner and our Bureau of Vital Statistics, which is responsible for the registration, analysis and reporting of all deaths in the city. 
+Due to the time required by the City to confirm that a death was due to COVID-19, the City’s reported total for any given day is usually lower than the State’s number. 
 
 
 ## Files
