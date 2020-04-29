@@ -15,7 +15,10 @@ for filename in glob.glob(tmpdir + "/*.csv"):
     df = pd.read_csv(filename)
     df["AS_OF"] = filename.split(".")[1].replace("_", ":")
 
-    df.rename(columns={df.columns[0]: "DATE_OF_INTEREST"}, inplace=True)
+    df.rename(columns={df.columns[0]: "DATE_OF_INTEREST",
+                       "CASE_COUNT": "NEW_COVID_CASE_COUNT",
+                       "HOSPITALIZED_COUNT": "HOSPITALIZED_CASE_COUNT"},
+              inplace=True)
 
     df["AS_OF"] = pd.to_datetime(df["AS_OF"])
     df["DATE_OF_INTEREST"] = pd.to_datetime(df["DATE_OF_INTEREST"])
