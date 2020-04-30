@@ -10,6 +10,7 @@ The NYC Health Department reports data that reflect both:
 - Confirmations of a person’s death from the City’s Office of the Chief Medical Examiner and our Bureau of Vital Statistics, which is responsible for the registration, analysis and reporting of all deaths in the city. 
 Due to the time required by the City to confirm that a death was due to COVID-19, the City’s reported total for any given day is usually lower than the State’s number. 
 
+---
 
 ## Files
 
@@ -44,14 +45,14 @@ This file includes the cumulative count of New York City residents by ZIP code o
 - Tested positive
 The cumulative counts are as of the date of extraction from the NYC Health Department's disease surveillance database.
 
-### probable-confirmed-dod.csv
+### Deaths\probable-confirmed-dod.csv
 This file includes deaths, by date of interest, for both confirmed COVID-19 deaths, and for probable COVID-19 deaths. Only deaths that occurred on or after March 11 are included (March 11 was the first date of death for a confirmed death). 
 - A death is classified as confirmed if the decedent was a New York City resident who had a positive SARS CoV-2 (COVID-19) laboratory test. 
 - A death is classified as probable if the decedent was a New York City resident (NYC resident or residency pending) who had no known positive laboratory test for SARS-CoV-2 (COVID-19) but the death certificate lists as a cause of death “COVID-19” or an equivalent. 
 
 As new information becomes available, some deaths previously classified as probable may be reclassified as laboratory-confirmed.
 
-
+---
 
 ## Technical Notes
 This section may change as data and documentation are updated.
@@ -65,3 +66,5 @@ At this time, NYC DOHMH does not have the ability to robustly quantify the numbe
 Annual citywide, borough-specific, and demographic specific intercensal population estimates from 2018 were developed by NYC DOHMH on the basis of the US Census Bureau’s Population Estimates Program, as of November 2019. 
 
 Rates of cases at the borough-level were calculated using direct standardization for age at diagnosis and weighting by [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf). 
+
+---
