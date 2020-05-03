@@ -1,0 +1,16 @@
+# Temp dir for generating history
+all_versions_exported
+
+# Python notebook checkpoints
+*/.ipynb_checkpoints/*
+
+# Emacs backups
+*~
+
+# Saved graphs
+
+Notebooks/casesPerDayHistory.png
+Notebooks/casesPerDayHistoryRaw.png
+Notebooks/deathsPerDayHistory.png
+Notebooks/deathsPerDayHistoryRaw.png
+Notebooks/peakCases.png
