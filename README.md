@@ -44,6 +44,7 @@ This file includes the cumulative count of New York City residents by ZIP code o
 - Were ever tested for COVID-19 (SARS-CoV-2) 
 - Tested positive
 The cumulative counts are as of the date of extraction from the NYC Health Department's disease surveillance database.
+This file reports data by modified ZCTA. More information about this geography is available in [Geography-resources](https://github.com/nychealth/coronavirus-data/tree/master/Geography-resources).
 
 ### Deaths\probable-confirmed-dod.csv
 This file includes deaths, by date of interest, for both confirmed COVID-19 deaths, and for probable COVID-19 deaths. Only deaths that occurred on or after March 11 are included (March 11 was the first date of death for a confirmed death). 
