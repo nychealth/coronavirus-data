@@ -14,7 +14,9 @@
 \title{COVID-19 data collection: Garbage In, Garbage Out}
 
 \begin{abstract}
-  COVID-19 data discussion.
+  We discovered that a number of the major COVID-19 data repositories
+  record the data by report date instead of incident date.  We analyze
+  the impact of this.
 \end{abstract}
 
 \maketitle
@@ -65,7 +67,7 @@ My first stop was the
   repository}\nocite{owid2020data}.  I
 \href{https://github.com/hjstein/covid-19-data}{forked the
   repository}, imported my analysis code, extracted the historical
-reports and graphed the history.  The results are in figure~\ref{fig:owid}.
+reports and graphed the histories.  The results are in figure~\ref{fig:owid}.
 
 \begin{figure}[H]
   \centering
@@ -79,9 +81,9 @@ It's nice that the 7 day average is dropping, but where are the new
 reports?  There are no updates -- no missing data!  How could it be
 that the data the USA cases counts for yesterday that they receive
 today are complete?  Given what we know about the NYC data, and given
-that the NYC data is part of the USA data, it can't possibly be the
-case that on a given day they know exactly the number of cases the day
-before.  Something odd must be going on.
+that the NYC data is large part of the USA data, it can't possibly be
+the case that on a given day they know exactly the number of cases the
+day before.  Something odd must be going on.
 
 So I entered an
 \href{https://github.com/owid/covid-19-data/issues/41}{issue on the
@@ -121,7 +123,7 @@ impression was that governments try to give the most accurate view and
 record data based on incident date, updating history as needed.  On
 the other hand, aggregators like WHO, ECDC and JHU are more concerned
 with ease of aggregation and stability of reported numbers, so they
-instead record data based on reporting date.\cite{Mathieu2020Dates}
+instead record data based on the reporting date.\cite{Mathieu2020Dates}
 
 %% \begin{quotation}
 %%   Hi Harvey,
@@ -166,7 +168,8 @@ Science and Engineering (CSSE), Johns Hopkins University.  Professor
 Gardner and her team are responsible for the
 \href{https://coronavirus.jhu.edu/map.html}{Johns Hopkins COVID-19
   Dashboard}.  She agreed that there are issues with using reporting
-dates rather than incident dates.\cite{Gardner2020Dates}
+dates rather than incident dates, but unfortunately, that's often all
+that's available.\cite{Gardner2020Dates}
 
 %% \begin{quotation}
 %%   And yes, there are absolutely issues with using reporting data
@@ -192,11 +195,12 @@ numbers.  So it reduces the accuracy of the models, interferes with
 planning and leads to hysterical media reports about irrelevant rising
 and falling of death counts.
 
-How big is the effect, really?  We can compare where we have the
-report dates along with the incident dates.  I did this for the NYC data.
-I backing out what it would look like if it was recorded by
-report date instead of incident date.  Figures~\ref{fig:rptvsdataraw}
-and \ref{fig:rptvsdata7day} give the results.
+How big is the effect, really?  We can determine this for data sets
+where we have both the report dates as well as the incident dates.  So
+I did this for the NYC data.  I backing out what it would look like if
+it was recorded by report date instead of by incident date.
+Figures~\ref{fig:rptvsdataraw} and \ref{fig:rptvsdata7day} give the
+results.
 
 \begin{figure}[H]
   \centering
@@ -214,16 +218,24 @@ and \ref{fig:rptvsdata7day} give the results.
 
 As you can see, the reporting date data is far noisier; so much so
 that the 7 day cycle is obscured and the 7 day rolling window still
-shows substantial noise.  For example, the spike on May 11th in the
-raw data of about 5,000 cases corresponds to the history being
-restated slightly, but going back to the third week of March.  This
-gives a substantially distorted view from day to day.  The noise also
-makes the peak appear to have occurred much earlier than it actually
-does.
+shows substantial noise.  For example, the report date based data
+exhibits a spike on May 11th about 5,000 cases, far higher than the
+incident based data shows.  The incident based data shows a slight
+restatement of the data going back to the third week of March.
 
-The 7 day rolling window shows that the report date data is
-overstating the number of cases by a substantial amount, sometimes by
-over 50\%.
+Presumably NYC received a report a few days ago from a particular
+site, and that report relayed daily infections back through March that
+hadn't yet been recorded.  Report date based data then records this as
+a huge spike which never actually occurred.  Because of these
+underlying data collection mechanisms, report date based data
+collection often give a substantially distorted view from day to day.
+
+Another case in point is that the noise makes the peak appear to have
+occurred much earlier than it actually does.
+
+Even after smoothing with The 7 day rolling window, report date data is
+overstating the post-peak number of cases by a substantial amount,
+sometimes by over 50\%.
 
 Surprisingly, the growth rate to the peak is higher rather than lower.
 This is presumably because reporting delays were greater when the data
