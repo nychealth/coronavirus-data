@@ -6,13 +6,12 @@
 
 \author{Harvey J. Stein}
 \email{hjstein@bloomberg.net}
-\address{Bloomberg L.P., New York, NY, USA}
 
 \date{\today}
 
 \begin{document}
 
-\title{COVID-19: Garbage In, Garbage Out}
+\title{COVID-19 data collection: Garbage In, Garbage Out}
 
 \begin{abstract}
   COVID-19 data discussion.
@@ -26,8 +25,9 @@
 If you recall my 4/21 analysis of the NYC COVID-19 data
 (\href{https://hjstein.blogspot.com/2020/04/covid-19-nyc-stats-not-what-they-seem.html}{COVID-19 NYC Stats -- Not What They Seem}),
 you'd remember a graph showing the extent to which missing
-data has a major impact on the reported incident counts.
-Figure~\ref{fig:daily} has an updated version.
+data has a major impact on the reported incident
+counts.\nocite{nyc2020data,Stein2020nycdata,Stein2020owiddata,owid2020data}
+Figure~\ref{fig:daily} has an updated version.\nocite{Stein2020Seem}\nocite{Stein2020Ray}
 
 \begin{figure}[H]
   \centering
@@ -59,13 +59,13 @@ After seeing this analysis, Jon Asmundsson, editor of {\it Bloomberg
 
 This led me to try.
 
-\section{Garbage in?}
+\section{Garbage in}
 My first stop was the
 \href{https://github.com/owid/covid-19-data}{Our World in Data github
-  repository}.  I
+  repository}\nocite{owid2020data}.  I
 \href{https://github.com/hjstein/covid-19-data}{forked the
   repository}, imported my analysis code, extracted the historical
-reports and graphed the history.  The results are in figure~\ref{fig:owid}
+reports and graphed the history.  The results are in figure~\ref{fig:owid}.
 
 \begin{figure}[H]
   \centering
@@ -113,7 +113,7 @@ Further research showed that it's not just the ECDC.  The
   COVID-19 repository} also record instances by report receipt date
 instead of by incident date.  And these are the major sources of data
 that people use for modeling, for planning disease responses and for
-reporting.
+reporting.\nocite{JHU2020data,NYT2020data}
 
 I followed up with Edouard Mathieu.  I asked him if he knew of any
 rationale for why the data was being collected this way.  His
@@ -212,6 +212,50 @@ and \ref{fig:rptvsdata7day} give the results.
   \label{fig:rptvsdata7day}
 \end{figure}
 
+As you can see, the reporting date data is far noisier; so much so
+that the 7 day cycle is obscured and the 7 day rolling window still
+shows substantial noise.  For example, the spike on May 11th in the
+raw data of about 5,000 cases corresponds to the history being
+restated slightly, but going back to the third week of March.  This
+gives a substantially distorted view from day to day.  The noise also
+makes the peak appear to have occurred much earlier than it actually
+does.
+
+The 7 day rolling window shows that the report date data is
+overstating the number of cases by a substantial amount, sometimes by
+over 50\%.
+
+Surprisingly, the growth rate to the peak is higher rather than lower.
+This is presumably because reporting delays were greater when the data
+started being collected, leading to batches of reports coming in
+together at a later date.
+
+\section{Conclusions}
+During this pandemic, it's great to see that organizations like OWID, the
+WHO and the ECDC, major news outlets, like The New York Times, and
+major universities, like Johns Hopkins University, are all collecting
+and aggregating data on COVID-19 cases and deaths and making this data
+publicly available.  Without such aggregation, it would be very
+difficult to globally understand, analyze, and respond appropriately
+to the pandemic.
+
+On the other hand, it's unfortunate that they collect the data in a
+way that obscures the current state of the disease and makes analysis
+more difficult than it need be.  It's also disturbing that news
+agencies are reporting on these numbers as if they actually occurred
+on the reporting date, and governments may be taking action based on
+the same misconception.
+
+I find it surprising that epidemiologists who make a career out of
+analyzing epidemics and pandemics would record the data in such a
+fashion.  But, on the other hand, I suppose such work tends to be on a
+longer time scale and it's only in the current pandemic that we needed
+accurate, up to date infection and death counts.
+
+I'd hope that someone would take it upon themselves to
+collect and aggregate the data on an incident date basis.  This would
+be a huge undertaking, but the longer this pandemic persists, the more
+important this becomes.
 
 \printbibliography
 
