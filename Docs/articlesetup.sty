@@ -1,0 +1,80 @@
+\ProvidesPackage{articlesetup}
+
+\usepackage{latexsym, amssymb, amsmath, amsthm, bbm, color, enumerate, graphicx, dsfont}
+
+% \usepackage[numbers]{natbib}
+% \usepackage{bibentry}
+%% \citestyle{agu}
+% \nobibliography*
+
+\usepackage[backend=bibtex,style=alphabetic,natbib=true,maxnames=99]{biblatex}
+%% Fix for problem with biblatex/bibtex:
+%% It creates a .bib file with \verb followed by a URL on the next
+%% line, and then pdflatex chokes when processing it.
+\makeatletter
+\def\blx@maxline{77}
+\makeatother
+
+\usepackage{hyperref}
+\usepackage[hyphenbreaks]{breakurl}
+\hypersetup{
+   colorlinks=true,
+   linkcolor=blue,
+   citecolor=blue,
+   filecolor=blue,
+   urlcolor=red
+}
+
+\usepackage{comment}
+
+\newcounter{notenum}
+
+\specialcomment{note}{%
+\begingroup\color{red}}{%
+\endgroup}
+
+\newcommand{\rnote}[1]{%
+\stepcounter{notenum}%
+{\color{red}Note \arabic{notenum}.\ #1}%
+}
+
+
+%%% For lists to indent properly when not indenting paragraphs.
+\usepackage{enumitem}
+%\setlist{labelindent=\parindent,labelwidth=\parindent,itemindent=\parindent,itemsep=0em}
+%\setlist{labelindent=\parindent,labelwidth=\parindent,itemindent=\parindent,itemsep=0em,parsep=.2em,topsep=0em}
+\setlist{labelindent=\parindent,labelwidth=\parindent,itemindent=\parindent,itemsep=0em,topsep=.2em}
+\parindent=0pt
+\parskip=.5em plus .1em minus .2em
+
+%\nonstopmode
+\pagestyle{plain}
+%\topmargin -50pt \oddsidemargin -0pt
+
+% define roman numbers
+\makeatletter
+\newcommand{\rmnum}[1]{\romannumeral #1}
+\newcommand{\Rmnum}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+\usepackage{hjsabbrevs} 
+
+\newtheorem{Theorem}{Theorem}[section]
+\newtheorem{Proposition}[Theorem]{Proposition}
+\newtheorem{Corollary}[Theorem]{Corollary}
+\newtheorem{Conjecture}[Theorem]{Conjecture}
+\newtheorem{Lemma}[Theorem]{Lemma}
+\newtheorem{Definition}[Theorem]{Definition}
+\newtheorem{Assumption}{Assumption}
+\newtheorem{Condition}[Theorem]{Condition}
+\newtheorem{Example}[Theorem]{Example}
+\newtheorem{Remark}[Theorem]{Remark}
+\newtheorem{Remarks}[Theorem]{Remarks}
+\newtheorem{Examples}[Theorem]{Examples}
+\newtheorem{Notation}[Theorem]{Notation}
+\newtheorem{Hypothesis}{Hypothesis}[section]
+\numberwithin{equation}{section}
+
+\setcounter{tocdepth}{2}
+
+\endinput

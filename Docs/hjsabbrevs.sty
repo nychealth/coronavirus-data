@@ -1,0 +1,493 @@
+\ProvidesPackage{hjsabbrevs}
+
+\usepackage{amsmath}
+
+\newcommand{\prob}{\operatorname{Prob}}
+\newcommand{\expec}[1]{\mbox{\bf E}\left[ #1 \right]}
+\newcommand{\rnprob}[1]{\tilde{\mbox{\bf P}}\left[ #1 \right]}
+\newcommand{\rnexpec}[1]{\tilde{\mbox{\bf E}}\left[ #1 \right]}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\var}{\operatorname{var}}
+\newcommand{\cov}{\operatorname{cov}}
+\newcommand{\as}{\operatorname{a.s.}}
+\newcommand{\VaR}{\operatorname{VaR}}
+\newcommand{\ES}{\operatorname{ES}}
+\newcommand{\MVaR}{\operatorname{MVaR}}
+\newcommand{\IVaR}{\operatorname{IVaR}}
+\newcommand{\LVaR}{\operatorname{LVaR}}
+\newcommand{\mdur}{\operatorname{mdur}}
+\newcommand{\conv}{\operatorname{conv}}
+\newcommand{\PDF}{\operatorname{PDF}}
+\newcommand{\CDF}{\operatorname{CDF}}
+\newcommand{\lgd}{\operatorname{LGD}}
+\newcommand{\sd}{\operatorname{sd}}
+\newcommand{\mean}{\operatorname{mean}}
+\newcommand{\stddev}{\operatorname{stddev}}
+\newcommand{\IMCC}{\operatorname{IMCC}}
+\newcommand{\SES}{\operatorname{SES}}
+\newcommand{\IDR}{\operatorname{IDR}}
+\newcommand{\ACC}{\operatorname{ACC}}
+\newcommand{\JTD}{\operatorname{JTD}}
+\newcommand{\indicator}{\operatorname{\mathds{1}}}
+
+\def\suchthat{\,|\,}
+\def\F{{\cal F}}
+%\def\givenr{~\right|~}
+\def\givenr{\right|}
+\def\givenb{\biggr|}
+\newcommand{\given}{\,|\,}
+
+\def\from{\colon}
+\def\BCF{{\rm BCF}}
+\def\Val{{\mathcal V}}
+\def\F{{\cal F}}
+\def\from{\colon}
+
+\def\BCF{\mathit{BCF}}
+\def\E{\mathit{E}}
+\def\EE{\mathit{EE}}
+\def\EEE{\mathit{EEE}}
+\def\EPE{\mathit{EPE}}
+\def\EEPE{\mathit{EEPE}}
+\def\EAD{\mathit{EAD}}
+\def\CF{\mathit{CF}}
+\def\LGD{\mathit{LGD}}
+\def\PD{\mathit{PD}}
+\def\RWA{\mathit{RWA}}
+\def\CMV{\mathit{CMV}}
+\def\CMC{\mathit{CMC}}
+\def\RPT{\mathit{RPT}}
+\def\RPC{\mathit{RPC}}
+\def\CCF{\mathit{CCF}}
+\def\CE{\mathit{CE}}
+\def\PFE{\mathit{PFE}}
+\def\CVA{\mathit{CVA}}
+
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+
+
+\newcommand{\chEE}{\check {\mathbb E }}
+\newcommand{\chFF}{\check {\mathbb F}}
+\newcommand{\chcR}{\check{\mathcal R}}
+\newcommand{\cbR}{\check{\textbf R}}
+ 
+%\newcommand{\newitem}{\medskip\hskip -10pt}
+\newcommand{\newitem}{\medskip\noindent}
+%\newcommand\pub{\smallskip\hskip -10pt $\bullet$\,\,}
+\newcommand\pub{\smallskip\hskip -0pt $\bullet$\,\,}
+\newcommand\pa{$\circ$\,\,}
+\newcommand{\hs}{\hspace}
+\newcommand{\vs}{\vspace}
+%\newcommand{\weak}{\rightharpoonup}
+\newcommand{\mff}{{\mathfrak f}}
+\newcommand{\mfa}{{\mathfrak a}}
+\newcommand{\range}{{\rm range}}
+\newcommand{\RR}{{\mathbb R}}
+\newcommand{\NN}{{\mathbb N}}
+\newcommand{\ZZ}{{\mathbb Z}}
+\newcommand{\TT}{{\mathbb T}}
+\newcommand{\CC}{{\mathbb C}}
+%\newcommand{\AA}{{\mathbb A}}
+\newcommand{\BB}{{\mathbb B}}
+\newcommand{\DD}{{\mathbb D}}
+
+\newcommand{\FF}{{\mathbb F}}
+\newcommand{\GG}{{\mathbb G}}
+\newcommand{\HH}{{\mathbb H}}
+\newcommand{\II}{{\mathbb I}}
+\newcommand{\JJ}{{\mathbb J}}
+\newcommand{\KK}{{\mathbb K}}
+\newcommand{\LL}{{\mathbb L}}
+\newcommand{\MM}{{\mathbb M}}
+\newcommand{\PP}{{\mathbb P}}
+\newcommand{\QQ}{{\mathbb Q}}
+\newcommand{\SSS}{{\mathbb S}}
+\newcommand{\XX}{{\mathbb X}}
+
+\newcommand\CIc{\mathcal C_c^\infty}
+
+\newcommand{\cA}{{\mathcal A}}
+\newcommand{\cB}{{\mathcal B}}
+\newcommand{\cC}{{\mathcal C}}
+\newcommand{\cD}{{\mathcal D}}
+\newcommand{\cE}{{\mathcal E}}
+\newcommand{\cF}{{\mathcal F}}
+\newcommand{\cG}{{\mathcal G}}
+\newcommand{\cH}{{\mathcal H}}
+\newcommand{\cI}{{\mathcal I}}
+\newcommand{\cJ}{{\mathcal J}}
+\newcommand{\cK}{{\mathcal K}}
+\newcommand{\cL}{{\mathcal L}}
+\newcommand{\cM}{{\mathcal M}}
+\newcommand{\cN}{{\mathcal N}}
+\newcommand{\cO}{{\mathcal O}}
+\newcommand{\cP}{{\mathcal P}}
+\newcommand{\cQ}{{\mathcal Q}}
+\newcommand{\cR}{{\mathcal R}}
+\newcommand{\cS}{{\mathcal S}}
+\newcommand{\cT}{{\mathcal T}}
+\newcommand{\cU}{{\mathcal U}}
+\newcommand{\cV}{{\mathcal V}}
+\newcommand{\cW}{{\mathcal W}}
+\newcommand{\cX}{\mathcal{X}}
+\newcommand{\cY}{\mathcal{Y}}
+\newcommand{\cZ}{\mathcal{Z}}
+\newcommand{\ctL}{\tilde{\mathcal{L}}}
+
+
+
+\newcommand{\oA}{\overline{A}}
+\newcommand{\oB}{\overline{B}}
+\newcommand{\oL}{\overline{L}}
+\newcommand{\oE}{\overline{E}}
+\newcommand{\oS}{\overline{S}}
+\newcommand{\ow}{\overline{w}}
+
+
+
+\newcommand{\cz}{\check \zeta}
+\newcommand{\cg}{\check \gamma}
+\newcommand{\ch}{\check \eta}
+\newcommand{\cb}{\check \beta}
+\newcommand{\cf}{\check \varphi}
+\newcommand{\cp}{\check \psi}
+\newcommand{\ct}{\check \tau}
+
+
+\newcommand{\chtau}{\check \tau}
+\newcommand{\cheta}{\check \eta}
+\newcommand{\chgamma}{\check \gamma}
+\newcommand{\chzeta}{\check \zeta}
+\newcommand{\chG}{\check G}
+\newcommand{\chM}{\check M}
+\newcommand{\chcL}{{\check{\mathcal L}}}
+\newcommand{\chR}{\check R}
+\newcommand{\chS}{\check S}
+\newcommand{\chH}{\check H}
+\newcommand{\chB}{\check B}
+\newcommand{\cha}{\check a}
+\newcommand{\chb}{\check b}
+\newcommand{\chc}{\check c}
+\newcommand{\chm}{\check m}
+\newcommand{\chr}{\check r}
+\newcommand{\chs}{\check s}
+
+
+
+
+
+
+\newcommand{\sy}{\textsf{y}}
+\newcommand{\sls}{\textsf{s}}
+\newcommand{\fz}{z_\flat}
+\newcommand{\uh}{{\underline h}}
+\newcommand{\uu}{{\underline u}}
+\newcommand{\up}{{\underline p}}
+\newcommand{\uq}{{\underline q}}
+\newcommand{\uW}{{\underline W}}
+\newcommand{\ug}{{\underline \gamma}}
+\newcommand{\uC}{{\underline C}}
+\newcommand{\uR}{{\underline R}}
+\newcommand{\uc}{{\underline c}}
+\newcommand{\ut}{{\underline t}}
+\newcommand{\uy}{{\underline y}}
+\newcommand{\ux}{{\underline x}}
+\newcommand{\uw}{{\underline w}}
+\newcommand{\uz}{{\underline z}}
+\newcommand{\ua}{{\underline a}}
+\newcommand{\uhtau}{{\underline{\hat{\tau}}}}
+\newcommand{\uhgamma}{{\underline{\hat{\gamma}}}}
+\newcommand{\uheta}{{\underline{\hat{\eta}}}}
+\newcommand{\uhxi}{{\underline{\hat{\xi}}}}
+\newcommand{\uhmu}{{\underline{\hat{\mu}}}}
+\newcommand{\doa}{\dot{a}}
+\newcommand{\dop}{\dot{p}}
+\newcommand{\dopsi}{\dot{\psi}}
+\newcommand{\dophi}{\dot{\phi}}
+\newcommand{\dov}{\dot{v}}
+\newcommand{\dou}{\dot{u}}
+\newcommand{\dow}{\dot{w}}
+\newcommand{\dos}{\dot{s}}
+\newcommand{\doh}{\dot{h}}
+\newcommand{\bfR}{\textbf{R}}
+\newcommand{\bfw}{\textbf{w}}
+\newcommand{\bfa}{\textbf a}
+\newcommand{\hz}{{\hat \zeta}}
+\newcommand{\Id}{{\rm Id }}
+\newcommand{\la}{\langle }
+\newcommand{\ra}{\rangle }
+\newcommand{\lj}{\big[}
+\newcommand{\rj}{\big]}
+\newcommand{\ls}{{\ \lesssim \ }}
+\newcommand{\D}{{\partial }}
+\newcommand{\vphi}{\varphi }
+
+
+%some macros
+
+\newcommand{\tA}{\tilde{A}}
+\newcommand{\tB}{{\tilde B}}
+\newcommand{\tu}{\tilde{u}}
+\newcommand{\tpsi}{\tilde{\psi}}
+\newcommand{\tf}{\tilde{f}}
+\newcommand{\tU}{\tilde{U}}
+\newcommand{\tG}{\tilde{G}}
+\newcommand{\tH}{\tilde{H}}
+\newcommand{\tK}{\tilde{K}}
+\newcommand{\tD}{\tilde{D}}
+\newcommand{\tX}{\tilde{X}}
+\newcommand{\tx}{\tilde{x}}
+\newcommand{\tw}{\tilde{w}}
+\newcommand{\tV}{\tilde{V}}
+\newcommand{\tY}{\tilde{Y}}
+\newcommand{\ta}{\tilde{a}}
+\newcommand{\tm}{\tilde{m}}
+\newcommand{\te}{\tilde{e}}
+\newcommand{\tkappa}{\tilde{\kappa}}
+\newcommand{\ttheta}{\tilde{\theta}}
+\newcommand{\tq}{\tilde{q}}
+\newcommand{\tchi}{\tilde{\chi}}
+\newcommand{\tz}{\tilde{z}}
+\newcommand{\ty}{\tilde{y}}
+\newcommand{\tv}{\tilde{v}}
+\newcommand{\tGamma}{\tilde{\Gamma}}
+\newcommand{\rdiag}{\textrm{diag}}
+\newcommand{\rspec}{\textrm{spec}}
+\newcommand{\rsgn}{\textrm{sgn}}
+\newcommand{\msgn}{\mathrm{sgn}}
+\newcommand{\mspec}{\mathrm{spec}}
+\newcommand{\msupp}{\mathrm{supp}}
+\newcommand{\bB}{\mathbb{B}}
+\newcommand{\bF}{\mathbb{F}}
+\newcommand{\bH}{\mathbb{H}}
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bG}{\mathbb{G}}
+\newcommand{\bP}{\mathbb{P}}
+\newcommand{\bE}{\mathbb{E}}
+\newcommand{\bQ}{\mathbb{Q}}
+\newcommand{\bW}{\mathbb{W}}
+\newcommand{\bV}{\mathbb{V}}
+\newcommand{\bY}{\mathbb{Y}}
+\newcommand{\bL}{\mathbb{L}}
+\newcommand{\bS}{\mathbb{S}}
+\newcommand{\bK}{\mathbb{K}}
+\newcommand{\lsi}{\lesssim}
+\newcommand{\gsi}{\gtrsim}
+\newcommand{\fR}{\mathfrak{R}}
+\newcommand{\bA}{\mathbb{A}}
+\newcommand{\bM}{\mathbb{M}}
+\newcommand{\bN}{\mathbb{N}}
+\newcommand{\bD}{\mathbb{D}}
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bZ}{\mathbb{Z}}
+\newcommand{\bU}{\mathbb{U}}
+
+\newcommand{\sA}{\textsf{A}}
+\newcommand{\sw}{\textsf{w}}
+\newcommand{\sh}{\textsf{h}}
+\newcommand{\sR}{\textsf{R}}
+\newcommand{\sv}{\textsf{v}}
+\newcommand{\su}{\textsf{u}}
+\newcommand{\hA}{\hat{A}}
+\newcommand{\hB}{\hat{B}}
+\newcommand{\hM}{\hat{M}}
+\newcommand{\hG}{\hat{G}}
+\newcommand{\hu}{\hat{u}}
+\newcommand{\hg}{\hat{g}}
+\newcommand{\hR}{\hat{R}}
+
+\newcommand{\hlambda}{\hat{\lambda}}
+\newcommand{\hzeta}{\hat{\zeta}}
+\newcommand{\heta}{\hat{\eta}}
+\newcommand{\hgamma}{\hat{\gamma}}
+\newcommand{\hxi}{\hat{\xi}}
+\newcommand{\htau}{\hat{\tau}}
+\newcommand{\hGamma}{\hat{\Gamma}}
+\newcommand{\hw}{\hat{w}}
+\newcommand{\hphi}{\hat{\phi}}
+\newcommand{\hv}{\hat{v}}
+\newcommand{\hX}{\hat{X}}
+\newcommand{\ou}{\overline{u}}
+\newcommand{\oz}{\overline{z}}
+\newcommand{\uzeta}{\underline{\zeta}}
+\newcommand{\oV}{\overline{V}}
+\newcommand{\oY}{\overline{Y}}
+
+\newcommand{\ocL}{\overline{\mathcal{L}}}
+\newcommand{\obA}{\overline{\mathbb{A}}}
+\newcommand{\obR}{\overline{\mathbb{R}}}
+\newcommand{\osA}{\overline{\textsf{A}}}
+\newcommand{\uV}{\underline{V}}
+\newcommand{\ueta}{\underline{\eta}}
+\newcommand{\utau}{\underline{\tau}}
+\newcommand{\uxi}{\underline{\xi}}
+\newcommand{\og}{\overline{g}}
+\newcommand{\mat}{\begin{pmatrix}0&0\\0&B_{jk}^{22}\end{pmatrix}}
+
+
+\newcommand\ie{{\em i.e., }}
+
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+
+
+\newcommand{\defterm}[1]{{\bf #1}}
+
+
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+%short hand for greek letters
+\newcommand{\si}{\ensuremath{\sigma}}
+\newcommand{\lam}{\ensuremath{\lambda}}
+\newcommand{\eps}{\ensuremath{\varepsilon}}
+\newcommand{\z}{\ensuremath{\zeta}}
+
+%
+
+\newcommand{\teno}{\textnormal}
+\newcommand{\dspt}{\displaystyle}
+
+% Blackboard Bold
+
+\renewcommand{\AA}{\ensuremath{\mathbb{A}}} % AA
+\newcommand{\bbone}{\ensuremath{\mathbbm{1}}} % 11
+
+%``Field'' command for the usual real, complex, natural, rational numbers
+
+\newcommand{\field}[1]{\ensuremath{\mathbb{#1}}}
+\newcommand{\R}{\ensuremath{\field{R}}}
+\newcommand{\C}{\ensuremath{\field{C}}}
+\newcommand{\Z}{\ensuremath{\field{Z}}}
+\newcommand{\N}{\ensuremath{\field{N}}}
+\newcommand{\Q}{\ensuremath{\field{Q}}}
+
+%vector shortcuts
+
+\newcommand{\vect}[1]{\ensuremath{\mathbf{#1}}}
+
+%upright symbols (for international typesetting stadards)
+
+\newcommand{\dif}{\ensuremath{\mathrm{d}}} %differential
+\newcommand{\me}{\ensuremath{\mathrm{e}}} % the number e
+\newcommand{\mi}{\ensuremath{\mathrm{i}}} % the number i
+\newcommand{\tr}{\ensuremath{\mathrm{tr}}}
+\newcommand{\del}{\partial}
+\newcommand{\ti}{\tilde}
+
+% spaces
+
+\newcommand{\nqquad}{\quad\quad}
+
+% caligraphic
+
+\newcommand{\calA}{\ensuremath{\mathcal{A}}}
+\newcommand{\calE}{\ensuremath{\mathcal{E}}}
+\newcommand{\calF}{\ensuremath{\mathcal{F}}}
+\newcommand{\calB}{\ensuremath{\mathcal{B}}}
+\newcommand{\calR}{\ensuremath{\mathcal{R}}}
+% script
+\newcommand{\scrZ}{\ensuremath{\mathscr{Z}}}
+\newcommand{\scrW}{\ensuremath{\mathscr{W}}}
+\newcommand{\scrY}{\ensuremath{\mathscr{Y}}}
+%for proof environment
+%\newcommand{\proof}{\begin{proof}}
+%\newcommand{\foorp}{\end{proof}}
+
+%
+
+%SPECIAL FOR BREAK INTO hyperbolic and parabolic components
+
+\newcommand{\ui}{\ensuremath{u_{{\scriptscriptstyle\mathrm{I}}}}}
+\newcommand{\uii}{\ensuremath{u_{{\scriptscriptstyle\mathrm{II}}}}}
+\newcommand{\bi}{\ensuremath{b_{{\scriptscriptstyle\mathrm{I}}}}}
+\newcommand{\bii}{\ensuremath{b_{{\scriptscriptstyle\mathrm{II}}}}}
+\newcommand{\zi}{\ensuremath{z_{{\scriptscriptstyle\mathrm{I}}}}}
+\newcommand{\zii}{\ensuremath{z_{{\scriptscriptstyle\mathrm{II}}}}}
+\newcommand{\wi}{\ensuremath{w_{{\scriptscriptstyle\mathrm{I}}}}}
+\newcommand{\wii}{\ensuremath{w_{{\scriptscriptstyle\mathrm{II}}}}}
+\newcommand{\wgas}{\ensuremath{w_{{\scriptscriptstyle\flat}}}}
+\newcommand{\wiii}{\ensuremath{w_{{\scriptscriptstyle\mathrm{III}}}}}
+\newcommand{\yi}{\ensuremath{y_{{\scriptscriptstyle\mathrm{I}}}}}
+\newcommand{\yii}{\ensuremath{y_{{\scriptscriptstyle\mathrm{II}}}}}
+\newcommand{\ygas}{\ensuremath{y_{{\scriptscriptstyle\flat}}}}
+\newcommand{\yiii}{\ensuremath{y_{{\scriptscriptstyle\mathrm{III}}}}}
+\newcommand{\psii}{\ensuremath{\psi_{{\scriptscriptstyle\mathrm{I}}}}}
+\newcommand{\psiii}{\ensuremath{\psi_{{\scriptscriptstyle\mathrm{II}}}}}
+
+% Next for super/sub scripts
+
+\newcommand{\ssi}{\ensuremath{{{\scriptscriptstyle\mathrm{I}}}}}
+\newcommand{\ssii}{\ensuremath{{{\scriptscriptstyle\mathrm{II}}}}}
+\newcommand{\sswi}[1]{\ensuremath{w_{{\scriptscriptstyle\mathrm{I}},#1}}}
+\newcommand{\sswii}[1]{\ensuremath{w_{{\scriptscriptstyle\mathrm{II}},#1}}}
+\newcommand{\sswiii}[1]{\ensuremath{w_{{\scriptscriptstyle\mathrm{III}},#1}}}
+\newcommand{\ssbi}[1]{\ensuremath{b_{{\scriptscriptstyle\mathrm{I}},#1}}}
+\newcommand{\ssbii}[1]{\ensuremath{b_{{\scriptscriptstyle\mathrm{II}},#1}}}
+% SMALL PLUS/MINUS
+\newcommand{\spm}{{\ensuremath{{\scriptscriptstyle\pm}}}}
+\renewcommand{\sp}{{\ensuremath{{\scriptscriptstyle +}}}}
+\newcommand{\sm}{{\ensuremath{{\scriptscriptstyle -}}}}
+
+%
+
+
+
+%\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+
+\newcommand{\weak}{\rightharpoonup}
+\newcommand{\OO}{\Omega}
+\newcommand{\x}{\chi}
+\newcommand{\<}{\langle}
+\renewcommand{\>}{\rangle}
+\renewcommand{\a}{\alpha}
+\renewcommand{\b}{\beta}
+\renewcommand{\d}{\delta}
+\newcommand{\e}{\varepsilon}
+\newcommand{\p}{\varphi}
+\newcommand{\g}{\gamma}
+\newcommand{\G}{\Gamma}
+\renewcommand{\l}{\lambda}
+\newcommand{\n}{\nabla}
+\renewcommand{\r}{\rho}
+\newcommand{\s}{\sigma}
+\newcommand{\Sig}{\Sigma}
+\renewcommand{\t}{\tau}
+\renewcommand{\th}{\theta}
+\newcommand{\w}{\omega}
+\renewcommand{\o}{\omega}
+\renewcommand{\i}{\infty}
+\newcommand{\vp}{\varphi}
+\newcommand{\X}{\chi}
+\newcommand{\negint}{{\int\negthickspace\negthickspace\negthickspace -}}
+\newcommand{\ol}{\overline}
+\newcommand{\wt}{\widetilde}
+\newcommand{\wh}{\widehat}
+\newcommand{\varr}{\varrho}
+\newcommand{\vrho}{\varrho}
+\newcommand{\past}{\stackrel{+}{\ast}}
+\newcommand{\tvarr}{\tilde \varr}
+\newcommand{\bvarr}{\bar \varr}
+\newcommand{\bu}{\bar u}
+\newcommand{\bv}{\bar v}
+\newcommand{\bw}{\bar w}
+\newcommand{\brho}{\bar \rho}
+\newcommand{\hvarr}{\hat \varr}
+\newcommand{\bbR}{\mathbb{R}}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+
+
+\newcommand{\citewt}[1]{{\citetitle{#1} \citep{#1}}}
+\newcommand{\citewta}[1]{{\citetitle{#1}, \citeauthor{#1} \citep{#1}}}
+
+
+%% VICTOR'S MACROS
+
+
+
+\newcommand\blue[1]{\textcolor{blue}{#1}}
+\newcommand\dblue[1]{\textcolor{DarkBlue}{#1}}
+\newcommand\red[1]{\textcolor{red}{#1}}
+\newcommand\green[1]{\textcolor{green}{#1}}
+
+\newcommand\cGtk{\cG_t^{[k]}}
+\endinput
