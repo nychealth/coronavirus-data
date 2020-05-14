@@ -52,10 +52,10 @@ reported for every date going back as far as March 25th.
 \end{figure}
 
 After seeing this analysis, Jon Asmundsson, editor of {\it Bloomberg
-  Markets}, wrote back to me:
-\begin{quotation}
-  Your analysis is really interesting.  Have you looked at other states/cities?
-\end{quotation}
+  Markets} asked me if this holds for other regions.\cite{Asmundsson2020Dates}
+%% \begin{quotation}
+%%   Your analysis is really interesting.  Have you looked at other states/cities?
+%% \end{quotation}
 
 This led me to try.
 
@@ -116,66 +116,74 @@ that people use for modeling, for planning disease responses and for
 reporting.
 
 I followed up with Edouard Mathieu.  I asked him if he knew of any
-rationale for why the data was being collected this way.  He wrote:
+rationale for why the data was being collected this way.  His
+impression was that governments try to give the most accurate view and
+record data based on incident date, updating history as needed.  On
+the other hand, aggregators like WHO, ECDC and JHU are more concerned
+with ease of aggregation and stability of reported numbers, so they
+instead record data based on reporting date.\cite{Mathieu2020Dates}
 
-\begin{quotation}
-  Hi Harvey,
+%% \begin{quotation}
+%%   Hi Harvey,
 
-Thanks for getting in touch. There's no perfectly clear and obvious
-answer but here's how I understand it: it comes down to who is
-publishing that data and what they consider their "role" to be.
+%% Thanks for getting in touch. There's no perfectly clear and obvious
+%% answer but here's how I understand it: it comes down to who is
+%% publishing that data and what they consider their "role" to be.
 
-- If they're a government, ministry, public health authority,
-etc. whose job it is to report on the situation, then they try to give
-the most accurate picture of how the epidemic evolved in the country,
-including by going "back in time" and correcting past figures to make
-them as close as possible to reality.
+%% - If they're a government, ministry, public health authority,
+%% etc. whose job it is to report on the situation, then they try to give
+%% the most accurate picture of how the epidemic evolved in the country,
+%% including by going "back in time" and correcting past figures to make
+%% them as close as possible to reality.
 
-- On the other hand, organizations like the WHO, ECDC, JHU, consider
-themselves to be data providers first and foremost. This means they
-aim for "stability" in their data, and they avoid as much as possible
-(or even completely) going back and changing past days, as the many
-people/applications/dashboards/etc. relying on their data wouldn't
-necessarily notice these changes and handle them correctly. 
+%% - On the other hand, organizations like the WHO, ECDC, JHU, consider
+%% themselves to be data providers first and foremost. This means they
+%% aim for "stability" in their data, and they avoid as much as possible
+%% (or even completely) going back and changing past days, as the many
+%% people/applications/dashboards/etc. relying on their data wouldn't
+%% necessarily notice these changes and handle them correctly. 
 
-Another issue is that while it's easy for 1 country to fix past
-figures in a time series on its own website, it would be much harder
-for an international organization that receives data from 200+
-countries to accept retroactive changes—their job is made a lot easier
-by simply telling countries to send data corrections as if they were
-big "blocks" of cases or deaths that suddenly afppear on a given day.
+%% Another issue is that while it's easy for 1 country to fix past
+%% figures in a time series on its own website, it would be much harder
+%% for an international organization that receives data from 200+
+%% countries to accept retroactive changes—their job is made a lot easier
+%% by simply telling countries to send data corrections as if they were
+%% big "blocks" of cases or deaths that suddenly afppear on a given day.
 
-This is obviously an issue sometimes, especially when some of those
-corrections are very large (for example New York City or China in
-April), but we don't know of any large and reliable data provider that
-reports in the way you're looking for.
+%% This is obviously an issue sometimes, especially when some of those
+%% corrections are very large (for example New York City or China in
+%% April), but we don't know of any large and reliable data provider that
+%% reports in the way you're looking for.
 
-Best,
+%% Best,
 
-Edouard
-\end{quotation}
+%% Edouard
+%% \end{quotation}
 
 I also contacted Lauren Gardner, Associate Professor, Department of
 Civil and Systems Engineering, Co-Director of Center for Systems
 Science and Engineering (CSSE), Johns Hopkins University.  Professor
 Gardner and her team are responsible for the
 \href{https://coronavirus.jhu.edu/map.html}{Johns Hopkins COVID-19
-  Dashboard}.  She wrote:
+  Dashboard}.  She agreed that there are issues with using reporting
+dates rather than incident dates.\cite{Gardner2020Dates}
 
-\begin{quotation}
-  And yes, there are absolutely issues with using reporting data
-  rather than incidence rate, however more often than not, that is all
-  that is available.
-\end{quotation}
+%% \begin{quotation}
+%%   And yes, there are absolutely issues with using reporting data
+%%   rather than incidence rate, however more often than not, that is all
+%%   that is available.
+%% \end{quotation}
 
 \section{Garbage out?}
 
-So what's the big deal?  Counting by report date instead of incident
+What's the big deal?  Counting by report date instead of incident
 essentially takes some percentage of the actual data and moves it
-later in time.  This flattens the curve.  As a result, it makes the
-infection rate appear lower and it makes the peak appear later.
-Moreover, since sites will report a number of days together, it also
-makes the data jumpier and thus harder to analyze.
+later in time.  One would expect this to flatten the curve.  As a
+result, it should makes the infection rate appear lower before the
+peak, make the peak appear later, and make the infection rate appear
+to drop off more slowly after the peak.  Moreover, since sites will
+report a number of days together, it also makes the data jumpier and
+thus harder to analyze.
 
 The problem is that scientists are using these numbers to model the
 disease, the government is using these numbers to plan
@@ -184,9 +192,26 @@ numbers.  So it reduces the accuracy of the models, interferes with
 planning and leads to hysterical media reports about irrelevant rising
 and falling of death counts.
 
-So how big is the effect, really?  I calculated it by taking the NYC
-data and backing out what it would look like if it was recorded by
-report date instead of incident date.
+How big is the effect, really?  We can compare where we have the
+report dates along with the incident dates.  I did this for the NYC data.
+I backing out what it would look like if it was recorded by
+report date instead of incident date.  Figures~\ref{fig:rptvsdataraw}
+and \ref{fig:rptvsdata7day} give the results.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../Notebooks/casesPerDayHistoryRptDtVsInDtRaw.png}
+  \caption{NYC cases per day by incident date vs by reporting date.}
+  \label{fig:rptvsdataraw}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../Notebooks/casesPerDayHistoryRptDtVsInDt.png}
+  \caption{NYC cases per day, 7 day rolling average, by incident date vs by reporting date.}
+  \label{fig:rptvsdata7day}
+\end{figure}
+
 
 \printbibliography
 
