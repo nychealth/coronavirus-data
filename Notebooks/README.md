@@ -15,3 +15,7 @@ Additional analysis, focused on trying to estimate the peak:
  - Growth over time as reports roll in
  - Movement of peak
  
+## [Reporting.ipynb](Reporting.ipynb)
+
+Compare impact of handling data by incident date vs reporting date.
+
