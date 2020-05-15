@@ -25,3 +25,7 @@ jupyter nbconvert --to notebook --inplace --execute Notebooks/Analysis.ipynb
 # Update Growth:
 
 jupyter nbconvert --to notebook --inplace --execute Notebooks/Growth.ipynb
+
+# Update report dt vs incident date:
+
+jupyter nbconvert --to notebook --inplace --execute Notebooks/Reporting.ipynb
