@@ -39,7 +39,7 @@ Figure~\ref{fig:daily} has an updated version.\nocite{Stein2020Seem}\nocite{Stei
   \label{fig:daily}
 \end{figure}
 
-As you can see, the peak hasn't moved from April 7th, but we're still
+As you can see, the peak hasn't moved from April 6th, but we're still
 getting data for dates as far back as March!
 Figure~\ref{fig:smoothDaily} has the updated 7 day average report,
 which shows more clearly that three days ago additional incidents were
@@ -59,7 +59,7 @@ After seeing this analysis, Jon Asmundsson, editor of {\it Bloomberg
 %%   Your analysis is really interesting.  Have you looked at other states/cities?
 %% \end{quotation}
 
-This led me to try.
+This led me to take a look.
 
 \section{Garbage in}
 My first stop was the
@@ -78,16 +78,17 @@ reports and graphed the histories.  The results are in figure~\ref{fig:owid}.
 \end{figure}
 
 It's nice that the 7 day average is dropping, but where are the new
-reports?  There are no updates -- no missing data!  How could it be
-that the data the USA cases counts for yesterday that they receive
-today are complete?  Given what we know about the NYC data, and given
+reports?  There are no updates -- no missing data!  How can it be
+that the total cases for a given day are completely known the
+following day and never need to be updated?
+Given what we know about the NYC data, and given
 that the NYC data is large part of the USA data, it can't possibly be
 the case that on a given day they know exactly the number of cases the
 day before.  Something odd must be going on.
 
 So I entered an
 \href{https://github.com/owid/covid-19-data/issues/41}{issue on the
-  OWID COVID-19 github repository}.  I asked how they generate the
+  OWID COVID-19 github repository}.  I asked for clarification of how they generate the
 data.  Edouard Mathieu, Data Manager at OWID, responded:
 \begin{quotation}
   For confirmed cases and deaths, our data comes from the European
@@ -113,9 +114,10 @@ Further research showed that it's not just the ECDC.  The
   University COVID-19 repository}, and the
 \href{https://github.com/nytimes/covid-19-data}{New York Times
   COVID-19 repository} also record instances by report receipt date
-instead of by incident date.  And these are the major sources of data
-that people use for modeling, for planning disease responses and for
-reporting.\nocite{JHU2020data,NYT2020data}
+instead of by incident date.  So these databases, the major sources of
+data that people use for modeling, for planning disease responses and
+for reporting, are collecting the data by report date instead of by
+incident date.\nocite{JHU2020data,NYT2020data}
 
 I followed up with Edouard Mathieu.  I asked him if he knew of any
 rationale for why the data was being collected this way.  His
@@ -191,7 +193,7 @@ thus harder to analyze.
 The problem is that scientists are using these numbers to model the
 disease, the government is using these numbers to plan
 how to address the risks, and the media is reporting about the
-numbers.  So it reduces the accuracy of the models, interferes with
+numbers.  So it potentially reduces the accuracy of the models, interferes with
 planning and leads to hysterical media reports about irrelevant rising
 and falling of death counts.
 
@@ -217,10 +219,12 @@ results.
 \end{figure}
 
 As you can see, the reporting date data is far noisier; so much so
-that the 7 day cycle is obscured and the 7 day rolling window still
-shows substantial noise.  For example, the report date based data
-exhibits a spike on May 11th about 5,000 cases, far higher than the
-incident based data shows.  The incident based data shows a slight
+that the 7 day cycle I documented in
+\href{https://hjstein.blogspot.com/2020/04/covid-19-nyc-stats-ray-of-hope.html}{Covid-19
+  NYC Stats - A Ray of Hope} is obscured and the 7 day rolling window
+still shows substantial noise.  For example, the report date based
+data exhibits a spike on May 11th about 5,000 cases, far higher than
+the incident based data shows.  The incident based data shows a slight
 restatement of the data going back to the third week of March.
 
 Presumably NYC received a report a few days ago from a particular
