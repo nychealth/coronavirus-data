@@ -1,0 +1,174 @@
+\documentclass[aspectratio=169]{beamer}
+
+%%\usepackage{qfdslides}
+\usepackage{qfdslides}
+
+\hypersetup{colorlinks,urlcolor=blue}
+
+\newcommand{\startsection}[2][]{%
+\ifnum\pdfstrcmp{#1}{}=0
+\section{#2}
+\else
+\section[#1]{#2}
+\fi
+\begin{frame}{#2}
+  %% \begin{minipage}{\textwidth}
+    \tableofcontents[currentsection,hideothersubsections]
+  %% \end{minipage}
+\end{frame}
+}
+
+\bibliography{bibliography}
+
+
+\title{COVID-19: The Data Abuse Pandemic}
+
+\author[Harvey J. Stein]{Harvey J. Stein\\\texttt{hjstein@bloomberg.net}}
+\institute[Bloomberg LP]
+{
+  Head, Quantitative Risk Analytics\\
+  Bloomberg L.P.
+}
+
+
+\date{Bloomberg Quant Seminar\\
+  May, 2020}
+
+\begin{document}
+
+\nocite{nyc2020data,Stein2020nycdata,Stein2020owiddata,owid2020data}
+\nocite{Stein2020Seem,Stein2020Ray,owid2020data,JHU2020data}
+\nocite{NYT2020data}
+
+\parskip=.4em plus .6em minus .4em
+
+\begin{frame}
+
+  \titlepage
+
+\blfootnote{If errors are found, please return them to {\tt hjstein@bloomberg.net}.}
+
+\end{frame}
+
+\begin{frame}{What they said in NYC}
+  \begin{figure}
+    \centering
+%    \includegraphics[width=1\textwidth]{../Notebooks/whatTheyTellYou.png}
+    \includegraphics[width=1\textwidth]{../Notebooks/casesPerDay2020-04-07T17_52_37.000000000.png}
+  \end{figure}
+  Cases/day are dropping off
+\end{frame}
+
+\begin{frame}{Three days later}
+  \begin{figure}
+    \centering
+%    \includegraphics[width=1\textwidth]{../Notebooks/whatTheyTellYou.png}
+    \includegraphics[width=1\textwidth]{../Notebooks/casesPerDay2020-04-10T17_41_39.000000000.png}
+  \end{figure}
+  Similar, but not dropping off later!
+\end{frame}
+
+\begin{frame}{What they didn't say}
+  \begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{../Notebooks/theFullStory.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{After appropriate smoothing}
+  \begin{figure}
+    \centering
+    \includegraphics[width=1\textwidth]{../Notebooks/fullNYCSmoothed.png}
+  \end{figure}
+
+\end{frame}
+
+\begin{frame}{Abuses}
+  What's going on?
+  \begin{itemize}
+  \item Different sites report cases at different times
+  \end{itemize}
+  
+  Impact:
+  \begin{itemize}
+  \item Reporting delays can account for 30\% changes as much as 3
+    weeks later
+  \item Latest counts for each date are reported -- history is harder
+    to extract
+  \item Low weekend counts obscure trends
+  \item Reporting aggregates instead of per site data makes analysis difficult
+  \end{itemize}
+
+But this is the good case!
+\end{frame}
+
+
+\begin{frame}{What they said for the USA}
+  \begin{figure}
+    \centering
+    \includegraphics[height=1\textheight]{../Notebooks/USACasesPerDay.png}
+  \end{figure}
+\end{frame}
+
+
+\begin{frame}{What they didn't say}
+  \begin{figure}
+    \centering
+    \includegraphics[height=1\textheight]{../Notebooks/USACasesPerDay.png}
+  \end{figure}
+\end{frame}
+
+
+\begin{frame}{Abuses}
+  What's going on?
+  \begin{itemize}
+  \item Recording by report date instead of by incident date
+  \end{itemize}
+  
+  Impact:
+  \begin{itemize}
+  \item No record of when incidents actually occurred
+  \item Misstates ramp up to peak
+  \item Delays observed peak
+  \item Overstates incidents post-peak
+  \end{itemize}
+
+  Recording by report date is rampant -- all major sources do it:
+  \begin{itemize}
+  \item \href{https://github.com/owid/covid-19-data}{Our World in Data github
+    repository} (data from the European CDC)
+  \item \href{https://github.com/CSSEGISandData/COVID-19}{Johns Hopkins
+    University COVID-19 repository}
+  \item \href{https://github.com/nytimes/covid-19-data}{New York Times
+    COVID-19 repository}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Impact}
+  \begin{figure}
+    \centering
+    \includegraphics[height=1\textheight]{../Notebooks/casesPerDayHistoryRptDtVsInDtRaw.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Impact}
+  \begin{figure}
+    \centering
+    \includegraphics[height=1\textheight]{../Notebooks/casesPerDayHistoryRptDtVsInDt.png}
+  \end{figure}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+  \frametitle{References}
+  \label{refs}
+  \begin{small}
+  \printbibliography
+  \end{small}
+\vfil
+\vbox{\hbox{\tiny{\copyright~Bloomberg Finance L.P. All rights reserved.}}
+%% ~\hskip -1.5em\hbox to \hsize{%
+%%   \includegraphics[width=\hsize,keepaspectratio=true]{legalfooter.eps}}%
+}%
+\end{frame}
+
+\end{document}

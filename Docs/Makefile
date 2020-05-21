@@ -2,6 +2,8 @@
 # Configuration
 ####################################################################
 
+export TEXINPUTS = .:../../qfd-docs/Docs/Common/:
+
 fancybeamerdocsbase = \
 
 fancybeamerdocs = \
@@ -14,7 +16,7 @@ plainbeamerdocs = 			\
 
 latexdocs =	\
 	Covid19GarbageInGarbageOut.tex	\
-#	coronaShortTalk.tex
+	COVID19TheDataAbusePandemicSlides.tex
 
 epsgraphics = \
 
