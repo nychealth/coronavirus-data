@@ -1,7 +1,7 @@
 \documentclass[aspectratio=169]{beamer}
 
 %%\usepackage{qfdslides}
-\usepackage{qfdslides}
+\usepackage{hjsslides}
 
 \hypersetup{colorlinks,urlcolor=blue}
 
@@ -65,7 +65,7 @@
 %    \includegraphics[width=1\textwidth]{../Notebooks/whatTheyTellYou.png}
     \includegraphics[width=1\textwidth]{../Notebooks/casesPerDay2020-04-10T17_41_39.000000000.png}
   \end{figure}
-  Similar, but not dropping off later!
+  Similar, but dropping off later!
 \end{frame}
 
 \begin{frame}{What they didn't say}
@@ -100,13 +100,19 @@
   \end{itemize}
 
 But this is the good case!
+
+See:
+\begin{itemize}
+\item \citewt{Stein2020Ray}
+\item \citewt{Stein2020Seem}
+\end{itemize}
 \end{frame}
 
 
 \begin{frame}{What they said for the USA}
   \begin{figure}
     \centering
-    \includegraphics[height=1\textheight]{../Notebooks/USACasesPerDay.png}
+    \includegraphics[height=.8\textheight]{../Notebooks/USACasesPerDayRawNoLegend.png}
   \end{figure}
 \end{frame}
 
@@ -114,7 +120,7 @@ But this is the good case!
 \begin{frame}{What they didn't say}
   \begin{figure}
     \centering
-    \includegraphics[height=1\textheight]{../Notebooks/USACasesPerDay.png}
+    \includegraphics[height=.8\textheight]{../Notebooks/USACasesPerDayRawNoLegend.png}
   \end{figure}
 \end{frame}
 
@@ -131,11 +137,12 @@ But this is the good case!
   \item Misstates ramp up to peak
   \item Delays observed peak
   \item Overstates incidents post-peak
+  \item News reports of yesterday's numbers are deceptive
   \end{itemize}
 
   Recording by report date is rampant -- all major sources do it:
   \begin{itemize}
-  \item \href{https://github.com/owid/covid-19-data}{Our World in Data github
+  \item \href{https://github.com/owid/covid-19-data}{Our World in Data
     repository} (data from the European CDC)
   \item \href{https://github.com/CSSEGISandData/COVID-19}{Johns Hopkins
     University COVID-19 repository}
@@ -147,15 +154,29 @@ But this is the good case!
 \begin{frame}{Impact}
   \begin{figure}
     \centering
-    \includegraphics[height=1\textheight]{../Notebooks/casesPerDayHistoryRptDtVsInDtRaw.png}
+    \includegraphics[height=.8\textheight]{../Notebooks/casesPerDayHistoryRptDtVsInDtRaw.png}
   \end{figure}
 \end{frame}
 
 \begin{frame}{Impact}
   \begin{figure}
     \centering
-    \includegraphics[height=1\textheight]{../Notebooks/casesPerDayHistoryRptDtVsInDt.png}
+    \includegraphics[height=.8\textheight]{../Notebooks/casesPerDayHistoryRptDtVsInDt.png}
   \end{figure}
+\end{frame}
+
+\begin{frame}{Summary}
+  What now?
+  \begin{itemize}
+  \item Be aware that recent reports are inaccurate -- either missing
+    data or misrepresenting counts
+  \item Account for this in your modeling
+  \item Ask data sources to collect by incident date
+  \item Ask data sources to make the report history more readily available
+  \item Ask data sources to publish on a per site basis instead of in aggregate
+  \end{itemize}
+
+  See \citewt{Stein2020Garbage}) 
 \end{frame}
 
 \begin{frame}[allowframebreaks]
@@ -165,7 +186,8 @@ But this is the good case!
   \printbibliography
   \end{small}
 \vfil
-\vbox{\hbox{\tiny{\copyright~Bloomberg Finance L.P. All rights reserved.}}
+%\vbox{\hbox{\tiny{\copyright~Bloomberg Finance L.P. All rights reserved.}}
+\vbox{\hbox{}
 %% ~\hskip -1.5em\hbox to \hsize{%
 %%   \includegraphics[width=\hsize,keepaspectratio=true]{legalfooter.eps}}%
 }%

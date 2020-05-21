@@ -2,8 +2,6 @@
 # Configuration
 ####################################################################
 
-export TEXINPUTS = .:../../qfd-docs/Docs/Common/:
-
 fancybeamerdocsbase = \
 
 fancybeamerdocs = \
