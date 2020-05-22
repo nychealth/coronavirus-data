@@ -1,7 +1,7 @@
 # NYC Coronavirus Disease 2019 (COVID-19) Data  
-This repository contains data on Coronavirus Disease 2019 (COVID-19) in New York City, updated daily. You can view visualizations of these data on the [Health Department’s COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page). Data are preliminary and subject to change.   
- 
-Information on this page will change as data and documentation are updated.  
+This repository contains data on Coronavirus Disease 2019 (COVID-19) in New York City, updated daily. You can view visualizations of these data on the [Health Department’s COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page). Some other data are available via [NYC Open Data](https://data.cityofnewyork.us/browse?category=Health&q=covid).
+
+Data are preliminary and subject to change. Information on this page will change as data and documentation are updated.  
  
 The Health Department classifies the start of the outbreak in NYC as the date of the first laboratory-confirmed case, February 29, 2020.  
  
