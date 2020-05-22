@@ -29,3 +29,8 @@ jupyter nbconvert --to notebook --inplace --execute Notebooks/Growth.ipynb
 # Update report dt vs incident date:
 
 jupyter nbconvert --to notebook --inplace --execute Notebooks/Reporting.ipynb
+
+# Update graphs for slides
+
+jupyter nbconvert --to notebook --inplace --execute Notebooks/TalkSlides.ipynb
+
