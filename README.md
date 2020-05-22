@@ -18,6 +18,7 @@ We receive data from all 53 hospital emergency departments (EDs) in NYC about th
 The information on each patient is evaluated for descriptions that resemble influenza -like illness or pneumonia. Influenza -like illness is defined as mention of either:  
 - Fever and cough    
 - Fever and sore throat  
+- Fever and shortness of breath or difficulty breathing
 - Influenza  
  
 Pneumonia is defined as mention of or diagnosis of pneumonia. Since the signs and symptoms of COVID-19 overlap with these categories that the Health Department tracks routinely, we are able to identify unusual spikes in people seeking care at hospitals. We are using this as a proxy measure to observe COVID-19-like disease in the population.  
