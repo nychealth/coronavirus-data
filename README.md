@@ -101,6 +101,14 @@ Race and ethnicity information is often missing  in reportable disease surveilla
  
 ***  
  
+## Subdirectories
+
+### [Notebooks](Notebooks)
+Jupyter notebooks analyzing the data, including its history.
+
+### [Scripts](Scripts)
+Scripts used for setting up data for above notebooks.
+
 ## Files  
 ### boro.csv  
 This file contains counts and rates of confirmed cases, by NYC borough of residence. Rates are:  
