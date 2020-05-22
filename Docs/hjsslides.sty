@@ -1,0 +1,516 @@
+\ProvidesPackage{qfdslides}
+
+%% Package for beamer to match Bloomberg format.
+
+%%%%%%%%%%%%%%%%% Pkgs
+%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[USenglish]{babel}
+
+\usepackage{etoolbox,setspace,iftex,tikz,calc}
+
+\usepackage{hyperref}
+
+%% Note - for maximum confusion, Beamer uses linkcolor for
+%% citations!!!!!  Moreover, if you do a hypersetup, it conflicts and
+%% overrides beamer configs.  So hypersetup is useless & needs to be
+%% avoided.
+%% \hypersetup{
+%%    colorlinks=true,
+%%    linkcolor=gray,
+%%    citecolor=gray,
+%%    filecolor=gray,
+%%    urlcolor=gray
+%% }
+
+
+%% Use natbib & bibentry, or use biblatex.
+%% \usepackage{natbib}
+%% \usepackage{bibentry}
+%% \nobibliography*
+\usepackage[backend=bibtex,style=alphabetic,natbib=true]{biblatex}
+\newcommand\bibentry[1]{\fullcite{#1}}
+
+%% Fix for problem with biblatex/bibtex:
+%% It creates a .bib file with \verb followed by a URL on the next
+%% line, and then pdflatex chokes when processing it.
+\def\blx@maxline{77}
+
+\usepackage{textcomp}
+\usepackage{xcolor,colortbl}
+\usepackage[absolute,overlay]{textpos}
+
+\usetheme{default}
+
+%% Use Arial if we can.
+\ifXeTeX
+   \usepackage{fontspec}
+   \usefonttheme{professionalfonts} % using non standard fonts for beamer
+
+   \setmainfont[Scale=0.9]{Arial}
+   \setsansfont[Scale=0.9]{Arial}
+\else
+   \usefonttheme{default}
+\fi
+
+%% Force plain text to be bold.
+\renewcommand{\seriesdefault}{\bfdefault}
+
+%% Turn off bold for bibliography
+\renewcommand{\bibsetup}{\renewcommand{\seriesdefault}{\mddefault}}
+\renewcommand{\citesetup}{\renewcommand{\seriesdefault}{\mddefault}}
+
+%\definecolor{ltgray}{rgb}{.7,.7,.7}
+\definecolor{ltgray}{rgb}{.65,.65,.65}
+
+%% Official color for bullets & title
+\definecolor{cyanish}{RGB}{0,188,228}
+
+
+%% Footline is supposed to have Bloomberg on left & page on right.
+\newdimen\leftmgn
+\leftmgn=1cm
+\setbeamertemplate{footline}{%
+  \hbox to \paperwidth{
+    \advance\leftmgn by -6pt
+    \hskip\leftmgn
+    \vbox{\color{ltgray}%
+      \hrule
+      \hrule height 1.3pt depth 1.3pt width 1.7cm
+      \vskip4pt
+      \advance\hsize by -\leftmgn
+      \hbox to \hsize{%
+        %% \begin{tikzpicture}%
+    	%%   {\node[opacity=0.5] {\includegraphics[width=.175\textwidth]{BLOOMBERG-logo-blk-big.eps}}}%
+        %% \end{tikzpicture}%
+        
+        \hfill
+        \ifnum\c@framenumber=1
+        \else
+        \raisebox{3pt}{\scriptsize\insertframenumber/\inserttotalframenumber}
+        \hspace*{5pt}
+        \fi}%
+      \vskip4pt}}}
+
+%% Title should have frame title on left with rule shifted from text.
+\setbeamertemplate{frametitle}{%
+  %\color{black}\hskip3pt\MakeUppercase{\insertframetitle}\par
+  \hskip-6pt\vtop{\bf\color{black}%
+  \hbox to .8\textwidth{%
+    \hsize=.8\textwidth
+    \hskip6pt
+    \advance\hsize by -6pt
+    \vtop{\expandafter\uppercase\expandafter\insertframetitle\par}}%
+  \vskip3pt\color{gray}%
+  \hrule width .8\textwidth}
+}
+
+%% Modify title page to put title in caps.
+\patchcmd{\beamer@title}%
+  {\def\inserttitle{#2}}%
+  {\def\inserttitle{\uppercase{#2}}}%
+  {}%
+  {\PackageError{qfdslides}{Patching title failed}}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{bibliography item}[text]
+
+%% Format title page to match standard
+\setbeamerfont{title}{series=\bfseries,size*={36pt}{40pt}}
+\setbeamercolor{title}{fg=cyanish}
+\setbeamerfont{author}{size=\large,series=\mdseries}
+\setbeamerfont{institute}{size=\large,series=\mdseries}
+\setbeamerfont{date}{size=\large,series=\mdseries}
+
+%% TOC adjustments
+\setbeamerfont{section in toc}{series=\bfseries,size*={12pt}{10pt}}
+\setbeamercolor{section in toc}{fg=cyanish}
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamercolor{section number projected}{fg=cyanish}
+\setbeamerfont{subsection in toc}{size*={14pt}{16pt}}
+\setbeamertemplate{subsection in toc}[square]
+\setbeamercolor{subsection in toc}{fg=black}
+
+
+%% Ref adjustments
+\setbeamerfont{bibliography entry author}{series=\mdseries}
+\setbeamercolor{bibliography entry author}{fg=black}
+\setbeamerfont{bibliography entry title}{series=\mdseries,shape=\itshape}
+\setbeamercolor{bibliography entry title}{fg=black}
+\setbeamerfont{bibliography entry location}{series=\mdseries}
+\setbeamercolor{bibliography entry location}{fg=gray}
+\setbeamerfont{bibliography entry note}{series=\mdseries}
+\setbeamercolor{bibliography entry note}{fg=gray}
+
+%% For gradient on section pages:
+%\setbeamertemplate{background canvas section}{%
+\setbeamertemplate{foo}{%
+\begin{tikzpicture}[remember picture,overlay]
+\shade[top color=white,bottom color=gray!15]
+  ([shift={(0cm,0cm)}]current page.north west)
+     rectangle
+  ([shift={(0cm,0cm)}]current page.south east);
+\end{tikzpicture}%     
+}
+
+%% % For debugging:
+%% % Use this see which font names are getting used where
+%% \renewcommand\beamer@usebeamerfont[1]{
+%%   \expandafter\ifstrequal\expandafter{#1}{background}{\tiny ---}{
+%%     \par
+%%     {\tiny (((#1)))}
+%%     \par
+%%   }
+%%   \csname beamer@thmfinherits@#1\endcsname
+%%   \csname beamer@thmfsize@#1\endcsname
+%%   \csname beamer@thmfshape@#1\endcsname
+%%   \csname beamer@thmfseries@#1\endcsname
+%%   \csname beamer@thmffamily@#1\endcsname
+%%   \selectfont}
+
+%% % For debugging:
+%% %% Use to see which colors are used where
+%% \renewcommand\beamer@usebeamercolor[2][]{%
+%%   {\tiny (((#1 #2)))}%
+%%   \beamer@thc@prepcolor%
+%%   \beamer@thc@docolor{#2}%
+%%   \ifx\beamer@thc@fg\@empty%
+%%     \@namelet{\string\color@ temp@fg}{\string\color@ fg}%
+%%   \else%
+%%     \colorlet{temp@fg}{\csname beamer@thc@fg\endcsname}%
+%%   \fi%
+%%   \ifx\beamer@thc@bg\@empty%
+%%     \@namelet{\string\color@ temp@bg}{\string\color@ bg}%
+%%   \else%
+%%     \colorlet{temp@bg}{\csname beamer@thc@bg\endcsname}%
+%%   \fi%
+%%   \@namelet{\string\color@ parent.fg}{\string\color@ fg}%
+%%   \@namelet{\string\color@ parent.bg}{\string\color@ bg}%
+%%   \@namelet{\string\color@ fg}{\string\color@ temp@fg}%
+%%   \@namelet{\string\color@ bg}{\string\color@ temp@bg}%
+%%   \begingroup%
+%%     \global\@namelet{\string\color@ #2.fg}{\string\color@ temp@fg}%
+%%     \global\@namelet{\string\color@ #2.bg}{\string\color@ temp@bg}%
+%%   \endgroup%
+%%   \def\beamer@temp{#1}%
+%%   \ifx\beamer@temp\@empty%
+%%   \else%
+%%     \color{#1}%
+%%   \fi%
+%% }
+
+
+%% useless:
+%% \setbeamerfont{text}{series=\bfseries}
+
+
+%% Color works on normal text, but not font.
+%% \setbeamerfont{normal text}{series=\bfseries,size*={20pt}{30pt}}
+%% \setbeamercolor{normal text}{fg=red}
+
+%% Only on special blocks.
+%% \setbeamerfont{block body}{series=\bfseries,size*={20pt}{30pt}}
+%% \setbeamercolor{block body}{fg=red}
+%%
+%% \setbeamerfont{blocks}{series=\bfseries,size*={20pt}{30pt}}
+%% \setbeamercolor{blocks}{fg=red}
+
+%% Items should be in plain text (vs rest of tex in bold) with circle
+%% bullets in cyan.
+\setbeamerfont{itemize/enumerate body}{series=\mdseries}
+%\setbeamertemplate{items}[circle]
+\setbeamercolor{item}{fg=cyanish}
+
+%% Subitems should use a dash and be in a smaller font
+\setbeamertemplate{itemize}{\tiny --}
+
+
+%% Automatic section page
+\setbeamerfont{section title}{series=\bfseries,size*={24pt}{26pt}}
+\setbeamercolor{section title}{fg=cyanish}
+\setbeamercolor{section}{fg=cyanish}
+\setbeamercolor{section in head/foot}{fg=cyanish}
+
+\patchcmd{\sectionentry}
+  {\def\insertsectionhead{#2}}
+  {\def\insertsectionhead{\usebeamercolor[fg]{section title}\uppercase{#2}}}
+  {}
+  {\PackageError{qfdslides}{Patching section title failed}}
+
+\patchcmd{\beamer@section}
+  {\def\insertsectionhead{\hyperlink{Navigation\the\c@page}{#1}}}
+  {\def\insertsectionhead{\hyperlink{Navigation\the\c@page}{%
+        \usebeamercolor[fg]{section title}\uppercase{#1}}}}
+  {}
+  {\PackageError{qfdslides}{Patching section title failed}}
+
+\patchcmd{\beamer@subsection}
+  {\def\insertsubsectionhead{\hyperlink{Navigation\the\c@page}{#1}}}
+  {\def\insertsubsectionhead{xxx\hyperlink{Navigation\the\c@page}{%
+    \usebeamercolor[fg]{subsection title}{#1}}}}
+  {}
+  {\PackageError{qfdslides}{Patching subsection title failed}}
+
+\def\inserttotalframenumber{100}
+\newlength{\qfdslides@progressonsectionpage}
+
+\defbeamertemplate{section page}{progressbar}{%
+  \begin{minipage}{\hsize}
+%    \usebeamertemplate{background canvas section}
+    \vfill
+    \raggedright
+    \advance \hsize by \leftmgn
+    {\usebeamertemplate{foo}
+      \usebeamercolor[fg]{section title}
+      \usebeamerfont{section title}
+      \hbox{\vtop{\uppercase{\insertsectionhead}}}
+      \vskip 5pt
+      \hrule
+      \hrule height 4pt depth 4pt width 2.6cm}%
+    \vskip 4ex
+    \tableofcontents[sectionstyle=hide/hide,subsectionstyle=show/show/hide]
+%    \ifx\insertsubsectionhead\@empty\else%
+      %% \usebeamercolor[fg]{subsection title}%
+      %% \usebeamerfont{subsection title}%
+      %% \insertsubsection
+      %% \insertsubsectionhead
+%    \fi
+  \end{minipage}
+}
+
+\defbeamertemplate{section page}{noprogressbar}{%
+}
+
+%% {\vbox to \vsize{%
+%% \usebeamertemplate{background canvas section}
+%% \vfill
+%%     \raggedright
+%%   %% \centering
+%%   %% \begin{minipage}{\hsize}
+%%   %% \begin{frame}
+%%     \advance \hsize by \leftmgn
+%%     \usebeamercolor[fg]{section title}
+%%     \usebeamerfont{section title}
+
+%% %    \hbox{\vtop{\uppercase\expandafter\expandafter\insertsectionhead\par}}\\[-1ex]
+%% %    \uppercase{\insertsectionhead}\\[-1ex]
+%% %    \MakeUppercase{\insertsectionhead}\\[-1ex] %%
+%% %    \insertsectionhead\\[.8ex]
+
+%%     %% \usebeamertemplate*{progress bar in section page}
+%%     \hrule
+%%     \hrule height 4pt depth 4pt width 2.6cm
+%%     \par
+%% %    \ifx\insertsubsectionhead\@empty\else%
+%%       \usebeamercolor[fg]{subsection title}%
+%%       \usebeamerfont{subsection title}%
+%%       \insertsubsection
+%%       %% \insertsubsectionhead
+%% %    \fi
+%%   %% \end{minipage}
+%% %% \end{frame}
+%% \vfill
+%% }%
+%% %% \noindent
+%% %% \vskip 1.1mm
+%% %% \hbox to \paperwidth{\hskip-1.7mm
+%% %%     \vbox{\color{ltgray}%
+%% %%       \hrule
+%% %%       \hrule height 1.3pt depth 1.3pt width 1.7cm
+%% %%       \vskip4pt
+%% %%       \advance\hsize by \leftmgn
+%% %%       \advance\hsize by 10pt
+%% %%       \hbox to \hsize{%
+%% %%         \includegraphics[width=.186\hsize]{BLOOMBERG-logo-blk-big.eps}%
+%% %%         \hfill
+%% %%         \ifnum\c@framenumber=1
+%% %%         \else
+%% %%         \raisebox{3pt}{\scriptsize\insertframenumber}
+%% %%         \hspace*{5pt}
+%% %%         \fi}%
+%% %%       \vskip4pt}}%
+%% }}
+
+\AtBeginSection{
+  \ifbeamer@inframe
+  \sectionpage
+  \else
+  \frame[plain,c,noframenumbering]{\sectionpage}
+  \fi
+}
+
+%% \AtBeginSubsection{
+%%   \ifbeamer@inframe
+%%   \subsectionpage
+%%   \else
+%%   \frame[plain,c,noframenumbering]{\subsectionpage}
+%%   \fi
+%% }
+
+%% \setbeamertemplate{subsection page}{%
+%%   \usebeamertemplate*{section page}
+%% }
+
+\setbeamertemplate{progress bar in section page}{
+  \setlength{\qfdslides@progressonsectionpage}{%
+    \textwidth * \ratio{\insertframenumber pt}{\inserttotalframenumber pt}%
+  }%
+  \begin{tikzpicture}
+    \fill[bg] (0,0) rectangle (\textwidth, 0.4pt);
+    \fill[fg] (0,0) rectangle (\qfdslides@progressonsectionpage, 0.4pt);
+  \end{tikzpicture}%
+}
+
+\setbeamertemplate{section page}[progressbar]
+
+%% Remake title page.
+\defbeamertemplate*{title page}{customized}[1][]
+{
+  \begin{flushleft}
+    %% {
+    %%   \begin{spacing}{.8}\usebeamercolor[fg]{title}\fontsize{36pt}{40pt}\selectfont\bf\inserttitle
+    %% \end{spacing}
+    %% }\par
+    {%
+      \begin{spacing}{.8}
+      \usebeamercolor[fg]{title}\usebeamerfont{title}\inserttitle
+    \end{spacing}
+    }\par
+  {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle}\par
+  \bigskip
+  {\usebeamerfont{author}\insertauthor}\par
+  {\usebeamerfont{institute}\insertinstitute}\par
+  \smallskip
+  {\usebeamerfont{date}\insertdate}\par
+  {\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic}
+  \end{flushleft}
+}
+
+%% %% startsection command puts appropriate frame at beginning of new section.
+%% \newcommand{\startsection}[2][]{%
+%% \ifnum\pdfstrcmp{#1}{}=0
+%% \section{#2}
+%% \else
+%% \section[#1]{#2}
+%% \fi
+%% %% \begin{frame}{#2}
+%% %%   %% \begin{minipage}{\textwidth}
+%% %%     \tableofcontents[currentsection,hideothersubsections]
+%% %%   %% \end{minipage}
+%% %% \end{frame}
+%% }
+
+\parskip=.5em plus .8em minus .2em
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%% More pkgs and spacing adjustments
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Use breakurl if plain tex because dvips driver needs it.
+% Conditionalized because it breaks xetex.
+\ifPDFTeX
+\else
+   \ifXeTeX
+   \else
+      \ifLuaTeX
+      \else
+      \usepackage[hyphenbreaks]{breakurl}
+      \fi
+   \fi
+\fi
+
+%% Used to tweak space around lists
+\usepackage{atbeginend}
+
+%% Paralist is known not to work with beamer...
+%% \usepackage{paralist}
+
+% To fix spacing between lists
+% But doesn't work properly with beamer...
+% \usepackage{enumitem}
+
+\usepackage{hjsabbrevs2}
+
+%% Tweak citing commands for beamer
+\renewcommand{\citewt}[1]{{\citetitle{#1} \citep{#1}}}
+%\newcommand{\citewtd}[1]{{\citetitle{#1}, \citemonth{#1},\citeyear{#1} \citep{#1}}}
+%\newcommand{\citewtd}[1]{{\citetitle{#1}, \citeyear{#1} \citep{#1}}}
+
+\renewcommand{\citewtd}[1]{{{\citefield{#1}{title}}, \citedate{#1}
+    \citep{#1}}}
+
+\renewcommand{\citewtdp}[1]{{{%
+      \usebeamerfont{bibliography entry title}%
+      \usebeamercolor{bibliography entry title}%
+      \citefield{#1}{title}},
+      \usebeamerfont{bibliography entry date}\usebeamercolor{bibliography entry date}%
+      \citedate{#1},
+      \citefield{#1}{pagetotal} pp
+      \citep{#1}}}
+
+%% Hack for putting an unnumbered footnote on a page
+\def\blfootnote{\xdef\@thefnmark{}\@footnotetext}
+\def\blfootnotetiny{\xdef\@thefnmark{}\@footnotetext}
+
+%% Hacks for natbib & beamer that aren't needed for biblatex.
+%% \def\hcitep#1{\hyperlink{refs}{\citep{#1}}}
+%% \def\hcitet#1{\hyperlink{refs}{\citet{#1}}}
+
+%% Kill space before start of lists
+%% Doesn't work well because need to restore it afterwards - need to
+%% save & restore.
+%% \BeforeBegin{itemize}{\parskip=0em}
+
+
+%% Works adding space after lists, except that it adds space after
+%% nested lists
+%% \BeforeEnd{itemize}{\parskip=.5em plus .8em minus .2em}
+%% \AfterEnd{itemize}{\parskip=.5em plus .8em minus .2em}
+
+% Also kill space before quotes
+% \BeforeBegin{quote}{\parskip=0em}
+%%\BeforeEnd{quote}{\parskip=.7em plus .8em minus .5em}
+
+\newcount\eatenDepth
+\eatenDepth=0
+
+\def\maybeEatSpace#1{%
+\ifnum\eatenDepth=0
+\vskip#1
+\vskip#1% Gets eaten
+\fi
+\advance\eatenDepth by 1
+}
+
+\def\clearSpace#1{
+\advance\eatenDepth by -1
+\ifnum\eatenDepth=0
+\vskip#1
+\vskip#1
+\fi
+}
+
+\AfterBegin{itemize}{\maybeEatSpace{-.6em}}
+\BeforeEnd{itemize}{\clearSpace{-.3em}}
+
+\AfterBegin{description}{\maybeEatSpace{-.7em}}
+\BeforeEnd{description}{\clearSpace{-.1em}}
+
+\AfterBegin{quote}{\maybeEatSpace{-.5em}}
+\BeforeEnd{quote}{\clearSpace{-.6em}}
+
+\AfterBegin{enumerate}{\maybeEatSpace{-.7em}}
+\BeforeEnd{enumerate}{\clearSpace{-.1em}}
+
+%% Align doesn't like having space inserted - complains about not
+%% being in paragraph mode...
+%% \AfterBegin{align*}{\maybeEatSpace{-.7em}}
+%% \BeforeEnd{align*}{\clearSpace{-.5em}}
+
+%% \setlist[itemize]{noitemsep, topsep=0pt}
+
+\patchcmd{\beamer@sectionintoc}{\vskip1.5em}{\vskip1.5em plus 0em minus 1.5em}{}{}
+
+\endinput

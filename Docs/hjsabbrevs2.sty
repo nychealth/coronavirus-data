@@ -1,0 +1,150 @@
+\ProvidesPackage{qfdAbbrevs}
+
+\usepackage{amsmath}
+\usepackage{verbatimbox}
+
+\usepackage{comment}
+\specialcomment{note}{%
+\begingroup\color{red}}{%
+\endgroup}
+
+\newcounter{notenum}
+
+\newcommand{\rnote}[1]{%
+\stepcounter{notenum}%
+{\color{red}\arabic{notenum}.\ #1}%
+}
+
+%    Absolute value notation
+\newcommand{\abs}[1]{\lvert#1\rvert}
+
+\newcommand{\prob}{\operatorname{Prob}}
+\newcommand{\expec}[1]{\mbox{\bf E}\left[ #1 \right]}
+\newcommand{\rnprob}[1]{\tilde{\mbox{\bf P}}\left[ #1 \right]}
+\newcommand{\rnexpec}[1]{\tilde{\mbox{\bf E}}\left[ #1 \right]}
+\newcommand{\diag}{\operatorname{diag}}
+\newcommand{\var}{\operatorname{Var}}
+\newcommand{\sd}{\operatorname{SD}}
+\newcommand{\cov}{\operatorname{Cov}}
+\newcommand{\corr}{\operatorname{Corr}}
+\newcommand{\N}{\operatorname{\mathcal N}}
+\newcommand{\as}{\operatorname{a.s.}}
+\newcommand{\VaR}{\operatorname{VaR}}
+\newcommand{\ES}{\operatorname{ES}}
+\newcommand{\MVaR}{\operatorname{MVaR}}
+\newcommand{\IVaR}{\operatorname{IVaR}}
+\newcommand{\LVaR}{\operatorname{LVaR}}
+\newcommand{\mdur}{\operatorname{mdur}}
+\newcommand{\conv}{\operatorname{conv}}
+\newcommand{\PDF}{\operatorname{PDF}}
+\newcommand{\lgd}{\operatorname{LGD}}
+\newcommand{\IMCC}{\operatorname{IMCC}}
+\newcommand{\SES}{\operatorname{SES}}
+\newcommand{\IDR}{\operatorname{IDR}}
+\newcommand{\ACC}{\operatorname{ACC}}
+\newcommand{\JTD}{\operatorname{JTD}}
+\newcommand{\argmin}{\operatornamewithlimits{argmin}}
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
+
+\DeclareMathOperator{\sgn}{sgn}
+
+
+\def\given{|}
+\def\suchthat{|}
+\def\F{{\cal F}}
+\def\R{{\cal R}}
+%\def\givenr{~\right|~}
+\def\givenr{\right|}
+\def\givenb{\biggr|}
+\def\from{\colon}
+\def\BCF{{\rm BCF}}
+\def\Val{{\mathcal V}}
+\def\given{|}
+\def\F{{\cal F}}
+\def\R{{\cal R}}
+\def\givenr{~\right|~}
+\def\from{\colon}
+
+\def\BCF{\mathit{BCF}}
+\def\E{\mathit{E}}
+\def\EE{\mathit{EE}}
+\def\EEE{\mathit{EEE}}
+\def\EPE{\mathit{EPE}}
+\def\EEPE{\mathit{EEPE}}
+\def\EAD{\mathit{EAD}}
+\def\CF{\mathit{CF}}
+\def\LGD{\mathit{LGD}}
+\def\PD{\mathit{PD}}
+\def\RWA{\mathit{RWA}}
+\def\CMV{\mathit{CMV}}
+\def\CMC{\mathit{CMC}}
+\def\RPT{\mathit{RPT}}
+\def\RPC{\mathit{RPC}}
+\def\CCF{\mathit{CCF}}
+\def\CE{\mathit{CE}}
+\def\PFE{\mathit{PFE}}
+\def\CVA{\mathit{CVA}}
+
+\def\TE{\mathit{TE}}
+\def\ITE{\mathit{ITE}}
+\def\ATE{\mathit{ATE}}
+\def\AITE{\mathit{AITE}}
+\def\SD{\mathit{SD}}
+\def\DSD{\mathit{DSD}}
+\def\Sharpe{\mathit{Sharpe}}
+\def\Sortino{\mathit{Sortino}}
+
+
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+
+
+%% Hack for putting an unnumbered footnote on a page
+\makeatletter
+\def\blfootnote{\xdef\@thefnmark{}\@footnotetext}
+\def\blfootnotetiny{\xdef\@thefnmark{}\@footnotetext}
+\makeatother
+
+%% Alert list environment
+%% \newenvironment{itemizealert}
+%% {\begin{alert}\begin{itemize}}
+%% {\end{itemize}\end{alert}}
+
+\newenvironment{itemizealert}
+{
+  \begin{alertenv}
+    \begin{itemize}
+}
+{
+    \end{itemize}
+  \end{alertenv}
+}
+
+
+\newcommand{\qbibentry}[1]{\begin{quote}\normalfont\bibentry{#1}\end{quote}}
+
+% \newcommand{\qbibentry}[1]{\bibentry{#1}}
+
+\newcommand{\defterm}[1]{{\bf #1}}
+\def\defTerm#1{{\bf #1}}
+
+%% \def\hcitep#1{\hyperlink{refs}{\citep{#1}}}
+%% \def\hcitet#1{\hyperlink{refs}{\citet{#1}}}
+
+\newcommand{\citewt}[1]{{\citetitle{#1} \citep{#1}}}
+\newcommand{\citewtd}[1]{{{\it \citefield{#1}{title}}, \citedate{#1}
+    \citep{#1}}}
+
+\newcommand{\citewta}[1]{{{\it \citefield{#1}{title}}, \citeauthor{#1},
+\citep{#1}}}
+
+\newcommand{\citewtdp}[1]{{{\it \citefield{#1}{title}}, \citedate{#1},
+    \citefield{#1}{pagetotal} pp \citep{#1}}}
+
+\newcommand{\citewtdpu}[1]{{{\it \citefield{#1}{title}}, \citedate{#1},
+    \citefield{#1}{pagetotal} pp, URL: \citeurl{#1}} \citep{#1}}
+
+\newcommand{\citewtdu}[1]{{{\it \citefield{#1}{title}}, \citedate{#1},
+    URL: \citeurl{#1}} \citep{#1}}
+
+\endinput

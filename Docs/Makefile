@@ -14,7 +14,7 @@ plainbeamerdocs = 			\
 
 latexdocs =	\
 	Covid19GarbageInGarbageOut.tex	\
-#	coronaShortTalk.tex
+	COVID19TheDataAbusePandemicSlides.tex
 
 epsgraphics = \
 
