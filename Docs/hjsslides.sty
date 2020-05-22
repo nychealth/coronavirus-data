@@ -1,6 +1,12 @@
-\ProvidesPackage{qfdslides}
+\ProvidesPackage{hjsslides}
 
 %% Package for beamer to match Bloomberg format.
+
+\newif\ifdraft \draftfalse
+
+\DeclareOption{draft}{\drafttrue}
+
+\ProcessOptions* \relax
 
 %%%%%%%%%%%%%%%%% Pkgs
 %%%%%%%%%%%%%%%%%%%%%%
@@ -84,6 +90,10 @@
     	%%   {\node[opacity=0.5] {\includegraphics[width=.175\textwidth]{BLOOMBERG-logo-blk-big.eps}}}%
         %% \end{tikzpicture}%
         
+        \ifdraft
+        DRAFT
+        \fi
+
         \hfill
         \ifnum\c@framenumber=1
         \else

@@ -1,7 +1,7 @@
 \documentclass[aspectratio=169]{beamer}
 
 %%\usepackage{qfdslides}
-\usepackage{hjsslides}
+\usepackage[draft]{hjsslides}
 \usepackage{grffile}
 
 \hypersetup{colorlinks,urlcolor=blue}
@@ -52,22 +52,24 @@
 
 \end{frame}
 
-\begin{frame}{What they said in NYC}
+\begin{frame}{What they first showed in NYC}
   \begin{figure}
     \centering
 %    \includegraphics[width=1\textwidth]{../Notebooks/whatTheyTellYou.png}
-    \includegraphics[width=1\textwidth]{../Notebooks/casesPerDay2020-04-07T17_52_37.000000000.png}
+%    \includegraphics[width=1\textwidth]{../Notebooks/casesPerDay2020-04-07T17_52_37.000000000.png}
+    \includegraphics[width=1\textwidth]{../Notebooks/casesPerDay2020-03-26T11_26_41.000000000.png}
   \end{figure}
-  Cases/day are dropping off
+  Looks like cases/day are dropping off after 3/20
 \end{frame}
 
-\begin{frame}{Three days later}
+\begin{frame}{Eight days later}
   \begin{figure}
     \centering
 %    \includegraphics[width=1\textwidth]{../Notebooks/whatTheyTellYou.png}
-    \includegraphics[width=1\textwidth]{../Notebooks/casesPerDay2020-04-10T17_41_39.000000000.png}
+%    \includegraphics[width=1\textwidth]{../Notebooks/casesPerDay2020-04-10T17_41_39.000000000.png}
+    \includegraphics[width=1\textwidth]{../Notebooks/casesPerDay2020-04-03T18_15_27.000000000.png}
   \end{figure}
-  Similar, but dropping off later!
+  Now it looks like it \alert{didn't} drop off after 3/20!
 \end{frame}
 
 \begin{frame}{What they didn't say}
@@ -136,9 +138,10 @@ See:
   Impact:
   \begin{itemize}
   \item No record of when incidents actually occurred
-  \item Misstates ramp up to peak
-  \item Delays observed peak
-  \item Overstates incidents post-peak
+  \item Misstates ramp up to peak, delays peak and overstates
+    post-peak incidents
+  \item Obscures periodicity and adds noise
+  \item Makes modeling harder and more error prone
   \item News reports of yesterday's numbers are deceptive
   \end{itemize}
 
@@ -174,9 +177,8 @@ See:
   \item Be aware that recent reports are inaccurate -- either missing
     data or misrepresenting counts
   \item Account for this in your modeling
-  \item Ask data sources to collect by incident date
-  \item Ask data sources to make the report history more readily available
-  \item Ask data sources to publish on a per site basis instead of in aggregate
+  \item Ask data sources to collect by incident date, publish full
+    history and publish per site data instead of aggregating
   \item Investigate actual meaning of data -- classification of COVID-19
     hospitalizations, deaths due to COVID-19, ...
   \end{itemize}
