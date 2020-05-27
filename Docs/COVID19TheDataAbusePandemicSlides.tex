@@ -1,7 +1,7 @@
 \documentclass[aspectratio=169]{beamer}
 
 %%\usepackage{qfdslides}
-\usepackage[draft]{hjsslides}
+\usepackage{hjsslides}
 \usepackage{grffile}
 
 \hypersetup{colorlinks,urlcolor=blue}
@@ -69,28 +69,30 @@
 %    \includegraphics[width=1\textwidth]{../Notebooks/casesPerDay2020-04-10T17_41_39.000000000.png}
     \includegraphics[width=1\textwidth]{../Notebooks/casesPerDay2020-04-03T18_15_27.000000000.png}
   \end{figure}
-  Now it looks like it \alert{didn't} drop off after 3/20!
+  Now it looks like cases/day are \alert{rising} through 3/30!
 \end{frame}
 
 \begin{frame}{What they didn't say}
   \begin{figure}
     \centering
-    \includegraphics[width=1\textwidth]{../Notebooks/theFullStory.png}
+    \includegraphics[width=.9\textwidth]{../Notebooks/theFullStory.png}
   \end{figure}
+  Since April 12th, every report has peaked on April 6th
 \end{frame}
 
 \begin{frame}{After appropriate smoothing}
   \begin{figure}
     \centering
-    \includegraphics[width=1\textwidth]{../Notebooks/fullNYCSmoothed.png}
+    \includegraphics[width=.9\textwidth]{../Notebooks/fullNYCSmoothed.png}
   \end{figure}
-
+  Since April 13th, every smoothed report has peaked on April 8th
 \end{frame}
 
 \begin{frame}{Abuses}
   What's going on?
   \begin{itemize}
   \item Different sites report cases at different times
+  \item Large dip in confirmed cases every weekend
   \end{itemize}
   
   Impact:
@@ -99,7 +101,8 @@
     weeks later
   \item Latest counts for each date are reported -- history is harder
     to extract
-  \item Low weekend counts obscure trends
+  \item Low weekend counts obscure trends -- need to use 7 day rolling
+    average
   \item Reporting aggregates instead of per site data makes analysis difficult
   \end{itemize}
 
@@ -112,20 +115,21 @@ See:
 \end{itemize}
 \end{frame}
 
-
 \begin{frame}{What they said for the USA}
   \begin{figure}
     \centering
-    \includegraphics[height=.8\textheight]{../Notebooks/USACasesPerDayRawNoLegend.png}
+    \includegraphics[height=.7\textheight]{../Notebooks/USACasesPerDayLatestRawNoLegend.png}
   \end{figure}
+  What happened to the weekend dip?
 \end{frame}
 
 
 \begin{frame}{What they didn't say}
   \begin{figure}
     \centering
-    \includegraphics[height=.8\textheight]{../Notebooks/USACasesPerDayRawNoLegend.png}
+    \includegraphics[height=.7\textheight]{../Notebooks/USACasesPerDayHistoryRawNoLegend.png}
   \end{figure}
+  Where are the data updates?
 \end{frame}
 
 
