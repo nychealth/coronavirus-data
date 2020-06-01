@@ -174,7 +174,7 @@ This file includes the corresponding neighborhood and borough for each modified 
 - Neighborhood name  
 - Borough name  
  
-Neighborhood names represent the [42 NYC United Hospital Fund (UHF) neighborhoods]( http:/a816-dohbesp.nyc.gov/IndicatorPublic/EPHTPDF/uhf42.pdf). All cases are assigned to a UHF neighborhood based on ZCTA. Borough names are assigned according to the UHF neighborhood. 
+Neighborhood names represent the [Neighborhood Organizing Census Committee](https://www1.nyc.gov/site/census/index.page) boundaries, which were recently developed by the U.S. Census Bureau with input from community groups. 
  
 Note that sum of counts in this file may not match values in Citywide tables because of records with missing geographic information. This file does not currently contain information on probable deaths.   
  
@@ -197,8 +197,6 @@ Additionally, the metric we are showing here reflects percent positivity by date
 This file contains the cumulative number of NYC residents who were tested for COVID-19 and the number of people tested who tested positive, by ZCTA of residence.  
  
 The cumulative counts are as of the date of extraction from the NYC Health Department's disease surveillance database.  
- 
-This file is no longer updated. Moving forward, test by ZCTA data will be included in data-by-modzcta.csv.  
 
 ***  
   
