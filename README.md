@@ -169,7 +169,8 @@ This file contains the following cumulative indicators by modified ZCTA:
 - Population denominators for ZCTAs derived from intercensal estimates by the Bureau of Epidemiology Services (see “Rates per 100,000 people” for more details)  
 - Count of confirmed deaths  
 - Rate of confirmed deaths per 100,000 people by ZCTA 
-- Percentage of people ever tested for COVID-19 who tested positive 
+- Percentage of people ever tested for COVID-19 with a polymerase chain reaction (PCR) test who tested positive
+- Count of people tested for COVID-19 with a PCR test
  
 This file includes the corresponding neighborhood and borough for each modified ZCTA. 
 - Modified ZCTA 
@@ -199,6 +200,8 @@ Additionally, the metric we are showing here reflects percent positivity by date
 This file contains the cumulative number of NYC residents who were tested for COVID-19 and the number of people tested who tested positive, by ZCTA of residence.  
  
 The cumulative counts are as of the date of extraction from the NYC Health Department's disease surveillance database.  
+
+This file is no longer being updated as of June 9, 2020. For data on testing by modified ZCTA, see data-by-modzcta.csv.
 
 ***  
   
