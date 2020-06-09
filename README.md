@@ -72,8 +72,10 @@ We are reporting out data for the following age groups: 0-17, 18-44, 45-64, 65-7
 ### Reporting on Hospitalization Status 
 The Health Department imports information on hospitalization status from a number of partners, including hospitals, hospital systems, and Regional Health Information Organizations, into our surveillance database. Because data from these partners can be incomplete, the Health Department also estimates the number of people diagnosed with COVID-19 who have ever been hospitalized by matching confirmed cases to other sources of hospital admission information. These other sources include:  
 - The Health Department’s syndromic surveillance database that tracks daily hospital admissions from all 53 emergency departments across NYC  
-- The New York State Department of Health Hospital Emergency Response Data System (HERDS)  
- 
+- Regional health information organizations
+- NYC public hospitals
+- DOHMH’s electronic death registry system
+- Remote access to electronic health record systems 
 Note that hospitalization information is missing from a number of facilities, which is a limitation for any analysis considering hospitalization status by geography (e.g., borough).  
  
 ### Reporting on COVID-19 Deaths 
