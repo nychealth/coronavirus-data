@@ -30,7 +30,7 @@ The Health Department receives electronic laboratory reports for a number of inf
 *Strengths*: This standard reporting system allows for rapid and detailed information to be transmitted routinely to the Health Department.    
 *Limitations*: 
 - Because of delays in reporting, the most recent data may be incomplete. Current data will be updated in the future as information on cases, hospitalizations, and deaths are reported to the Health Department.  
-- Additionally, the Health Department is currently advising people with mild to moderate symptoms to stay at home and not seek testing. Many cases in the community, without laboratory testing, will not be included in these counts because they have never had a positive laboratory test.   
+- Health Department recommendations for testing have changed throughout the COVID-19 outbreak. The Health Department previously advised people with mild to moderate symptoms to stay at home and not seek testing, and consequently, data from the first two months of the outbreak reflect severe cases. Many cases in the community from earlier in the outbreak, without laboratory testing, will not be included in these counts because they have never had a positive laboratory test.    
 - These data are also limited by testing supply capacity, including the materials required for testing.   
 - Information on reported deaths can be limited by delays in reporting by hospitals or funeral homes.   
  
