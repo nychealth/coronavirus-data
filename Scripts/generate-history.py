@@ -20,6 +20,7 @@ for filename in glob.glob(tmpdir + "/*.csv"):
                        "HOSPITALIZED_COUNT": "HOSPITALIZED_CASE_COUNT"},
               inplace=True)
 
+    df = df.dropna()
     df["AS_OF"] = pd.to_datetime(df["AS_OF"])
     df["DATE_OF_INTEREST"] = pd.to_datetime(df["DATE_OF_INTEREST"])
     df.set_index("DATE_OF_INTEREST", inplace=True)
