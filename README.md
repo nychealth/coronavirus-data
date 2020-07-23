@@ -52,12 +52,14 @@ Rates for annual citywide-, borough-, ZCTA (ZIP Code Tabulation Area)-, and demo
  
 Rates of cases, hospitalizations, and deaths for poverty and race/ethnicity groups were calculated using direct standardization for age at diagnosis and weighting by [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf).  
  
-### Geography: ZIP codes and ZCTAs 
+### Geography: ZIP codes, ZCTAs, and Geocoding
 We report information by geography using modified ZIP Code Tabulation Areas (ZCTA). It can be challenging to map data that are reported by ZIP Code. A ZIP Code doesn’t actually refer to an area, but rather a collection of points that make up a mail delivery route. Furthermore, there are some buildings that have their own ZIP Code, and some non-residential areas with ZIP Codes. 
  
 To deal with the challenges of ZIP Codes, the Health Department uses ZCTAs which solidify ZIP codes into units of area. Often, data reported by ZIP code are actually mapped by ZCTA. The ZCTA geography was developed by the U.S. Census Bureau. 
  
-The Health Department sometimes reports data by modified ZCTA, which combines census blocks with smaller populations to allow more stable estimates of population size for rate calculation. 
+The Health Department sometimes reports data by modified ZCTA, which combines census blocks with smaller populations to allow more stable estimates of population size for rate calculation. Shapefiles and crosswalks are available in [/Geography-resources](https://github.com/nychealth/coronavirus-data/tree/master/Geography-resources).
+
+Patient addresses were geocoded using version 20B of the NYC Department of City Planning’s (DCP) Geosupport geocoding software implemented in R through C++ using the Rcpp package.  Addresses that failed to geocode were then cleaned using a string searching algorithm performed against DCP’s  Street Name Dictionary (SND) and Property Address Directory (PAD).  If an address failed to geocode after cleaning, it was then verified using the IBM Infosphere USPS service.
  
 ### Poverty Groups  
 Neighborhood-level poverty groups were classified in a manner consistent with Health Department practices to [describe and monitor disparities in health in NYC](https://www1.nyc.gov/assets/doh/downloads/pdf/epi/epiresearch-SES-measure.pdf). Neighborhood poverty measures are defined as the percentage of people earning below the Federal Poverty Threshold (FPT) within a ZCTA. The standard cut-points for defining categories of neighborhood-level poverty in NYC are:   
