@@ -4,15 +4,24 @@ This repository contains data on Coronavirus Disease 2019 (COVID-19) in New York
 Data are preliminary and subject to change. Information on this page will change as data and documentation are updated.  
  
 The Health Department classifies the start of the outbreak in NYC as the date of the first laboratory-confirmed case, February 29, 2020.  
+
+## Key notes 
+### Report date versus date of event
+
+Due to lags common with surveillance data, we receive reports of events (diagnoses, hospitalizations and deaths) that happened on past days. We publish trend data (e.g., case-hosp-death.csv) using date of event (date of diagnosis, date of hospitalization or date of death), not report date. 
+
+Publishing data by date of event better reflects when things actually happened, as opposed to when the Health Department learned about them. We strongly discourage data users from using daily changes to cumulative files as trend data – this is prone to misuse and misinterpretation. 
+
+### Questions and custom requests
+- We will answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. 
+- We are not able to accommodate custom data requests placed via Github.  
  
-***  
- 
-## Types of Surveillance  
+### Types of Surveillance  
 The Health Department conducts two main types of surveillance for COVID-19:   
 - Syndromic surveillance  
 - Reportable disease surveillance  
  
-### Syndromic Surveillance  
+#### Syndromic Surveillance  
 We receive data from all 53 hospital emergency departments (EDs) in NYC about the types of illnesses people experience on a regular basis. This surveillance allows the Health Department to evaluate care-seeking trends at hospitals for influenza-like illness and pneumonia.   
  
 The information on each patient is evaluated for descriptions that resemble influenza -like illness or pneumonia. Influenza -like illness is defined as mention of either:  
@@ -25,7 +34,7 @@ Pneumonia is defined as mention of or diagnosis of pneumonia. Since the signs an
 *Strengths*:  The data show real-time, population-level trends of people seeking health care for COVID-like disease.  
 *Limitations*: The data do not represent patients with laboratory-confirmed COVID-19.  
  
-### Reportable Disease Surveillance  
+#### Reportable Disease Surveillance  
 The Health Department receives electronic laboratory reports for a number of infectious diseases, including COVID-19, as required by law in the [NYC Health Code](https://www1.nyc.gov/site/doh/providers/reporting-and-services/notifiable-diseases-and-conditions-reporting-central.page). When a specimen is collected from a patient for laboratory testing for the virus that causes COVID-19, the laboratory must report all results, whether positive, negative, or inconclusive, to the Health Department. Demographic information on the person being tested is reported to the Health Department, including name, address, and date of birth.  
 *Strengths*: This standard reporting system allows for rapid and detailed information to be transmitted routinely to the Health Department.    
 *Limitations*: 
