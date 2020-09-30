@@ -12,7 +12,7 @@ Due to lags common with surveillance data, we receive reports of events (diagnos
 Publishing data by date of event better reflects when things actually happened, as opposed to when the Health Department learned about them. We strongly discourage data users from using daily changes to cumulative files as trend data – this is prone to misuse and misinterpretation.  
 
 ### Questions and custom requests 
-- We will answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed.  
+- We will answer questions about the data in this repository as we are able to. If you have any question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed.  
 - We are not able to accommodate custom data requests placed via Github.   
 
 ### Types of Surveillance   
