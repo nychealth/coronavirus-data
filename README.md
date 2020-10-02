@@ -318,7 +318,7 @@ Indicators include:
 
 Note that one person can have more than one test on different days. Therefore, the number of positive persons every day will be different from the epi curves at the top of the webpage as the epi curves will count people only on the first day they test positive.  
 
-Additionally, the metric we are showing here reflects percent positivity by date of specimen collection (when someone went to their doctor for a test). The metric shown on the [milestone webpage](https://www1.nyc.gov/site/doh/covid/covid-19-goals.page) shows citywide percent positivity by the date that the lab result was reported, which is slightly different. Therefore the two metrics will not be the same for each daily value but show the same patterns.  
+Additionally, the metric we are showing here reflects percent positivity by date of specimen collection (when someone went to their doctor for a test).   
 
 ### tests-by-zcta.csv   
 This file contains the cumulative number of NYC residents who were tested for COVID-19 and the number of people tested who tested positive, by ZCTA of residence.   
