@@ -779,7 +779,7 @@ Indicators include:
 | COVID_CASE_COUNT_4WEEK | Summary count of confirmed cases | Cumulative across weeks 1-4 |    
 | COVID_CASE_RATE_ WEEK*X* | Rate of confirmed cases per 100,000 people by modified ZCTA *X* indicates the corresponding week number | Repeated for weeks 1-4 |    
 | COVID_CASE_RATE_4WEEK | Rate of confirmed cases per 100,000 people by modified ZCTA | Cumulative across weeks 1-4 |    
-| PCTCHANGE_2WEEK | Percent change in the count of confirmed cases, comparing the last 2 weeks of the 4 week period to the first 2 weeks, as 100*(week 1+week2)/(week 3+week 4)-1). | Cumulative across weeks 1-4 | 
+| PCTCHANGE_2WEEK | Percent change in the count of confirmed cases, comparing the last 2 weeks of the 4 week period to the first 2 weeks, as 100*(week 1+week2)/((week 3+week 4)-1). | Cumulative across weeks 1-4 | 
 | COVID_DEATH_COUNT_4WEEK | Count of confirmed deaths  | Cumulative across weeks 1-4 |    
 | COVID_DEATH_RATE_4WEEK | Rate of confirmed deaths per 100,000 people by modified ZCTA | Cumulative across weeks 1-4 |    
 | NUM_PEOP_TEST_4WEEK | Number of people who recieved a polymerase chain reaction (PCR) test | Cumulative across weeks 1-4 |    
