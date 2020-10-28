@@ -621,9 +621,8 @@ Indicators include:
 | Variable Name | Definition | Timeframe | 
 | -------------------|-----------------------------------------------------------------------|-----------:| 
 | DATE_OF_DEATH | Date of death | |          
-| CONFIRMED_COUNT | Count of confirmed deaths by date of death| Daily | 
-| PROBABLE_COUNT | Count of probable deaths by date of death | Daily | 
-| INCOMPLETE | Used for display purposes only | N/A | 
+| CONFIRMED_DEATH | Count of confirmed deaths by date of death| Cumulative | 
+| PROBABLE_DEATH | Count of probable deaths by date of death | Cumulative | 
 
 Because of delays in reporting, the most recent data may be incomplete. Data shown currently will be updated in the future as data on deaths are reported or updated.  
 
@@ -754,7 +753,7 @@ Indicators include:
 | Most recent (week 1) | Summary count of confirmed cases and  confirmed deaths| Most recent complete week |    
 | WEEK 2 | Summary count of confirmed cases and  confirmed deaths | Week 2 |    
 | WEEK 3 | Summary count of confirmed cases and  confirmed deaths | Week 3 |    
-| WEEK 4 | Summary count of confirmed cases and  confirmed deaths | Week 4 |    
+| WEEK 3 | Summary count of confirmed cases and  confirmed deaths | Week 4 |    
 
 
 ### recent/recent-4-week-by-modzcta.csv    
