@@ -10,7 +10,7 @@ The Health Department classifies the start of the outbreak in NYC as the date of
 Generally, the City and the State will almost never have the same numbers for the same metrics, though they report the same general trends. The reasons for this include:
 - Different data sources for different metrics
 - Different analytical and informatics processes
-- Difference uses of event date or report date (see below)
+- Different uses of event date or report date (see below)
 
 ### Report date versus date of event 
 Due to lags common with surveillance data, we receive reports of events (diagnoses, hospitalizations and deaths) that happened on past days. We publish trend data (e.g., case-hosp-death.csv) using date of event (date of diagnosis, date of hospitalization or date of death), not date of report.  
