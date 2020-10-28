@@ -623,7 +623,7 @@ Indicators include:
 | DATE_OF_DEATH | Date of death | |          
 | CONFIRMED_COUNT | Count of confirmed deaths by date of death| Daily | 
 | PROBABLE_COUNT | Count of probable deaths by date of death | Daily | 
-| UNKNOWN | Used for display purposes only | N/A | 
+| INCOMPLETE | Used for display purposes only | N/A | 
 
 Because of delays in reporting, the most recent data may be incomplete. Data shown currently will be updated in the future as data on deaths are reported or updated.  
 
