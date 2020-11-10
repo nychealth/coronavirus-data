@@ -52,7 +52,7 @@ Unlike other data in this repository, this file excludes patients in congregate 
 
 This file contains the same data as Trends/data-by-day.csv, but limited to the most recent 90 days. For details, see Trends/Readme.md 
  
-### now-covidlike-illness.csv 
+### now-covid-like-illness.csv
 
 This file contains the same data as covidlike-illness.csv, but limited to the most recent 90 days. For details, see Trends/Readme.md 
  
