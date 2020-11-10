@@ -137,7 +137,7 @@ The Health Department is reporting rates of cases, hospitalizations, and deaths 
 
 Rates for annual citywide-, borough-, ZIP code tabulation areas-, and demographic-specific categories were calculated using interpolated intercensal population estimates updated in 2020. These rates differ from previously reported rates based on the 2000 Census or previous versions of population estimates. The Health Department produced these population estimates based on estimates from the U.S. Census Bureau and NYC Department of City Planning. 
 
-Please note that population estimates were updated on November 9, 2020 to reflect annual population estimates for all New Yorkers as of July 1, 2019. These estimates are prior to to the COVID-19 outbreak, and therefore, do not represent any changes NYC’s population as a result of COVID-related migration. 
+Please note that population estimates were updated on November 9, 2020 to reflect annual population estimates for all New Yorkers as of July 1, 2019. These estimates are prior to the COVID-19 outbreak, and therefore, do not represent any changes to NYC’s population as a result of COVID-related migration. 
 
 Rates of cases, hospitalizations, and deaths for poverty and race/ethnicity groups were calculated using direct standardization for age at diagnosis and weighting by [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf).   
 
