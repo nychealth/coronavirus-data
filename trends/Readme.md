@@ -62,9 +62,9 @@ Indicators include:
 
 Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information.
 
-### covidlike-illness.csv 
+### covid-like-illness.csv
 
-covidlike-illness.csv was previously called syndromic_data.csv. 
+covid-like-illness.csv was previously called syndromic_data.csv. 
 
 This file includes the rate of visits to NYC emergency departments (ED) per 100,000 people, and rates of subsequent admissions to the hospital through the ED, for influenza-like illness or pneumonia, by date of visit for all ages and by age group (0-4, 5-12, 13-17, 18-24, 25-34, 35-44, 45-54, 55-64, 65-74, and 75+ years). Please see additional details about the Health Department's syndromic surveillance system in the technical notes section (Types of Surveillance: Syndromic Surveillance).   
 
