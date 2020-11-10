@@ -31,8 +31,8 @@ Indicators, which are calculated for the most recent 7-days, include:
 | MODZCTA_NAME | Neighborhood name of the MODZCTA | |    
 | PERCENTPOSITIVITY_7DAY | Percentage of people with a PCR test who tested positive by MODZCTA | Cumulative across current day and 6 previous days |
 | PEOPLE_TESTED | Number of people who received a PCR test by MODZCTA | Cumulative across current day and 6 previous days | 
-| PEOPLE_POSITIVE | Number of people with a positive result on a PCR test by MODZCTA | Cumulative across most recent 7 days | 
-| MEDIAN_DAILY_TEST_RATE | Median rate of PCR testing per 100,000 people by MODZCTA | Cumulative across most recent 7 days | 
+| PEOPLE_POSITIVE | Number of people with a positive result on a PCR test by MODZCTA | Cumulative across current day and 6 previous days | 
+| MEDIAN_DAILY_TEST_RATE | Median rate of PCR testing per 100,000 people by MODZCTA | Median across current day and 6 previous days | 
 | ADEQUATELY_TESTED | Indicator used by NYC to identify MODZCTA where MEDIAN_DAILY_TEST_RATE exceeds 260 per 100,000 people | | 
 | DATERANGE | Range of dates included in the most recent 7 days | | 
 
