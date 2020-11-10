@@ -21,21 +21,19 @@ Hospitalization counts reflect the total number of people with COVID-19 ever adm
 
 ### last7days-by-modzcta.csv
 
-This file contains data by MODZCTA. Please see description of MODZCTA in the technical notes section (Geography: Zip codes and ZCTAs). Counts are aggregated separately by the following dates of interest:  
+This file contains the number of people who received a polymerase chain reaction (PCR) test, the number of people with positive results, the percentage of people tested who tested positive, and the median rate of PCR testing per 100,000 people, stratified by MODZCTA. Please see the technical notes section for a description of MODZCTA (Geography: Zip codes and ZCTAs), and the different categories of COVID-19 tests (Types of Surveillance: Reportable Disease Surveillance). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
 
-- Cases are by date of diagnosis   
-
-- People tested and percent positivity by date of specimen collection (i.e, when someone went to a healthcare provider for a test)
-
-Indicators, which are calculated for the most recent 7-days, include: 
+Indicators, which are calculated for the most recent 7-days, include:
 
 | Variable Name | Definition | Timeframe  | 
 |-------------------------|------------------------------------------------------------------------------------|----------------------------------------------------| 
 | MODZCTA | MODZCTA | |          
 | MODZCTA_NAME | Neighborhood name of the MODZCTA | |    
-| PEOPLE_POSITIVE | Count of people who tested positive by MODZCTA | Cumulative across most recent 7 days | 
-| PERCENTPOSITIVITY_7DAY | Percentage of people tested with a polymerase chain reaction (PCR) test who tested positive by MODZCTA | Cumulative across most recent 7 days | 
-| PEOPLE_TESTED | Number of people who received a PCR test by MODZCTA | Cumulative across most recent 7 days | 
+| PERCENTPOSITIVITY_7DAY | Percentage of people with a PCR test who tested positive by MODZCTA | Cumulative across current day and 6 previous days |
+| PEOPLE_TESTED | Number of people who received a PCR test by MODZCTA | Cumulative across current day and 6 previous days | 
+| PEOPLE_POSITIVE | Number of people with a positive result on a PCR test by MODZCTA | Cumulative across most recent 7 days | 
+| MEDIAN_DAILY_TEST_RATE | Median rate of PCR testing per 100,000 people by MODZCTA | Cumulative across most recent 7 days | 
+| ADEQUATELY_TESTED | Indicator used by NYC to identify MODZCTA where MEDIAN_DAILY_TEST_RATE exceeds 260 per 100,000 people | | 
 | DATERANGE | Range of dates included in the most recent 7 days | | 
 
 Neighborhood names represent the [Neighborhood Organizing Census Committee](https://www1.nyc.gov/site/census/index.page) boundaries, which were recently developed by the U.S. Census Bureau with input from community groups
@@ -44,7 +42,7 @@ Note that sum of counts in this file may not match values in citywide tables bec
 
 ### pp-by-modzcta.csv 
 
-This file contains the percentage of people tested for COVID-19 with a PCR test who tested positive in the 7 days preceding the indicated “end date,” stratified by day and by three different geographies: citywide, borough, MODZCTA. The level of geography is indicated in each column heading. Please see description of MODZCTA in the technical notes section (Geography: Zip codes and ZCTAs). 
+This file contains the percentage of people with a PCR test who tested positive in the 7 days preceding the indicated “end date,” stratified by day and by three different geographies: citywide, borough, MODZCTA. The level of geography is indicated in each column heading.
 
 The data shown in this table are displayed by the date of specimen collection (i.e., when someone went to a healthcare provider for a test) for a PCR test. Please see description of the different categories of COVID-19 tests in the technical notes section (Types of Surveillance: Reportable Disease Surveillance). Note that one person can have more than one test on different days, and a person tested twice in the most recent 7 days would only be counted once. Therefore, the sum of counts across 7-day time periods may not match summary values.
 
