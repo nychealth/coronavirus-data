@@ -50,16 +50,16 @@ Unlike other data in this repository, this file excludes patients in congregate 
 
 ### now-data-by-day.csv 
 
-This file contains the same data as Trends/data-by-day.csv, but limited to the most recent 90 days. For details, see Trends/Readme.md 
+This file contains the same data as Trends/data-by-day.csv, but limited to the most recent 90 days. For details, please visit [Trends/Readme/data-by-day.csv](https://github.com/nychealth/coronavirus-data/tree/master/trends#data-by-daycsv) 
  
-### now-covid-like-illness.csv
+### now-covid-like-illness.csv 
 
-This file contains the same data as covidlike-illness.csv, but limited to the most recent 90 days. For details, see Trends/Readme.md 
+This file contains the same data as covid-like-illness.csv, but limited to the most recent 90 days. For details, please visit [Trends/Readme/covid-like-illness.csv](https://github.com/nychealth/coronavirus-data/blob/master/trends/Readme.md#covid-like-illnesscsv) 
  
 ### now-tests.csv 
 
-This file contains the same data as tests.csv, but limited to the most recent 90 days. For details, see Trends/Readme.md 
+This file contains the same data as tests.csv, but limited to the most recent 90 days. For details, please visit [Trends/Readme/tests.csv](https://github.com/nychealth/coronavirus-data/blob/master/trends/Readme.md#testscsv) 
  
 ### now-testing-by-age.csv 
 
-This file contains the same data as testing-by-age.csv, but limited to the most recent 90 days. For details, see Trends/Readme.md 
+This file contains the same data as testing-by-age.csv, but limited to the most recent 90 days. For details, please visit [Trends/Readme/testing-by-age.csv](https://github.com/nychealth/coronavirus-data/blob/master/trends/Readme.md#testing-by-agecsv) 
