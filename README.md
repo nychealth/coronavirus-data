@@ -217,15 +217,15 @@ This repository contains data on antibody tests, which are also referred to as s
 
 ### latest/ 
 
-This folder contains files with data that focus on the most recent period of the outbreak. It includes daily 7-day cumulative percent positivity by MODZCTA, and trend data that covers the most recent 90 days. See this folder’s Readme for a detailed description of its contents.  
+This folder contains files with data that focus on the most recent period of the outbreak. It includes daily 7-day cumulative percent positivity by MODZCTA, and trend data that cover the most recent 90 days. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/latest#latest) for a detailed description of its contents.  
 
 ### totals/ 
 
-This folder contains files with cumulative totals since the start of the COVID-19 outbreak in NYC, which the Health Department defines as the diagnosis of the first laboratory-confirmed case on February 29, 2020. Note that the Health Department recommends against interpreting daily changes to these files as one day’s worth of data, due to the difference between date of event and date of report. See this folder’s Readme for a detailed description of its contents. 
+This folder contains files with cumulative totals since the start of the COVID-19 outbreak in NYC, which the Health Department defines as the diagnosis of the first laboratory-confirmed case on February 29, 2020. Note that the Health Department recommends against interpreting daily changes to these files as one day’s worth of data, due to the difference between date of event and date of report. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/totals#totals) for a detailed description of its contents. 
 
 ### trends/ 
 
-This folder contains files with daily or weekly data shown across time. Note that these trend data are published by date of event, not by date of report. See this folder’s Readme for a detailed description of its contents. 
+This folder contains files with daily or weekly data shown across time. Note that these trend data are published by date of event, not by date of report. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/trends#trends) for a detailed description of its contents. 
 
 ### Geography-resources/ 
 
