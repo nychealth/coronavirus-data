@@ -123,7 +123,7 @@ There are two main categories of COVID-19 tests that are reported to the Health 
 
 ### Case reporting   
 
-NYC COVID-19 data include people who live in NYC or who live in another country but are being treated in NYC. The data do not include people who live outside of NYC but in the United States.  
+NYC COVID-19 data include people who live in NYC. Any person with a residence outside of NYC is not included.
 
 ### Changes to reported data   
 
