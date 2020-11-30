@@ -21,7 +21,7 @@ Hospitalization counts reflect the total number of people with COVID-19 ever adm
 
 ### last7days-by-modzcta.csv
 
-This file contains the number of people who received a polymerase chain reaction (PCR) test, the number of people with positive results, the percentage of people tested who tested positive, and the median rate of PCR testing per 100,000 people, stratified by MODZCTA. Please see the technical notes section for a description of MODZCTA (Geography: Zip codes and ZCTAs), and the different categories of COVID-19 tests (Types of Surveillance: Reportable Disease Surveillance). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
+This file contains the number of people who received a polymerase chain reaction (PCR) test, the number of people with positive results, the percentage of people tested who tested positive, and the median rate of PCR testing per 100,000 people, stratified by MODZCTA. Please see the technical notes section for a description of MODZCTA (Geography: Zip codes and ZCTAs), and the different categories of COVID-19 tests (Types of Surveillance: Reportable Disease Surveillance). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test). Please note that the number of people with positive results does not include people who previously tested positive.
 
 Indicators, which are calculated for the most recent 7-days, include:
 
