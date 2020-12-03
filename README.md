@@ -46,12 +46,6 @@ In order to support an update to the [Health Department’s COVID-19 Data webpag
 | recent-4-week-citywide.csv | Similar data available in now-summary.csv | Latest/ | 
 | recent-4-week-by-modzcta.csv | Similar data available in caserate-by-modzcta.csv, testrate-by-modzcta.csv, percentpositive-by-modzcta.csv | Trends/ | 
 
-### Questions and custom requests 
-
-- We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  
-
-- We are not able to accommodate custom data requests placed via Github.   
-
 ### 
 
 ***
