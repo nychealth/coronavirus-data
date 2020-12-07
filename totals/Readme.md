@@ -126,7 +126,7 @@ Differences in health outcomes among racial and ethnic groups are due to long-te
 
 ### data-by-modzcta.csv   
 
-This file contains data by modified ZIP code tabulation areas (MODZCTA). Please see the technical notes section for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)).  
+This file contains data by modified ZIP code tabulation areas (MODZCTA). Please see the key technical notes section for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)).  
 
 Indicators include: 
 
@@ -388,7 +388,7 @@ Note that sum of counts in this file may not match citywide values because of re
 
 ### antibody-by-sex.csv   
 
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by sex as reported to the Health Department by laboratories. Please see the key notes section for a description of the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)).
+This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by sex as reported to the Health Department by laboratories. Please see the key technical notes section for a description of the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)).
 
 Indicators include: 
 
@@ -406,7 +406,7 @@ The sum of counts may not match summary values because of records with missing d
 
 ### antibody-by-modzcta.csv   
 
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of antibody testing per 100,000 people, stratified by MODZCTA. Please see the notes section for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)), and the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)).
+This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of antibody testing per 100,000 people, stratified by MODZCTA. Please see the key technical notes section for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)), and the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)).
 
 Indicators include: 
 
@@ -425,7 +425,7 @@ The sum of counts may not match summary values because of records with missing g
 
 ### antibody-by-age.csv   
 
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by age group. Please see the key notes section for a description of the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)).
+This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by age group. Please see the key technical notes section for a description of the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)).
 
 Indicators include: 
 
@@ -441,7 +441,7 @@ The sum of counts may not match summary values because of records with missing d
 
 ### antibody-by-boro.csv   
 
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by borough of residence. Please see the key notes section for a description of the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)).
+This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by borough of residence. Please see the key technical notes section for a description of the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)).
 
 Indicators include: 
 
@@ -457,7 +457,7 @@ The sum of counts may not match summary values because of records with missing g
 
 ### antibody-by-poverty.csv   
 
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by ZCTA-level neighborhood poverty group in NYC (low, medium, high, very high). Please see the notes section for a description of methods for determining neighborhood poverty ([Poverty Groups](https://github.com/nychealth/coronavirus-data#poverty-groups)), and the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)).
+This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by ZCTA-level neighborhood poverty group in NYC (low, medium, high, very high). Please see the key technical notes section for a description of methods for determining neighborhood poverty ([Poverty Groups](https://github.com/nychealth/coronavirus-data#poverty-groups)), and the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)).
 
 Indicators include: 
 
