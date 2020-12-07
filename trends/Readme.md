@@ -120,11 +120,7 @@ Indicators include:
 | POSITIVE_TESTS_7DAYS_AVG | 7-day average of number of people with a positive result on a molecular test | Current day and previous 6 days | 
 | PERCENT_POSITIVE_7DAYS_AVG | 7-day average of percentage of people tested with a molecular test who tested positive | Current day and 6 previous days | 
 | TOTAL_ANTIGEN_TESTS | Number of people who received an antigen test  | Day | 
-| POSITIVE_ANTIGEN_TESTS | Number of people with a positive result on an antigen test | Day | 
-| ANTIGEN_PERCENT_POSITIVE | Percentage of people tested with an antigen test who tested positive |  Day | 
 | TOTAL_ANTIGEN_TESTS_7DAYS_AVG | 7-day average of number of people who received an antigen test | Current day and previous 6 days | 
-| POSITIVE_ANTIGEN_TESTS_7DAYS_AVG | 7-day average of number of people with a positive result on an antigen test | Current day and previous 6 days | 
-| PERCENT_POS_ANTIGEN_7DAYS_AVG | 7-day average of percentage of people tested with an antigen test who tested positive | Current day and 6 previous days | 
 | INCOMPLETE | Used for display purposes only | | 
 
 Note that one person can have more than one test on different days. Therefore, the number of positive persons every day will be different from the counts of confirmed or probable cases, which will count people only on the first day they test positive.  
