@@ -30,15 +30,13 @@ Indicators include:
 | ALL_CASE_COUNT_7DAY_AVG| 7-day average of count of confirmed and probable cases citywide | Current day and previous 6 days | 
 | HOSP_COUNT_7DAY_AVG | 7-day average of count of hospitalized cases citywide | Current day and previous 6 days | 
 | DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed deaths citywide | Current day and previous 6 days | 
-| BX_CASE_COUNT | Count of confirmed cases in the Bronx | Day |  
-| BX_PROBABLE_CASE_COUNT | Count of probable cases in the Bronx | Day |  
+| BX_CASE_COUNT | Count of confirmed cases in the Bronx | Day |    
 | BX_HOSPITALIZED_COUNT | Count of hospitalized cases in the Bronx | Day | 
 | BX_DEATH_COUNT | Count of confirmed deaths in the Bronx | Day | 
 | BX_ALL_CASE_COUNT_7DAY_AVG | 7-day average of count of confirmed and probable cases in the Bronx | Current day and previous 6 days | 
 | BX_HOSPITALIZED_COUNT_7DAY_AVG | 7-day average of count of hospitalized cases in the Bronx | Current day and previous 6 days | 
 | BX_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed deaths in the Bronx | Current day and previous 6 days | 
-| BK_CASE_COUNT | Count of confirmed cases  in Brooklyn | Day |     
-| BK_PROBABLE_CASE_COUNT | Count of probable cases in Brookly | Day |  
+| BK_CASE_COUNT | Count of confirmed cases  in Brooklyn | Day |      
 | BK_HOSPITALIZED_COUNT | Count of hospitalized cases  in Brooklyn | Day |  
 | BK_DEATH_COUNT | Count of confirmed deaths in Brooklyn | Day |  
 | BK_ALL_CASE_COUNT_7DAY_AVG | 7-day average of count of confirmed and probable cases in Brooklyn | Current day and previous 6 days | 
@@ -46,7 +44,6 @@ Indicators include:
 | BK_HOSPITALIZED_COUNT_7DAY_AVG | 7-day average of count of hospitalized cases in Brooklyn | Current day and previous 6 days | 
 | BK_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed deaths in Brooklyn  | Current day and previous 6 days | 
 | MN_CASE_COUNT | Count of confirmed cases in Manhattan | Day |   
-| MN_PROBABLE_CASE_COUNT | Count of probable cases in Manhattan | Day | 
 | MN_HOSPITALIZED_COUNT | Count of hospitalized cases in Manhattan | Day |  
 | MN_DEATH_COUNT | Count of confirmed deaths in Manhattan | Day |  
 | MN_ALL_CASE_COUNT_7DAY_AVG | 7-day average of count of confirmed and probable cases in Manhattan | Current day and previous 6 days | 
@@ -54,15 +51,13 @@ Indicators include:
 | MN_HOSPITALIZED_COUNT_7DAY_AVG | 7-day average of count of hospitalized cases in Manhattan | Current day and previous 6 days | 
 | MN_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed deaths in Manhattan | Current day and previous 6 days |
 | QN_CASE_COUNT | Count of confirmed cases in Queens | Day | 
-| QN_PROBABLE_CASE_COUNT | Count of probable cases in Queens | Day |  
 | QN_HOSPITALIZED_COUNT | Count of hospitalized cases in Queens | Day |  
 | QN_DEATH_COUNT | Count of confirmed deaths in Queens | Day |
 | QN_ALL_CASE_COUNT_7DAY_AVG | 7-day average of count of confirmed and probable cases in Queens | Current day and previous 6 days | 
 | QN_CASE_COUNT_7DAY_AVG | 7-day average of count of confirmed cases in Queens | Current day and previous 6 days | 
 | QN_HOSPITALIZED_COUNT_7DAY_AVG | 7-day average of count of hospitalized cases in Queens | Current day and previous 6 days | 
 | QN_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed deaths in Queens | Current day and previous 6 days | 
-| SI_CASE_COUNT | Count of confirmed cases in Staten Island | Day |      
-| SI_PROBABLE_CASE_COUNT | Count of probable cases in Staten Island | Day | 
+| SI_CASE_COUNT | Count of confirmed cases in Staten Island | Day |     
 | SI_HOSPITALIZED_COUNT | Count of hospitalized cases in Staten Island | Day |  
 | SI_DEATH_COUNT | Count of confirmed deaths in Staten Island | Day |  
 | SI_ALL_CASE_COUNT_7DAY_AVG | 7-day average of count of confirmed and probable cases in Staten Island | Current day and previous 6 days | 
