@@ -2,7 +2,6 @@
 
 This repository contains data on Coronavirus Disease 2019 (COVID-19) in New York City (NYC). The Health Department classifies the start of the COVID-19 outbreak in NYC as the date of the first laboratory-confirmed case, February 29, 2020.  
 
-
 You can view visualizations of these data on the [Health Department’s COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page). Additional data related to COVID-19 are available via [NYC Open Data](https://data.cityofnewyork.us/browse?category=Health&q=covid). 
 
 Data are preliminary and subject to change. Information on this page will change as data and documentation are updated. Tables are updated either daily (at a 3-day lag) or weekly on Thursday (with data through the previous Saturday).
@@ -24,7 +23,7 @@ This repository contains CSV (comma separated values) files of data, and Readme 
 
 Alternatively, you can download a single file. Click on a file you would like to download. Next, click the "Raw" button. Right click and save as a CSV file. 
 
-**For help understanding a file**, you can consult the documentation we have provided in the Readme files for each folder of data. To find  Readme files, just click on a folder name, above, and scroll down. Documentation is organized by file name, so you can scroll through the Readme, find the name of the file you are using for, and read documentation on it. Additionally, some universal documentation is provided in the Key Technical Notes. 
+**For help understanding a file**, you can consult the documentation we have provided in the Readme files for each folder of data. To find  Readme files, just click on a folder name, above, and scroll down. Documentation is organized by file name, so you can scroll through the Readme, find the name of the file you are using for, and read documentation on it. Additionally, some universal documentation is provided in the [Key Technical Notes](https://github.com/nychealth/coronavirus-data/blob/master/README.md#key-technical-notes). 
 
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
@@ -131,14 +130,14 @@ The Health Department receives electronic laboratory reports for a number of inf
 ## Laboratory Testing
 ### Types of COVID-19 laboratory tests
 
-There are three main categories of COVID-19 tests that are reported to the Health Department as part of reportable disease surveillance: 
+There are three main types of COVID-19 tests that are reported to the Health Department as part of reportable disease surveillance: 
 
 #### Diagnostic tests
 - *Molecular tests*: The primary test for COVID-19 infection is the molecular test, which includes the polymerase chain reaction (PCR) test. Molecular tests work through direct detection of the virus’s genetic material, and typically involve collecting a nasal swab. After specimen collection, molecular tests are generally processed in large laboratories, and consequently, the results may take a few days to be delivered. These tests are highly accurate.   
 
 - *Antigen tests*: This test detects proteins on the surface of the virus that are called antigens. The antigen test typically involves collecting a nasal swab. The results from an antigen test are delivered quickly ([turnaround as low as 15 minutes](https://www.cdc.gov/coronavirus/2019-ncov/lab/resources/antigen-tests-guidelines.html)), however, these tests are not as accurate as molecular tests. 
  
- #### Serological tests
+ #### Serologic tests
 - *Antibody tests*: Exposure to COVID-19 can be detected by measuring antibodies, which can reflect a person’s immune response to the virus. Antibodies are proteins produced by the body’s immune system that can be found in the blood. People can test positive for antibodies specific to COVID-19 after they have been exposed, sometimes when they no longer test positive for the virus itself. Therefore, an antibody test will not be accurate for someone with active or recent infection, but can identify people who likely had COVID-19 in the past. It is important to note that the science around COVID-19 antibody tests is evolving rapidly and there is still much uncertainty about what individual and population level antibody test results mean for the epidemiology of COVID-19. 
 
 *Strengths*: This standard reporting system allows for rapid and detailed information to be transmitted routinely to the Health Department.     
