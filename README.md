@@ -31,7 +31,7 @@ Alternatively, you can download a single file. Click on a file you would like to
 ***
 ## Important: Changes on December 7, 2020
 
-The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on December 3, 2020. These include:
+The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on December 7, 2020. These include:
 
 * Changing the naming convention for the main categories of COVID-19 tests
   * Data referenced in this repository as "molecular tests" correspond to data previously labeled as "PCR tests." Please see the key notes section for a description of the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#types-of-covid-19-laboratory-tests))
