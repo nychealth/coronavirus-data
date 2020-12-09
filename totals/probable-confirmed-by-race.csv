@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 RACE_GROUP,CONFIRMED_DEATH,PROBABLE_DEATH
 Hispanic/Latino,6055,1269
 Black/African-American,5416,1440
@@ -5,3 +6,12 @@ White,5056,1217
 Asian/Pacific-Islander,1469,416
 Other/Unknown,1698,333
 Data pending,0,42
+=======
+RACE_GROUP,CONFIRMED_DEATH,PROBABLE_DEATH
+Hispanic/Latino,6054,1268
+Black/African-American,5412,1440
+White,5059,1216
+Asian/Pacific-Islander,1467,415
+Other/Unknown,1699,333
+Data pending,0,53
+>>>>>>> 2a2295acc84a0c6f42617bfd60236d7b13c264e9
