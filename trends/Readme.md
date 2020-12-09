@@ -68,9 +68,9 @@ Note that sum of counts in this file may not match values in citywide tables bec
 
 covid-like-illness.csv was previously called syndromic_data.csv. 
 
-This file includes the rate of visits to NYC emergency departments (ED) per 100,000 people, and rates of subsequent admissions to the hospital through the ED, for influenza-like illness or pneumonia, by date of visit for all ages and by age group (0-4, 5-12, 13-17, 18-24, 25-34, 35-44, 45-54, 55-64, 65-74, and 75+ years). Please see additional details about the Health Department's syndromic surveillance system in the technical notes section (Types of Surveillance: Syndromic Surveillance).   
+This file includes the rate of visits to NYC emergency departments (ED) per 100,000 people, and rates of subsequent admissions to the hospital through the ED, for influenza-like illness, pneumonia, or COVID-like illness (defined as having the ICD-10-CM code (U07.1) for COVID-19 disease documented). Data are stratified by date of visit, age groups, and patient borough of residence. Please see additional details about the Health Department's syndromic surveillance system in the key technical notes section.   
 
-This file includes data based on the Health Department’s syndromic surveillance system. The data go back to February 1, 2020, to provide a view of the early days of the pandemic   
+This file includes data based on the Health Department’s syndromic surveillance system. The data go back to February 1, 2020, to provide a view of the early days of the pandemic.
 
 Indicators include: 
 
@@ -100,6 +100,41 @@ Indicators include:
 | Visit 75+ | Rate of ED visits among people aged 75+ years per 100,000 people | Day | 
 | Visit All ages | Rate of ED visits among people of all ages per 100,000 people | Day | 
   
+### covid-like-illness-by-boro.csv
+
+This file includes the rate of visits to NYC EDs per 100,000 people, and rates of subsequent admissions to the hospital through the ED, for influenza-like illness, pneumonia, or COVID-like illness (defined as having the ICD-10-CM code (U07.1) for COVID-19 disease documented). Data are stratified by date of visit, age groups, and patient borough of residence. Please see additional details about the Health Department's syndromic surveillance system in the key technical notes section.  
+
+The data in this file go back to February 1, 2020, to provide a view of the early days of the COVID-19 outbreak in NYC.
+
+Indicators include: 
+
+| Variable name | Definition | Timeframe | 
+|---------------------|---------------|----------------| 
+| Date | Date of ED visit | |    
+| Borough | Borough of residence | |    
+| Admit_0_4| Rate of hospital admissions among people aged 0-4 years per 100,000 people by borough of residence | Day | 
+| Admit_5_12 | Rate of hospital admissions among people aged 5-12 years per 100,000 people by borough of residence | Day | 
+| Admit_13_17 | Rate of hospital admissions among people aged 13-17 years per 100,000 people by borough of residence | Day | 
+| Admit_18_24 | Rate of hospital admissions among people aged 18-24 years per 100,000 people by borough of residence | Day | 
+| Admit_25_34| Rate of hospital admissions among people aged 25-34 years per 100,000 people by borough of residence | Day | 
+| Admit_35_44| Rate of hospital admissions among people aged 35-44 years per 100,000 people by borough of residence | Day | 
+| Admit_45_54 | Rate of hospital admissions among people aged 45-54 years per 100,000 people by borough of residence | Day | 
+| Admit_55_64 | Rate of hospital admissions among people aged 55-64 years per 100,000 people by borough of residence | Day | 
+| Admit_65_74 | Rate of hospital admissions among people aged 65-74 years per 100,000 people by borough of residence | Day | 
+| Admit_75 | Rate of hospital admissions among people aged 75+ years per 100,000 people by borough of residence | Day | 
+| Admit_All_ages | Rate of hospital admissions among people of all ages per 100,000 people by borough of residence | Day |    			                  
+| Visit_0_4 | Rate of ED visits among people aged 0-4 years per 100,000 people by borough of residence | Day | 
+| Visit_5_12| Rate of ED visits among people aged 5-12 years per 100,000 people by borough of residence | Day | 
+| Visit_13_17 | Rate of ED visits among people aged 13-17 years per 100,000 people by borough of residence | Day | 
+| Visit_18_24 | Rate of ED visits among people aged 18-24 years per 100,000 people by borough of residence | Day | 
+| Visit_25_34 | Rate of ED visits among people aged 25-34 years per 100,000 people by borough of residence | Day | 
+| Visit_35_44 | Rate of ED visits among people aged 35-44 years per 100,000 people by borough of residence | Day | 
+| Visit_45_54 | Rate of ED visits among people aged 45-54 years per 100,000 people by borough of residence | Day | 
+| Visit_55_64 | Rate of ED visits among people aged 55-64 years per 100,000 people by borough of residence | Day | 
+| Visit_65_74 | Rate of ED visits among people aged 65-74 years per 100,000 people by borough of residence | Day | 
+| Visit_75 | Rate of ED visits among people aged 75+ years per 100,000 people by borough of residence | Day | 
+| Visit_All_ages | Rate of ED visits among people of all ages per 100,000 people by borough of residence | Day |
+
 ### tests.csv   
 
 This file contains person-level information on molecular and antigen testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, stratified by day and test type. Please see the key technical notes section for a description of the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
