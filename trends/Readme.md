@@ -68,7 +68,7 @@ Note that sum of counts in this file may not match values in citywide tables bec
 
 covid-like-illness.csv was previously called syndromic_data.csv. 
 
-This file includes the rate of visits to NYC emergency departments (ED) per 100,000 people, and rates of subsequent admissions to the hospital through the ED, for influenza-like illness, pneumonia, or COVID-like illness (defined as having the ICD-10-CM code (U07.1) for COVID-19 disease documented). Data are stratified by date of visit, age groups, and patient borough of residence. Please see additional details about the Health Department's syndromic surveillance system in the key technical notes section.   
+This file includes the rate of visits to NYC emergency departments (ED) per 100,000 people, and rates of subsequent admissions to the hospital through the ED, for influenza-like illness, pneumonia, or COVID-like illness (defined as having the ICD-10-CM code (U07.1) for COVID-19 disease documented). Data are stratified by date of visit and age groups. Please see additional details about the Health Department's syndromic surveillance system in the key technical notes section.   
 
 This file includes data based on the Health Department’s syndromic surveillance system. The data go back to February 1, 2020, to provide a view of the early days of the pandemic.
 
