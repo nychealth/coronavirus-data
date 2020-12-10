@@ -49,7 +49,7 @@ The Health Department made several changes to this repository and the [COVID-19 
 In order to support an update to the [Health Department’s COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on November 9, 2020, changes were made to this repository, including revisions to some key files, filenames, and locations. These changes include: 
 * Adding daily 7-day cumulative percent positivity by modified ZIP code tabulation areas
 * Adding test rate and percent positivity by age 
-* Adding test result lag time 
+* Adding testing turnaround time 
 * Using more granular categories for the display of data by age 
 * Revising the output and presentation of data by borough 
 * Reclassifying files as Latest, Trends, or Totals 
@@ -75,7 +75,7 @@ In order to support an update to the [Health Department’s COVID-19 Data webpag
 
 # Key Technical Notes
 
-## Public health Reporting  
+## Public health reporting  
 ### Reporting lag 
 
 Our data are published with a three-day lag, meaning that the most recent data in today's update are from three days before. This lag is due to the standard delays (up to several days) in reporting a new test, case, hospitalization or death to the Health Department, and is a common limitation of surveillance data. Given the delay, our counts of what has happened in the most recent few days are artificially small. We delay publishing these data until more reports have come in and the data are more complete.
@@ -127,7 +127,7 @@ Pneumonia is defined as mention or diagnosis of pneumonia. Since the signs and s
 
 The Health Department receives electronic laboratory reports for a number of infectious diseases, including COVID-19, as required by law in the [NYC Health Code](https://www1.nyc.gov/site/doh/providers/reporting-and-services/notifiable-diseases-and-conditions-reporting-central.page). When a specimen is collected from a patient for SARS-CoV-2 laboratory testing, the laboratory must report all results, whether positive, negative, or inconclusive, to the Health Department. Limited demographic information on the person being tested is reported to the Health Department, including name, address, and date of birth. 
 
-## Laboratory Testing
+## Laboratory testing
 ### Types of COVID-19 laboratory tests
 
 There are three main types of COVID-19 tests that are reported to the Health Department as part of reportable disease surveillance: 
@@ -180,7 +180,7 @@ These values are inclusive of people who previously tested positive. These value
 
 These values exclude people who previously tested positive. These values exclude persons who reside in long term care facilities and correctional facilities.
 
-## Counting COVID-19 Cases, Hospitalizations, and Deaths
+## Counting COVID-19 cases, hospitalizations, and deaths
 ### Case definitions for COVID-19
 
 Surveillance case definitions for all notifiable conditions are developed at the national level by the [Council of State and Territorial Epidemiologists (CSTE)](https://wwwn.cdc.gov/nndss/conditions/). These standard definitions support public health officials in classifying and counting infections consistently across different states and local jurisdictions. The [criteria](https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/08/05/) for reporting a person with COVID-19 infection (“case”) are based on laboratory tests and epidemiologic links, and include two classifications:
@@ -243,7 +243,7 @@ Please note that population estimates were updated on November 9, 2020 to reflec
 
 Rates of cases, hospitalizations, and deaths for poverty and race/ethnicity groups were calculated using direct standardization for age at diagnosis and weighting by [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf).   
 
-## Demographic Characteristics
+## Demographic characteristics
 
 ### Geography: ZIP codes and ZCTAs  
 
@@ -267,8 +267,6 @@ Neighborhood-level poverty groups were classified in a manner consistent with He
 ### Age groups  
 
 The Health Department initially reported out data for the following age groups: 0-17, 18-44, 45-64, 65-74, and 75+ years. As of November 9, 2020, we updated the age groups to: 0-4, 5-12, 13-17, 18-24, 25-34, 35-44, 45-54, 55-64, 65-74, and 75+ years to provide more detail and granularity on age groups, especially with regard to children and young adults. For data on deaths, age groups 0-4, 5-12, and 13-17 are collapsed into 0-17 years due to low death counts in this population and to ensure protection of privacy. 
-
-  
 
 ### Race and ethnicity  
 
