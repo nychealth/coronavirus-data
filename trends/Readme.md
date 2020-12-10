@@ -77,28 +77,28 @@ Indicators include:
 | Variable name | Definition | Timeframe | 
 |----------------|------------------------------------------------------------------------------|-----------| 
 | Date | Date of ED visit | |    
-| Admit 0-4 | Rate of hospital admissions among people aged 0-4 years per 100,000 people | Day | 
-| Admit 5-12 | Rate of hospital admissions among people aged 5-12 years per 100,000 people | Day | 
-| Admit 13-17 | Rate of hospital admissions among people aged 13-17 years per 100,000 people | Day | 
-| Admit 18-24 | Rate of hospital admissions among people aged 18-24 years per 100,000 people | Day | 
-| Admit 25-34 | Rate of hospital admissions among people aged 25-34 years per 100,000 people | Day | 
-| Admit 35-44 | Rate of hospital admissions among people aged 35-44 years per 100,000 people | Day | 
-| Admit 45-54 | Rate of hospital admissions among people aged 45-54 years per 100,000 people | Day | 
-| Admit 55-64 | Rate of hospital admissions among people aged 55-64 years per 100,000 people | Day | 
-| Admit 65-74 | Rate of hospital admissions among people aged 65-74 years per 100,000 people | Day | 
-| Admit 75+ | Rate of hospital admissions among people aged 75+ years per 100,000 people | Day | 
-| Admit All ages | Rate of hospital admissions among people of all ages per 100,000 people | Day |                                   
-| Visit 0-4 | Rate of ED visits among people aged 0-4 years per 100,000 people | Day | 
-| Visit 5-12 | Rate of ED visits among people aged 5-12 years per 100,000 people | Day | 
-| Visit 13-17 | Rate of ED visits among people aged 13-17 years per 100,000 people | Day | 
-| Visit 18-24 | Rate of ED visits among people aged 18-24 years per 100,000 people | Day | 
-| Visit 25-34 | Rate of ED visits among people aged 25-34 years per 100,000 people | Day | 
-| Visit 35-44 | Rate of ED visits among people aged 35-44 years per 100,000 people | Day | 
-| Visit 45-54 | Rate of ED visits among people aged 45-54 years per 100,000 people | Day | 
-| Visit 55-64 | Rate of ED visits among people aged 55-64 years per 100,000 people | Day | 
-| Visit 65-74 | Rate of ED visits among people aged 65-74 years per 100,000 people | Day | 
-| Visit 75+ | Rate of ED visits among people aged 75+ years per 100,000 people | Day | 
-| Visit All ages | Rate of ED visits among people of all ages per 100,000 people | Day | 
+| Admit_0_4 | Rate of hospital admissions among people aged 0-4 years per 100,000 people | Day | 
+| Admit_5_12 | Rate of hospital admissions among people aged 5-12 years per 100,000 people | Day | 
+| Admit_13_17 | Rate of hospital admissions among people aged 13-17 years per 100,000 people | Day | 
+| Admit_18_24 | Rate of hospital admissions among people aged 18-24 years per 100,000 people | Day | 
+| Admit_25_34 | Rate of hospital admissions among people aged 25-34 years per 100,000 people | Day | 
+| Admit_35_44 | Rate of hospital admissions among people aged 35-44 years per 100,000 people | Day | 
+| Admit_45_54 | Rate of hospital admissions among people aged 45-54 years per 100,000 people | Day | 
+| Admit_55_64 | Rate of hospital admissions among people aged 55-64 years per 100,000 people | Day | 
+| Admit_65_74 | Rate of hospital admissions among people aged 65-74 years per 100,000 people | Day | 
+| Admit_75 | Rate of hospital admissions among people aged 75+ years per 100,000 people | Day | 
+| Admit_All_ages | Rate of hospital admissions among people of all ages per 100,000 people | Day |                                   
+| Visit_0_4 | Rate of ED visits among people aged 0-4 years per 100,000 people | Day | 
+| Visit_5_12 | Rate of ED visits among people aged 5-12 years per 100,000 people | Day | 
+| Visit_13_17 | Rate of ED visits among people aged 13-17 years per 100,000 people | Day | 
+| Visit_18_24 | Rate of ED visits among people aged 18-24 years per 100,000 people | Day | 
+| Visit_25_34 | Rate of ED visits among people aged 25-34 years per 100,000 people | Day | 
+| Visit_35_44 | Rate of ED visits among people aged 35-44 years per 100,000 people | Day | 
+| Visit_45_54 | Rate of ED visits among people aged 45-54 years per 100,000 people | Day | 
+| Visit_55_64 | Rate of ED visits among people aged 55-64 years per 100,000 people | Day | 
+| Visit_65_74 | Rate of ED visits among people aged 65-74 years per 100,000 people | Day | 
+| Visit_75 | Rate of ED visits among people aged 75+ years per 100,000 people | Day | 
+| Visit_All_ages | Rate of ED visits among people of all ages per 100,000 people | Day | 
   
 ### covid-like-illness-by-boro.csv
 
@@ -116,7 +116,7 @@ Indicators include:
 | Admit_5_12 | Rate of hospital admissions among people aged 5-12 years per 100,000 people by borough of residence | Day | 
 | Admit_13_17 | Rate of hospital admissions among people aged 13-17 years per 100,000 people by borough of residence | Day | 
 | Admit_18_24 | Rate of hospital admissions among people aged 18-24 years per 100,000 people by borough of residence | Day | 
-| Admit_25_34| Rate of hospital admissions among people aged 25-34 years per 100,000 people by borough of residence | Day | 
+| Admit_25_34 | Rate of hospital admissions among people aged 25-34 years per 100,000 people by borough of residence | Day | 
 | Admit_35_44| Rate of hospital admissions among people aged 35-44 years per 100,000 people by borough of residence | Day | 
 | Admit_45_54 | Rate of hospital admissions among people aged 45-54 years per 100,000 people by borough of residence | Day | 
 | Admit_55_64 | Rate of hospital admissions among people aged 55-64 years per 100,000 people by borough of residence | Day | 
@@ -124,7 +124,7 @@ Indicators include:
 | Admit_75 | Rate of hospital admissions among people aged 75+ years per 100,000 people by borough of residence | Day | 
 | Admit_All_ages | Rate of hospital admissions among people of all ages per 100,000 people by borough of residence | Day |    			                  
 | Visit_0_4 | Rate of ED visits among people aged 0-4 years per 100,000 people by borough of residence | Day | 
-| Visit_5_12| Rate of ED visits among people aged 5-12 years per 100,000 people by borough of residence | Day | 
+| Visit_5_12 | Rate of ED visits among people aged 5-12 years per 100,000 people by borough of residence | Day | 
 | Visit_13_17 | Rate of ED visits among people aged 13-17 years per 100,000 people by borough of residence | Day | 
 | Visit_18_24 | Rate of ED visits among people aged 18-24 years per 100,000 people by borough of residence | Day | 
 | Visit_25_34 | Rate of ED visits among people aged 25-34 years per 100,000 people by borough of residence | Day | 
@@ -243,9 +243,9 @@ This file includes data since the week ending March 7, 2020 based on when the He
 | TESTS | Number of molecular tests conducted | Week |        
 | PERCENT_24HR | Percent of molecular tests with results reported within 24 hours  | Full week preceding the week-ending date |     
 | PERCENT_48HR | Percent of molecular tests with results reported within 48 hours | Full week preceding the week-ending date |     
-| LAG_MEDIAN | Median lag time (half of molecular tests have results reported faster than this time), in days | Full week preceding the week-ending date |  
-| LAG_25TH_PERCENTILE | 25th percentile lag time (1 out of 4 molecular tests have results reported *faster* than this time), in days | Full week preceding the week-ending date | 
-| LAG_75TH_PERCENTILE | 75th percentile lag time (1 out of 4 molecular tests have results reported *slower* than this time), in days | Full week preceding the week-ending date | 
+| LAG_MEDIAN | Median turnaround time (half of molecular tests have results reported faster than this time), in days | Full week preceding the week-ending date |  
+| LAG_25TH_PERCENTILE | 25th percentile turnaround time (1 out of 4 molecular tests have results reported *faster* than this time), in days | Full week preceding the week-ending date | 
+| LAG_75TH_PERCENTILE | 75th percentile turnaround time (1 out of 4 molecular tests have results reported *slower* than this time), in days | Full week preceding the week-ending date | 
 
 Note that one person can have more than one test on different days. Therefore, the number of tests conducted in a week will differ from the number of people tested (as reported in other files) for the same week.
 
