@@ -17,7 +17,7 @@ Indicators include:
 | WEEKLY_AVG_LAST_4_WKS | Weekly average of percent positivity for the molecular test and counts of cases, hospitalizations, and deaths in the last 28 days | Average across most recent day and previous 27 days | 
 | TOTAL | Cumulative counts of cases, hospitalizations, and deaths | Cumulative |   
 
-Hospitalization counts reflect the total number of people with COVID-19 ever admitted to a hospital, not the number of people currently admitted. Death coutns reflect confirmed classifications, and case counts reflect both confirmed and probable classifications, separately. 
+Hospitalization counts reflect the total number of people with COVID-19 ever admitted to a hospital, not the number of people currently admitted. Death counts reflect confirmed classifications, and case counts reflect both confirmed and probable classifications, separately. 
 
 ### last7days-by-modzcta.csv
 
