@@ -28,15 +28,16 @@ Alternatively, you can download a single file. Click on a file you would like to
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
 ***
+
 ## Important: Changes on December 7, 2020
 
 The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on December 7, 2020. These include:
 
 * Changing the naming convention for the main categories of COVID-19 tests
-  * Data referenced in this repository as "molecular tests" correspond to data previously labeled as "PCR tests." Please see the key technical notes section for a description of the different categories of COVID-19 tests ([Types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing))
+  * Data referenced in this repository as "molecular tests" correspond to data previously labeled as "PCR tests." Please see the technical notes for a description of the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)
   
 * Including probable COVID-19 cases into summary data and epi curves
-  * Please see the key technical notes section for a description of the different case definitions ([Case definitions for COVID-19](https://github.com/nychealth/coronavirus-data#case-definitions-for-covid-19))
+  * Please see the technical notes for a description of the different [case definitions for COVID-19](https://github.com/nychealth/coronavirus-data#case-definitions-for-covid-19)
   * Cumulative data, such as case, hospitalization, and death rates, are for confirmed COVID-19 cases only
   
 * Updating all files by geography to reflect a revised geocoding process
@@ -68,7 +69,6 @@ In order to support an update to the [Health Department’s COVID-19 Data webpag
 | recent-4-week-citywide.csv | Similar data available in now-summary.csv | Latest/ | 
 | recent-4-week-by-modzcta.csv | Similar data available in caserate-by-modzcta.csv, testrate-by-modzcta.csv, percentpositive-by-modzcta.csv | Trends/ | 
 
- 
 ### 
 
 ***
@@ -119,7 +119,7 @@ We exclude those who present with influenza-like illness and are subsequently as
 
 Pneumonia is defined as mention or diagnosis of pneumonia. Since the signs and symptoms of COVID-19 overlap with these categories that the Health Department tracks routinely, we are able to identify unusual spikes in people seeking care at hospitals. We are using this as a proxy measure to observe COVID-19-like disease in the population.   
 
-- *Strengths*:  The data show real-time, population-level trends of people seeking health care for COVID-like disease
+- *Strengths*: The data show real-time, population-level trends of people seeking health care for COVID-like disease
 
 - *Limitations*: The data do not represent patients with laboratory-confirmed COVID-19 
 
@@ -148,7 +148,7 @@ There are three main types of COVID-19 tests that are reported to the Health Dep
 
 - Health Department recommendations for testing have changed throughout the COVID-19 outbreak. During the spring of 2020, the Health Department advised people with mild to moderate symptoms to stay at home and not seek testing to conserve testing supplies and personal protective equipment. Consequently, many cases in the community early in the outbreak were never diagnosed with a laboratory test and will not be included in these counts.    
 
-- Most of the data in this repository include patients who reside in congregate facilities, such as correctional facilities and long-term care facilities. While data reported from these facilities may sometimes influence local trends, cases reported from these facilities do not necessarily represent community-based transmission. The only data that exclude patients in congregate facilities are in pp-by-modzcta.csv. 
+- Most of the data in this repository include patients who reside in congregate facilities, such as correctional facilities and long-term care facilities. While data reported from these facilities may sometimes influence local trends, cases reported from these facilities do not necessarily represent community-based transmission. The only data that exclude patients in congregate facilities are in [pp-by-modzcta.csv](https://github.com/nychealth/coronavirus-data/tree/master/latest#pp-by-modzctacsv). 
 
 - Because these data only provide information on people tested and not everyone who may have had COVID-19 in NYC, caution needs to be used when interpreting testing data. For example, people who are tested for antibodies may be more likely to test positive because people who were previously ill are preferentially seeking testing, in addition to the testing of persons with higher exposure (e.g., health care workers, first responders). Therefore, these data may not reflect antibody prevalence among all New Yorkers.  
 
@@ -171,7 +171,7 @@ There are three main types of COVID-19 tests that are reported to the Health Dep
 
 These values are inclusive of people who previously tested positive. These values are inclusive of persons who reside in long term care facilities and correctional facilities.
 
-**MODZCTA-level percent positivity** values are currently calculated as follows: 
+**Modified ZIP Code Tabulation Area (MODZCTA)-level percent positivity** values are currently calculated as follows: 
 
 | Value | Definition | 
 |-------|------------| 
@@ -183,13 +183,11 @@ These values exclude people who previously tested positive. These values exclude
 ## Counting COVID-19 cases, hospitalizations, and deaths
 ### Case definitions for COVID-19
 
-Surveillance case definitions for all notifiable conditions are developed at the national level by the [Council of State and Territorial Epidemiologists (CSTE)](https://wwwn.cdc.gov/nndss/conditions/). These standard definitions support public health officials in classifying and counting infections consistently across different states and local jurisdictions. The [criteria](https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/08/05/) for reporting a person with COVID-19 infection (“case”) are based on laboratory tests and epidemiologic links, and include two classifications:
+Surveillance case definitions for all notifiable conditions are developed at the national level by the [Council of State and Territorial Epidemiologists (CSTE)](https://wwwn.cdc.gov/nndss/conditions/). These standard definitions support public health officials in classifying and counting infections consistently across different states and local jurisdictions. The [criteria](https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/08/05/) for reporting a person with COVID-19 infection (“case”) are based on laboratory test results and epidemiologic links, and include two classifications:
 
 - *Confirmed COVID-19 case*: A person is classified as a confirmed COVID-19 case if they test positive with a molecular test
 
-- *Probable COVID-19 case*: A person is classified as a probable COVID-19 case if they meet any of the following criteria with no positive molecular test on record: (a) test positive with an antigen test, (b) have symptoms and an exposure to a confirmed COVID-19 case, or (c) died and their cause of death is listed as COVID-19 or similar
-
-***    
+- *Probable COVID-19 case*: A person is classified as a probable COVID-19 case if they meet any of the following criteria with no positive molecular test on record: (a) test positive with an antigen test, (b) have symptoms and an exposure to a confirmed COVID-19 case, or (c) died and their cause of death is listed as COVID-19 or similar 
 
 ### Case reporting   
 
@@ -284,15 +282,15 @@ This folder contains files with data that focus on the most recent period of the
 
 ### totals/ 
 
-This folder contains files with cumulative totals since the start of the COVID-19 outbreak in NYC, which the Health Department defines as the diagnosis of the first confirmed COVID-19 case on February 29, 2020. Note that the Health Department recommends against interpreting daily changes to these files as one day’s worth of data, due to the difference between date of event and date of report. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/totals#totals) for a detailed description of its contents. 
+This folder contains files with cumulative totals since the start of the COVID-19 outbreak in NYC, which the Health Department defines as the diagnosis of the first confirmed COVID-19 case on February 29, 2020. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/totals#totals) for a detailed description of its contents. 
 
 ### trends/ 
 
-This folder contains files with daily or weekly data shown across time. Note that these trend data are published by date of event, not by date of report. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/trends#trends) for a detailed description of its contents. 
+This folder contains files with daily or weekly data shown across time. Note that these trend data are published by date of event, not by date of report. The Health Department recommends against interpreting daily changes to these files as one day’s worth of data, due to the difference between date of event and date of report. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/trends#trends) for a detailed description of its contents. 
 
 ### Geography-resources/ 
 
-This folder contains additional resources for data provided by modified ZIP Code Tabulation Area geographies, inlcuding geographic files for MODZCTA. For details please visit its [Readme](https://github.com/nychealth/coronavirus-data/blob/master/Geography-resources/README.md). 
+This folder contains additional resources for data provided by MODZCTA geographies, inlcuding geographic files for MODZCTA. For details please visit its [Readme](https://github.com/nychealth/coronavirus-data/blob/master/Geography-resources/README.md). 
 
 ### archive/ 
 
