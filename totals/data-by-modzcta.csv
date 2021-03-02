@@ -1,178 +1,178 @@
 MODIFIED_ZCTA,NEIGHBORHOOD_NAME,BOROUGH_GROUP,COVID_CASE_COUNT,COVID_CASE_RATE,POP_DENOMINATOR,COVID_DEATH_COUNT,COVID_DEATH_RATE,PERCENT_POSITIVE,TOTAL_COVID_TESTS
-10001,Chelsea/NoMad/West Chelsea,Manhattan,1183,4284.2,27613.09,31,112.27,6.83,17612
-10002,Chinatown/Lower East Side,Manhattan,4534,6019.43,75322.71,221,293.4,10.87,42371
-10003,East Village/Gramercy/Greenwich Village,Manhattan,2113,3914.57,53977.81,41,75.96,5.59,38235
-10004,Financial District,Manhattan,212,7132.97,2972.12,2,67.29,6.46,3297
-10005,Financial District,Manhattan,303,3460,8757.23,0,0,5.49,5466
-10006,Financial District,Manhattan,130,3844.11,3381.8,1,29.57,5.99,2205
-10007,TriBeCa,Manhattan,292,4176.53,6991.45,4,57.21,5.1,5762
-10009,Alphabet City/East Village/Stuyvesant Town-Cooper Village,Manhattan,2789,4880.04,57151.12,95,166.23,8,35234
-10010,Flatiron/Gramercy/Kips Bay,Manhattan,1337,4008.63,33353,31,92.95,5.38,25069
-10011,Chelsea,Manhattan,2014,4048.57,49745.99,55,110.56,6.19,32840
-10012,Greenwich Village/SoHo,Manhattan,981,4237.2,23152.07,14,60.47,6.15,16294
-10013,Hudson Square/Little Italy/SoHo/TriBeCa,Manhattan,1279,4438.07,28818.86,27,93.69,6.34,20446
-10014,Hudson Square/Meatpacking District/West Village,Manhattan,1226,4041.4,30336.05,29,95.6,5.77,21705
-10016,Kips Bay/Murray Hill/NoMad,Manhattan,2460,4831.86,50912.11,59,115.89,6.84,36276
-10017,East Midtown/Murray Hill,Manhattan,655,4195.15,15613.27,17,108.88,6.2,10692
-10018,Hell's Kitchen/Midtown Manhattan,Manhattan,431,3655.47,11790.55,8,67.85,6.17,7066
-10019,Hell's Kitchen/Midtown Manhattan,Manhattan,1954,4489.64,43522.4,58,133.26,6.8,28989
-10021,Lenox Hill/Upper East Side,Manhattan,1793,3908.4,45875.54,79,172.21,6.33,29437
-10022,East Midtown,Manhattan,1305,4223.82,30896.18,42,135.94,6.02,21942
-10023,Lincoln Square,Manhattan,2156,3489.66,61782.48,68,110.06,5.85,37462
-10024,Upper West Side,Manhattan,2160,3697.87,58412.05,90,154.08,6.04,38351
-10025,Manhattan Valley/Morningside Heights/Upper West Side,Manhattan,4102,4477.19,91619.93,226,246.67,6.86,63322
-10026,Central Harlem (South),Manhattan,2085,5392.56,38664.36,70,181.05,10.06,21032
-10027,Central Harlem (South)/Morningside Heights/West Harlem,Manhattan,3098,4886.86,63394.55,142,223.99,8.79,35718
-10028,Upper East Side/Yorkville,Manhattan,1734,3660.52,47370.29,45,95,6.28,27937
-10029,East Harlem,Manhattan,5062,6471.09,78224.82,263,336.21,11.76,44961
-10030,Central Harlem (North),Manhattan,1632,5575.7,29269.87,72,245.99,10.93,15128
-10031,Hamilton Heights/West Harlem,Manhattan,3749,6351.7,59023.53,167,282.94,12.47,30940
-10032,Washington Heights (South),Manhattan,4442,7045.08,63051.12,205,325.13,13.26,34017
-10033,Washington Heights (North)/Washington Heights (South),Manhattan,4013,6857.74,58517.81,143,244.37,13.36,30654
-10034,Inwood/Washington Heights (North),Manhattan,2928,6931.52,42241.84,87,205.96,13.66,21875
-10035,East Harlem,Manhattan,2483,7045.97,35240.03,158,448.35,12.1,20853
-10036,Hell's Kitchen/Midtown Manhattan,Manhattan,1453,5333.65,27242.15,50,183.54,7.53,19511
-10037,Central Harlem (North)/East Harlem,Manhattan,1147,5516.18,20793.37,81,389.55,10.73,11623
-10038,Chinatown/Financial District,Manhattan,1057,4622.87,22864.58,42,183.69,7.96,13375
-10039,Central Harlem (North)/Washington Heights (South),Manhattan,1503,5529.65,27180.77,79,290.65,11.73,12993
-10040,Washington Heights (North),Manhattan,3491,7940.17,43966.32,143,325.25,14.23,25235
-10044,Roosevelt Island,Manhattan,477,4086.76,11671.84,38,325.57,7.89,6286
-10065,Lenox Hill/Upper East Side,Manhattan,1152,4129.17,27899.1,33,118.28,5.72,20363
-10069,Lincoln Square,Manhattan,311,4948.63,6284.56,3,47.74,6.53,4901
-10075,Lenox Hill/Upper East Side,Manhattan,1214,5268.07,23044.5,57,247.35,7.5,16902
-10128,Upper East Side/Yorkville,Manhattan,2382,4067.71,58558.8,62,105.88,6.38,38023
-10280,Battery Park City,Manhattan,257,2749.78,9346.22,2,21.4,5.44,4759
-10282,Battery Park City,Manhattan,179,3212.52,5571.94,14,251.26,5.75,3233
-10301,Silver Lake/St. George,Staten Island,3590,9227.61,38904.96,132,339.29,15.69,23894
-10302,Elm Park,Staten Island,1918,10376,18484.97,50,270.49,18.17,10753
-10303,Graniteville/Mariner's Harbor/Port Ivory,Staten Island,2484,9369.13,26512.59,63,237.62,16.47,15426
-10304,New Dorp/Todt Hill,Staten Island,4348,10380.34,41886.87,234,558.65,16.83,26608
-10305,Arrochar/Midland Beach/Shore Acres/South Beach Ocean Breeze,Staten Island,4412,10294.9,42856.19,115,268.34,18.08,24890
-10306,Lighthouse Hill/Midland Beach/New Dorp/Oakwood,Staten Island,5965,11295.89,52806.81,191,361.7,17.73,34143
-10307,Tottenville,Staten Island,1482,9938.2,14912.16,24,160.94,17.71,8498
-10308,Great Kills,Staten Island,2837,9513.51,29820.74,52,174.38,17.31,16640
-10309,Charleston/Prince's Bay/Woodrow,Staten Island,3430,10413.01,32939.56,52,157.86,17.58,19909
-10310,Port Richmond/Randall Manor/West Brighton,Staten Island,2239,9551.42,23441.55,46,196.23,15.51,14628
-10312,Annadale/Rossville,Staten Island,5922,9699.81,61052.73,103,168.71,16.94,35578
-10314,Bloomfield/Freshkills Park,Staten Island,8972,9696.96,92523.87,298,322.08,17.47,52587
-10451,Concourse/Melrose,Bronx,4024,8495.34,47367.12,173,365.23,14.62,28054
-10452,Concourse/Highbridge,Bronx,6714,8926.72,75212.41,220,292.5,16.22,42277
-10453,Morris Heights/Mount Hope/University Heights,Bronx,6904,8775.05,78677.58,206,261.83,16.73,42110
-10454,Mott Haven/Port Morris,Bronx,3124,8258.06,37829.72,134,354.22,14.69,21648
-10455,Mott Haven,Bronx,3457,8251.82,41893.78,140,334.18,15.17,23097
-10456,Claremont/Morrisania,Bronx,6578,7058.48,93192.84,323,346.59,14.22,47376
-10457,Belmont/Claremont/Mount Hope/Tremont,Bronx,5979,8110.25,73721.56,228,309.27,15.43,39914
-10458,Belmont/Fordham University/Kingsbridge,Bronx,6443,7787,82740.43,166,200.63,16.14,40908
-10459,Charlotte Gardens/Hunts Point,Bronx,4103,8570.61,47872.88,202,421.95,14.97,28207
-10460,Charlotte Gardens/Tremont/Van Nest/West Farms,Bronx,4805,8161.4,58874.7,168,285.35,15.97,30588
-10461,Morris Park/Pelham Bay/Westchester Square,Bronx,4758,9690.86,49097.83,172,350.32,16.26,29867
-10462,Parkchester/Pelham Parkway/Van Nest/Westchester Square,Bronx,6329,8403.28,75315.82,222,294.76,15.48,41638
-10463,Kingsbridge/Marble Hill/Riverdale/Spuyten Duyvil,Bronx,5364,7664.62,69983.86,261,372.94,13.6,40895
-10464,City Island,Bronx,320,7467.22,4285.4,12,280.02,12.26,2667
-10465,Country Club/Throgs Neck,Bronx,3988,9248.13,43122.23,127,294.51,16.05,25705
-10466,Edenwald/Wakefield,Bronx,5496,7707.18,71310.11,197,276.26,15.26,36878
-10467,Allerton/Norwood/Pelham Parkway/Williamsbridge,Bronx,8756,8579.39,102058.58,408,399.77,15.68,57272
-10468,Fordham/Kingsbridge/University Heights,Bronx,7308,9391.94,77811.41,261,335.43,17.46,43412
-10469,Allerton/Baychester/Pelham Gardens/Williamsbridge,Bronx,5896,8119.32,72616.96,410,564.61,15.43,39905
-10470,Wakefield/Woodlawn,Bronx,1324,8831.5,14991.78,35,233.46,16.06,8396
-10471,Fieldston/North Riverdale/Riverdale,Bronx,1794,8445.91,21241.06,114,536.7,12,16277
-10472,Soundview,Bronx,5532,8137.79,67979.13,243,357.46,16.18,34951
-10473,Castle Hill/Clason Point/Soundview,Bronx,5231,8849.52,59110.54,189,319.74,15.76,33947
-10474,Hunts Point,Bronx,900,7515.29,11975.58,25,208.76,15.31,6060
-10475,Co-op City/Edenwald,Bronx,3209,7508.67,42737.28,216,505.41,13.71,23777
-11004,Bellerose/Douglaston-Little Neck,Queens,1254,6617.59,18949.5,80,422.17,12.57,11697
-11101,Astoria (South)/Long Island City/Sunnyside,Queens,2320,6298.26,36835.54,53,143.88,8.72,26216
-11102,Astoria (North),Queens,2130,7089.42,30044.75,115,382.76,11.19,19343
-11103,Astoria (North)/Astoria (South),Queens,2147,6145.28,34937.39,74,211.81,10.31,21087
-11104,Sunnyside,Queens,1543,6065.95,25437.08,52,204.43,10.49,14917
-11105,Ditmars Steinway,Queens,2018,5576.15,36189.85,67,185.13,10.64,19215
-11106,Astoria (South),Queens,2354,6289.3,37428.62,77,205.72,10.96,21746
-11109,Long Island City,Queens,283,4910.84,5762.76,3,52.06,6.77,4193
-11201,Brooklyn Heights/DUMBO/Downtown Brooklyn,Brooklyn,2233,3584.61,62294.06,105,168.56,5.45,42727
-11203,East Flatbush (North)/East Flatbush (South),Brooklyn,4678,6380.74,73314.38,267,364.19,13.3,35804
-11204,Bensonhurst/Mapleton,Brooklyn,6132,7954.6,77087.49,200,259.45,16.5,37787
-11205,Bedford-Stuyvesant (West)/Clinton Hill/Fort Greene,Brooklyn,2269,5005.25,45332.4,66,145.59,9.14,25214
-11206,Williamsburg (South),Brooklyn,5386,6211.51,86709.93,207,238.73,11.61,47102
-11207,Cypress Hills/East New York,Brooklyn,6506,7307.5,89031.83,279,313.37,14.11,47476
-11208,Cypress Hills/East New York,Brooklyn,7870,8235.22,95565.18,321,335.9,16.86,48055
-11209,Bay Ridge/Fort Hamilton,Brooklyn,4306,6377.89,67514.44,156,231.06,11.65,37653
-11210,Flatlands/Midwood,Brooklyn,4595,6995.3,65687.01,190,289.25,14.94,31096
-11211,East Williamsburg/Williamsburg (North)/Williamsburg (South),Brooklyn,6254,6151.45,101667.01,168,165.25,10.23,62155
-11212,Ocean Hill-Brownsville,Brooklyn,5375,7266.76,73966.99,290,392.07,13.72,40020
-11213,Crown Heights (East),Brooklyn,4057,6280.06,64601.26,173,267.8,12.43,33134
-11214,Bath Beach/Bensonhurst/Gravesend,Brooklyn,6424,6921.36,92814.16,300,323.23,15.07,43926
-11215,Gowanus/Park Slope/Windsor Terrace,Brooklyn,2246,3225.88,69624.37,62,89.05,5.59,40749
-11216,Bedford-Stuyvesant (West)/Crown Heights (West),Brooklyn,2453,4474.21,54825.36,92,167.81,8.26,30217
-11217,Boerum Hill/Park Slope,Brooklyn,1782,4360.09,40870.72,96,234.89,6.86,26382
-11218,Kensington/Windsor Terrace,Brooklyn,5068,6849.03,73995.92,192,259.47,12.75,40606
-11219,Borough Park,Brooklyn,7048,7823.94,90082.53,225,249.77,15.1,47491
-11220,Sunset Park,Brooklyn,6716,7100.06,94590.76,231,244.21,14.8,46411
-11221,Bedford-Stuyvesant (East)/Bushwick,Brooklyn,4603,5651.96,81440.74,191,234.53,10.66,44001
-11222,Greenpoint,Brooklyn,1720,4761.45,36123.42,43,119.04,7.14,24421
-11223,Gravesend/Homecrest,Brooklyn,7486,9186.22,81491.64,200,245.42,17.99,42502
-11224,Brighton Beach/Coney Island/Seagate,Brooklyn,4159,8988.39,46270.81,301,650.52,17.35,25065
-11225,Crown Heights (West)/Prospect Lefferts Gardens,Brooklyn,3089,5370.9,57513.69,166,288.63,10.48,29873
-11226,Flatbush/Prospect Lefferts Gardens,Brooklyn,5920,6080.83,97355.08,349,358.48,12.24,49310
-11228,Bath Beach/Dyker Heights,Brooklyn,3019,6711.42,44983.02,116,257.88,14.57,21303
-11229,Gerritsen Beach/Homecrest/Sheepshead Bay,Brooklyn,6991,8369.3,83531.47,224,268.16,16.61,42864
-11230,Midwood,Brooklyn,9214,10365.71,88889.21,340,382.5,17.73,53125
-11231,Carroll Gardens/Cobble Hill/Red Hook,Brooklyn,1473,3940.96,37376.63,45,120.4,6.65,22455
-11232,Sunset Park,Brooklyn,2086,7701.47,27085.73,50,184.6,13.46,15852
-11233,Bedford-Stuyvesant (East)/Ocean Hill-Brownsville,Brooklyn,3755,5052.24,74323.4,177,238.15,11.16,34067
-11234,Bergen Beach/Flatlands/Marine Park/Mill Basin,Brooklyn,6152,6540.78,94056.07,246,261.55,14.17,44024
-11235,Brighton Beach/Manhattan Beach/Sheepshead Bay,Brooklyn,7922,10130.74,78197.62,444,567.79,18.46,44286
-11236,Canarsie,Brooklyn,5951,6127.65,97117.19,353,363.48,13.52,44972
-11237,Bushwick/East Williamsburg,Brooklyn,3048,6349.92,48000.58,127,264.58,11.74,26458
-11238,Clinton Hill/Prospect Heights,Brooklyn,2383,4450.16,53548.62,120,224.1,6.98,34741
-11239,East New York,Brooklyn,1251,9606.6,13022.3,112,860.06,15.72,8092
-11354,Flushing/Murray Hill,Queens,3446,6391.09,53918.85,366,678.8,12.34,29159
-11355,Flushing/Murray Hill/Queensboro Hill,Queens,5599,7100.56,78852.89,248,314.51,14.8,38784
-11356,College Point,Queens,1822,7986.32,22814.02,53,232.31,14.57,12620
-11357,Whitestone,Queens,2730,7051.57,38714.77,120,309.96,13.05,21511
-11358,Auburndale/Murray Hill,Queens,2005,5565.64,36024.61,65,180.43,10.91,18703
-11360,Bayside (North),Queens,1060,5565.65,19045.39,47,246.78,10.79,9933
-11361,Bayside (North)/Bayside (South),Queens,1456,5521.3,26370.6,69,261.66,10.82,13569
-11362,Douglaston-Little Neck,Queens,893,4933.23,18101.72,48,265.17,10.56,8604
-11363,Douglaston-Little Neck,Queens,332,4929.24,6735.31,9,133.62,9.53,3514
-11364,Bayside (South)/Oakland Gardens,Queens,1670,4679.41,35688.29,49,137.3,10.53,16138
-11365,Auburndale/Fresh Meadows/Pomonok/Utopia,Queens,2603,5940.88,43815.08,99,225.95,12.46,21213
-11366,Fresh Meadows/Hillcrest,Queens,1019,7171.95,14208.14,34,239.3,14.92,6942
-11367,Kew Gardens Hills/Pomonok,Queens,3027,7441.73,40676.04,87,213.89,14.14,21697
-11368,Corona/North Corona,Queens,9582,8681.72,110369.78,487,441.24,15.88,61483
-11369,Airport/East Elmhurst,Queens,3765,11196.11,33627.74,205,609.62,16.67,22935
-11370,Jackson Heights/Rikers Island,Queens,2788,8773.55,31777.34,78,245.46,16.83,17346
-11372,Jackson Heights,Queens,5543,9134.4,60682.72,304,500.97,14.47,38851
-11373,Elmhurst,Queens,7938,8660.67,91655.7,322,351.31,15.17,53426
-11374,Rego Park,Queens,3470,8382.91,41393.74,127,306.81,14.9,23572
-11375,Forest Hills,Queens,4437,6225.93,71266.52,245,343.78,11.89,38050
-11377,Woodside,Queens,7245,8620.06,84048.11,262,311.73,14.55,50828
-11378,Maspeth,Queens,2523,6980.13,36145.45,80,221.33,13.63,18791
-11379,Middle Village,Queens,2665,7274.17,36636.49,141,384.86,13.75,19893
-11385,Glendale/Ridgewood,Queens,7628,7361.86,103615.19,179,172.75,15.03,51759
-11411,Cambria Heights,Queens,1323,6188.57,21378.1,55,257.27,14.46,9281
-11412,St. Albans,Queens,2745,7205.18,38097.58,105,275.61,14.66,18972
-11413,Laurelton/Rosedale,Queens,2770,6411.02,43206.88,121,280.05,14.17,19833
-11414,Hamilton Beach/Howard Beach/Lindenwood,Queens,2379,8389.05,28358.4,90,317.37,16.9,14296
-11415,Kew Gardens,Queens,1486,7873.67,18873.03,65,344.41,13.78,11169
-11416,Ozone Park,Queens,2312,8761.02,26389.62,83,314.52,17.71,13276
-11417,Ozone Park,Queens,2874,9258.62,31041.34,73,235.17,18.06,16388
-11418,Richmond Hill,Queens,3247,8638.95,37585.6,105,279.36,16.77,19714
-11419,Richmond Hill/South Ozone Park,Queens,4607,9498.01,48504.92,140,288.63,19.67,23981
-11420,South Ozone Park,Queens,4336,9064.48,47835.06,131,273.86,18.7,23852
-11421,Woodhaven,Queens,3730,9313.47,40049.5,126,314.61,18.47,20584
-11422,Rosedale,Queens,2307,7122.78,32389.06,86,265.52,15.13,15480
-11423,Hollis/Holliswood,Queens,2623,8423.68,31138.4,127,407.86,16.35,16413
-11426,Bellerose,Queens,1444,7161.43,20163.58,50,247.97,15.91,9245
-11427,Bellerose/Hollis Hills/Holliswood,Queens,1868,7924.38,23572.82,56,237.56,15.96,12535
-11428,Queens Village,Queens,1572,8460.29,18580.92,67,360.58,16.19,9874
-11429,Queens Village,Queens,2185,6792.4,32168.3,94,292.21,15.14,14691
-11432,Hillcrest/Jamaica Estates/Jamaica Hills,Queens,4892,8052.05,60754.71,293,482.27,16.02,31245
-11433,Jamaica,Queens,2524,6910.92,36521.92,122,334.05,14.97,17255
-11434,Airport/South Jamaica/Springfield Gardens/St. Albans,Queens,4599,6888.51,66763.37,234,350.49,14.33,33352
-11435,Briarwood/Jamaica,Queens,4573,7828.46,58415.04,189,323.55,16.8,27778
-11436,South Jamaica/South Ozone Park,Queens,1518,7573.89,20042.54,55,274.42,16.2,9594
-11691,Edgemere/Far Rockaway,Queens,6146,9192.85,66856.31,418,625.22,16.86,38085
-11692,Arverne/Edgemere,Queens,1475,7014.08,21029.13,98,466.02,14.03,11149
-11693,Arverne/Broad Channel,Queens,915,7220.56,12672.14,34,268.31,14.84,6288
-11694,Belle Harbor-Neponsit/Rockaway Park,Queens,1836,8835.67,20779.4,92,442.75,15.03,12512
-11697,Breezy Point,Queens,466,13735.71,3392.62,9,265.28,13.97,3364
+10001,Chelsea/NoMad/West Chelsea,Manhattan,1190,4309.55,27613.09,31,112.27,6.86,17660
+10002,Chinatown/Lower East Side,Manhattan,4570,6067.23,75322.71,221,293.4,10.9,42479
+10003,East Village/Gramercy/Greenwich Village,Manhattan,2123,3933.1,53977.81,41,75.96,5.62,38280
+10004,Financial District,Manhattan,213,7166.61,2972.12,2,67.29,6.48,3304
+10005,Financial District,Manhattan,304,3471.42,8757.23,0,0,5.48,5474
+10006,Financial District,Manhattan,133,3932.82,3381.8,1,29.57,5.97,2210
+10007,TriBeCa,Manhattan,294,4205.14,6991.45,4,57.21,5.16,5771
+10009,Alphabet City/East Village/Stuyvesant Town-Cooper Village,Manhattan,2801,4901.04,57151.12,95,166.23,8.02,35308
+10010,Flatiron/Gramercy/Kips Bay,Manhattan,1341,4020.63,33353,31,92.95,5.37,25108
+10011,Chelsea,Manhattan,2026,4072.69,49745.99,55,110.56,6.21,32890
+10012,Greenwich Village/SoHo,Manhattan,983,4245.84,23152.07,14,60.47,6.15,16304
+10013,Hudson Square/Little Italy/SoHo/TriBeCa,Manhattan,1290,4476.23,28818.86,27,93.69,6.35,20491
+10014,Hudson Square/Meatpacking District/West Village,Manhattan,1233,4064.47,30336.05,29,95.6,5.79,21741
+10016,Kips Bay/Murray Hill/NoMad,Manhattan,2473,4857.39,50912.11,60,117.85,6.86,36354
+10017,East Midtown/Murray Hill,Manhattan,660,4227.17,15613.27,17,108.88,6.19,10718
+10018,Hell's Kitchen/Midtown Manhattan,Manhattan,432,3663.95,11790.55,8,67.85,6.15,7089
+10019,Hell's Kitchen/Midtown Manhattan,Manhattan,1961,4505.73,43522.4,58,133.26,6.81,29041
+10021,Lenox Hill/Upper East Side,Manhattan,1803,3930.2,45875.54,80,174.38,6.35,29501
+10022,East Midtown,Manhattan,1309,4236.77,30896.18,42,135.94,6.02,21993
+10023,Lincoln Square,Manhattan,2164,3502.61,61782.48,69,111.68,5.88,37513
+10024,Upper West Side,Manhattan,2165,3706.43,58412.05,90,154.08,6.05,38408
+10025,Manhattan Valley/Morningside Heights/Upper West Side,Manhattan,4117,4493.56,91619.93,226,246.67,6.89,63412
+10026,Central Harlem (South),Manhattan,2101,5433.94,38664.36,70,181.05,10.1,21085
+10027,Central Harlem (South)/Morningside Heights/West Harlem,Manhattan,3111,4907.36,63394.55,144,227.15,8.8,35780
+10028,Upper East Side/Yorkville,Manhattan,1743,3679.52,47370.29,45,95,6.3,28011
+10029,East Harlem,Manhattan,5092,6509.44,78224.82,263,336.21,11.78,45047
+10030,Central Harlem (North),Manhattan,1637,5592.78,29269.87,73,249.4,10.93,15161
+10031,Hamilton Heights/West Harlem,Manhattan,3769,6385.59,59023.53,167,282.94,12.49,31011
+10032,Washington Heights (South),Manhattan,4470,7089.49,63051.12,207,328.31,13.32,34089
+10033,Washington Heights (North)/Washington Heights (South),Manhattan,4028,6883.37,58517.81,145,247.79,13.37,30710
+10034,Inwood/Washington Heights (North),Manhattan,2940,6959.92,42241.84,87,205.96,13.7,21915
+10035,East Harlem,Manhattan,2496,7082.86,35240.03,158,448.35,12.14,20891
+10036,Hell's Kitchen/Midtown Manhattan,Manhattan,1456,5344.66,27242.15,50,183.54,7.54,19539
+10037,Central Harlem (North)/East Harlem,Manhattan,1152,5540.23,20793.37,81,389.55,10.76,11654
+10038,Chinatown/Financial District,Manhattan,1060,4635.99,22864.58,42,183.69,7.96,13407
+10039,Central Harlem (North)/Washington Heights (South),Manhattan,1509,5551.72,27180.77,79,290.65,11.75,13018
+10040,Washington Heights (North),Manhattan,3508,7978.83,43966.32,143,325.25,14.26,25279
+10044,Roosevelt Island,Manhattan,483,4138.16,11671.84,38,325.57,7.89,6297
+10065,Lenox Hill/Upper East Side,Manhattan,1153,4132.75,27899.1,33,118.28,5.71,20404
+10069,Lincoln Square,Manhattan,314,4996.37,6284.56,3,47.74,6.57,4913
+10075,Lenox Hill/Upper East Side,Manhattan,1224,5311.46,23044.5,57,247.35,7.54,16949
+10128,Upper East Side/Yorkville,Manhattan,2387,4076.24,58558.8,63,107.58,6.38,38127
+10280,Battery Park City,Manhattan,257,2749.78,9346.22,2,21.4,5.43,4768
+10282,Battery Park City,Manhattan,180,3230.47,5571.94,14,251.26,5.78,3238
+10301,Silver Lake/St. George,Staten Island,3603,9261.03,38904.96,133,341.86,15.71,23928
+10302,Elm Park,Staten Island,1922,10397.64,18484.97,50,270.49,18.21,10780
+10303,Graniteville/Mariner's Harbor/Port Ivory,Staten Island,2487,9380.45,26512.59,63,237.62,16.47,15457
+10304,New Dorp/Todt Hill,Staten Island,4364,10418.54,41886.87,234,558.65,16.86,26658
+10305,Arrochar/Midland Beach/Shore Acres/South Beach Ocean Breeze,Staten Island,4428,10332.23,42856.19,115,268.34,18.11,24933
+10306,Lighthouse Hill/Midland Beach/New Dorp/Oakwood,Staten Island,5991,11345.13,52806.81,191,361.7,17.78,34199
+10307,Tottenville,Staten Island,1488,9978.44,14912.16,24,160.94,17.73,8512
+10308,Great Kills,Staten Island,2846,9543.69,29820.74,52,174.38,17.33,16659
+10309,Charleston/Prince's Bay/Woodrow,Staten Island,3438,10437.3,32939.56,52,157.86,17.59,19946
+10310,Port Richmond/Randall Manor/West Brighton,Staten Island,2244,9572.75,23441.55,46,196.23,15.53,14655
+10312,Annadale/Rossville,Staten Island,5944,9735.85,61052.73,103,168.71,16.96,35632
+10314,Bloomfield/Freshkills Park,Staten Island,9014,9742.35,92523.87,298,322.08,17.51,52681
+10451,Concourse/Melrose,Bronx,4037,8522.79,47367.12,175,369.45,14.65,28122
+10452,Concourse/Highbridge,Bronx,6743,8965.28,75212.41,221,293.83,16.26,42360
+10453,Morris Heights/Mount Hope/University Heights,Bronx,6931,8809.37,78677.58,208,264.37,16.75,42195
+10454,Mott Haven/Port Morris,Bronx,3135,8287.13,37829.72,134,354.22,14.69,21705
+10455,Mott Haven,Bronx,3471,8285.24,41893.78,140,334.18,15.19,23164
+10456,Claremont/Morrisania,Bronx,6619,7102.48,93192.84,324,347.67,14.27,47474
+10457,Belmont/Claremont/Mount Hope/Tremont,Bronx,6004,8144.16,73721.56,229,310.63,15.43,40010
+10458,Belmont/Fordham University/Kingsbridge,Bronx,6479,7830.51,82740.43,166,200.63,16.17,41006
+10459,Charlotte Gardens/Hunts Point,Bronx,4120,8606.13,47872.88,204,426.13,14.98,28308
+10460,Charlotte Gardens/Tremont/Van Nest/West Farms,Bronx,4829,8202.17,58874.7,168,285.35,16,30685
+10461,Morris Park/Pelham Bay/Westchester Square,Bronx,4779,9733.63,49097.83,172,350.32,16.3,29954
+10462,Parkchester/Pelham Parkway/Van Nest/Westchester Square,Bronx,6365,8451.08,75315.82,223,296.09,15.51,41787
+10463,Kingsbridge/Marble Hill/Riverdale/Spuyten Duyvil,Bronx,5389,7700.35,69983.86,262,374.37,13.62,40949
+10464,City Island,Bronx,320,7467.22,4285.4,12,280.02,12.25,2678
+10465,Country Club/Throgs Neck,Bronx,4005,9287.55,43122.23,127,294.51,16.08,25776
+10466,Edenwald/Wakefield,Bronx,5524,7746.45,71310.11,198,277.66,15.26,36994
+10467,Allerton/Norwood/Pelham Parkway/Williamsbridge,Bronx,8808,8630.34,102058.58,409,400.75,15.72,57423
+10468,Fordham/Kingsbridge/University Heights,Bronx,7341,9434.35,77811.41,261,335.43,17.49,43512
+10469,Allerton/Baychester/Pelham Gardens/Williamsbridge,Bronx,5920,8152.37,72616.96,412,567.36,15.45,40016
+10470,Wakefield/Woodlawn,Bronx,1334,8898.21,14991.78,35,233.46,16.13,8414
+10471,Fieldston/North Riverdale/Riverdale,Bronx,1796,8455.32,21241.06,114,536.7,12,16307
+10472,Soundview,Bronx,5571,8195.16,67979.13,243,357.46,16.24,35060
+10473,Castle Hill/Clason Point/Soundview,Bronx,5254,8888.43,59110.54,189,319.74,15.78,34060
+10474,Hunts Point,Bronx,903,7540.34,11975.58,26,217.11,15.35,6070
+10475,Co-op City/Edenwald,Bronx,3215,7522.71,42737.28,216,505.41,13.71,23843
+11004,Bellerose/Douglaston-Little Neck,Queens,1260,6649.25,18949.5,80,422.17,12.62,11717
+11101,Astoria (South)/Long Island City/Sunnyside,Queens,2328,6319.98,36835.54,54,146.6,8.72,26314
+11102,Astoria (North),Queens,2135,7106.07,30044.75,115,382.76,11.2,19401
+11103,Astoria (North)/Astoria (South),Queens,2162,6188.21,34937.39,74,211.81,10.37,21135
+11104,Sunnyside,Queens,1548,6085.6,25437.08,52,204.43,10.52,14951
+11105,Ditmars Steinway,Queens,2033,5617.6,36189.85,67,185.13,10.69,19269
+11106,Astoria (South),Queens,2363,6313.35,37428.62,77,205.72,10.99,21797
+11109,Long Island City,Queens,283,4910.84,5762.76,3,52.06,6.76,4203
+11201,Brooklyn Heights/DUMBO/Downtown Brooklyn,Brooklyn,2246,3605.48,62294.06,105,168.56,5.47,42788
+11203,East Flatbush (North)/East Flatbush (South),Brooklyn,4691,6398.47,73314.38,267,364.19,13.33,35876
+11204,Bensonhurst/Mapleton,Brooklyn,6157,7987.03,77087.49,200,259.45,16.52,37862
+11205,Bedford-Stuyvesant (West)/Clinton Hill/Fort Greene,Brooklyn,2290,5051.57,45332.4,66,145.59,9.2,25264
+11206,Williamsburg (South),Brooklyn,5415,6244.96,86709.93,208,239.88,11.65,47195
+11207,Cypress Hills/East New York,Brooklyn,6548,7354.67,89031.83,279,313.37,14.16,47581
+11208,Cypress Hills/East New York,Brooklyn,7906,8272.89,95565.18,321,335.9,16.88,48181
+11209,Bay Ridge/Fort Hamilton,Brooklyn,4322,6401.59,67514.44,156,231.06,11.68,37726
+11210,Flatlands/Midwood,Brooklyn,4605,7010.52,65687.01,191,290.77,14.94,31146
+11211,East Williamsburg/Williamsburg (North)/Williamsburg (South),Brooklyn,6281,6178.01,101667.01,170,167.21,10.28,62244
+11212,Ocean Hill-Brownsville,Brooklyn,5404,7305.96,73966.99,290,392.07,13.74,40118
+11213,Crown Heights (East),Brooklyn,4074,6306.38,64601.26,173,267.8,12.46,33201
+11214,Bath Beach/Bensonhurst/Gravesend,Brooklyn,6460,6960.14,92814.16,301,324.3,15.1,44020
+11215,Gowanus/Park Slope/Windsor Terrace,Brooklyn,2260,3245.99,69624.37,62,89.05,5.61,40812
+11216,Bedford-Stuyvesant (West)/Crown Heights (West),Brooklyn,2464,4494.27,54825.36,93,169.63,8.28,30261
+11217,Boerum Hill/Park Slope,Brooklyn,1790,4379.66,40870.72,96,234.89,6.88,26420
+11218,Kensington/Windsor Terrace,Brooklyn,5094,6884.16,73995.92,194,262.18,12.78,40676
+11219,Borough Park,Brooklyn,7080,7859.46,90082.53,225,249.77,15.11,47579
+11220,Sunset Park,Brooklyn,6766,7152.92,94590.76,231,244.21,14.85,46531
+11221,Bedford-Stuyvesant (East)/Bushwick,Brooklyn,4625,5678.98,81440.74,191,234.53,10.69,44085
+11222,Greenpoint,Brooklyn,1728,4783.6,36123.42,43,119.04,7.16,24455
+11223,Gravesend/Homecrest,Brooklyn,7530,9240.21,81491.64,200,245.42,18.05,42580
+11224,Brighton Beach/Coney Island/Seagate,Brooklyn,4195,9066.19,46270.81,303,654.84,17.38,25092
+11225,Crown Heights (West)/Prospect Lefferts Gardens,Brooklyn,3105,5398.71,57513.69,166,288.63,10.52,29925
+11226,Flatbush/Prospect Lefferts Gardens,Brooklyn,5949,6110.62,97355.08,349,358.48,12.29,49401
+11228,Bath Beach/Dyker Heights,Brooklyn,3031,6738.1,44983.02,116,257.88,14.57,21365
+11229,Gerritsen Beach/Homecrest/Sheepshead Bay,Brooklyn,7032,8418.38,83531.47,227,271.75,16.66,42953
+11230,Midwood,Brooklyn,9268,10426.46,88889.21,343,385.87,17.77,53199
+11231,Carroll Gardens/Cobble Hill/Red Hook,Brooklyn,1483,3967.72,37376.63,46,123.07,6.69,22488
+11232,Sunset Park,Brooklyn,2095,7734.7,27085.73,50,184.6,13.47,15891
+11233,Bedford-Stuyvesant (East)/Ocean Hill-Brownsville,Brooklyn,3773,5076.46,74323.4,179,240.84,11.2,34129
+11234,Bergen Beach/Flatlands/Marine Park/Mill Basin,Brooklyn,6170,6559.92,94056.07,247,262.61,14.2,44088
+11235,Brighton Beach/Manhattan Beach/Sheepshead Bay,Brooklyn,7979,10203.64,78197.62,449,574.19,18.5,44385
+11236,Canarsie,Brooklyn,5977,6154.42,97117.19,353,363.48,13.54,45054
+11237,Bushwick/East Williamsburg,Brooklyn,3071,6397.84,48000.58,127,264.58,11.81,26516
+11238,Clinton Hill/Prospect Heights,Brooklyn,2393,4468.84,53548.62,120,224.1,7,34781
+11239,East New York,Brooklyn,1257,9652.67,13022.3,112,860.06,15.8,8107
+11354,Flushing/Murray Hill,Queens,3463,6422.62,53918.85,366,678.8,12.36,29239
+11355,Flushing/Murray Hill/Queensboro Hill,Queens,5634,7144.95,78852.89,251,318.31,14.84,38901
+11356,College Point,Queens,1830,8021.38,22814.02,53,232.31,14.59,12662
+11357,Whitestone,Queens,2749,7100.65,38714.77,120,309.96,13.13,21581
+11358,Auburndale/Murray Hill,Queens,2019,5604.5,36024.61,65,180.43,10.94,18758
+11360,Bayside (North),Queens,1063,5581.4,19045.39,47,246.78,10.81,9976
+11361,Bayside (North)/Bayside (South),Queens,1460,5536.47,26370.6,69,261.66,10.86,13602
+11362,Douglaston-Little Neck,Queens,897,4955.33,18101.72,49,270.69,10.59,8621
+11363,Douglaston-Little Neck,Queens,332,4929.24,6735.31,9,133.62,9.51,3522
+11364,Bayside (South)/Oakland Gardens,Queens,1680,4707.43,35688.29,49,137.3,10.57,16174
+11365,Auburndale/Fresh Meadows/Pomonok/Utopia,Queens,2623,5986.52,43815.08,99,225.95,12.52,21265
+11366,Fresh Meadows/Hillcrest,Queens,1028,7235.29,14208.14,34,239.3,14.98,6967
+11367,Kew Gardens Hills/Pomonok,Queens,3046,7488.44,40676.04,87,213.89,14.16,21752
+11368,Corona/North Corona,Queens,9626,8721.59,110369.78,488,442.15,15.88,61706
+11369,Airport/East Elmhurst,Queens,3779,11237.74,33627.74,206,612.59,16.69,23026
+11370,Jackson Heights/Rikers Island,Queens,2798,8805.02,31777.34,79,248.6,16.84,17388
+11372,Jackson Heights,Queens,5573,9183.83,60682.72,304,500.97,14.48,39013
+11373,Elmhurst,Queens,7986,8713.04,91655.7,322,351.31,15.19,53566
+11374,Rego Park,Queens,3487,8423.98,41393.74,128,309.23,14.95,23618
+11375,Forest Hills,Queens,4454,6249.78,71266.52,247,346.59,11.9,38142
+11377,Woodside,Queens,7289,8672.41,84048.11,263,312.92,14.6,50967
+11378,Maspeth,Queens,2544,7038.23,36145.45,80,221.33,13.67,18855
+11379,Middle Village,Queens,2677,7306.92,36636.49,142,387.59,13.74,19963
+11385,Glendale/Ridgewood,Queens,7675,7407.22,103615.19,179,172.75,15.05,51891
+11411,Cambria Heights,Queens,1332,6230.67,21378.1,55,257.27,14.46,9307
+11412,St. Albans,Queens,2749,7215.68,38097.58,107,280.86,14.67,19005
+11413,Laurelton/Rosedale,Queens,2778,6429.53,43206.88,121,280.05,14.16,19888
+11414,Hamilton Beach/Howard Beach/Lindenwood,Queens,2391,8431.37,28358.4,90,317.37,16.94,14334
+11415,Kew Gardens,Queens,1492,7905.46,18873.03,65,344.41,13.79,11180
+11416,Ozone Park,Queens,2319,8787.55,26389.62,83,314.52,17.72,13315
+11417,Ozone Park,Queens,2889,9306.94,31041.34,73,235.17,18.09,16428
+11418,Richmond Hill,Queens,3277,8718.76,37585.6,105,279.36,16.84,19752
+11419,Richmond Hill/South Ozone Park,Queens,4633,9551.61,48504.92,141,290.69,19.72,24042
+11420,South Ozone Park,Queens,4353,9100.02,47835.06,133,278.04,18.74,23912
+11421,Woodhaven,Queens,3747,9355.92,40049.5,126,314.61,18.52,20632
+11422,Rosedale,Queens,2315,7147.48,32389.06,86,265.52,15.14,15520
+11423,Hollis/Holliswood,Queens,2636,8465.43,31138.4,128,411.07,16.37,16446
+11426,Bellerose,Queens,1452,7201.1,20163.58,50,247.97,15.95,9263
+11427,Bellerose/Hollis Hills/Holliswood,Queens,1873,7945.59,23572.82,57,241.8,15.97,12564
+11428,Queens Village,Queens,1578,8492.58,18580.92,68,365.97,16.21,9896
+11429,Queens Village,Queens,2199,6835.92,32168.3,94,292.21,15.18,14733
+11432,Hillcrest/Jamaica Estates/Jamaica Hills,Queens,4910,8081.68,60754.71,293,482.27,16.03,31328
+11433,Jamaica,Queens,2538,6949.25,36521.92,122,334.05,15.01,17295
+11434,Airport/South Jamaica/Springfield Gardens/St. Albans,Queens,4616,6913.97,66763.37,235,351.99,14.36,33415
+11435,Briarwood/Jamaica,Queens,4587,7852.43,58415.04,189,323.55,16.82,27837
+11436,South Jamaica/South Ozone Park,Queens,1523,7598.84,20042.54,55,274.42,16.22,9611
+11691,Edgemere/Far Rockaway,Queens,6183,9248.19,66856.31,418,625.22,16.92,38151
+11692,Arverne/Edgemere,Queens,1480,7037.86,21029.13,98,466.02,14.04,11172
+11693,Arverne/Broad Channel,Queens,922,7275.8,12672.14,34,268.31,14.89,6299
+11694,Belle Harbor-Neponsit/Rockaway Park,Queens,1847,8888.61,20779.4,92,442.75,15.04,12525
+11697,Breezy Point,Queens,466,13735.71,3392.62,9,265.28,13.96,3367
