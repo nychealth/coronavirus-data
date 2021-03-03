@@ -1,6 +1,6 @@
 # trends/ 
 
-This folder contains files with daily or weekly data shown across time. Note that these trend data are published by date of event, not by date of report. The Health Department recommends against interpreting daily changes to these files as one day’s worth of data, due to the difference between date of event and date of report.
+This folder contains files with daily, weekly, and monthly data shown across time. Note that these trend data are published by date of event, not by date of report. The Health Department recommends against interpreting daily changes to these files as one day’s worth of data, due to the difference between date of event and date of report.
 
 ## Files 
 
@@ -28,7 +28,7 @@ Note that one person can have more than one test during different weeks. Therefo
 
 This file contains the rate of confirmed cases per 100,000 people, stratified by week and three different geographies: citywide, borough, and modified ZIP Code Tabulation Area (MODZCTA). The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)).
 
-People with confirmed COVID-19 are categorized based on the date of diagnosis, and are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who was diagnosed with COVID-19 on Monday October 12 would be categorized as diagnosed during the week ending October 17. Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information.
+People with confirmed COVID-19 are categorized based on the date of diagnosis, and are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who was diagnosed with COVID-19 on Monday, October 12 would be categorized as diagnosed during the week ending October 17. Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information.
 
 ### cases-by-day.csv  
 
@@ -144,6 +144,18 @@ Indicators include:
 
 This file contains the same data as cases-by-day.csv, hosp-by-day.csv, and deaths-by-day.csv, but combined for display purposes.
    
+ ### deathrate-by-modzcta.csv 
+
+This file contains the rate of confirmed deaths per 100,000 people, stratified by month and three different geographies: citywide, borough, and MODZCTA. The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)).
+
+Deaths are aggregated by the date of death. This file is updated on the 14th day of each month at a 14-day lag to address delays in reporting.
+
+The rate of confirmed deaths per 100,000 people is suppressed for a specific geography when the count of confirmed deaths is between 1 and 5 due to imprecise and unreliable estimates and also to protect patient confidentiality. 
+
+Note that sum of counts in this file may not match values in citywide tables because of:
+* Records with missing geographic information
+* Cells that are suppressed due to imprecise and unreliable estimates or for the protection of patient confidentiality
+   
 ### deaths-by-day.csv  
 
 This file contains citywide and borough-specific daily counts of probable and confirmed deaths. Deaths are aggregated by the date of death. To address variation in the number of cases diagnosed per day, we have included a 7-day average (mean). This is calculated as the average of number of cases on that day and the previous 6 days.
@@ -182,7 +194,7 @@ Indicators include:
 | INCOMPLETE | Used for display purposes only | | 
 
 Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information.
-   
+
 ### hosp-by-day.csv  
 
 This file contains citywide and borough-specific daily counts of hospitalizations. Hospitalizations are aggregated by the date of admission. To address variation in the number of cases who are hospitalized per day, we have included a 7-day average (mean). This is calculated as the average of number of hospitalizations on that day and the previous 6 days.
@@ -210,17 +222,29 @@ Indicators include:
 
 Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information.
   
+### hosprate-by-modzcta.csv 
+
+This file contains the rate of hospitalized cases per 100,000 people, stratified by month and three different geographies: citywide, borough, and MODZCTA. The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)).
+
+Hospitalizations are aggregated by the date of admission. This file is updated on the 14th day of each month at a 14-day lag to address delays in reporting.
+
+The rate of hospitalized cases per 100,000 people is suppressed for a specific geography when the count of hospitalized deaths is between 1 and 5 due to imprecise and unreliable estimates. 
+
+Note that sum of counts in this file may not match values in citywide tables because of:
+* Records with missing geographic information
+* Cells that are suppressed due to imprecise and unreliable estimates
+
 ### percentpositive-by-modzcta.csv 
 
 This file contains the percentage of people tested for COVID-19 with a molecular test who tested positive, stratified by week and three different geographies: citywide, borough, and MODZCTA. The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)), the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing), and details on the [calculation of percent positivity](https://github.com/nychealth/coronavirus-data#calculation-of-percent-positivity). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
 
-People with a molecular test are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who had a nasal swab collected for molecular testing on Monday October 12 would be categorized as tested during the week ending October 17. A person tested twice in one week would only be counted once in that week. Therefore, the number of tests conducted in a week will differ from the number of people tested (as reported in other files) for the same week.
+People with a molecular test are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who had a nasal swab collected for molecular testing on Monday, October 12 would be categorized as tested during the week ending October 17. A person tested twice in one week would only be counted once in that week. Therefore, the number of tests conducted in a week will differ from the number of people tested (as reported in other files) for the same week.
   
 ### testing-by-age.csv  
 
 This file contains person-level information on molecular testing: the number of people who received a test, the percentage of people tested who tested positive and the rate of testing per 100,000 people, stratified by week and age group. Please see the technical notes for a description of the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
 
-People with a molecular test are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who had a nasal swab collected for molecular testing on Monday October 12 would be categorized as tested during the week ending October 17. A person tested twice in one week would only be counted once in that week. 
+People with a molecular test are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who had a nasal swab collected for molecular testing on Monday, October 12 would be categorized as tested during the week ending October 17. A person tested twice in one week would only be counted once in that week. 
 
 This file includes data since the week ending March 7, 2020 based on when the Health Department started to receive a higher volume of molecular tests following the start of the COVID-19 outbreak in NYC.
 
@@ -269,7 +293,7 @@ Note that one person can have more than one test during different weeks. Therefo
 
 This file contains test-level information on molecular tests, stratified by week. Please see the technical notes for a description of the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
 
-Molecular tests are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a nasal swab collected for molecular testing on Monday October 12 would be categorized as tested during the week ending October 17.
+Molecular tests are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a nasal swab collected for molecular testing on Monday, October 12 would be categorized as tested during the week ending October 17.
 
 This file includes data since the week ending March 7, 2020 based on when the Health Department started to receive a higher volume of molecular tests following the start of the COVID-19 outbreak in NYC.
 
@@ -289,7 +313,7 @@ Note that one person can have more than one test on different days. Therefore, t
 
 This file contains the rate of molecular testing per 100,000 people, stratified by week and three different geographies: citywide, borough, and MODZCTA. The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)), and the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
 
-People with a molecular test are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who had a nasal swab collected for molecular testing on Monday October 12 would be categorized as tested during the week ending October 17. A person tested twice in one week would only be counted once in that week. Therefore, the number of tests conducted in a week will differ from the number of people tested (as reported in other files) for the same week.
+People with a molecular test are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who had a nasal swab collected for molecular testing on Monday, October 12 would be categorized as tested during the week ending October 17. A person tested twice in one week would only be counted once in that week. Therefore, the number of tests conducted in a week will differ from the number of people tested (as reported in other files) for the same week.
 
 ### tests.csv   
 
