@@ -6,3 +6,6 @@ It can be challenging to map data that are reported by ZIP Code. A ZIP Code does
 Modified ZCTA combines census blocks with smaller populations to allow more stable estimates of population size for rate calculation. 
 
 The file ZCTA-to-MODZCTA.csv is a crosswalk showing which MODZCTA a ZIP code (or ZCTA) belongs to. 
+
+## If you can't find your ZIP Code:
+If you don't see your ZIP Code, it's probably because it's bundled into a ZCTA or a MODZCTA with others. [Look up your ZIP Code to see what MODZCTA it is in](https://nychealth.github.io/covid-maps/modzcta-geo/about.html). 
