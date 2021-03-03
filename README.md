@@ -4,8 +4,7 @@ This repository contains data on Coronavirus Disease 2019 (COVID-19) in New York
 
 You can view visualizations of these data on the [Health Department’s COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page). Additional data related to COVID-19 are available via [NYC Open Data](https://data.cityofnewyork.us/browse?category=Health&q=covid). 
 
-Data are preliminary and subject to change. Information on this page will change as data and documentation are updated. Tables are updated either daily (at a 3-day lag) or weekly on Thursday (with data through the previous Saturday).
-
+Data are preliminary and subject to change. Information on this page will change as data and documentation are updated. Tables are updated either daily (at a 3-day lag), weekly on Thursday (with data through the previous Saturday), or monthly (at a 14-day lag).
 
 ***
 
@@ -29,6 +28,18 @@ Alternatively, you can download a single file. Click on a file you would like to
 
 ***
 
+## Important: Changes on March 3, 2021
+
+The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on March 3, 2021. These include:
+
+* Adding rates of hospitalizations and confirmed deaths by modified ZIP code tabulation areas 
+  * Case rates will be calculated for the most recent 28-days on a 14-day lag, and updated daily
+
+* Adding trends in rates of hospitalizations and confirmed deaths by multiple geographies
+  * Case rates will be calculated for each month on a 14-day lag, and updated monthly
+  
+***
+
 ## Important: Changes on December 7, 2020
 
 The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on December 7, 2020. These include:
@@ -48,6 +59,7 @@ The Health Department made several changes to this repository and the [COVID-19 
 ## Important: Changes on November 9, 2020
 
 In order to support an update to the [Health Department’s COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on November 9, 2020, changes were made to this repository, including revisions to some key files, filenames, and locations. These changes include: 
+
 * Adding daily 7-day cumulative percent positivity by modified ZIP code tabulation areas
 * Adding test rate and percent positivity by age 
 * Adding testing turnaround time 
@@ -78,7 +90,7 @@ In order to support an update to the [Health Department’s COVID-19 Data webpag
 ## Public health reporting  
 ### Reporting lag 
 
-Our data are published with a three-day lag, meaning that the most recent data in today's update are from three days before. This lag is due to the standard delays (up to several days) in reporting a new test, case, hospitalization or death to the Health Department, and is a common limitation of surveillance data. Given the delay, our counts of what has happened in the most recent few days are artificially small. We delay publishing these data until more reports have come in and the data are more complete.
+Our data are updated either daily (at a 3-day lag), weekly on Thursday (with data through the previous Saturday), or monthly (at a 14-day lag). For example, a 3-day lag means that the most recent data in today's update are from three days before. These lags are due to standard delays (up to several days) in reporting a new test, case, hospitalization or death to the Health Department, and are a common limitation of surveillance data. Given the delay, our counts of what has happened in the most recent few days are artificially small. We delay publishing these data until more reports have come in and the data are more complete.
 
 ### Report date versus date of event 
 
@@ -130,15 +142,17 @@ The Health Department receives electronic laboratory reports for a number of inf
 ## Laboratory testing
 ### Types of COVID-19 laboratory tests
 
-There are three main types of COVID-19 tests that are reported to the Health Department as part of reportable disease surveillance: 
+The COVID-19 testing landscape is continually changing. Please see the Health Department's [guidance on SARS-CoV-2 tests](https://www1.nyc.gov/assets/doh/downloads/pdf/covid/providers/covid-19-providers-testing-overview.pdf) for up to date information on the use and interpretation of tests. 
 
-#### Diagnostic tests
-- *Molecular tests*: The primary test for COVID-19 infection is the molecular test, which includes the polymerase chain reaction (PCR) test. Molecular tests work through direct detection of the virus’s genetic material, and typically involve collecting a nasal swab. After specimen collection, molecular tests are generally processed in large laboratories, and consequently, the results may take a few days to be delivered. These tests are highly accurate.   
+There are three main types of COVID-19 tests that are reported to the Health Department as part of reportable disease surveillance:
 
-- *Antigen tests*: This test detects proteins on the surface of the virus that are called antigens. The antigen test typically involves collecting a nasal swab. The results from an antigen test are delivered quickly ([turnaround as low as 15 minutes](https://www.cdc.gov/coronavirus/2019-ncov/lab/resources/antigen-tests-guidelines.html)), however, these tests are not as accurate as molecular tests. 
+#### Diagnostic (viral) tests
+- *Molecular tests*: The primary test for COVID-19 infection is the molecular test, which includes the polymerase chain reaction (PCR) test. Molecular tests work through direct detection of the virus’s genetic material, and typically involve collecting a nasal swab. After specimen collection, molecular tests are generally processed in large laboratories, and consequently, the results may take a few days to be delivered. These tests are highly accurate, and recommended for diagnosing current COVID-19 infection.   
+
+- *Antigen tests*: This test detects proteins on the surface of the virus that are called antigens. The antigen test typically involves collecting a nasal swab. The results from an antigen test are delivered quickly ([turnaround as low as 15 minutes](https://www.cdc.gov/coronavirus/2019-ncov/lab/resources/antigen-tests-guidelines.html)), however, these tests are not as accurate as molecular tests, especially when the likelihood of someone having a COVID-19 infection is low.
  
  #### Serologic tests
-- *Antibody tests*: Exposure to COVID-19 can be detected by measuring antibodies, which can reflect a person’s immune response to the virus. Antibodies are proteins produced by the body’s immune system that can be found in the blood. People can test positive for antibodies specific to COVID-19 after they have been exposed, sometimes when they no longer test positive for the virus itself. Therefore, an antibody test will not be accurate for someone with active or recent infection, but can identify people who likely had COVID-19 in the past. It is important to note that the science around COVID-19 antibody tests is evolving rapidly and there is still much uncertainty about what individual and population level antibody test results mean for the epidemiology of COVID-19. 
+- *Antibody tests*: Exposure to COVID-19 can be detected by measuring antibodies, which can reflect a person’s immune response to the virus. Antibodies are proteins produced by the body’s immune system that can be found in the blood. People can test positive for antibodies specific to COVID-19 after they have been exposed, sometimes when they no longer test positive for the virus itself. Therefore, an antibody test will not be accurate for someone with active or recent infection, but can identify people who likely had a previous COVID-19 infection. It is important to note that the science around COVID-19 antibody tests is evolving rapidly and there is still much uncertainty about what individual and population level antibody test results mean for the epidemiology of COVID-19. 
 
 *Strengths*: This standard reporting system allows for rapid and detailed information to be transmitted routinely to the Health Department.     
 
@@ -148,6 +162,12 @@ There are three main types of COVID-19 tests that are reported to the Health Dep
 
 - Health Department recommendations for testing have changed throughout the COVID-19 outbreak. During the spring of 2020, the Health Department advised people with mild to moderate symptoms to stay at home and not seek testing to conserve testing supplies and personal protective equipment. Consequently, many cases in the community early in the outbreak were never diagnosed with a laboratory test and will not be included in these counts.    
 
+- The testing landscape for COVID-19 is continually changing as new tests receive [emergency use authorization](https://www.fda.gov/medical-devices/coronavirus-disease-2019-covid-19-emergency-use-authorizations-medical-devices/vitro-diagnostics-euas) from the Food and Drug Administration (FDA). For example, antigen testing started to become more widely available in NYC in October 2020. These changes in the types of tests should be considered when looking at trends across time. 
+
+- Antibody testing started to become more widely available in NYC in April 2020. Cumulative data include all antibody tests with a specimen collection date after March 3, 2020, and data reported by week include tests conducted starting on April 5, 2020.
+
+- The Health Department consistently receives electronic reports *only* for COVID-19 tests that are conducted in laboratories. Point-of-care and at-home tests may be conducted in a setting outside of a clinical laboratory; these settings often do not have the infrastructure for electronically reporting directly to the Health Department. While providers and facilities are required to report results from point-of-care and at-home tests to the Health Department within 24 hours, these data are incomplete.
+
 - Most of the data in this repository include patients who reside in congregate facilities, such as correctional facilities and long-term care facilities. While data reported from these facilities may sometimes influence local trends, cases reported from these facilities do not necessarily represent community-based transmission. The only data that exclude patients in congregate facilities are in [pp-by-modzcta.csv](https://github.com/nychealth/coronavirus-data/tree/master/latest#pp-by-modzctacsv). 
 
 - Because these data only provide information on people tested and not everyone who may have had COVID-19 in NYC, caution needs to be used when interpreting testing data. For example, people who are tested for antibodies may be more likely to test positive because people who were previously ill are preferentially seeking testing, in addition to the testing of persons with higher exposure (e.g., health care workers, first responders). Therefore, these data may not reflect antibody prevalence among all New Yorkers.  
@@ -155,10 +175,6 @@ There are three main types of COVID-19 tests that are reported to the Health Dep
 - Increasing instances of screening programs further impact the generalizability of all testing data, as screening programs influence who and how many people are tested over time. Examples of screening programs in NYC include: employers screening their employees (e.g., hospitals), and long-term care facility screening of residents and employees. 
 
 - These data are based on electronic laboratory reports, which often lack information on demographic and clinical characteristics of interest, such as race and ethnicity, co-occurring medical conditions, presence and onset date of COVID-19 symptoms, reason for testing, and occupation. 
-
-- Antibody testing started to become more widely available in NYC in April 2020. Cumulative data include all antibody tests with a specimen collection date after March 3, 2020, and data reported by week include tests conducted starting on April 5, 2020.
-
-- Antigen testing started to become more widely available in NYC in October 2020. The Health Department consistently receives electronic reports *only* for COVID-19 tests that are conducted in laboratories. Tests that are conducted at-home or at point-of-care (e.g., antigen tests) may not be reported to the Health Department, especially if the test result is negative, and therefore, data related to antigen testing should be interpreted with caution.
 
 ### Calculation of percent positivity
 
@@ -195,7 +211,7 @@ NYC COVID-19 data include people who live in NYC. Any person with a residence ou
 
 ### Reporting on hospitalization status  
 
-The Health Department imports information on hospitalization status from a number of sources, including Regional Health Information Organizations, NYC public hospitals, non-public hospital systems, remote access to electronic health record systems, the Health Department’s electronic death registry system, and the Health Department's syndromic surveillance database that tracks daily hospital admissions from all 53 emergency departments across NYC.  
+The Health Department imports information on hospitalization status from a number of sources, including Regional Health Information Organizations, NYC public hospitals, non-public hospital systems, remote access to electronic health record systems, the Health Department’s electronic death registry system, and the Health Department's syndromic surveillance database that tracks daily hospital admissions from all 53 emergency departments across NYC. People who were hospitalized more than one time are only counted once.
 
 Note that hospitalization information can be missing or incomplete from a number of facilities, which is a limitation for any analysis considering hospitalization status by geography (e.g., borough).  
 
@@ -215,7 +231,7 @@ As new information becomes available, some deaths previously classified as proba
 
 Starting in June 2020, people who died more than 60 days after their COVID-19 diagnosis and who did not have "COVID" or similar listed on their death certificate have been removed from the death count. This is to address instances in which a person was diagnosed with COVID-19 and survived, but later died, likely of other causes. 
 
-Differences between death counts between NYC and New York State: Data on deaths reported by NYC are derived from the Health Department’s surveillance database and will be different from data reported by the New York State Department of Health. The State Department of Health reports data on deaths from:   
+**Differences between death counts between NYC and New York State:** Data on deaths reported by NYC are derived from the Health Department’s surveillance database and will be different from data reported by the New York State Department of Health. The State Department of Health reports data on deaths from:   
 
 - The State Hospital Emergency Response Data System   
 - Daily calls to hospitals and other facilities that are caring for patients, such as nursing homes   
@@ -227,7 +243,7 @@ The NYC Health Department reports data on deaths that reflect both:
 
 ### Changes to reported data   
 
-We update data for earlier dates after we resolve testing and reporting delays. Reported data reflect what we know at the time of publishing on Github, not what occurred in real time. For example, we may find that a person who was originally reported to live in NYC no longer does. This person would be removed from our dataset after their address is updated, and our case count would decrease by one.    
+The Health Department updates data for earlier dates after resolving testing and reporting delays. Reported data reflect what we know at the time of publishing on Github, not what occurred in real time. For example, we may find that a person who was originally reported to live in NYC no longer does. This person would be removed from our dataset after their address is updated, and our case count would decrease by one.    
 
 ### Rates vs. case counts   
 
@@ -245,11 +261,13 @@ Rates of cases, hospitalizations, and deaths for poverty and race/ethnicity grou
 
 ### Geography: ZIP codes and ZCTAs  
 
-We report information by geography using modified ZIP Code Tabulation Areas (modified ZCTA). It can be challenging to map data that are reported by ZIP Code. A ZIP Code doesn’t actually refer to an area, but rather a collection of points that make up a mail delivery route. Furthermore, there are some buildings that have their own ZIP Code, and some non-residential areas with ZIP Codes.  
+We report information by geography using modified ZIP Code Tabulation Areas (MODZCTA). It can be challenging to map data that are reported by ZIP Code. A ZIP Code doesn’t actually refer to an area, but rather a collection of points that make up a mail delivery route. Furthermore, there are some buildings that have their own ZIP Code, and some non-residential areas with ZIP Codes.  
 
 To deal with the challenges of ZIP Codes, the Health Department uses ZCTAs which solidify ZIP codes into units of area. Often, data reported by ZIP code are actually mapped by ZCTA. The ZCTA geography was developed by the U.S. Census Bureau.  
 
 The modified ZCTA (MODZCTA) geography combines census blocks with smaller populations to allow more stable estimates of population size for rate calculation.  
+
+Information by geography reflect people's MODZCTA of residence at the time of reporting, and not the location of testing, diagnosing, or hospitalization. 
 
 ### Poverty groups   
 
@@ -280,19 +298,19 @@ Differences in health outcomes among racial and ethnic groups are due to long-te
 
 ### latest/ 
 
-This folder contains files with data that focus on the most recent period of the outbreak. It includes daily 7-day cumulative percent positivity for the molecular test by MODZCTA, and trend data that cover the most recent 90 days. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/latest#latest) for a detailed description of its contents.  
+This folder contains files with data that focus on the most recent period of the outbreak. It includes daily 7-day cumulative percent positivity for the molecular test by MODZCTA, daily 28-day counts and rates of hospitalizations and deaths by MODZCTA, and trend data that cover the most recent 90 days. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/latest#latest) for a detailed description of its contents.  
 
 ### totals/ 
 
-This folder contains files with cumulative totals since the start of the COVID-19 outbreak in NYC, which the Health Department defines as the diagnosis of the first confirmed COVID-19 case on February 29, 2020. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/totals#totals) for a detailed description of its contents. 
+This folder contains files with cumulative totals since the start of the COVID-19 outbreak in NYC, which the Health Department defines as the diagnosis of the first confirmed COVID-19 case on February 29, 2020. The Health Department recommends against interpreting daily changes to these files as one day’s worth of data, due to the difference between date of event and date of report. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/totals#totals) for a detailed description of its contents. 
 
 ### trends/ 
 
-This folder contains files with daily or weekly data shown across time. Note that these trend data are published by date of event, not by date of report. The Health Department recommends against interpreting daily changes to these files as one day’s worth of data, due to the difference between date of event and date of report. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/trends#trends) for a detailed description of its contents. 
+This folder contains files with daily, weekly, and monthly data shown across time. Note that these trend data are published by date of event, not by date of report. The Health Department recommends against interpreting daily changes to these files as one day’s worth of data, due to the difference between date of event and date of report. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/trends#trends) for a detailed description of its contents. 
 
 ### Geography-resources/ 
 
-This folder contains additional resources for data provided by MODZCTA geographies, inlcuding geographic files for MODZCTA. For details please visit its [Readme](https://github.com/nychealth/coronavirus-data/blob/master/Geography-resources/README.md). 
+This folder contains additional resources for data provided by MODZCTA geographies, inlcuding geographic files for MODZCTA. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/blob/master/Geography-resources/README.md) for a detailed description of its contents.
 
 ### archive/ 
 
