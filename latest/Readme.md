@@ -1,8 +1,32 @@
 # latest/ 
 
-This folder contains files with data that focus on the most recent period of the outbreak. It includes daily 7-day cumulative percent positivity for the molecular test by modified ZIP Code Tabulation Areas (MODZCTA), and trend data that cover the most recent 90 days.
+This folder contains files with data that focus on the most recent period of the outbreak. It includes daily 7-day cumulative percent positivity for the molecular test by modified ZIP Code Tabulation Areas (MODZCTA), daily 28-day counts and rates of hospitalizations and deaths by MODZCTA, and trend data that cover the most recent 90 days.
 
 ## Files 
+
+### hosp_death_last28days-by-modzcta.csv
+
+This file contains counts and rates of hospitalizations and confirmed deaths, by MODZCTA. Please see the technical notes for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)). 
+
+Indicators, which are calculated for the most recent 28-days at a 14-day lag, include:
+
+| Variable Name | Definition | Timeframe  | 
+|-------------------------|------------------------------------------------------------------------------------|----------------------------------------------------| 
+| MODZCTA | MODZCTA | |          
+| MODZCTA_NAME | Neighborhood name of the MODZCTA | | 
+| HOSPITALIZATION_COUNT_28DAY | Number of hospitalized cases by MODZCTA | Cumulative across current day and 27 previous days |
+| HOSPITALIZATION_RATE_28DAY | Rate of hospitalized cases per 100,000 people by MODZCTA | Cumulative across current day and 27 previous days |
+| DEATH_COUNT_28DAY | Number of confirmed deaths by MODZCTA | Cumulative across current day and 27 previous days |
+| DEATH_RATE_28DAY | Rate of confirmed deaths per 100,000 people by MODZCTA | Cumulative across current day and 27 previous days |
+| DATERANGE | Range of dates included in the most recent 28 days | | 
+
+The rate of hospitalized cases per 100,000 people (HOSPITALIZATION_RATE_28DAY) is suppressed for a specific MODZCTA when the HOSPITALIZATION_COUNT_28DAY is between 1 and 5 due to imprecise and unreliable estimates. Both the rate of confirmed deaths per 100,000 people (DEATH_RATE_28DAY) and count (DEATH_COUNT_28DAY) are suppressed for a specific MODZCTA when DEATH_COUNT_28DAY is between 1 and 5 due to imprecise and unreliable estimates and also to protect patient confidentiality. 
+
+Neighborhood names represent the [Neighborhood Organizing Census Committee](https://www1.nyc.gov/site/census/index.page) boundaries, which were recently developed by the U.S. Census Bureau with input from community groups.
+
+Note that sum of counts in this file may not match values in citywide tables because of:
+* Records with missing geographic information
+* Cells that are suppressed due to imprecise and unreliable estimates or for the protection of patient confidentiality
 
 ### last7days-by-modzcta.csv
 
