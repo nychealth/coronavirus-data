@@ -148,7 +148,7 @@ This file contains the same data as cases-by-day.csv, hosp-by-day.csv, and death
 
 This file contains the rate of confirmed deaths per 100,000 people, stratified by month and three different geographies: citywide, borough, and MODZCTA. The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)).
 
-Deaths are aggregated by the date of death. This file is updated on the 14th day of each month at a 14-day lag to address delays in reporting.
+Deaths are aggregated by the date of death. This file is updated on the Monday following the 14th day of each month at a 14-day lag to address delays in reporting.
 
 The rate of confirmed deaths per 100,000 people is suppressed for a specific geography when the count of confirmed deaths is between 1 and 5 due to imprecise and unreliable estimates and also to protect patient confidentiality. 
 
@@ -226,7 +226,7 @@ Note that sum of counts in this file may not match values in citywide tables bec
 
 This file contains the rate of hospitalized cases per 100,000 people, stratified by month and three different geographies: citywide, borough, and MODZCTA. The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)).
 
-Hospitalizations are aggregated by the date of admission. This file is updated on the 14th day of each month at a 14-day lag to address delays in reporting.
+Hospitalizations are aggregated by the date of admission. This file is updated on the Monday following the 14th day of each month at a 14-day lag to address delays in reporting.
 
 The rate of hospitalized cases per 100,000 people is suppressed for a specific geography when the count of hospitalized deaths is between 1 and 5 due to imprecise and unreliable estimates. 
 
