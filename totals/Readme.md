@@ -46,6 +46,9 @@ Indicators include:
 |------------------|---------------------------------------------------------------------------------------------|------------|
 | MODZCTA_FIRST| MODZCTA | |     
 | NEIGHBORHOOD_NAME | Neighborhood name of the MODZCTA | |   
+| LABEL | List of the ZIP Code Tabulation Areas (ZCTAs) that are bundled into the MODZCTA | |   
+| LAT | Latitude of the central point within the MODZCTA | | 
+| LONG | Longitude of the central point within the MODZCTA | |  
 | NUM_PEOP_TEST | Number of people who received an antibody test by MODZCTA | Cumulative |      
 | NUM_PEOP_POS | Number of people with a positive result on an antibody test by MODZCTA | Cumulative |   
 | PERCENT_POSITIVE | Percentage of people tested with an antibody test who tested positive by MODZCTA | Cumulative |   
@@ -220,6 +223,9 @@ Indicators include:
 | MODIFIED_ZCTA | MODZCTA | |          
 | NEIGHBORHOOD_NAME | Neighborhood name of the MODZCTA | |   
 | BOROUGH_GROUP | Borough of the MODZCTA | | 
+| LABEL | List of the ZCTAs that are bundled into the MODZCTA | |   
+| LAT | Latitude of the central point within the MODZCTA | | 
+| LONG | Longitude of the central point within the MODZCTA | |  
 | COVID_CASE_COUNT | Number of confirmed cases by MODZCTA | Cumulative | 
 | COVID_CASE_RATE | Rate of confirmed cases per 100,000 people by MODZCTA | Cumulative | 
 | POP_DENOMINATOR | Population denominators for MODZCTA derived from intercensal estimates by the Bureau of Epidemiology Services (see “Rates per 100,000 people” for more details) | | 
