@@ -14,6 +14,9 @@ Indicators, which are calculated for the most recent 28-days at a 14-day lag, in
 |-------------------------|------------------------------------------------------------------------------------|----------------------------------------------------| 
 | MODZCTA | MODZCTA | |          
 | MODZCTA_NAME | Neighborhood name of the MODZCTA | | 
+| LABEL | List of the ZIP Code Tabulation Areas (ZCTAs) that are bundled into the MODZCTA | |   
+| LAT | Latitude of the central point within the MODZCTA | | 
+| LONG | Longitude of the central point within the MODZCTA | |
 | HOSPITALIZATION_COUNT_28DAY | Number of hospitalized cases by MODZCTA | Cumulative across current day and 27 previous days |
 | HOSPITALIZATION_RATE_28DAY | Rate of hospitalized cases per 100,000 people by MODZCTA | Cumulative across current day and 27 previous days |
 | DEATH_COUNT_28DAY | Number of confirmed deaths by MODZCTA | Cumulative across current day and 27 previous days |
@@ -37,7 +40,10 @@ Indicators, which are calculated for the most recent 7-days, include:
 | Variable Name | Definition | Timeframe  | 
 |-------------------------|------------------------------------------------------------------------------------|----------------------------------------------------| 
 | MODZCTA | MODZCTA | |          
-| MODZCTA_NAME | Neighborhood name of the MODZCTA | |    
+| MODZCTA_NAME | Neighborhood name of the MODZCTA | |  
+| LABEL | List of the ZCTAs that are bundled into the MODZCTA | |   
+| LAT | Latitude of the central point within the MODZCTA | | 
+| LONG | Longitude of the central point within the MODZCTA | |   
 | PERCENTPOSITIVITY_7DAY | Percentage of people with a molecular test who tested positive by MODZCTA | Cumulative across current day and 6 previous days |
 | PEOPLE_TESTED | Number of people who received a molecular test by MODZCTA | Cumulative across current day and 6 previous days | 
 | PEOPLE_POSITIVE | Number of people with a positive result on a molecular test by MODZCTA | Cumulative across current day and 6 previous days | 
@@ -98,4 +104,4 @@ This file contains person-level information on molecular testing: the percentage
 
 Please see the technical notes for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)), the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing), and details on the [calculation of percent positivity](https://github.com/nychealth/coronavirus-data#calculation-of-percent-positivity). The data shown in this table are displayed by the date of specimen collection (i.e., when someone went to a healthcare provider for a test) for a molecular test.
 
-Unlike other data in this repository, this file excludes patients in congregate facilities, and people who previously tested positive, to better track community transmission. 
+Unlike other data in this repository, this file excludes patients in congregate facilities, and people who previously tested positive, to better track community transmission.
