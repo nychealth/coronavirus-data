@@ -55,6 +55,8 @@ Neighborhood names represent the [Neighborhood Organizing Census Committee](http
 
 Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information.
 
+Unlike other data in this repository, this file excludes patients in congregate facilities to better track community transmission.
+
 ### now-cases-by-day.csv 
 
 This file contains the same data as cases-by-day.csv, but limited to the most recent 90 days. For details, please visit [Trends/Readme/cases-by-day.csv](https://github.com/nychealth/coronavirus-data/tree/master/trends#cases-by-daycsv) 
