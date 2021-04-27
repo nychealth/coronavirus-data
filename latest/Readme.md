@@ -85,7 +85,9 @@ Indicators include:
 
 | Variable Name | Definition | Timeframe | 
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| MEASURE | Indicator of interest | |         
+| MEASURE | Indicator of interest | |        
+| DAILY_AVG_7DAY | *For percent positivity:* Percentage of people with a molecular test who tested positive in the last 7 days; *For others:* daily average of the counts of cases, hospitalizations, and deaths in the last 7 days | Most recent day and previous 6 days |  
+| DAILY_AVG_28DAY | *For percent positivity:* Percentage of people with a molecular test who tested positive in the last 28 days; *For others:* daily average of the counts of cases, hospitalizations, and deaths in the last 28 days | Average across most recent day and previous 27 days | 
 | LAST_7_DAY | Percent positivity for the molecular test and counts of cases, hospitalizations, and deaths in the last 7 days | Most recent day and previous 6 days |   
 | WEEKLY_AVG_LAST_4_WKS | Weekly average of percent positivity for the molecular test and counts of cases, hospitalizations, and deaths in the last 28 days | Average across most recent day and previous 27 days | 
 | TOTAL | Cumulative counts of cases, hospitalizations, and deaths | Cumulative |   
