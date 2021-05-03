@@ -207,7 +207,7 @@ These values exclude people who previously tested positive. These values exclude
 ## Counting COVID-19 cases, hospitalizations, and deaths
 ### Case definitions for COVID-19
 
-Surveillance case definitions for all notifiable conditions are developed at the national level by the [Council of State and Territorial Epidemiologists (CSTE)](https://wwwn.cdc.gov/nndss/conditions/). These standard definitions support public health officials in classifying and counting infections consistently across different states and local jurisdictions. The [criteria](https://wwwn.cdc.gov/nndss/conditions/coronavirus-disease-2019-covid-19/case-definition/2020/08/05/) for reporting a person with COVID-19 infection (“case”) are based on laboratory test results and epidemiologic links, and include two classifications:
+Surveillance case definitions for all notifiable conditions are developed at the national level by the [Council of State and Territorial Epidemiologists (CSTE)](https://ndc.services.cdc.gov/). These standard definitions support public health officials in classifying and counting infections consistently across different states and local jurisdictions. The [criteria](https://ndc.services.cdc.gov/case-definitions/coronavirus-disease-2019-2020-08-05/) for reporting a person with COVID-19 infection (“case”) are based on laboratory test results and epidemiologic links, and include two classifications:
 
 - *Confirmed COVID-19 case*: A person is classified as a confirmed COVID-19 case if they test positive with a molecular test
 
