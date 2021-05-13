@@ -150,7 +150,7 @@ This file contains the rate of confirmed deaths per 100,000 people, stratified b
 
 Deaths are aggregated by the date of death. This file is updated on the Monday following the 14th day of each month at a 14-day lag to address delays in reporting.
 
-The rate of confirmed deaths per 100,000 people is suppressed for a specific geography when the count of confirmed deaths is between 1 and 5 due to imprecise and unreliable estimates and also to protect patient confidentiality. 
+The rate of confirmed deaths per 100,000 people is suppressed for a specific geography when the count of confirmed deaths is between 1 and 4 due to imprecise and unreliable estimates and also to protect patient confidentiality. 
 
 Note that sum of counts in this file may not match values in citywide tables because of:
 * Records with missing geographic information
@@ -228,7 +228,7 @@ This file contains the rate of hospitalized cases per 100,000 people, stratified
 
 Hospitalizations are aggregated by the date of admission. This file is updated on the Monday following the 14th day of each month at a 14-day lag to address delays in reporting.
 
-The rate of hospitalized cases per 100,000 people is suppressed for a specific geography when the count of hospitalized deaths is between 1 and 5 due to imprecise and unreliable estimates. 
+The rate of hospitalized cases per 100,000 people is suppressed for a specific geography when the count of hospitalized deaths is between 1 and 4 due to imprecise and unreliable estimates. 
 
 Note that sum of counts in this file may not match values in citywide tables because of:
 * Records with missing geographic information
