@@ -33,7 +33,7 @@ Alternatively, you can download a single file. Click on a file you would like to
 
 The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on June 10, 2021. These include:
 
-* Adding data on SARS-CoV-2 variants, including the number and type of variants identified in NYC, over time and by MODZCTA
+* Adding data on SARS-CoV-2 variants, including the number and type of variants identified in NYC over time
   * Please see the technical notes for a description of SARS-CoV-2 variants and genomic sequencing in NYC
   * Data on SARS-CoV-2 variants will be updated weekly on Thursday (with data through the previous Saturday)
 
