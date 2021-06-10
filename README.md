@@ -29,6 +29,14 @@ Alternatively, you can download a single file. Click on a file you would like to
 
 ***
 
+## Important: Update on June 10, 2021
+
+The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on June 10, 2021. These include:
+
+* Adding data on SARS-CoV-2 variants, including the number and type of variants identified in NYC, over time and by MODZCTA
+  * Please see the technical notes for a description of SARS-CoV-2 variants and genomic sequencing in NYC
+  * Data on SARS-CoV-2 variants will be updated weekly on Thursday (with data through the previous Saturday)
+
 ## Important: Update on March 24, 2021
 
 As indicated in commit notes from 3/19 and 3/20, there were technical issues in the data transmission from New York State to New York City. This resulted in counts that were lower than expected for several days. While this transmission error was being fixed, data updates were paused for 3/21, 3/22, and 3/23. Data updated on 3/24 include backfill for days with low counts and days with no updates. Differences in counts in cumulative files from 3/20 to 3/24 reflect events that have happened over a broad recent time period and should not be interpreted as events that have happened since the previous update. As always, data are preliminary and subject to change, and dates are backfilled as additional data come in.
@@ -115,7 +123,7 @@ Generally, the NYC Health Department and the New York State Department of Health
 
 - Different uses of event date or report date (see above)
 
-### Types of surveillance   
+### Types of disease surveillance   
 
 The Health Department conducts two main types of surveillance for COVID-19:    
 
@@ -213,6 +221,8 @@ Surveillance case definitions for all notifiable conditions are developed at the
 
 - *Probable COVID-19 case*: A person is classified as a probable COVID-19 case if they meet any of the following criteria with no positive molecular test on record: (a) test positive with an antigen test, (b) have symptoms and an exposure to a confirmed COVID-19 case, or (c) died and their cause of death is listed as COVID-19 or similar 
 
+The [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/hcp/duration-isolation.html) consider most people to be protected from getting COVID-19 again for up to 90 days after testing positive for the virus. For consistency, as of June 9, 2021, people who meet the definition of a confirmed or probable COVID-19 case ≥90 days after a previous positive test (date of first positive test) or probable COVID-19 onset date will be counted as a new case. Prior to June 9, 2021, new cases were counted ≥365 days after the first date of specimen collection or clinical diagnosis.
+
 ### Case reporting   
 
 NYC COVID-19 data include people who live in NYC. Any person with a residence outside of NYC is not included.
@@ -266,7 +276,6 @@ Please note that population estimates were updated on November 9, 2020 to reflec
 Rates of cases, hospitalizations, and deaths for poverty and race/ethnicity groups were calculated using direct standardization for age at diagnosis and weighting by [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf).   
 
 ## Demographic characteristics
-
 ### Geography: ZIP codes and ZCTAs  
 
 We report information by geography using modified ZIP Code Tabulation Areas (MODZCTA). It can be challenging to map data that are reported by ZIP Code. A ZIP Code doesn’t actually refer to an area, but rather a collection of points that make up a mail delivery route. Furthermore, there are some buildings that have their own ZIP Code, and some non-residential areas with ZIP Codes.  
@@ -300,6 +309,39 @@ The Health Department classifies race/ethnicity into the following mutually-excl
 
 Differences in health outcomes among racial and ethnic groups are due to long-term institutional and personal biases against people of color. There is no evidence that these health inequities are due to personal traits. Lasting racism and an inequitable distribution of resources needed for wellness cause these health inequities. These include quality jobs, housing, health care and food, among others. The greater impact of the COVID-19 pandemic on people of color shows how these inequities influence health outcomes. 
 
+## Variants of the SARS-CoV-2 virus
+
+Multiple [variants of the SARS-CoV-2 virus](https://www.cdc.gov/coronavirus/2019-ncov/transmission/variant.html) have been characterized in the US and globally. These variants involve mutations to the SARS-CoV-2 virus, and might make COVID-19 easier to spread, more severe, or more likely to reinfect people who have either had COVID-19 before or who have been vaccinated. 
+
+### Surveillance for variants
+
+Variants can be detected through [genomic sequencing](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance.html), a process that involves analyzing the virus's genetic material. Sequencing occurs on specimens collected for COVID-19 molecular laboratory testing, and determines which variant of the SARS-CoV-2 virus a particular person was infected with.
+
+The City’s Public Health Laboratory (PHL) and Pandemic Response Laboratory (PRL) have been sequencing a subset of SARS-CoV-2 laboratory specimens to identify emerging variants in NYC. Since October 2020, the PHL has sequenced all laboratory specimens received that meet certain technical criteria (e.g., sufficient levels of virus in a sample). Since February 2021, the PRL has been sequencing randomly selected specimens that meet certain technical criteria.
+
+A small, but increasing, proportion of all confirmed COVID-19 cases are now being sequenced citywide. As such, all findings related to variant data are based on a small subset of all confirmed COVID-19 cases. Because patients who have specimens sequenced are likely to be different than those that do not, findings may not be representative of all confirmed COVID-19 cases citywide, and should be interpreted with caution. Additional specimens are being sequenced by the New York State Wadsworth Laboratory and university, hospital, and private laboratories, though data on these specimens are not represented in this Github repository.
+
+The PHL and PRL have identified multiple variants which have emerged in NYC. The Health Department uses findings from the PHL and PRL, in combination with epidemiologic surveillance systems, to better understand whether the variant might affect: 
+* **Transmission**: Whether these variants increase transmission, making it easier to spread COVID-19
+* **Re-infection**: Whether these variants are more likely to re-infect people who previously had COVID-19
+* **Vaccine effectiveness**: Whether these variants are more likely to infect fully vaccinated people. *Some infections among fully vaccinated people are expected to occur in a very small proportion of vaccinated people, regardless of the spread of variants.*
+* **Severity**: Whether these variants are more likely to result in hospitalization or death
+
+### Variant classifications
+
+The [CDC classifies variants]( https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance/variant-info.html#Interest) into the following three categories:
+
+* **Variants of interest**: Has specific genetic markers associated with changes to receptor binding, reduced neutralization by antibodies generated against previous infection or vaccination, reduced efficacy of treatments, potential diagnostic impact, or predicted increase in transmissibility or disease severity
+* **Variants of concern**: Evidence of an increase in transmissibility, more severe disease (e.g.,  increased hospitalizations or deaths), significant reduction in neutralization by antibodies generated during previous infection or vaccination, reduced effectiveness of treatments or vaccines, or diagnostic detection failure
+* **Variants of high consequence**: Clear evidence that prevention measures or medical countermeasures (MCMs) have significantly reduced effectiveness relative to previously circulating variants
+
+Please see the [CDC’s definitions of SARS-CoV-2 variants](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance/variant-info.html) for more information. Details on the variants that have emerged in NYC, which are being actively monitored are available on the [“Variants” page of the Health Department’s COVID-19 Data webpage]( https://www1.nyc.gov/site/doh/covid/sdah-variants.page). 
+
+The Health Department is continuing to investigate the emergence of variants of concern and variants of interest in NYC, using a combination laboratory and epidemiologic observations to characterize each variant. Some ongoing efforts include:
+* Monitoring the number of hospitalizations and deaths that occur among patients with sequenced specimens that are caused by variants
+* Identifying cases caused by variants where the person had a previous positive diagnostic test for COVID-19 more than 90 days earlier. These cases are investigated to determine if they are likely to represent a reinfection, and to determine if reinfection cases are more common in people who have been infected with one of the variants
+* Matching data on cases caused by variants with the NYC Citywide Immunization Registry to identify if the person was fully immunized prior to testing positive for COVID-19
+
 ***   
 
 ## Repository contents 
@@ -315,6 +357,10 @@ This folder contains files with cumulative totals since the start of the COVID-1
 ### trends/ 
 
 This folder contains files with daily, weekly, and monthly data shown across time. Note that these trend data are published by date of event, not by date of report. The Health Department recommends against interpreting daily changes to these files as one day’s worth of data, due to the difference between date of event and date of report. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/trends#trends) for a detailed description of its contents. 
+
+### variants/ 
+
+This folder contains files with data that focus on SARS-CoV-2 variants. It includes information on the number and type of SARS-CoV-2 variants identified in NYC, over time and by MODZCTA. All tables containing variant data are updated weekly on Thursday (with data through the previous Saturday). These files are based on a small subset of all confirmed COVID-19 cases; findings may not be representative of all confirmed COVID-19 cases citywide, and should be interpreted with caution. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/variants#variants) for a detailed description of its contents.  
 
 ### Geography-resources/ 
 
