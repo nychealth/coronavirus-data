@@ -360,7 +360,7 @@ This folder contains files with daily, weekly, and monthly data shown across tim
 
 ### variants/ 
 
-This folder contains files with data that focus on SARS-CoV-2 variants. It includes information on the number and type of SARS-CoV-2 variants identified in NYC, over time and by MODZCTA. All tables containing variant data are updated weekly on Thursday (with data through the previous Saturday). These files are based on a small subset of all confirmed COVID-19 cases; findings may not be representative of all confirmed COVID-19 cases citywide, and should be interpreted with caution. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/variants#variants) for a detailed description of its contents.  
+This folder contains files with data on SARS-CoV-2 variants. It includes information on the number and type of SARS-CoV-2 variants identified in NYC, over time and by MODZCTA. All tables containing variant data are updated weekly on Thursday (with data through the previous Saturday). These files are based on a small subset of all confirmed COVID-19 cases; findings may not be representative of all confirmed COVID-19 cases citywide, and should be interpreted with caution. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/variants#variants) for a detailed description of its contents.  
 
 ### Geography-resources/ 
 
