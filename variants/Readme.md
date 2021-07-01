@@ -1,6 +1,6 @@
 # variants/ 
 
-This folder contains files with data on SARS-CoV-2 variants. It includes information on the number and type of SARS-CoV-2 variants identified in NYC, over time and by modified ZIP Code Tabulation Areas (MODZCTA). All tables containing variant data are updated weekly on Thursday (with data through the previous Saturday). These files are based on a small subset of all confirmed COVID-19 cases; findings may not be representative of all confirmed COVID-19 cases citywide, and should be interpreted with caution. 
+This folder contains files with data on SARS-CoV-2 variants. It includes information on the number and type of SARS-CoV-2 variants identified in NYC over time. All tables containing variant data are updated weekly on Thursday (with data through the previous Saturday). These files are based on a small subset of all confirmed COVID-19 cases; findings may not be representative of all confirmed COVID-19 cases citywide, and should be interpreted with caution. 
 
 ## Files 
 
