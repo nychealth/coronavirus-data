@@ -105,10 +105,13 @@ Indicators include:
 | Variable name | Definition | Timeframe | 
 |--------------------|------------------------------------------------------------|------------| 
 | AGE_GROUP | Age group in years | | 
-| CASE_RATE | Rate of confirmed cases per 100,000 people by age group | Cumulative | 
+| CONFIRMED_CASE_RATE | Rate of confirmed cases per 100,000 people by age group | Cumulative | 
+| CASE_RATE | Rate of confirmed and probable cases per 100,000 people by age group | Cumulative | 
 | HOSPITALIZED_RATE | Rate of hospitalized cases per 100,000 people by age group | Cumulative | 
 | DEATH_RATE | Rate of confirmed deaths per 100,000 people by age group | Cumulative | 
-| CASE_COUNT | Number of confirmed cases by age group | Cumulative | 
+| CONFIRMED_CASE_COUNT | Number of confirmed cases by age group | Cumulative | 
+| PROBABLE_CASE_COUNT | Number of probable cases by age group | Cumulative | 
+| CASE_COUNT | Number of confirmed and probable cases by age group | Cumulative | 
 | HOSPITALIZED_COUNT | Number of hospitalized cases by age group | Cumulative | 
 | DEATH_COUNT | Number of confirmed deaths by age group | Cumulative | 
 
@@ -127,10 +130,13 @@ Indicators include:
 | Variable name | Definition | Timeframe | 
 |--------------------|-----------------------------------------------------------------------|------------|
 | BOROUGH | Borough of residence | | 
-| CASE_RATE | Rate of confirmed cases per 100,000 people by borough of residence | Cumulative | 
+| CONFIRMED_CASE_RATE | Rate of confirmed cases per 100,000 people by borough of residence | Cumulative | 
+| CASE_RATE | Rate of confirmed and probable cases per 100,000 people by borough of residence | Cumulative | 
 | HOSPITALIZED_RATE | Rate of hospitalized cases per 100,000 people by borough of residence | Cumulative | 
 | DEATH_RATE | Rate of confirmed deaths per 100,000 people by borough of residence | Cumulative | 
-| CASE_COUNT | Number of confirmed cases by borough of residence | Cumulative | 
+| CONFIRMED_CASE_COUNT | Number of confirmed cases by borough of residence | Cumulative | 
+| PROBABLE_CASE_COUNT | Number of probable cases by borough of residence | Cumulative | 
+| CASE_COUNT | Number of confirmed and probable cases by borough of residence | Cumulative | 
 | HOSPITALIZED_COUNT | Number of hospitalized cases by borough of residence | Cumulative | 
 | DEATH_COUNT | Number of confirmed deaths by borough of residence | Cumulative | 
 
@@ -150,11 +156,13 @@ Indicators include:
 
 | Variable name | Definition | Timeframe | 
 |-----------------------|------------------------------------------------------------------------------------------|------------|
-| POVERTY_GROUP | ZCTA-level neighborhood poverty group | |          
-| CASE_RATE_ADJ | Age-adjusted rate of confirmed cases per 100,000 people by neighborhood poverty group | Cumulative |     
+| POVERTY_GROUP | ZCTA-level neighborhood poverty group | |  
+| CONFIRMED_CASE_RATE_ADJ | Age-adjusted rate of confirmed cases per 100,000 people by neighborhood poverty group | Cumulative |     
+| CASE_RATE_ADJ | Age-adjusted rate of confirmed and probable cases per 100,000 people by neighborhood poverty group | Cumulative |     
 | HOSPITALIZED_RATE_ADJ | Age-adjusted rate of hospitalized cases per 100,000 people by neighborhood poverty group | Cumulative |   
 | DEATH_RATE_ADJ | Age-adjusted rate of confirmed deaths per 100,000 people by neighborhood poverty group | Cumulative | 
-| CASE_COUNT | Number of confirmed cases by neighborhood poverty group | Cumulative |     
+| CONFIRMED_CASE_COUNT | Number of confirmed cases by neighborhood poverty group | Cumulative |     
+| CASE_COUNT | Number of confirmed and probable cases by neighborhood poverty group | Cumulative |     
 | HOSPITALIZED_COUNT | Number of hospitalized cases by neighborhood poverty group | Cumulative | 
 | DEATH_COUNT | Number of confirmed deaths by neighborhood poverty group | Cumulative | 
 
@@ -175,10 +183,12 @@ Indicators include:
 | Variable name | Definition | Timeframe | 
 |-----------------------|------------------------------------------------------------------------------------|------------|
 | RACE_GROUP | Race/ethnicity group | |        
-| CASE_RATE_ADJ | Age-adjusted rate of confirmed cases per 100,000 people by race/ethnicity group | Cumulative |     
+| CONFIRMED_CASE_RATE_ADJ | Age-adjusted rate of confirmed cases per 100,000 people by race/ethnicity group | Cumulative |     
+| CASE_RATE_ADJ | Age-adjusted rate of confirmed and probable cases per 100,000 people by race/ethnicity group | Cumulative |     
 | HOSPITALIZED_RATE_ADJ | Age-adjusted rate of hospitalized cases per 100,000 people by race/ethnicity group | Cumulative |   
 | DEATH_RATE_ADJ | Age-adjusted rate of confirmed deaths per 100,000 people by race/ethnicity group | Cumulative | 
-| CASE_COUNT | Number of confirmed cases by race/ethnicity group | Cumulative |     
+| CONFIRMED_CASE_COUNT | Number of confirmed cases by race/ethnicity group | Cumulative |     
+| CASE_COUNT | Number of confirmed and probable cases by race/ethnicity group | Cumulative |     
 | HOSPITALIZED_COUNT | Number of hospitalized cases by race/ethnicity group | Cumulative | 
 | DEATH_COUNT | Number of confirmed deaths by race/ethnicity group | Cumulative | 
   
@@ -201,10 +211,12 @@ Indicators include:
 | Variable name | Definition | Timeframe | 
 |--------------------|------------------------------------------------------|------------| 
 | SEX_GROUP | Sex reported to the Health Department by laboratories | |          
-| CASE_RATE | Rate of confirmed cases per 100,000 people by sex | Cumulative |     
+| CONFIRMED_CASE_RATE | Rate of confirmed cases per 100,000 people by sex | Cumulative |     
+| CASE_RATE | Rate of confirmed and probable cases per 100,000 people by sex | Cumulative |     
 | HOSPITALIZED_RATE | Rate of hospitalized cases per 100,000 people by sex | Cumulative |   
 | DEATH_RATE | Rate of confirmed deaths per 100,000 people by sex | Cumulative | 
-| CASE_COUNT | Number of confirmed cases by sex | Cumulative |     
+| CONFIRMED_CASE_COUNT | Number of confirmed cases by sex | Cumulative |     
+| CASE_COUNT | Number of confirmed and probable cases by sex | Cumulative |     
 | HOSPITALIZED_COUNT | Number of hospitalized cases by sex | Cumulative | 
 | DEATH_COUNT | Number of confirmed deaths by sex | Cumulative | 
 
@@ -311,17 +323,13 @@ Indicators include:
 | Variable name | Definition | Timeframe | 
 |--------------|-----------------------------------------------------------------------------------|------------| 
 | GROUP | Used for display purposes only | | 
-| SUBGROUP | Indicates the age group in years, race/ethnicity group, or sex of stratification | |        
-| BK_CASE_COUNT | Number of confirmed cases in Brooklyn by indicated group | Cumulative |     
-| BK_CASE_RATE | Rate of confirmed cases in Brooklyn per 100,000 people by indicated group | Cumulative |     
-| BX_CASE_COUNT | Number of confirmed cases in the Bronx by indicated group | Cumulative |     
-| BX_CASE_RATE | Rate of confirmed cases in the Bronx per 100,000 people by indicated group | Cumulative |     
-| MN_CASE_COUNT | Number of confirmed cases in Manhattan by indicated group | Cumulative |     
-| MN_CASE_RATE | Rate of confirmed cases in Manhattan per 100,000 people by indicated group | Cumulative |     
-| QN_CASE_COUNT | Number of confirmed cases in Queens by indicated group | Cumulative |     
-| QN_CASE_RATE | Rate of confirmed cases in Queens per 100,000 people by indicated group | Cumulative |     
-| SI_CASE_COUNT | Number of confirmed cases in Staten Island by indicated group | Cumulative |     
-| SI_CASE_RATE | Rate of confirmed cases in Staten Island per 100,000 people by indicated group | Cumulative |     
+| SUBGROUP | Indicates the age group in years, race/ethnicity group, or sex of stratification | |     
+
+| Borough_CONFIRMED_CASE_COUNT | Number of confirmed cases in the indicated borough, by indicated group | Cumulative |  
+| Borough_PROBABLE_CASE_COUNT | Number of probable cases in the indicated borough, by indicated group | Cumulative |    
+| Borough_CASE_COUNT | Number of confirmed and probable cases in the indicated borough, by indicated group | Cumulative |  
+| Borough_CONFIRMED_CASE_RATE | Rate of confirmed cases in indicated borough per 100,000 people by indicated group | Cumulative |
+| Borough_CASE_RATE | Rate of confirmed and probable cases in indicated borough per 100,000 people by indicated group | Cumulative |        
 
 Rates for race/ethnicity groups (Asian/Pacific-Islander, Black/African-American, Hispanic/Latino, White) are age-adjusted according to [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf). Data on people identified as American Indian/Alaska Native, two or more races, or certain other races/ethnicities not listed are not included in this table. The Hispanic/Latino category includes people of any race. Race/ethnicity information is most complete for people who have been hospitalized or have died. There are much less data currently available on race/ethnicity for people who have not been hospitalized.
 
