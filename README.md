@@ -28,6 +28,12 @@ Alternatively, you can download a single file. Click on a file you would like to
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
 ***
+## Important: Update on August 2, 2021
+
+The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on August 2, 2021. These include:
+* Adding weekly case, hospitalization, and death rate files by race/ethnicity, and age.
+* Adding 7-day Transmission Rates for Citywide, Borough, and UHF42 neighborhoods
+* Revising case, hospitalization, and death rates to reflect both confirmed and probable cases
 
 ## Important: Update on June 10, 2021
 
@@ -234,6 +240,8 @@ The Health Department imports information on hospitalization status from a numbe
 Note that hospitalization information can be missing or incomplete from a number of facilities, which is a limitation for any analysis considering hospitalization status by geography (e.g., borough).  
 
 With the November 9, 2020 update, we revised the definition of a COVID-19 hospitalization and removed people who were hospitalized more than 14 days before or after their COVID-19 diagnosis from our count. 
+
+Hospitalizations are among confirmed or probable cases of COVID-19.
 
 ### Reporting on COVID-19 deaths  
 
