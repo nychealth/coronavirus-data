@@ -255,7 +255,7 @@ There are two classifications of COVID-19 deaths reported:
 
 As new information becomes available, some deaths previously classified as probable may be reclassified as confirmed. This may lead to a reduction in the number of probable deaths in daily reporting. 
 
-Starting in June 2020, people who died more than 60 days after their COVID-19 diagnosis and who did not have "COVID" or similar listed on their death certificate have been removed from the death count. This is to address instances in which a person was diagnosed with COVID-19 and survived, but later died, likely of other causes. 
+Starting in June 2020, people who died more than 60 days after their COVID-19 diagnosis and starting August 3, 2021, people who died more than 30 days after their COVID-19 diagnosis who did not have "COVID" or similar listed on their death certificate are removed from the death count. This is to address instances in which a person was diagnosed with COVID-19 and survived, but later died, likely of other causes.
 
 **Differences between death counts between NYC and New York State:** Data on deaths reported by NYC are derived from the Health Department’s surveillance database and will be different from data reported by the New York State Department of Health. The State Department of Health reports data on deaths from:   
 
