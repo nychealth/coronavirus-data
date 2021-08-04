@@ -142,6 +142,9 @@ Indicators include:
 
 Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information. This file does not contain information on probable deaths.  
 
+### by-group.csv
+This file contains the contents of by-age.csv, by-boro.csv, by-poverty.csv, by-race.csv, and by-sex.csv.
+
 ### by-poverty.csv   
 
 This file contains counts and rates of confirmed cases, hospitalizations, and deaths, by ZCTA-level neighborhood poverty group in NYC (low, medium, high, very high). Methods for determining neighborhood poverty are outlined in the technical notes (Poverty Groups). Rates are:    
