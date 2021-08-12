@@ -28,6 +28,10 @@ Alternatively, you can download a single file. Click on a file you would like to
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
 ***
+## Important: Update on August 11, 2021
+
+As indicated in commit notes from 8/11, there were technical issues with our data processing on 8/9 and 8/10. While these issues were being fixed, data updates were paused for those days. Data updated on 8/11 include backfill for days with no updates. Differences in counts in cumulative files from 8/8 to 8/11 reflect events that have happened over a broad recent time period and should not be interpreted as events that have happened since the previous update. As always, data are preliminary and subject to change, and dates are backfilled as additional data come in.
+
 ## Important: Update on August 2, 2021
 
 The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on August 2, 2021. These include:
@@ -227,7 +231,7 @@ Surveillance case definitions for all notifiable conditions are developed at the
 
 - *Probable COVID-19 case*: A person is classified as a probable COVID-19 case if they meet any of the following criteria with no positive molecular test on record: (a) test positive with an antigen test, (b) have symptoms and an exposure to a confirmed COVID-19 case, or (c) died and their cause of death is listed as COVID-19 or similar 
 
-The [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/hcp/duration-isolation.html) consider most people to be protected from getting COVID-19 again for up to 90 days after testing positive for the virus. For consistency, as of June 9, 2021, people who meet the definition of a confirmed or probable COVID-19 case ≥90 days after a previous positive test (date of first positive test) or probable COVID-19 onset date will be counted as a new case. Prior to June 9, 2021, new cases were counted ≥365 days after the first date of specimen collection or clinical diagnosis.
+The [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/coronavirus/2019-ncov/hcp/duration-isolation.html) consider most people to be protected from getting COVID-19 again for up to 90 days after testing positive for the virus. For consistency, as of June 9, 2021, people who meet the definition of a confirmed or probable COVID-19 case >90 days after a previous positive test (date of first positive test) or probable COVID-19 onset date will be counted as a new case. Prior to June 9, 2021, new cases were counted ≥365 days after the first date of specimen collection or clinical diagnosis.
 
 ### Case reporting   
 
