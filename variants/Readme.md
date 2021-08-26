@@ -2,6 +2,9 @@
 
 This folder contains files with data on SARS-CoV-2 variants. It includes information on the number and type of SARS-CoV-2 variants identified in NYC over time. All tables containing variant data are updated weekly on Thursday (with data through the previous Saturday). These files are based on a small subset of all confirmed COVID-19 cases; findings may not be representative of all confirmed COVID-19 cases citywide, and should be interpreted with caution. 
 
+**8/26/2021: Important note**:
+An increase in percent of lineages classified as  “other” for previously reported data is due to a recent Pangolin reclassification of some variants of concern and variants of interest, which especially impacted cases that had initially been classified as B.1.526 from March and April 2021. ([Pangolin](https://cov-lineages.org/resources/pangolin.html) is a web application used to assign  lineage designations to SARS-CoV-2 genome sequences.)
+
 ## Files 
 
 ### cases-sequenced.csv
