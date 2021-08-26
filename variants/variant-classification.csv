@@ -1,12 +1,12 @@
 variant,name,count,total,classification,percent_in_NYC
-B.1.617.2,Delta,2434,2579,Variant of Concern,94
-B.1.1.7,Alpha,30,2579,Variant of Concern,1
-B.1.621,,33,2579,Variant of Interest,1
-P.1,Gamma,27,2579,Variant of Concern,1
-B.1.351,Beta,3,2579,Variant of Concern,0
-B.1.427,Epsilon,0,2579,Variant of Concern,0
-B.1.429,Epsilon,0,2579,Variant of Concern,0
-B.1.525,Eta,0,2579,Variant of Interest,0
-B.1.526,Iota,5,2579,Variant of Interest,0
-P.2,Zeta,0,2579,Variant of Interest,0
-Other,,47,2579,,2
+B.1.617.2,Delta,3486,3587,Variant of Concern,97
+B.1.1.7,Alpha,19,3587,Variant of Concern,1
+B.1.621,,25,3587,Variant of Interest,1
+B.1.351,Beta,2,3587,Variant of Concern,0
+B.1.427,Epsilon,0,3587,Variant of Concern,0
+B.1.429,Epsilon,0,3587,Variant of Concern,0
+B.1.525,Eta,0,3587,Variant of Interest,0
+B.1.526,Iota,4,3587,Variant of Interest,0
+P.1,Gamma,15,3587,Variant of Concern,0
+P.2,Zeta,0,3587,Variant of Interest,0
+Other,,36,3587,,1
