@@ -3,6 +3,34 @@
 This folder contains files with data that focus on the most recent period of the outbreak. It includes daily 7-day cumulative percent positivity for the molecular test by modified ZIP Code Tabulation Areas (MODZCTA), daily 28-day counts and rates of hospitalizations and deaths by MODZCTA, and trend data that cover the most recent 90 days.
 
 ## Files 
+### breakthrough-summary.csv
+This file contains cumulative counts and average weekly rates of cases, hospitalizations, and deaths by vaccination status,  since January 17, 2021. Data are updated on Thursdays containing data through the Saturday 12 days prior.
+
+It includes the following definitions:
+- "Vaccinated" means people who are fully vaccinated at the time of case diagnosis: 14 days after the administration of the 2nd dose in a 2-dose series, or after the administration of a single-dose vaccine. 
+- "Unvaccinated" means there is no record of this patient's vaccination status.
+- Cases, hospitalization, and deaths: defined per this repository's common standards.
+- Rates are per 100,000 people. Hospitalization and death rates are age-adjusted. The denominator for average weekly rates for vaccinated people is the count of NYC residents recorded as fully vaccinated by the week of an event (case, hospitalization, or death) included in the rate; the denominator for unvaccinated people is the total city population minus the number of fully or partially vaccinated people  as of the week of event. 
+
+### now-weekly-breakthrough.csv
+This file contains weekly counts and rates of cases and hospitalizations by vaccination status, and citywide. Data are updated on Thursdays containing data through the Saturday 12 days prior.
+
+Definitions of vaccinated and unvaccinated people are the same as for breakthrough-summary.csv.
+
+
+| Variable name          | Definition                                                                | Timeframe                                |
+|------------------------|---------------------------------------------------------------------------|------------------------------------------|
+| Week_of_diagnosis      | Week-ending date                                                          |                                          |
+| vax_case_count         | Count of cases diagnosed among fully vaccinated people                    | Full week preceding the week-ending date |
+| vax_case_rate          | Rate of cases diagnosed per 100,000 fully vaccinated people               | Full week preceding the week-ending date |
+| vax_hosp_count         | Count of hospitalizations among fully vaccinated people                   | Full week preceding the week-ending date |
+| vax_hosp_rate_adj      | Age-adjusted rate of hospitalizations per 100,000 fully vaccinated people | Full week preceding the week-ending date |
+| unvax_case_count       | Count of cases diagnosed among unvaccinated people                        | Full week preceding the week-ending date |
+| unvax_case_rate        | Rate of cases diagnosed per 100,000 unvaccinated people                   | Full week preceding the week-ending date |
+| unvax_hosp_count       | Count of hospitalizations among unvaccinated people                       | Full week preceding the week-ending date |
+| unvax_hosp_rate_adj    | Age-adjusted rate of hospitalizations per 100,000 unvaccinated people     | Full week preceding the week-ending date |
+| citywide_case_rate     | Rate of cases diagnosed per 100,000 people citywide                       | Full week preceding the week-ending date |
+| citywide_hosp_rate_adj | Age-adjusted rate of hospitalizations per 100,000 people citywide         | Full week preceding the week-ending date |
 
 ### hosp_death_last28days-by-modzcta.csv
 
