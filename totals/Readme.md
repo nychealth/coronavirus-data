@@ -254,7 +254,7 @@ Indicators include:
 | COVID_PROBABLE_DEATH_COUNT | Number of probable deaths by MODZCTA | Cumulative | 
 | COVID_DEATH_COUNT | Number of confirmed and probable deaths by MODZCTA | Cumulative | 
 | COVID_CONFIRMED_DEATH_RATE | Rate of confirmed deaths per 100,000 people by MODZCTA | Cumulative | 
-| COVID_DEATH_RATE | Rate of deaths per 100,000 people by MODZCTA | Cumulative | 
+| COVID_DEATH_RATE | Rate of confirmed and probable deaths per 100,000 people by MODZCTA | Cumulative | 
 | PERCENT_POSITIVE | Percentage of people ever tested for COVID-19 with a molecular test who tested positive by MODZCTA | Cumulative | 
 | TOTAL_COVID_TESTS | Number of people tested for COVID-19 with a molecular test by MODZCTA | Cumulative | 
 
