@@ -4,31 +4,19 @@ This folder contains cumulative totals since the start of the COVID-19 outbreak 
 
 ## Files 
 
-### antibody-by-age.csv   
+### antibody-by-group.csv
 
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by age group. Please see the technical notes for a description of the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing).
+This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by age, sex, borough of residence, and neighborhood poverty group (low, medium, high, very high). 
 
-Indicators include: 
+Demograhic information is based on what is reported to the Health Department by laboratories. Due to the small number of cases among transgender and gender-nonconforming people, data on these cases are not included in this table at this time. 
 
-| Variable Name | Definition | Timeframe | 
-|------------------|----------------------------------------------------------------------------------------|------------| 
-| DEMO_VARIABLE | Age group in years | |     
-| NUM_PEOP_TEST | Number of people who received an antibody test by age group  | Cumulative |      
-| NUM_PEOP_POS | Number of people with a positive result on an antibody test by age group | Cumulative |   
-| PERCENT_POSITIVE | Percentage of people tested with an antibody test who tested positive by age group | Cumulative |
-| TEST_RATE | Rate of antibody testing per 100,000 people by age group | Cumulative | 
-
-The sum of counts may not match summary values because of records with missing demographic information.
-
-### antibody-by-boro.csv   
-
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by borough of residence. Please see the technical notes for a description of the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing).
+Please see the technical notes for a description of methods for determining neighborhood poverty ([Poverty Groups](https://github.com/nychealth/coronavirus-data#poverty-groups)), and the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing).
 
 Indicators include: 
-
 | Variable Name | Definition | Timeframe | 
 |------------------|----------------------------------------------------------------------------------------------------|------------|  
-| DEMO_VARIABLE | Borough of residence | |     
+| group | Population group category | |     
+| subgroup | Population subgroup: age group in years, sex, borough of residence, or neighborhood poverty group| |     
 | NUM_PEOP_TEST | Number of people who received an antibody test by borough of residence | Cumulative |      
 | NUM_PEOP_POS | Number of people with a positive result on an antibody test by borough of residence | Cumulative |   
 | PERCENT_POSITIVE | Percentage of people tested with an antibody test who tested positive by borough of residence | Cumulative |
@@ -36,8 +24,8 @@ Indicators include:
 
 The sum of counts may not match summary values because of records with missing geographic information.
 
-### antibody-by-group.csv
-This file contains the contents of antibody-by-age.csv, antibody-by-boro.csv, antibody-by-poverty.csv, and antibody-by-sex.csv.
+Note: this file replaces antibody-by-age.csv, antibody-by-boro.csv, antibody-by-poverty.csv, and antibody-by-sex.csv. Those files are no longer being updated.
+
 
 ### antibody-by-modzcta.csv   
 
@@ -61,174 +49,42 @@ Neighborhood names represent the [Neighborhood Organizing Census Committee](http
 
 The sum of counts may not match summary values because of records with missing geographic information.
 
-### antibody-by-poverty.csv   
 
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by ZCTA-level neighborhood poverty group in NYC (low, medium, high, very high). Please see the technical notes for a description of methods for determining neighborhood poverty ([Poverty Groups](https://github.com/nychealth/coronavirus-data#poverty-groups)), and the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing)).
+### by-group.csv
 
-Indicators include: 
+This file contains counts and rates of cases, hospitalizations, and deaths, stratified by age, sex, borough, race/ethnicity, and neighborhood poverty (low, medium, high, very high). Methods for determining neighborhood poverty are outlined in the technical notes ([Poverty Groups](https://github.com/nychealth/coronavirus-data#poverty-groups)). 
 
-| Variable Name | Definition | Timeframe | 
-|------------------|----------------------------------------------------------------------------------------------------------|------------:|  
-| DEMO_VARIABLE| ZCTA-level neighborhood poverty group | |     
-| NUM_PEOP_TEST | Number of people who received an antibody test by neighborhood poverty group  | Cumulative |      
-| NUM_PEOP_POS | Number of people with a positive result on an antibody test by neighborhood poverty group | Cumulative |   
-| PERCENT_POSITIVE | Percentage of people tested with an antibody test who tested positive by neighborhood poverty group | Cumulative |   
-| TEST_RATE | Rate of antibody testing per 100,000 people by neighborhood poverty group | Cumulative | 
-
-The sum of counts may not match summary values because of records with missing geographic information.
-
-### antibody-by-sex.csv   
-
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by sex as reported to the Health Department by laboratories. Please see the technical notes for a description of the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing).
-
-Indicators include: 
-
-| Variable Name | Definition | Timeframe | 
-|------------------|-----------------------------------------------------------------------------------|------------| 
-| DEMO_VARIABLE | Sex reported to the Health Department by laboratories | |     
-| NUM_PEOP_TEST | Number of people who received an antibody test by sex | Cumulative |      
-| NUM_PEOP_POS | Number of people with a positive result on an antibody test by sex | Cumulative |   
-| PERCENT_POSITIVE | Percentage of people tested with an antibody test who tested positive by sex | Cumulative |   
-| TEST_RATE | Rate of antibody testing per 100,000 people by sex | Cumulative | 
-
-Due to the small number of cases among transgender and gender-nonconforming people, data on these cases are not included in this table at this time.
-
-The sum of counts may not match summary values because of records with missing demographic information.
-
-### by-age.csv   
-
-This file contains counts and rates of cases, hospitalizations, and deaths, by age group. Rates are:   
-
+Rates are:   
 - Cumulative since the start of the outbreak   
-
-- Per 100,000 people by age group   
+- Per 100,000 people by specified group   
+- Age-adjusted according to [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf) for race/ethnicity and neighborhood poverty groups 
 
 Indicators include: 
 
 | Variable name | Definition | Timeframe | 
 |--------------------|------------------------------------------------------------|------------| 
-| AGE_GROUP | Age group in years | | 
+| group |Population group category | | 
+| subgroup | Population subgroup: age group in years, sex, borough of residence, race/ethnicity, or neighborhood poverty group| | 
 | CONFIRMED_CASE_RATE | Rate of confirmed cases per 100,000 people by age group | Cumulative | 
 | CASE_RATE | Rate of confirmed and probable cases per 100,000 people by age group | Cumulative | 
-| HOSPITALIZED_RATE | Rate of hospitalized cases per 100,000 people by age group | Cumulative | 
-| DEATH_RATE | Rate of deaths per 100,000 people by age group | Cumulative | 
+| HOSPITALIZED_RATE | Rate of hospitalized confirmed and probable cases per 100,000 people by age group | Cumulative | 
+| DEATH_RATE | Rate of confirmed and probable deaths per 100,000 people by age group | Cumulative | 
 | CONFIRMED_CASE_COUNT | Number of confirmed cases by age group | Cumulative | 
 | PROBABLE_CASE_COUNT | Number of probable cases by age group | Cumulative | 
 | CASE_COUNT | Number of confirmed and probable cases by age group | Cumulative | 
-| HOSPITALIZED_COUNT | Number of hospitalized cases by age group | Cumulative | 
-| DEATH_COUNT | Number of deaths by age group | Cumulative | 
+| HOSPITALIZED_COUNT | Number of hospitalized confirmed and probable cases by age group | Cumulative | 
+| DEATH_COUNT | Number of confirmed and probable deaths by age group | Cumulative | 
 
 Note that sum of counts in this file may not match citywide values because of records with missing demographic information. 
 
-### by-boro.csv   
+Demograhic information is based on what is reported to the Health Department by laboratories. 
 
-This file contains counts and rates of cases, hospitalizations, and deaths, by borough of residence. Rates are:   
-
-- Cumulative since the start of the outbreak   
-
-- Per 100,000 people by borough of residence  
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe | 
-|--------------------|-----------------------------------------------------------------------|------------|
-| BOROUGH | Borough of residence | | 
-| CONFIRMED_CASE_RATE | Rate of confirmed cases per 100,000 people by borough of residence | Cumulative | 
-| CASE_RATE | Rate of confirmed and probable cases per 100,000 people by borough of residence | Cumulative | 
-| HOSPITALIZED_RATE | Rate of hospitalized cases per 100,000 people by borough of residence | Cumulative | 
-| DEATH_RATE | Rate of deaths per 100,000 people by borough of residence | Cumulative | 
-| CONFIRMED_CASE_COUNT | Number of confirmed cases by borough of residence | Cumulative | 
-| PROBABLE_CASE_COUNT | Number of probable cases by borough of residence | Cumulative | 
-| CASE_COUNT | Number of confirmed and probable cases by borough of residence | Cumulative | 
-| HOSPITALIZED_COUNT | Number of hospitalized cases by borough of residence | Cumulative | 
-| DEATH_COUNT | Number of deaths by borough of residence | Cumulative | 
-
-Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information.
-
-### by-group.csv
-This file contains the contents of by-age.csv, by-boro.csv, by-poverty.csv, by-race.csv, and by-sex.csv.
-
-### by-poverty.csv   
-
-This file contains counts and rates of cases, hospitalizations, and deaths, by ZCTA-level neighborhood poverty group in NYC (low, medium, high, very high). Methods for determining neighborhood poverty are outlined in the technical notes (Poverty Groups). Rates are:    
-
-- Cumulative since the start of the outbreak   
-
-- Age-adjusted according to [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf)   
-
-- Per 100,000 people by neighborhood poverty group     
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe | 
-|-----------------------|------------------------------------------------------------------------------------------|------------|
-| POVERTY_GROUP | ZCTA-level neighborhood poverty group | |  
-| CONFIRMED_CASE_RATE_ADJ | Age-adjusted rate of confirmed cases per 100,000 people by neighborhood poverty group | Cumulative |     
-| CASE_RATE_ADJ | Age-adjusted rate of confirmed and probable cases per 100,000 people by neighborhood poverty group | Cumulative |     
-| HOSPITALIZED_RATE_ADJ | Age-adjusted rate of hospitalized cases per 100,000 people by neighborhood poverty group | Cumulative |   
-| DEATH_RATE_ADJ | Age-adjusted rate of confirmed deaths per 100,000 people by neighborhood poverty group | Cumulative | 
-| CONFIRMED_CASE_COUNT | Number of confirmed cases by neighborhood poverty group | Cumulative |     
-| CASE_COUNT | Number of confirmed and probable cases by neighborhood poverty group | Cumulative |     
-| HOSPITALIZED_COUNT | Number of hospitalized cases by neighborhood poverty group | Cumulative | 
-| DEATH_COUNT | Number of confirmed deaths by neighborhood poverty group | Cumulative | 
-
-Note that sum of counts in this file may not match citywide values because of records with missing geographic information.
-
-### by-race.csv   
-
-This file contains counts and rates of cases, hospitalizations, and deaths by race/ethnicity group. Rates are:   
-
-- Cumulative since the start of the outbreak   
-
-- Age-adjusted according to [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf)  
-
-- Per 100,000 people by race/ethnicity group   
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe | 
-|-----------------------|------------------------------------------------------------------------------------|------------|
-| RACE_GROUP | Race/ethnicity group | |        
-| CONFIRMED_CASE_RATE_ADJ | Age-adjusted rate of confirmed cases per 100,000 people by race/ethnicity group | Cumulative |     
-| CASE_RATE_ADJ | Age-adjusted rate of confirmed and probable cases per 100,000 people by race/ethnicity group | Cumulative |     
-| HOSPITALIZED_RATE_ADJ | Age-adjusted rate of hospitalized cases per 100,000 people by race/ethnicity group | Cumulative |   
-| DEATH_RATE_ADJ | Age-adjusted rate of confirmed deaths per 100,000 people by race/ethnicity group | Cumulative | 
-| CONFIRMED_CASE_COUNT | Number of confirmed cases by race/ethnicity group | Cumulative |     
-| CASE_COUNT | Number of confirmed and probable cases by race/ethnicity group | Cumulative |     
-| HOSPITALIZED_COUNT | Number of hospitalized cases by race/ethnicity group | Cumulative | 
-| DEATH_COUNT | Number of confirmed deaths by race/ethnicity group | Cumulative | 
-  
-Data on people identified as American Indian/Alaska Native, two or more races, or other races/ethnicities are not included in this table. The Hispanic/Latino category includes people of any race. Race/ethnicity information is most complete for people who have been hospitalized or have died. There are much less data currently available on race/ethnicity for people who have not been hospitalized.    
-
-Note that sum of counts in this file may not match citywide values because of records with missing demographic information.
+Due to the small number of cases reported among transgender and gender-nonconforming people, data on these cases are not included in this table at this time. Data on people identified as American Indian/Alaska Native, two or more races, or other races/ethnicities are not included in this table. The Hispanic/Latino category includes people of any race. Race/ethnicity information is most complete for people who have been hospitalized or have died. There are much less data currently available on race/ethnicity for people who have not been hospitalized.    
 
 Differences in health outcomes among racial and ethnic groups are due to long-term institutional and personal biases against people of color. There is no evidence that these health inequities are due to personal traits. Lasting racism and an inequitable distribution of resources needed for wellness cause these health inequities. These resources include quality jobs, housing, health care and food, among others. The greater impact of the COVID-19 pandemic on people of color shows how these inequities influence health outcomes.
 
-### by-sex.csv   
+Note: this file replaces by-age.csv, by-boro.csv, by-poverty.csv, by-race.csv, and by-sex.csv. Those files are no longer being updated.
 
-This file contains counts and rates of cases, hospitalizations, and deaths, by sex as reported to the Health Department by laboratories. Rates are:   
-
-- Cumulative since the start of the outbreak   
-
-- Per 100,000 people by sex   
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe | 
-|--------------------|------------------------------------------------------|------------| 
-| SEX_GROUP | Sex reported to the Health Department by laboratories | |          
-| CONFIRMED_CASE_RATE | Rate of confirmed cases per 100,000 people by sex | Cumulative |     
-| CASE_RATE | Rate of confirmed and probable cases per 100,000 people by sex | Cumulative |     
-| HOSPITALIZED_RATE | Rate of hospitalized cases per 100,000 people by sex | Cumulative |   
-| DEATH_RATE | Rate of deaths per 100,000 people by sex | Cumulative | 
-| CONFIRMED_CASE_COUNT | Number of confirmed cases by sex | Cumulative |     
-| CASE_COUNT | Number of confirmed and probable cases by sex | Cumulative |     
-| HOSPITALIZED_COUNT | Number of hospitalized cases by sex | Cumulative | 
-| DEATH_COUNT | Number of deaths by sex | Cumulative | 
-
-Due to the small number of cases reported among transgender and gender-nonconforming people, data on these cases are not included in this table at this time.   
-
-Note that sum of counts in this file may not match citywide values because of records with missing demographic information.
 
 ### data-by-modzcta.csv   
 
