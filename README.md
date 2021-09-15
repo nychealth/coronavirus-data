@@ -28,6 +28,11 @@ Alternatively, you can download a single file. Click on a file you would like to
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
 ***
+## Update on September 14, 2021
+- Antibody-by-age, -by-boro, -by-poverty, and -by-sex data are now found in antibody-by-group.csv. The other files will no longer be updated.
+- by-age, by-boro, by-poverty, by-race, and by-sex will no longer be updated. Those data are now found in by-group.csv.
+- deaths-by-boro-age, deaths-by-underlying-conditions, and probable-confirmed-by-age, -by-location, -by-race, and -by-sex are no longer updated. 
+
 ## Important: Update on August 11, 2021
 
 As indicated in commit notes from 8/11, there were technical issues with our data processing on 8/9 and 8/10. While these issues were being fixed, data updates were paused for those days. Data updated on 8/11 include backfill for days with no updates. Differences in counts in cumulative files from 8/8 to 8/11 reflect events that have happened over a broad recent time period and should not be interpreted as events that have happened since the previous update. As always, data are preliminary and subject to change, and dates are backfilled as additional data come in.
