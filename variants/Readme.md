@@ -38,7 +38,6 @@ Indicators include:
 | NAME | Variant label per [World Health Organization (WHO) nomenclature](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/) | | 
 | COUNT | Number of confirmed cases by SARS-CoV-2 variant | Cumulative across most recent 4-week period | 
 | TOTAL | Number of confirmed cases with a specimen submitted to a NYC laboratory for sequencing | Cumulative across most recent 4-week period | 
-| CLASSIFICATION | Variant classification per [CDC definitions](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance/variant-info.html) | | 
 | PERCENT_IN_NYC | Percentage of confirmed cases by SARS-CoV-2 variant | Cumulative across most recent 4-week period | 
 
 Note that sum of counts in this file may not match values in citywide tables because of records with missing data.
