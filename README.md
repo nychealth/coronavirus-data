@@ -31,7 +31,7 @@ Alternatively, you can download a single file. Click on a file you would like to
 ## Update on September 14, 2021
 - Antibody-by-age, -by-boro, -by-poverty, and -by-sex data are now found in antibody-by-group.csv. The other files will no longer be updated.
 - by-age, by-boro, by-poverty, by-race, and by-sex will no longer be updated. Those data are now found in by-group.csv.
-- deaths-by-boro-age, deaths-by-underlying-conditions, and probable-confirmed-by-age, -by-location, -by-race, and -by-sex are no longer updated. 
+- deaths-by-boro-age, deaths-by-underlying-conditions, and probable-confirmed-by-age, -by-location, -by-boro, -by-race, and -by-sex are no longer updated. 
 
 ## Important: Update on August 11, 2021
 
