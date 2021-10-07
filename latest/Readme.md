@@ -25,12 +25,17 @@ Definitions of vaccinated and unvaccinated people are the same as for breakthrou
 | vax_case_rate          | Rate of cases diagnosed per 100,000 fully vaccinated people               | Full week preceding the week-ending date |
 | vax_hosp_count         | Count of hospitalizations among fully vaccinated people                   | Full week preceding the week-ending date |
 | vax_hosp_rate_adj      | Age-adjusted rate of hospitalizations per 100,000 fully vaccinated people | Full week preceding the week-ending date |
+| vax_death_count        | Count of deaths among fully vaccinated people                             | Full week preceding the week-ending date |
+| vax_death_rate_adj     | Age-adjusted rate of deaths per 100,000 fully vaccinated people           | Full week preceding the week-ending date |
 | unvax_case_count       | Count of cases diagnosed among unvaccinated people                        | Full week preceding the week-ending date |
 | unvax_case_rate        | Rate of cases diagnosed per 100,000 unvaccinated people                   | Full week preceding the week-ending date |
 | unvax_hosp_count       | Count of hospitalizations among unvaccinated people                       | Full week preceding the week-ending date |
 | unvax_hosp_rate_adj    | Age-adjusted rate of hospitalizations per 100,000 unvaccinated people     | Full week preceding the week-ending date |
+| unvax_death_count      | Count of deaths among unvaccinated people                                 | Full week preceding the week-ending date |
+| unvax_death_rate_adj   | Age-adjusted rate of deaths per 100,000 unvaccinated people               | Full week preceding the week-ending date |
 | citywide_case_rate     | Rate of cases diagnosed per 100,000 people citywide                       | Full week preceding the week-ending date |
 | citywide_hosp_rate_adj | Age-adjusted rate of hospitalizations per 100,000 people citywide         | Full week preceding the week-ending date |
+| citywide_death_rate_adj| Age-adjusted rate of deaths per 100,000 unvaccinated people citywide      | Full week preceding the week-ending date |
 
 ### hosp_death_last28days-by-modzcta.csv
 
