@@ -338,6 +338,10 @@ Indicators include:
 
 Note that one person can have more than one test on different days. Therefore, the number of positive persons every day will be different from the counts of confirmed or probable cases, which will count people only on the first day they test positive.  
 
+### weekly-breakthrough.csv 
+
+This file contains the same data as now-weekly-breakthrough.csv with data beginning January 17, 2021, when the first New Yorkers were fully vaccinated. For details, please visit [Latest/Readme/now-weekly-breakthrough.csv](https://github.com/nychealth/coronavirus-data/tree/master/latest#now-weekly-breakthroughcsv) 
+
 ### weekly-case-rate-age.csv 
 
 This file contains the rate of cases per 100,000 people, stratified by week and age group. 
