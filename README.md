@@ -258,7 +258,7 @@ COVID-19 deaths are reported from March 11, 2020 as this was the first date of d
 
 There are two classifications of COVID-19 deaths reported:   
 
-- A death is classified as **confirmed** if the decedent was a NYC resident who had a positive molecular test for the virus that causes COVID-19.   
+- A death is classified as **confirmed** if the decedent was a NYC resident who had a positive molecular test for the virus that causes COVID-19 and did not die of external causes such as gunshot wounds or drug overdoses.   
 
 - A death is classified as **probable** if the decedent was a NYC resident (or residency pending) who had no known positive molecular test for the virus that causes COVID-19 but the death certificate lists “COVID-19” or an equivalent as a cause of death.   
 
