@@ -1,178 +1,178 @@
 modzcta,modzcta_name,label,lat,lon,hospitalization_count_28day,hospitalization_rate_28day,death_count_28day,death_rate_28day,daterange
-10001,Chelsea/NoMad/West Chelsea,"10001, 10118",40.750693,-73.997137,34,123.1,9,32.6,December 31-January 27
-10002,Chinatown/Lower East Side,10002,40.715781,-73.986176,189,250.9,28,37.2,December 31-January 27
-10003,East Village/Gramercy/Greenwich Village,10003,40.731825,-73.989164,45,83.4,8,14.8,December 31-January 27
-10004,Financial District,10004,40.703675,-74.013106,0,0.0,0,0.0,December 31-January 27
-10005,Financial District,10005,40.706092,-74.008861,3,,0,0.0,December 31-January 27
-10006,Financial District,10006,40.709651,-74.013044,0,0.0,0,0.0,December 31-January 27
-10007,TriBeCa,10007,40.713923,-74.007546,3,,,,December 31-January 27
-10009,Alphabet City/East Village/Stuyvesant Town-Cooper Village,10009,40.72638,-73.978704,113,197.7,19,33.2,December 31-January 27
-10010,Flatiron/Gramercy/Kips Bay,10010,40.739119,-73.982544,48,143.9,9,27.0,December 31-January 27
-10011,Chelsea,10011,40.741707,-74.000062,37,74.4,15,30.2,December 31-January 27
-10012,Greenwich Village/SoHo,10012,40.725576,-73.998078,21,90.7,,,December 31-January 27
-10013,Hudson Square/Little Italy/SoHo/TriBeCa,10013,40.720096,-74.004763,36,124.9,6,20.8,December 31-January 27
-10014,Hudson Square/Meatpacking District/West Village,10014,40.73402,-74.006314,14,46.1,,,December 31-January 27
-10016,Kips Bay/Murray Hill/NoMad,10016,40.745174,-73.978319,55,108.0,5,9.8,December 31-January 27
-10017,East Midtown/Murray Hill,10017,40.752543,-73.973037,9,57.6,6,38.4,December 31-January 27
-10018,Hell's Kitchen/Midtown Manhattan,10018,40.755191,-73.992667,15,127.2,,,December 31-January 27
-10019,Hell's Kitchen/Midtown Manhattan,"10019, 10020",40.76528,-73.985974,55,126.4,11,25.3,December 31-January 27
-10021,Lenox Hill/Upper East Side,10021,40.769474,-73.958771,42,91.6,,,December 31-January 27
-10022,East Midtown,10022,40.758676,-73.968098,26,84.2,8,25.9,December 31-January 27
-10023,Lincoln Square,10023,40.775901,-73.982658,68,110.1,16,25.9,December 31-January 27
-10024,Upper West Side,10024,40.792085,-73.974871,57,97.6,10,17.1,December 31-January 27
-10025,Manhattan Valley/Morningside Heights/Upper West Side,10025,40.798651,-73.966585,144,157.2,30,32.7,December 31-January 27
-10026,Central Harlem (South),10026,40.802341,-73.952521,69,178.5,11,28.4,December 31-January 27
-10027,Central Harlem (South)/Morningside Heights/West Harlem,10027,40.8118,-73.953204,137,216.1,19,30.0,December 31-January 27
-10028,Upper East Side/Yorkville,10028,40.776432,-73.953509,39,82.3,14,29.6,December 31-January 27
-10029,East Harlem,10029,40.791777,-73.943969,264,337.5,31,39.6,December 31-January 27
-10030,Central Harlem (North),10030,40.818326,-73.942842,71,242.6,13,44.4,December 31-January 27
-10031,Hamilton Heights/West Harlem,10031,40.825278,-73.950037,113,191.4,14,23.7,December 31-January 27
-10032,Washington Heights (South),10032,40.838768,-73.942824,144,228.4,22,34.9,December 31-January 27
-10033,Washington Heights (North)/Washington Heights (South),10033,40.850497,-73.934007,128,218.7,11,18.8,December 31-January 27
-10034,Inwood/Washington Heights (North),10034,40.867168,-73.924048,91,215.4,11,26.0,December 31-January 27
-10035,East Harlem,10035,40.791,-73.924596,151,428.5,22,62.4,December 31-January 27
-10036,Hell's Kitchen/Midtown Manhattan,10036,40.75916,-73.989705,51,187.2,12,44.0,December 31-January 27
-10037,Central Harlem (North)/East Harlem,10037,40.812957,-73.937419,75,360.7,11,52.9,December 31-January 27
-10038,Chinatown/Financial District,10038,40.709696,-74.002391,33,144.3,,,December 31-January 27
-10039,Central Harlem (North)/Washington Heights (South),10039,40.830807,-73.936247,74,272.3,9,33.1,December 31-January 27
-10040,Washington Heights (North),10040,40.85831,-73.93049,88,200.2,19,43.2,December 31-January 27
-10044,Roosevelt Island,10044,40.761931,-73.949924,11,94.2,,,December 31-January 27
-10065,Lenox Hill/Upper East Side,10065,40.764616,-73.963135,32,114.7,5,17.9,December 31-January 27
-10069,Lincoln Square,10069,40.775924,-73.990256,2,,0,0.0,December 31-January 27
-10075,Lenox Hill/Upper East Side,"10075, 10162",40.773132,-73.955884,28,121.5,5,21.7,December 31-January 27
-10128,Upper East Side/Yorkville,10128,40.781466,-73.950226,75,128.1,10,17.1,December 31-January 27
-10280,Battery Park City,10280,40.709318,-74.016654,1,,0,0.0,December 31-January 27
-10282,Battery Park City,10282,40.716409,-74.015077,2,,,,December 31-January 27
-10301,Silver Lake/St. George,10301,40.628224,-74.096232,96,246.8,17,43.7,December 31-January 27
-10302,Elm Park,10302,40.630598,-74.137891,45,243.4,5,27.0,December 31-January 27
-10303,Graniteville/Mariner's Harbor/Port Ivory,10303,40.632135,-74.169166,48,181.0,7,26.4,December 31-January 27
-10304,New Dorp/Todt Hill,10304,40.605985,-74.0943,86,205.3,20,47.7,December 31-January 27
-10305,Arrochar/Midland Beach/Shore Acres/South Beach Ocean Breeze,10305,40.595474,-74.075437,103,240.3,9,21.0,December 31-January 27
-10306,Lighthouse Hill/Midland Beach/New Dorp/Oakwood,10306,40.571571,-74.125541,123,232.9,21,39.8,December 31-January 27
-10307,Tottenville,10307,40.507771,-74.24227,23,154.2,,,December 31-January 27
-10308,Great Kills,10308,40.551574,-74.150454,57,191.1,10,33.5,December 31-January 27
-10309,Charleston/Prince's Bay/Woodrow,10309,40.531355,-74.220574,60,182.2,12,36.4,December 31-January 27
-10310,Port Richmond/Randall Manor/West Brighton,10310,40.632398,-74.11618,30,128.0,,,December 31-January 27
-10312,Annadale/Rossville,10312,40.545128,-74.18169,116,190.0,18,29.5,December 31-January 27
-10314,Bloomfield/Freshkills Park,10314,40.599333,-74.166462,171,184.8,27,29.2,December 31-January 27
-10451,Concourse/Melrose,10451,40.820705,-73.923865,149,314.6,15,31.7,December 31-January 27
-10452,Concourse/Highbridge,10452,40.837364,-73.923461,285,378.9,23,30.6,December 31-January 27
-10453,Morris Heights/Mount Hope/University Heights,10453,40.852304,-73.913578,297,377.5,27,34.3,December 31-January 27
-10454,Mott Haven/Port Morris,10454,40.805487,-73.916605,129,341.0,14,37.0,December 31-January 27
-10455,Mott Haven,10455,40.8147,-73.908583,161,384.3,12,28.6,December 31-January 27
-10456,Claremont/Morrisania,10456,40.829884,-73.908121,308,330.5,41,44.0,December 31-January 27
-10457,Belmont/Claremont/Mount Hope/Tremont,10457,40.847151,-73.898676,340,461.2,23,31.2,December 31-January 27
-10458,Belmont/Fordham University/Kingsbridge,10458,40.862531,-73.88817,203,245.3,18,21.8,December 31-January 27
-10459,Charlotte Gardens/Hunts Point,10459,40.82584,-73.892976,151,315.4,17,35.5,December 31-January 27
-10460,Charlotte Gardens/Tremont/Van Nest/West Farms,10460,40.841753,-73.879584,209,355.0,21,35.7,December 31-January 27
-10461,Morris Park/Pelham Bay/Westchester Square,10461,40.847415,-73.840601,146,297.4,15,30.6,December 31-January 27
-10462,Parkchester/Pelham Parkway/Van Nest/Westchester Square,10462,40.842874,-73.858772,223,296.1,26,34.5,December 31-January 27
-10463,Kingsbridge/Marble Hill/Riverdale/Spuyten Duyvil,10463,40.880824,-73.906514,178,254.3,27,38.6,December 31-January 27
-10464,City Island,10464,40.872311,-73.804653,6,140.0,0,0.0,December 31-January 27
-10465,Country Club/Throgs Neck,10465,40.823931,-73.822886,109,252.8,26,60.3,December 31-January 27
-10466,Edenwald/Wakefield,10466,40.890965,-73.845912,211,295.9,28,39.3,December 31-January 27
-10467,Allerton/Norwood/Pelham Parkway/Williamsbridge,10467,40.880939,-73.873956,370,362.5,36,35.3,December 31-January 27
-10468,Fordham/Kingsbridge/University Heights,10468,40.868161,-73.899844,212,272.5,29,37.3,December 31-January 27
-10469,Allerton/Baychester/Pelham Gardens/Williamsbridge,10469,40.86876,-73.846984,200,275.4,32,44.1,December 31-January 27
-10470,Wakefield/Woodlawn,10470,40.895986,-73.86802,53,353.5,5,33.4,December 31-January 27
-10471,Fieldston/North Riverdale/Riverdale,10471,40.899509,-73.901518,32,150.7,10,47.1,December 31-January 27
-10472,Soundview,10472,40.829561,-73.869393,179,263.3,14,20.6,December 31-January 27
-10473,Castle Hill/Clason Point/Soundview,10473,40.818135,-73.858718,200,338.3,19,32.1,December 31-January 27
-10474,Hunts Point,10474,40.810595,-73.884618,39,325.7,,,December 31-January 27
-10475,Co-op City/Edenwald,10475,40.868941,-73.824854,108,252.7,25,58.5,December 31-January 27
-11004,Bellerose/Douglaston-Little Neck,"11004, 11005",40.748068,-73.710907,28,147.8,13,68.6,December 31-January 27
-11101,Astoria (South)/Long Island City/Sunnyside,11101,40.747077,-73.938586,62,168.3,15,40.7,December 31-January 27
-11102,Astoria (North),11102,40.772498,-73.925912,37,123.1,14,46.6,December 31-January 27
-11103,Astoria (North)/Astoria (South),11103,40.762536,-73.913541,54,154.6,14,40.1,December 31-January 27
-11104,Sunnyside,11104,40.744658,-73.920205,49,192.6,7,27.5,December 31-January 27
-11105,Ditmars Steinway,11105,40.778969,-73.906286,52,143.7,21,58.0,December 31-January 27
-11106,Astoria (South),11106,40.761792,-73.931771,59,157.6,7,18.7,December 31-January 27
-11109,Long Island City,11109,40.746211,-73.956999,3,,0,0.0,December 31-January 27
-11201,Brooklyn Heights/DUMBO/Downtown Brooklyn,11201,40.694609,-73.989581,67,107.6,17,27.3,December 31-January 27
-11203,East Flatbush (North)/East Flatbush (South),11203,40.649576,-73.934363,151,206.0,32,43.6,December 31-January 27
-11204,Bensonhurst/Mapleton,11204,40.618774,-73.984824,139,180.3,30,38.9,December 31-January 27
-11205,Bedford-Stuyvesant (West)/Clinton Hill/Fort Greene,11205,40.694625,-73.966212,66,145.6,7,15.4,December 31-January 27
-11206,Williamsburg (South),11206,40.701957,-73.942361,213,245.6,30,34.6,December 31-January 27
-11207,Cypress Hills/East New York,11207,40.670819,-73.894255,215,241.5,42,47.2,December 31-January 27
-11208,Cypress Hills/East New York,11208,40.668385,-73.871084,227,237.5,34,35.6,December 31-January 27
-11209,Bay Ridge/Fort Hamilton,11209,40.621811,-74.030011,82,121.5,26,38.5,December 31-January 27
-11210,Flatlands/Midwood,11210,40.628165,-73.946316,124,188.8,16,24.4,December 31-January 27
-11211,East Williamsburg/Williamsburg (North)/Williamsburg (South),"11211, 11249",40.712334,-73.953851,124,122.0,27,26.6,December 31-January 27
-11212,Ocean Hill-Brownsville,11212,40.662935,-73.913011,234,316.4,36,48.7,December 31-January 27
-11213,Crown Heights (East),11213,40.671074,-73.93633,137,212.1,35,54.2,December 31-January 27
-11214,Bath Beach/Bensonhurst/Gravesend,11214,40.598729,-73.99621,227,244.6,53,57.1,December 31-January 27
-11215,Gowanus/Park Slope/Windsor Terrace,11215,40.66252,-73.986872,30,43.1,12,17.2,December 31-January 27
-11216,Bedford-Stuyvesant (West)/Crown Heights (West),11216,40.680785,-73.94931,86,156.9,14,25.5,December 31-January 27
-11217,Boerum Hill/Park Slope,"11217, 11243",40.682417,-73.97938,41,100.3,16,39.1,December 31-January 27
-11218,Kensington/Windsor Terrace,11218,40.64348,-73.976044,141,190.6,24,32.4,December 31-January 27
-11219,Borough Park,11219,40.632662,-73.996666,215,238.7,29,32.2,December 31-January 27
-11220,Sunset Park,11220,40.641081,-74.016495,133,140.6,23,24.3,December 31-January 27
-11221,Bedford-Stuyvesant (East)/Bushwick,11221,40.691339,-73.927885,199,244.3,33,40.5,December 31-January 27
-11222,Greenpoint,11222,40.728292,-73.947562,30,83.0,,,December 31-January 27
-11223,Gravesend/Homecrest,11223,40.597169,-73.973422,195,239.3,36,44.2,December 31-January 27
-11224,Brighton Beach/Coney Island/Seagate,11224,40.57666,-73.988581,221,477.6,43,92.9,December 31-January 27
-11225,Crown Heights (West)/Prospect Lefferts Gardens,11225,40.663056,-73.954226,109,189.5,15,26.1,December 31-January 27
-11226,Flatbush/Prospect Lefferts Gardens,11226,40.646456,-73.956654,210,215.7,51,52.4,December 31-January 27
-11228,Bath Beach/Dyker Heights,11228,40.616715,-74.013054,89,197.9,20,44.5,December 31-January 27
-11229,Gerritsen Beach/Homecrest/Sheepshead Bay,11229,40.601175,-73.944465,195,233.4,22,26.3,December 31-January 27
-11230,Midwood,11230,40.622164,-73.965096,177,199.1,29,32.6,December 31-January 27
-11231,Carroll Gardens/Cobble Hill/Red Hook,11231,40.677562,-74.004445,27,72.2,9,24.1,December 31-January 27
-11232,Sunset Park,11232,40.655984,-74.005304,39,144.0,9,33.2,December 31-January 27
-11233,Bedford-Stuyvesant (East)/Ocean Hill-Brownsville,11233,40.678302,-73.919931,154,207.2,33,44.4,December 31-January 27
-11234,Bergen Beach/Flatlands/Marine Park/Mill Basin,11234,40.60758,-73.910513,156,165.9,26,27.6,December 31-January 27
-11235,Brighton Beach/Manhattan Beach/Sheepshead Bay,11235,40.583915,-73.949669,291,372.1,80,102.3,December 31-January 27
-11236,Canarsie,11236,40.640004,-73.901459,198,203.9,38,39.1,December 31-January 27
-11237,Bushwick/East Williamsburg,11237,40.704153,-73.920883,108,225.0,7,14.6,December 31-January 27
-11238,Clinton Hill/Prospect Heights,11238,40.679179,-73.963804,83,155.0,20,37.3,December 31-January 27
-11239,East New York,11239,40.64753,-73.882398,58,445.4,10,76.8,December 31-January 27
-11354,Flushing/Murray Hill,11354,40.76863,-73.827229,87,161.4,32,59.3,December 31-January 27
-11355,Flushing/Murray Hill/Queensboro Hill,11355,40.751459,-73.821014,100,126.8,33,41.9,December 31-January 27
-11356,College Point,11356,40.784867,-73.841495,24,105.2,5,21.9,December 31-January 27
-11357,Whitestone,11357,40.78639,-73.810964,48,124.0,13,33.6,December 31-January 27
-11358,Auburndale/Murray Hill,11358,40.760475,-73.79637,43,119.4,15,41.6,December 31-January 27
-11360,Bayside (North),11360,40.78205,-73.7808,23,120.8,5,26.3,December 31-January 27
-11361,Bayside (North)/Bayside (South),11361,40.763748,-73.772419,25,94.8,13,49.3,December 31-January 27
-11362,Douglaston-Little Neck,11362,40.756533,-73.736995,20,110.5,8,44.2,December 31-January 27
-11363,Douglaston-Little Neck,11363,40.772803,-73.746444,8,118.8,,,December 31-January 27
-11364,Bayside (South)/Oakland Gardens,11364,40.745279,-73.760578,40,112.1,,,December 31-January 27
-11365,Auburndale/Fresh Meadows/Pomonok/Utopia,11365,40.739775,-73.794806,48,109.6,11,25.1,December 31-January 27
-11366,Fresh Meadows/Hillcrest,11366,40.728136,-73.784981,21,147.8,7,49.3,December 31-January 27
-11367,Kew Gardens Hills/Pomonok,11367,40.730383,-73.826297,56,137.7,11,27.0,December 31-January 27
-11368,Corona/North Corona,11368,40.749594,-73.852604,184,166.7,15,13.6,December 31-January 27
-11369,Airport/East Elmhurst,11369,40.768944,-73.872812,71,211.1,17,50.6,December 31-January 27
-11370,Jackson Heights/Rikers Island,11370,40.763466,-73.891021,51,160.5,,,December 31-January 27
-11372,Jackson Heights,11372,40.75169,-73.883634,97,159.8,25,41.2,December 31-January 27
-11373,Elmhurst,11373,40.738823,-73.8785,167,182.2,16,17.5,December 31-January 27
-11374,Rego Park,11374,40.726441,-73.861497,67,161.9,14,33.8,December 31-January 27
-11375,Forest Hills,11375,40.720931,-73.846184,119,167.0,25,35.1,December 31-January 27
-11377,Woodside,11377,40.744823,-73.90516,140,166.6,21,25.0,December 31-January 27
-11378,Maspeth,11378,40.724768,-73.909399,66,182.6,11,30.4,December 31-January 27
-11379,Middle Village,11379,40.716758,-73.879597,64,174.7,18,49.1,December 31-January 27
-11385,Glendale/Ridgewood,11385,40.701058,-73.890159,192,185.3,27,26.1,December 31-January 27
-11411,Cambria Heights,11411,40.694202,-73.735998,38,177.8,,,December 31-January 27
-11412,St. Albans,11412,40.698095,-73.758984,90,236.2,18,47.2,December 31-January 27
-11413,Laurelton/Rosedale,11413,40.669738,-73.750842,88,203.7,15,34.7,December 31-January 27
-11414,Hamilton Beach/Howard Beach/Lindenwood,11414,40.658266,-73.844905,47,165.7,17,59.9,December 31-January 27
-11415,Kew Gardens,11415,40.708323,-73.828212,28,148.4,6,31.8,December 31-January 27
-11416,Ozone Park,11416,40.684652,-73.849549,51,193.3,9,34.1,December 31-January 27
-11417,Ozone Park,11417,40.676457,-73.844522,58,186.8,14,45.1,December 31-January 27
-11418,Richmond Hill,11418,40.700236,-73.836062,67,178.3,11,29.3,December 31-January 27
-11419,Richmond Hill/South Ozone Park,11419,40.688676,-73.822901,94,193.8,16,33.0,December 31-January 27
-11420,South Ozone Park,11420,40.673518,-73.817812,91,190.2,17,35.5,December 31-January 27
-11421,Woodhaven,11421,40.69405,-73.85867,73,182.3,13,32.5,December 31-January 27
-11422,Rosedale,11422,40.660819,-73.73608,59,182.2,9,27.8,December 31-January 27
-11423,Hollis/Holliswood,11423,40.71491,-73.767865,67,215.2,13,41.7,December 31-January 27
-11426,Bellerose,11426,40.736521,-73.722384,19,94.2,,,December 31-January 27
-11427,Bellerose/Hollis Hills/Holliswood,11427,40.730915,-73.745611,40,169.7,9,38.2,December 31-January 27
-11428,Queens Village,11428,40.721015,-73.742206,32,172.2,6,32.3,December 31-January 27
-11429,Queens Village,11429,40.709772,-73.738731,57,205.0,8,28.8,December 31-January 27
-11432,Hillcrest/Jamaica Estates/Jamaica Hills,11432,40.715359,-73.793064,129,212.3,23,37.9,December 31-January 27
-11433,Jamaica,11433,40.69823,-73.787095,103,282.0,11,30.1,December 31-January 27
-11434,Airport/South Jamaica/Springfield Gardens/St. Albans,11434,40.656866,-73.783386,150,224.7,21,31.5,December 31-January 27
-11435,Briarwood/Jamaica,11435,40.701291,-73.809618,101,172.9,24,41.1,December 31-January 27
-11436,South Jamaica/South Ozone Park,11436,40.675819,-73.796618,54,269.4,5,24.9,December 31-January 27
-11691,Edgemere/Far Rockaway,11691,40.60133,-73.761357,141,210.9,40,59.8,December 31-January 27
-11692,Arverne/Edgemere,11692,40.592794,-73.792203,49,233.0,11,52.3,December 31-January 27
-11693,Arverne/Broad Channel,11693,40.603699,-73.821926,28,221.0,6,47.3,December 31-January 27
-11694,Belle Harbor-Neponsit/Rockaway Park,11694,40.577599,-73.844553,41,197.3,8,38.5,December 31-January 27
-11697,Breezy Point,11697,40.55907,-73.907199,8,235.8,,,December 31-January 27
+10001,Chelsea/NoMad/West Chelsea,"10001, 10118",40.750693,-73.997137,34,123.1,9,32.6,January 1-January 28
+10002,Chinatown/Lower East Side,10002,40.715781,-73.986176,184,244.3,27,35.8,January 1-January 28
+10003,East Village/Gramercy/Greenwich Village,10003,40.731825,-73.989164,45,83.4,9,16.7,January 1-January 28
+10004,Financial District,10004,40.703675,-74.013106,0,0.0,0,0.0,January 1-January 28
+10005,Financial District,10005,40.706092,-74.008861,2,,,,January 1-January 28
+10006,Financial District,10006,40.709651,-74.013044,0,0.0,0,0.0,January 1-January 28
+10007,TriBeCa,10007,40.713923,-74.007546,3,,,,January 1-January 28
+10009,Alphabet City/East Village/Stuyvesant Town-Cooper Village,10009,40.72638,-73.978704,109,190.7,20,35.0,January 1-January 28
+10010,Flatiron/Gramercy/Kips Bay,10010,40.739119,-73.982544,45,134.9,8,24.0,January 1-January 28
+10011,Chelsea,10011,40.741707,-74.000062,38,76.4,15,30.2,January 1-January 28
+10012,Greenwich Village/SoHo,10012,40.725576,-73.998078,18,77.7,,,January 1-January 28
+10013,Hudson Square/Little Italy/SoHo/TriBeCa,10013,40.720096,-74.004763,35,121.4,6,20.8,January 1-January 28
+10014,Hudson Square/Meatpacking District/West Village,10014,40.73402,-74.006314,13,42.9,,,January 1-January 28
+10016,Kips Bay/Murray Hill/NoMad,10016,40.745174,-73.978319,52,102.1,7,13.7,January 1-January 28
+10017,East Midtown/Murray Hill,10017,40.752543,-73.973037,10,64.0,7,44.8,January 1-January 28
+10018,Hell's Kitchen/Midtown Manhattan,10018,40.755191,-73.992667,15,127.2,,,January 1-January 28
+10019,Hell's Kitchen/Midtown Manhattan,"10019, 10020",40.76528,-73.985974,51,117.2,11,25.3,January 1-January 28
+10021,Lenox Hill/Upper East Side,10021,40.769474,-73.958771,41,89.4,,,January 1-January 28
+10022,East Midtown,10022,40.758676,-73.968098,27,87.4,8,25.9,January 1-January 28
+10023,Lincoln Square,10023,40.775901,-73.982658,62,100.4,17,27.5,January 1-January 28
+10024,Upper West Side,10024,40.792085,-73.974871,56,95.9,11,18.8,January 1-January 28
+10025,Manhattan Valley/Morningside Heights/Upper West Side,10025,40.798651,-73.966585,140,152.8,33,36.0,January 1-January 28
+10026,Central Harlem (South),10026,40.802341,-73.952521,67,173.3,12,31.0,January 1-January 28
+10027,Central Harlem (South)/Morningside Heights/West Harlem,10027,40.8118,-73.953204,132,208.2,19,30.0,January 1-January 28
+10028,Upper East Side/Yorkville,10028,40.776432,-73.953509,36,76.0,14,29.6,January 1-January 28
+10029,East Harlem,10029,40.791777,-73.943969,254,324.7,31,39.6,January 1-January 28
+10030,Central Harlem (North),10030,40.818326,-73.942842,70,239.2,15,51.2,January 1-January 28
+10031,Hamilton Heights/West Harlem,10031,40.825278,-73.950037,115,194.8,14,23.7,January 1-January 28
+10032,Washington Heights (South),10032,40.838768,-73.942824,140,222.0,21,33.3,January 1-January 28
+10033,Washington Heights (North)/Washington Heights (South),10033,40.850497,-73.934007,118,201.6,11,18.8,January 1-January 28
+10034,Inwood/Washington Heights (North),10034,40.867168,-73.924048,86,203.6,11,26.0,January 1-January 28
+10035,East Harlem,10035,40.791,-73.924596,140,397.3,22,62.4,January 1-January 28
+10036,Hell's Kitchen/Midtown Manhattan,10036,40.75916,-73.989705,49,179.9,12,44.0,January 1-January 28
+10037,Central Harlem (North)/East Harlem,10037,40.812957,-73.937419,70,336.6,11,52.9,January 1-January 28
+10038,Chinatown/Financial District,10038,40.709696,-74.002391,33,144.3,,,January 1-January 28
+10039,Central Harlem (North)/Washington Heights (South),10039,40.830807,-73.936247,68,250.2,8,29.4,January 1-January 28
+10040,Washington Heights (North),10040,40.85831,-73.93049,87,197.9,19,43.2,January 1-January 28
+10044,Roosevelt Island,10044,40.761931,-73.949924,11,94.2,,,January 1-January 28
+10065,Lenox Hill/Upper East Side,10065,40.764616,-73.963135,31,111.1,,,January 1-January 28
+10069,Lincoln Square,10069,40.775924,-73.990256,2,,0,0.0,January 1-January 28
+10075,Lenox Hill/Upper East Side,"10075, 10162",40.773132,-73.955884,26,112.8,5,21.7,January 1-January 28
+10128,Upper East Side/Yorkville,10128,40.781466,-73.950226,73,124.7,10,17.1,January 1-January 28
+10280,Battery Park City,10280,40.709318,-74.016654,1,,0,0.0,January 1-January 28
+10282,Battery Park City,10282,40.716409,-74.015077,2,,,,January 1-January 28
+10301,Silver Lake/St. George,10301,40.628224,-74.096232,97,249.3,19,48.8,January 1-January 28
+10302,Elm Park,10302,40.630598,-74.137891,44,238.0,5,27.0,January 1-January 28
+10303,Graniteville/Mariner's Harbor/Port Ivory,10303,40.632135,-74.169166,47,177.3,8,30.2,January 1-January 28
+10304,New Dorp/Todt Hill,10304,40.605985,-74.0943,79,188.6,22,52.5,January 1-January 28
+10305,Arrochar/Midland Beach/Shore Acres/South Beach Ocean Breeze,10305,40.595474,-74.075437,100,233.3,13,30.3,January 1-January 28
+10306,Lighthouse Hill/Midland Beach/New Dorp/Oakwood,10306,40.571571,-74.125541,121,229.1,21,39.8,January 1-January 28
+10307,Tottenville,10307,40.507771,-74.24227,21,140.8,,,January 1-January 28
+10308,Great Kills,10308,40.551574,-74.150454,57,191.1,11,36.9,January 1-January 28
+10309,Charleston/Prince's Bay/Woodrow,10309,40.531355,-74.220574,53,160.9,12,36.4,January 1-January 28
+10310,Port Richmond/Randall Manor/West Brighton,10310,40.632398,-74.11618,28,119.4,,,January 1-January 28
+10312,Annadale/Rossville,10312,40.545128,-74.18169,115,188.4,19,31.1,January 1-January 28
+10314,Bloomfield/Freshkills Park,10314,40.599333,-74.166462,168,181.6,29,31.3,January 1-January 28
+10451,Concourse/Melrose,10451,40.820705,-73.923865,142,299.8,15,31.7,January 1-January 28
+10452,Concourse/Highbridge,10452,40.837364,-73.923461,281,373.6,22,29.3,January 1-January 28
+10453,Morris Heights/Mount Hope/University Heights,10453,40.852304,-73.913578,292,371.1,27,34.3,January 1-January 28
+10454,Mott Haven/Port Morris,10454,40.805487,-73.916605,123,325.1,14,37.0,January 1-January 28
+10455,Mott Haven,10455,40.8147,-73.908583,158,377.1,13,31.0,January 1-January 28
+10456,Claremont/Morrisania,10456,40.829884,-73.908121,306,328.4,42,45.1,January 1-January 28
+10457,Belmont/Claremont/Mount Hope/Tremont,10457,40.847151,-73.898676,337,457.1,24,32.6,January 1-January 28
+10458,Belmont/Fordham University/Kingsbridge,10458,40.862531,-73.88817,200,241.7,16,19.3,January 1-January 28
+10459,Charlotte Gardens/Hunts Point,10459,40.82584,-73.892976,147,307.1,17,35.5,January 1-January 28
+10460,Charlotte Gardens/Tremont/Van Nest/West Farms,10460,40.841753,-73.879584,209,355.0,22,37.4,January 1-January 28
+10461,Morris Park/Pelham Bay/Westchester Square,10461,40.847415,-73.840601,139,283.1,16,32.6,January 1-January 28
+10462,Parkchester/Pelham Parkway/Van Nest/Westchester Square,10462,40.842874,-73.858772,220,292.1,26,34.5,January 1-January 28
+10463,Kingsbridge/Marble Hill/Riverdale/Spuyten Duyvil,10463,40.880824,-73.906514,171,244.3,29,41.4,January 1-January 28
+10464,City Island,10464,40.872311,-73.804653,6,140.0,,,January 1-January 28
+10465,Country Club/Throgs Neck,10465,40.823931,-73.822886,109,252.8,25,58.0,January 1-January 28
+10466,Edenwald/Wakefield,10466,40.890965,-73.845912,205,287.5,29,40.7,January 1-January 28
+10467,Allerton/Norwood/Pelham Parkway/Williamsbridge,10467,40.880939,-73.873956,361,353.7,37,36.3,January 1-January 28
+10468,Fordham/Kingsbridge/University Heights,10468,40.868161,-73.899844,208,267.3,29,37.3,January 1-January 28
+10469,Allerton/Baychester/Pelham Gardens/Williamsbridge,10469,40.86876,-73.846984,196,269.9,35,48.2,January 1-January 28
+10470,Wakefield/Woodlawn,10470,40.895986,-73.86802,50,333.5,5,33.4,January 1-January 28
+10471,Fieldston/North Riverdale/Riverdale,10471,40.899509,-73.901518,33,155.4,10,47.1,January 1-January 28
+10472,Soundview,10472,40.829561,-73.869393,176,258.9,14,20.6,January 1-January 28
+10473,Castle Hill/Clason Point/Soundview,10473,40.818135,-73.858718,192,324.8,18,30.5,January 1-January 28
+10474,Hunts Point,10474,40.810595,-73.884618,38,317.3,,,January 1-January 28
+10475,Co-op City/Edenwald,10475,40.868941,-73.824854,107,250.4,26,60.8,January 1-January 28
+11004,Bellerose/Douglaston-Little Neck,"11004, 11005",40.748068,-73.710907,27,142.5,14,73.9,January 1-January 28
+11101,Astoria (South)/Long Island City/Sunnyside,11101,40.747077,-73.938586,59,160.2,14,38.0,January 1-January 28
+11102,Astoria (North),11102,40.772498,-73.925912,35,116.5,14,46.6,January 1-January 28
+11103,Astoria (North)/Astoria (South),11103,40.762536,-73.913541,53,151.7,14,40.1,January 1-January 28
+11104,Sunnyside,11104,40.744658,-73.920205,46,180.8,7,27.5,January 1-January 28
+11105,Ditmars Steinway,11105,40.778969,-73.906286,52,143.7,21,58.0,January 1-January 28
+11106,Astoria (South),11106,40.761792,-73.931771,55,146.9,7,18.7,January 1-January 28
+11109,Long Island City,11109,40.746211,-73.956999,3,,0,0.0,January 1-January 28
+11201,Brooklyn Heights/DUMBO/Downtown Brooklyn,11201,40.694609,-73.989581,65,104.3,16,25.7,January 1-January 28
+11203,East Flatbush (North)/East Flatbush (South),11203,40.649576,-73.934363,143,195.1,31,42.3,January 1-January 28
+11204,Bensonhurst/Mapleton,11204,40.618774,-73.984824,130,168.6,29,37.6,January 1-January 28
+11205,Bedford-Stuyvesant (West)/Clinton Hill/Fort Greene,11205,40.694625,-73.966212,64,141.2,8,17.6,January 1-January 28
+11206,Williamsburg (South),11206,40.701957,-73.942361,200,230.7,30,34.6,January 1-January 28
+11207,Cypress Hills/East New York,11207,40.670819,-73.894255,209,234.7,42,47.2,January 1-January 28
+11208,Cypress Hills/East New York,11208,40.668385,-73.871084,220,230.2,35,36.6,January 1-January 28
+11209,Bay Ridge/Fort Hamilton,11209,40.621811,-74.030011,75,111.1,26,38.5,January 1-January 28
+11210,Flatlands/Midwood,11210,40.628165,-73.946316,117,178.1,16,24.4,January 1-January 28
+11211,East Williamsburg/Williamsburg (North)/Williamsburg (South),"11211, 11249",40.712334,-73.953851,115,113.1,29,28.5,January 1-January 28
+11212,Ocean Hill-Brownsville,11212,40.662935,-73.913011,218,294.7,36,48.7,January 1-January 28
+11213,Crown Heights (East),11213,40.671074,-73.93633,129,199.7,35,54.2,January 1-January 28
+11214,Bath Beach/Bensonhurst/Gravesend,11214,40.598729,-73.99621,216,232.7,55,59.3,January 1-January 28
+11215,Gowanus/Park Slope/Windsor Terrace,11215,40.66252,-73.986872,27,38.8,13,18.7,January 1-January 28
+11216,Bedford-Stuyvesant (West)/Crown Heights (West),11216,40.680785,-73.94931,85,155.0,15,27.4,January 1-January 28
+11217,Boerum Hill/Park Slope,"11217, 11243",40.682417,-73.97938,40,97.9,16,39.1,January 1-January 28
+11218,Kensington/Windsor Terrace,11218,40.64348,-73.976044,135,182.4,25,33.8,January 1-January 28
+11219,Borough Park,11219,40.632662,-73.996666,207,229.8,30,33.3,January 1-January 28
+11220,Sunset Park,11220,40.641081,-74.016495,125,132.1,23,24.3,January 1-January 28
+11221,Bedford-Stuyvesant (East)/Bushwick,11221,40.691339,-73.927885,192,235.8,35,43.0,January 1-January 28
+11222,Greenpoint,11222,40.728292,-73.947562,30,83.0,,,January 1-January 28
+11223,Gravesend/Homecrest,11223,40.597169,-73.973422,187,229.5,38,46.6,January 1-January 28
+11224,Brighton Beach/Coney Island/Seagate,11224,40.57666,-73.988581,209,451.7,44,95.1,January 1-January 28
+11225,Crown Heights (West)/Prospect Lefferts Gardens,11225,40.663056,-73.954226,104,180.8,16,27.8,January 1-January 28
+11226,Flatbush/Prospect Lefferts Gardens,11226,40.646456,-73.956654,201,206.5,50,51.4,January 1-January 28
+11228,Bath Beach/Dyker Heights,11228,40.616715,-74.013054,85,189.0,20,44.5,January 1-January 28
+11229,Gerritsen Beach/Homecrest/Sheepshead Bay,11229,40.601175,-73.944465,188,225.1,23,27.5,January 1-January 28
+11230,Midwood,11230,40.622164,-73.965096,173,194.6,29,32.6,January 1-January 28
+11231,Carroll Gardens/Cobble Hill/Red Hook,11231,40.677562,-74.004445,25,66.9,9,24.1,January 1-January 28
+11232,Sunset Park,11232,40.655984,-74.005304,36,132.9,9,33.2,January 1-January 28
+11233,Bedford-Stuyvesant (East)/Ocean Hill-Brownsville,11233,40.678302,-73.919931,143,192.4,32,43.1,January 1-January 28
+11234,Bergen Beach/Flatlands/Marine Park/Mill Basin,11234,40.60758,-73.910513,150,159.5,27,28.7,January 1-January 28
+11235,Brighton Beach/Manhattan Beach/Sheepshead Bay,11235,40.583915,-73.949669,285,364.5,79,101.0,January 1-January 28
+11236,Canarsie,11236,40.640004,-73.901459,191,196.7,38,39.1,January 1-January 28
+11237,Bushwick/East Williamsburg,11237,40.704153,-73.920883,104,216.7,8,16.7,January 1-January 28
+11238,Clinton Hill/Prospect Heights,11238,40.679179,-73.963804,80,149.4,20,37.3,January 1-January 28
+11239,East New York,11239,40.64753,-73.882398,57,437.7,9,69.1,January 1-January 28
+11354,Flushing/Murray Hill,11354,40.76863,-73.827229,82,152.1,33,61.2,January 1-January 28
+11355,Flushing/Murray Hill/Queensboro Hill,11355,40.751459,-73.821014,96,121.7,33,41.9,January 1-January 28
+11356,College Point,11356,40.784867,-73.841495,23,100.8,5,21.9,January 1-January 28
+11357,Whitestone,11357,40.78639,-73.810964,45,116.2,14,36.2,January 1-January 28
+11358,Auburndale/Murray Hill,11358,40.760475,-73.79637,42,116.6,15,41.6,January 1-January 28
+11360,Bayside (North),11360,40.78205,-73.7808,23,120.8,5,26.3,January 1-January 28
+11361,Bayside (North)/Bayside (South),11361,40.763748,-73.772419,25,94.8,13,49.3,January 1-January 28
+11362,Douglaston-Little Neck,11362,40.756533,-73.736995,20,110.5,9,49.7,January 1-January 28
+11363,Douglaston-Little Neck,11363,40.772803,-73.746444,8,118.8,,,January 1-January 28
+11364,Bayside (South)/Oakland Gardens,11364,40.745279,-73.760578,36,100.9,,,January 1-January 28
+11365,Auburndale/Fresh Meadows/Pomonok/Utopia,11365,40.739775,-73.794806,47,107.3,10,22.8,January 1-January 28
+11366,Fresh Meadows/Hillcrest,11366,40.728136,-73.784981,21,147.8,6,42.2,January 1-January 28
+11367,Kew Gardens Hills/Pomonok,11367,40.730383,-73.826297,55,135.2,11,27.0,January 1-January 28
+11368,Corona/North Corona,11368,40.749594,-73.852604,180,163.1,16,14.5,January 1-January 28
+11369,Airport/East Elmhurst,11369,40.768944,-73.872812,67,199.2,16,47.6,January 1-January 28
+11370,Jackson Heights/Rikers Island,11370,40.763466,-73.891021,50,157.3,,,January 1-January 28
+11372,Jackson Heights,11372,40.75169,-73.883634,95,156.6,23,37.9,January 1-January 28
+11373,Elmhurst,11373,40.738823,-73.8785,163,177.8,18,19.6,January 1-January 28
+11374,Rego Park,11374,40.726441,-73.861497,65,157.0,14,33.8,January 1-January 28
+11375,Forest Hills,11375,40.720931,-73.846184,118,165.6,24,33.7,January 1-January 28
+11377,Woodside,11377,40.744823,-73.90516,137,163.0,22,26.2,January 1-January 28
+11378,Maspeth,11378,40.724768,-73.909399,63,174.3,10,27.7,January 1-January 28
+11379,Middle Village,11379,40.716758,-73.879597,62,169.2,19,51.9,January 1-January 28
+11385,Glendale/Ridgewood,11385,40.701058,-73.890159,188,181.4,29,28.0,January 1-January 28
+11411,Cambria Heights,11411,40.694202,-73.735998,35,163.7,,,January 1-January 28
+11412,St. Albans,11412,40.698095,-73.758984,83,217.9,18,47.2,January 1-January 28
+11413,Laurelton/Rosedale,11413,40.669738,-73.750842,85,196.7,14,32.4,January 1-January 28
+11414,Hamilton Beach/Howard Beach/Lindenwood,11414,40.658266,-73.844905,47,165.7,17,59.9,January 1-January 28
+11415,Kew Gardens,11415,40.708323,-73.828212,28,148.4,6,31.8,January 1-January 28
+11416,Ozone Park,11416,40.684652,-73.849549,51,193.3,9,34.1,January 1-January 28
+11417,Ozone Park,11417,40.676457,-73.844522,56,180.4,14,45.1,January 1-January 28
+11418,Richmond Hill,11418,40.700236,-73.836062,65,172.9,12,31.9,January 1-January 28
+11419,Richmond Hill/South Ozone Park,11419,40.688676,-73.822901,93,191.7,16,33.0,January 1-January 28
+11420,South Ozone Park,11420,40.673518,-73.817812,85,177.7,16,33.4,January 1-January 28
+11421,Woodhaven,11421,40.69405,-73.85867,73,182.3,13,32.5,January 1-January 28
+11422,Rosedale,11422,40.660819,-73.73608,57,176.0,11,34.0,January 1-January 28
+11423,Hollis/Holliswood,11423,40.71491,-73.767865,64,205.5,13,41.7,January 1-January 28
+11426,Bellerose,11426,40.736521,-73.722384,18,89.3,,,January 1-January 28
+11427,Bellerose/Hollis Hills/Holliswood,11427,40.730915,-73.745611,39,165.4,9,38.2,January 1-January 28
+11428,Queens Village,11428,40.721015,-73.742206,29,156.1,6,32.3,January 1-January 28
+11429,Queens Village,11429,40.709772,-73.738731,53,190.6,8,28.8,January 1-January 28
+11432,Hillcrest/Jamaica Estates/Jamaica Hills,11432,40.715359,-73.793064,124,204.1,23,37.9,January 1-January 28
+11433,Jamaica,11433,40.69823,-73.787095,102,279.3,11,30.1,January 1-January 28
+11434,Airport/South Jamaica/Springfield Gardens/St. Albans,11434,40.656866,-73.783386,143,214.2,20,30.0,January 1-January 28
+11435,Briarwood/Jamaica,11435,40.701291,-73.809618,96,164.3,23,39.4,January 1-January 28
+11436,South Jamaica/South Ozone Park,11436,40.675819,-73.796618,52,259.4,6,29.9,January 1-January 28
+11691,Edgemere/Far Rockaway,11691,40.60133,-73.761357,138,206.4,43,64.3,January 1-January 28
+11692,Arverne/Edgemere,11692,40.592794,-73.792203,46,218.7,11,52.3,January 1-January 28
+11693,Arverne/Broad Channel,11693,40.603699,-73.821926,26,205.2,6,47.3,January 1-January 28
+11694,Belle Harbor-Neponsit/Rockaway Park,11694,40.577599,-73.844553,40,192.5,8,38.5,January 1-January 28
+11697,Breezy Point,11697,40.55907,-73.907199,7,206.3,,,January 1-January 28
