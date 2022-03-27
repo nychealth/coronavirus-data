@@ -1,8 +1,8 @@
 MEASURE,DAILY_AVG_7DAY,DAILY_AVG_28DAY,LAST_7_DAY,WEEKLY_AVG_LAST_4_WKS,TOTAL
-Percent Positivity,2,1.99,2,1.55,
-Cases,809,625,5662,4374,1956470
-Probable Cases,152,98,1062,683,342691
-Total Cases,961,722,6724,5057,2299161
-Hospitalizations,11,23,80,158,158827
-Confirmed Deaths,4,10,29,68,34548
-"Updated: March 25, 2022",,,,,
+Percent Positivity,2.26,2.06,2.26,1.61,
+Cases,906,658,6345,4604,1958904
+Probable Cases,169,106,1186,739,343024
+Total Cases,1076,763,7531,5343,2301928
+Hospitalizations,12,21,83,149,158879
+Confirmed Deaths,4,9,26,61,34556
+"Updated: March 27, 2022",,,,,
