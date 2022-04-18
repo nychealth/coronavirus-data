@@ -16,3 +16,6 @@ These data are also available in the [/latest folder of the coronavirus-data]( c
 | nyc_total_new_covid_admissions_per_100k_last_7_days | New admissions with COVID-19 per 100,000 people in the last seven days |      
 | nyc_percent_staffed_inpatient_beds_occupied_by_COVID_patients_7_day_avg | Percent of inpatient beds occupied by COVID-19 patients  (7-day average)|    
 | nyc_alert_level | Current NYC alert level status |
+| nyc_case_rate__7_day_total__status | The seven day trend for cases per 100,000 people |
+| nyc_total_new_covid_admissions_per_100k_last_7_days__status	| The seven day trend for new admissions with COVID-19 per 100,000 people |
+| nyc_percent_staffed_inpatient_beds_occupied_by_COVID_patients_7_day_avg__status | The seven day trend for the percent of inpatient beds occupied by COVID-19 patients |
