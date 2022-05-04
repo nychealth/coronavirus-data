@@ -15,7 +15,7 @@ Some reasons for this include:
 * Different data sources. NYS uses a self-reported hospital survey to report admissions whereas NYC uses data from a combination of sources, including Regional Health Information Organizations, hospital electronic health records, syndromic surveillance, and death registries.
 * Different analytical and informatics processes
 * Different uses of event date or report date. NYC publishes trend data (e.g., case-hosp-death.csv) using date of event (date of diagnosis, date of hospitalization or date of death), not date of report. This approach differs from the data published by NYS which is by date of report.
-* NYS admissions data includes non-NYC residents hospitalized at NYC hospitals
+* NYS admissions data include non-NYC residents hospitalized at NYC hospitals
 * Alert level trends compare this week to last week whereas the summary table on the [COVID-19 data page](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) compares last week to last month. 
 
 | Variable Name | Definition | 
