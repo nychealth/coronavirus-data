@@ -1,178 +1,178 @@
 modzcta,modzcta_name,label,lat,lon,percentpositivity_7day,people_tested,people_positive,median_daily_test_rate,adequately_tested,daterange
-10001,Chelsea/NoMad/West Chelsea,"10001, 10118",40.750693,-73.997137,12.71,645,82,383.9,Yes,May 1-May 7
-10002,Chinatown/Lower East Side,10002,40.715781,-73.986176,11.08,1544,171,404.9,Yes,May 1-May 7
-10003,East Village/Gramercy/Greenwich Village,10003,40.731825,-73.989164,13.78,1625,224,481.7,Yes,May 1-May 7
-10004,Financial District,10004,40.703675,-74.013106,11.69,77,9,437.4,Yes,May 1-May 7
-10005,Financial District,10005,40.706092,-74.008861,12.64,174,22,354,Yes,May 1-May 7
-10006,Financial District,10006,40.709651,-74.013044,12.79,86,11,384.4,Yes,May 1-May 7
-10007,TriBeCa,10007,40.713923,-74.007546,9.79,194,19,514.9,Yes,May 1-May 7
-10009,Alphabet City/East Village/Stuyvesant Town-Cooper Village,10009,40.72638,-73.978704,11.22,1194,134,344.7,Yes,May 1-May 7
-10010,Flatiron/Gramercy/Kips Bay,10010,40.739119,-73.982544,9.77,1034,101,569.7,Yes,May 1-May 7
-10011,Chelsea,10011,40.741707,-74.000062,12.09,1133,137,430.2,Yes,May 1-May 7
-10012,Greenwich Village/SoHo,10012,40.725576,-73.998078,9.62,582,56,401.7,Yes,May 1-May 7
-10013,Hudson Square/Little Italy/SoHo/TriBeCa,10013,40.720096,-74.004763,13.52,688,93,447.6,Yes,May 1-May 7
-10014,Hudson Square/Meatpacking District/West Village,10014,40.73402,-74.006314,12.8,633,81,346.1,Yes,May 1-May 7
-10016,Kips Bay/Murray Hill/NoMad,10016,40.745174,-73.978319,13.69,1176,161,420.3,Yes,May 1-May 7
-10017,East Midtown/Murray Hill,10017,40.752543,-73.973037,9.34,396,37,416.3,Yes,May 1-May 7
-10018,Hell's Kitchen/Midtown Manhattan,10018,40.755191,-73.992667,8.42,273,23,381.7,Yes,May 1-May 7
-10019,Hell's Kitchen/Midtown Manhattan,"10019, 10020",40.76528,-73.985974,11.06,1410,156,585.9,Yes,May 1-May 7
-10021,Lenox Hill/Upper East Side,10021,40.769474,-73.958771,13.06,1072,140,385.8,Yes,May 1-May 7
-10022,East Midtown,10022,40.758676,-73.968098,10.31,786,81,388.4,Yes,May 1-May 7
-10023,Lincoln Square,10023,40.775901,-73.982658,14.01,1563,219,388.5,Yes,May 1-May 7
-10024,Upper West Side,10024,40.792085,-73.974871,14.38,1453,209,342.4,Yes,May 1-May 7
-10025,Manhattan Valley/Morningside Heights/Upper West Side,10025,40.798651,-73.966585,9.46,2633,249,459.5,Yes,May 1-May 7
-10026,Central Harlem (South),10026,40.802341,-73.952521,8.45,793,67,333.6,Yes,May 1-May 7
-10027,Central Harlem (South)/Morningside Heights/West Harlem,10027,40.8118,-73.953204,5.85,1589,93,399.1,Yes,May 1-May 7
-10028,Upper East Side/Yorkville,10028,40.776432,-73.953509,10.14,1075,109,373.7,Yes,May 1-May 7
-10029,East Harlem,10029,40.791777,-73.943969,6.18,1585,98,327.3,Yes,May 1-May 7
-10030,Central Harlem (North),10030,40.818326,-73.942842,6.29,525,33,300.7,Yes,May 1-May 7
-10031,Hamilton Heights/West Harlem,10031,40.825278,-73.950037,6.51,1137,74,328.7,Yes,May 1-May 7
-10032,Washington Heights (South),10032,40.838768,-73.942824,5.79,1019,59,237.9,No,May 1-May 7
-10033,Washington Heights (North)/Washington Heights (South),10033,40.850497,-73.934007,5.43,939,51,242.7,No,May 1-May 7
-10034,Inwood/Washington Heights (North),10034,40.867168,-73.924048,6.08,559,34,213.1,No,May 1-May 7
-10035,East Harlem,10035,40.791,-73.924596,6.83,805,55,317.8,Yes,May 1-May 7
-10036,Hell's Kitchen/Midtown Manhattan,10036,40.75916,-73.989705,9.11,911,83,572.6,Yes,May 1-May 7
-10037,Central Harlem (North)/East Harlem,10037,40.812957,-73.937419,8.45,367,31,312.6,Yes,May 1-May 7
-10038,Chinatown/Financial District,10038,40.709696,-74.002391,8.66,543,47,376.1,Yes,May 1-May 7
-10039,Central Harlem (North)/Washington Heights (South),10039,40.830807,-73.936247,6.67,480,32,356.9,Yes,May 1-May 7
-10040,Washington Heights (North),10040,40.85831,-73.93049,6.29,636,40,197.9,No,May 1-May 7
-10044,Roosevelt Island,10044,40.761931,-73.949924,11.87,278,33,317,Yes,May 1-May 7
-10065,Lenox Hill/Upper East Side,10065,40.764616,-73.963135,11.76,1063,125,677.4,Yes,May 1-May 7
-10069,Lincoln Square,10069,40.775924,-73.990256,18.87,212,40,588.7,Yes,May 1-May 7
-10075,Lenox Hill/Upper East Side,"10075, 10162",40.773132,-73.955884,15.26,688,105,533.7,Yes,May 1-May 7
-10128,Upper East Side/Yorkville,10128,40.781466,-73.950226,13.13,1310,172,307.4,Yes,May 1-May 7
-10280,Battery Park City,10280,40.709318,-74.016654,8.42,190,16,267.5,Yes,May 1-May 7
-10282,Battery Park City,10282,40.716409,-74.015077,13.91,115,16,233.3,No,May 1-May 7
-10301,Silver Lake/St. George,10301,40.628224,-74.096232,9.56,847,81,329,Yes,May 1-May 7
-10302,Elm Park,10302,40.630598,-74.137891,5.37,391,21,302.9,Yes,May 1-May 7
-10303,Graniteville/Mariner's Harbor/Port Ivory,10303,40.632135,-74.169166,6.26,559,35,290.4,Yes,May 1-May 7
-10304,New Dorp/Todt Hill,10304,40.605985,-74.0943,8.56,935,80,317.5,Yes,May 1-May 7
-10305,Arrochar/Midland Beach/Shore Acres/South Beach Ocean Breeze,10305,40.595474,-74.075437,10.05,836,84,319.7,Yes,May 1-May 7
-10306,Lighthouse Hill/Midland Beach/New Dorp/Oakwood,10306,40.571571,-74.125541,10.59,1227,130,346.5,Yes,May 1-May 7
-10307,Tottenville,10307,40.507771,-74.24227,11.84,245,29,201.2,No,May 1-May 7
-10308,Great Kills,10308,40.551574,-74.150454,13.46,587,79,305.2,Yes,May 1-May 7
-10309,Charleston/Prince's Bay/Woodrow,10309,40.531355,-74.220574,9.78,675,66,252,No,May 1-May 7
-10310,Port Richmond/Randall Manor/West Brighton,10310,40.632398,-74.11618,6.51,522,34,315.7,Yes,May 1-May 7
-10312,Annadale/Rossville,10312,40.545128,-74.18169,10.34,1219,126,296.5,Yes,May 1-May 7
-10314,Bloomfield/Freshkills Park,10314,40.599333,-74.166462,10.61,1838,195,313.4,Yes,May 1-May 7
-10451,Concourse/Melrose,10451,40.820705,-73.923865,3.74,882,33,282.9,Yes,May 1-May 7
-10452,Concourse/Highbridge,10452,40.837364,-73.923461,4.74,950,45,198.1,No,May 1-May 7
-10453,Morris Heights/Mount Hope/University Heights,10453,40.852304,-73.913578,4.53,1104,50,236.4,No,May 1-May 7
-10454,Mott Haven/Port Morris,10454,40.805487,-73.916605,2.69,1599,43,808.9,Yes,May 1-May 7
-10455,Mott Haven,10455,40.8147,-73.908583,3.37,801,27,274.5,Yes,May 1-May 7
-10456,Claremont/Morrisania,10456,40.829884,-73.908121,4.32,1342,58,226.4,No,May 1-May 7
-10457,Belmont/Claremont/Mount Hope/Tremont,10457,40.847151,-73.898676,5.16,911,47,196.7,No,May 1-May 7
-10458,Belmont/Fordham University/Kingsbridge,10458,40.862531,-73.88817,6.98,974,68,184.9,No,May 1-May 7
-10459,Charlotte Gardens/Hunts Point,10459,40.82584,-73.892976,3.93,866,34,305,Yes,May 1-May 7
-10460,Charlotte Gardens/Tremont/Van Nest/West Farms,10460,40.841753,-73.879584,5.1,1058,54,258.2,No,May 1-May 7
-10461,Morris Park/Pelham Bay/Westchester Square,10461,40.847415,-73.840601,8.2,829,68,236.3,No,May 1-May 7
-10462,Parkchester/Pelham Parkway/Van Nest/Westchester Square,10462,40.842874,-73.858772,6.13,1159,71,243,No,May 1-May 7
-10463,Kingsbridge/Marble Hill/Riverdale/Spuyten Duyvil,10463,40.880824,-73.906514,6.92,1069,74,247.2,No,May 1-May 7
-10464,City Island,10464,40.872311,-73.804653,7.81,64,5,233.4,No,May 1-May 7
-10465,Country Club/Throgs Neck,10465,40.823931,-73.822886,6.56,717,47,231.9,No,May 1-May 7
-10466,Edenwald/Wakefield,10466,40.890965,-73.845912,6.84,892,61,207.5,No,May 1-May 7
-10467,Allerton/Norwood/Pelham Parkway/Williamsbridge,10467,40.880939,-73.873956,8.61,1312,113,207.7,No,May 1-May 7
-10468,Fordham/Kingsbridge/University Heights,10468,40.868161,-73.899844,3.78,821,31,155.5,No,May 1-May 7
-10469,Allerton/Baychester/Pelham Gardens/Williamsbridge,10469,40.86876,-73.846984,8.25,812,67,185.9,No,May 1-May 7
-10470,Wakefield/Woodlawn,10470,40.895986,-73.86802,7.48,214,16,246.8,No,May 1-May 7
-10471,Fieldston/North Riverdale/Riverdale,10471,40.899509,-73.901518,11.91,361,43,282.5,Yes,May 1-May 7
-10472,Soundview,10472,40.829561,-73.869393,4.01,1421,57,250.1,No,May 1-May 7
-10473,Castle Hill/Clason Point/Soundview,10473,40.818135,-73.858718,4.54,1124,51,230.1,No,May 1-May 7
-10474,Hunts Point,10474,40.810595,-73.884618,4.71,191,9,217.1,No,May 1-May 7
-10475,Co-op City/Edenwald,10475,40.868941,-73.824854,6.54,474,31,177.8,No,May 1-May 7
-11004,Bellerose/Douglaston-Little Neck,"11004, 11005",40.748068,-73.710907,14.9,349,52,290.2,Yes,May 1-May 7
-11101,Astoria (South)/Long Island City/Sunnyside,11101,40.747077,-73.938586,13.47,1173,158,575.5,Yes,May 1-May 7
-11102,Astoria (North),11102,40.772498,-73.925912,8.63,730,63,426,Yes,May 1-May 7
-11103,Astoria (North)/Astoria (South),11103,40.762536,-73.913541,9.87,750,74,372.1,Yes,May 1-May 7
-11104,Sunnyside,11104,40.744658,-73.920205,11.87,514,61,385.3,Yes,May 1-May 7
-11105,Ditmars Steinway,11105,40.778969,-73.906286,10.07,745,75,326.1,Yes,May 1-May 7
-11106,Astoria (South),11106,40.761792,-73.931771,11.58,812,94,387.4,Yes,May 1-May 7
-11109,Long Island City,11109,40.746211,-73.956999,19.07,194,37,399.1,Yes,May 1-May 7
-11201,Brooklyn Heights/DUMBO/Downtown Brooklyn,11201,40.694609,-73.989581,11.6,1603,186,390.1,Yes,May 1-May 7
-11203,East Flatbush (North)/East Flatbush (South),11203,40.649576,-73.934363,7.97,991,79,238.7,No,May 1-May 7
-11204,Bensonhurst/Mapleton,11204,40.618774,-73.984824,9.16,1550,142,298.4,Yes,May 1-May 7
-11205,Bedford-Stuyvesant (West)/Clinton Hill/Fort Greene,11205,40.694625,-73.966212,6.2,677,42,211.8,No,May 1-May 7
-11206,Williamsburg (South),11206,40.701957,-73.942361,11.1,1090,121,213.4,No,May 1-May 7
-11207,Cypress Hills/East New York,11207,40.670819,-73.894255,7.14,1246,89,212.3,No,May 1-May 7
-11208,Cypress Hills/East New York,11208,40.668385,-73.871084,6.95,1237,86,214.5,No,May 1-May 7
-11209,Bay Ridge/Fort Hamilton,11209,40.621811,-74.030011,12.71,1534,195,358.4,Yes,May 1-May 7
-11210,Flatlands/Midwood,11210,40.628165,-73.946316,7.66,862,66,229.9,No,May 1-May 7
-11211,East Williamsburg/Williamsburg (North)/Williamsburg (South),"11211, 11249",40.712334,-73.953851,12.15,1762,214,250.8,No,May 1-May 7
-11212,Ocean Hill-Brownsville,11212,40.662935,-73.913011,7.71,1089,84,258.2,No,May 1-May 7
-11213,Crown Heights (East),11213,40.671074,-73.93633,6.76,1035,70,303.4,Yes,May 1-May 7
-11214,Bath Beach/Bensonhurst/Gravesend,11214,40.598729,-73.99621,9.45,1978,187,328.6,Yes,May 1-May 7
-11215,Gowanus/Park Slope/Windsor Terrace,11215,40.66252,-73.986872,10.62,2288,243,574.5,Yes,May 1-May 7
-11216,Bedford-Stuyvesant (West)/Crown Heights (West),11216,40.680785,-73.94931,7.59,1080,82,333.8,Yes,May 1-May 7
-11217,Boerum Hill/Park Slope,"11217, 11243",40.682417,-73.97938,11.68,1087,127,447.8,Yes,May 1-May 7
-11218,Kensington/Windsor Terrace,11218,40.64348,-73.976044,7.8,1756,137,404.1,Yes,May 1-May 7
-11219,Borough Park,11219,40.632662,-73.996666,9.15,1617,148,279.7,Yes,May 1-May 7
-11220,Sunset Park,11220,40.641081,-74.016495,8.18,2005,164,380.6,Yes,May 1-May 7
-11221,Bedford-Stuyvesant (East)/Bushwick,11221,40.691339,-73.927885,8.9,1371,122,259.1,No,May 1-May 7
-11222,Greenpoint,11222,40.728292,-73.947562,11.53,876,101,376.5,Yes,May 1-May 7
-11223,Gravesend/Homecrest,11223,40.597169,-73.973422,8.39,1644,138,341.1,Yes,May 1-May 7
-11224,Brighton Beach/Coney Island/Seagate,11224,40.57666,-73.988581,9.24,887,82,270.1,Yes,May 1-May 7
-11225,Crown Heights (West)/Prospect Lefferts Gardens,11225,40.663056,-73.954226,8.51,881,75,269.5,Yes,May 1-May 7
-11226,Flatbush/Prospect Lefferts Gardens,11226,40.646456,-73.956654,7.65,1700,130,297.9,Yes,May 1-May 7
-11228,Bath Beach/Dyker Heights,11228,40.616715,-74.013054,12.5,1024,128,311.2,Yes,May 1-May 7
-11229,Gerritsen Beach/Homecrest/Sheepshead Bay,11229,40.601175,-73.944465,10.94,1170,128,238.2,No,May 1-May 7
-11230,Midwood,11230,40.622164,-73.965096,7.76,1546,120,284.6,Yes,May 1-May 7
-11231,Carroll Gardens/Cobble Hill/Red Hook,11231,40.677562,-74.004445,10.98,956,105,377.2,Yes,May 1-May 7
-11232,Sunset Park,11232,40.655984,-74.005304,9.68,599,58,358.1,Yes,May 1-May 7
-11233,Bedford-Stuyvesant (East)/Ocean Hill-Brownsville,11233,40.678302,-73.919931,7.18,1017,73,250.3,No,May 1-May 7
-11234,Bergen Beach/Flatlands/Marine Park/Mill Basin,11234,40.60758,-73.910513,10.67,1256,134,213.7,No,May 1-May 7
-11235,Brighton Beach/Manhattan Beach/Sheepshead Bay,11235,40.583915,-73.949669,10.38,1358,141,234,No,May 1-May 7
-11236,Canarsie,11236,40.640004,-73.901459,9.55,1215,116,212.1,No,May 1-May 7
-11237,Bushwick/East Williamsburg,11237,40.704153,-73.920883,9.62,665,64,231.2,No,May 1-May 7
-11238,Clinton Hill/Prospect Heights,11238,40.679179,-73.963804,10.38,1387,144,427.6,Yes,May 1-May 7
-11239,East New York,11239,40.64753,-73.882398,14.95,214,32,238.1,No,May 1-May 7
-11354,Flushing/Murray Hill,11354,40.76863,-73.827229,17.77,1086,193,309.7,Yes,May 1-May 7
-11355,Flushing/Murray Hill/Queensboro Hill,11355,40.751459,-73.821014,14.98,1635,245,284.1,Yes,May 1-May 7
-11356,College Point,11356,40.784867,-73.841495,7.68,521,40,267.4,Yes,May 1-May 7
-11357,Whitestone,11357,40.78639,-73.810964,11.34,873,99,310,Yes,May 1-May 7
-11358,Auburndale/Murray Hill,11358,40.760475,-73.79637,13.96,838,117,319.2,Yes,May 1-May 7
-11360,Bayside (North),11360,40.78205,-73.7808,13.37,389,52,304.5,Yes,May 1-May 7
-11361,Bayside (North)/Bayside (South),11361,40.763748,-73.772419,11.63,645,75,390.6,Yes,May 1-May 7
-11362,Douglaston-Little Neck,11362,40.756533,-73.736995,12.56,406,51,364.6,Yes,May 1-May 7
-11363,Douglaston-Little Neck,11363,40.772803,-73.746444,10.39,154,16,356.3,Yes,May 1-May 7
-11364,Bayside (South)/Oakland Gardens,11364,40.745279,-73.760578,14.03,827,116,347.5,Yes,May 1-May 7
-11365,Auburndale/Fresh Meadows/Pomonok/Utopia,11365,40.739775,-73.794806,8.86,1061,94,404,Yes,May 1-May 7
-11366,Fresh Meadows/Hillcrest,11366,40.728136,-73.784981,11.71,316,37,309.7,Yes,May 1-May 7
-11367,Kew Gardens Hills/Pomonok,11367,40.730383,-73.826297,11.43,761,87,272.9,Yes,May 1-May 7
-11368,Corona/North Corona,11368,40.749594,-73.852604,5.86,1348,79,207.5,No,May 1-May 7
-11369,Airport/East Elmhurst,11369,40.768944,-73.872812,4.39,638,28,246.8,No,May 1-May 7
-11370,Jackson Heights/Rikers Island,11370,40.763466,-73.891021,6.85,511,35,248.6,No,May 1-May 7
-11372,Jackson Heights,11372,40.75169,-73.883634,8.61,1266,109,316.4,Yes,May 1-May 7
-11373,Elmhurst,11373,40.738823,-73.8785,14.08,1250,176,241.1,No,May 1-May 7
-11374,Rego Park,11374,40.726441,-73.861497,7.87,864,68,343,Yes,May 1-May 7
-11375,Forest Hills,11375,40.720931,-73.846184,10.64,1730,184,370.4,Yes,May 1-May 7
-11377,Woodside,11377,40.744823,-73.90516,9.9,1334,132,266.5,Yes,May 1-May 7
-11378,Maspeth,11378,40.724768,-73.909399,10.28,496,51,262.8,Yes,May 1-May 7
-11379,Middle Village,11379,40.716758,-73.879597,15.32,509,78,256.6,No,May 1-May 7
-11385,Glendale/Ridgewood,11385,40.701058,-73.890159,12.6,1286,162,204.6,No,May 1-May 7
-11411,Cambria Heights,11411,40.694202,-73.735998,6.82,381,26,299.4,Yes,May 1-May 7
-11412,St. Albans,11412,40.698095,-73.758984,4.59,784,36,380.6,Yes,May 1-May 7
-11413,Laurelton/Rosedale,11413,40.669738,-73.750842,6.01,898,54,282.4,Yes,May 1-May 7
-11414,Hamilton Beach/Howard Beach/Lindenwood,11414,40.658266,-73.844905,14.98,554,83,317.4,Yes,May 1-May 7
-11415,Kew Gardens,11415,40.708323,-73.828212,13.92,388,54,312.6,Yes,May 1-May 7
-11416,Ozone Park,11416,40.684652,-73.849549,6.76,518,35,280.4,Yes,May 1-May 7
-11417,Ozone Park,11417,40.676457,-73.844522,7.38,596,44,241.6,No,May 1-May 7
-11418,Richmond Hill,11418,40.700236,-73.836062,7.49,721,54,292.7,Yes,May 1-May 7
-11419,Richmond Hill/South Ozone Park,11419,40.688676,-73.822901,6.51,860,56,296.9,Yes,May 1-May 7
-11420,South Ozone Park,11420,40.673518,-73.817812,6.25,880,55,244.6,No,May 1-May 7
-11421,Woodhaven,11421,40.69405,-73.85867,10.09,694,70,274.7,Yes,May 1-May 7
-11422,Rosedale,11422,40.660819,-73.73608,5.98,669,40,237.7,No,May 1-May 7
-11423,Hollis/Holliswood,11423,40.71491,-73.767865,8.11,666,54,375.7,Yes,May 1-May 7
-11426,Bellerose,11426,40.736521,-73.722384,15.05,432,65,342.2,Yes,May 1-May 7
-11427,Bellerose/Hollis Hills/Holliswood,11427,40.730915,-73.745611,7.02,470,33,364.8,Yes,May 1-May 7
-11428,Queens Village,11428,40.721015,-73.742206,6.43,389,25,274.5,Yes,May 1-May 7
-11429,Queens Village,11429,40.709772,-73.738731,4.22,616,26,402.7,Yes,May 1-May 7
-11432,Hillcrest/Jamaica Estates/Jamaica Hills,11432,40.715359,-73.793064,7.07,1202,85,344,Yes,May 1-May 7
-11433,Jamaica,11433,40.69823,-73.787095,3.41,733,25,334,Yes,May 1-May 7
-11434,Airport/South Jamaica/Springfield Gardens/St. Albans,11434,40.656866,-73.783386,5.97,1374,82,386.4,Yes,May 1-May 7
-11435,Briarwood/Jamaica,11435,40.701291,-73.809618,7.18,1087,78,335.5,Yes,May 1-May 7
-11436,South Jamaica/South Ozone Park,11436,40.675819,-73.796618,5.78,398,23,249.5,No,May 1-May 7
-11691,Edgemere/Far Rockaway,11691,40.60133,-73.761357,6.19,1115,69,245.3,No,May 1-May 7
-11692,Arverne/Edgemere,11692,40.592794,-73.792203,5.32,376,20,266.3,Yes,May 1-May 7
-11693,Arverne/Broad Channel,11693,40.603699,-73.821926,6.42,218,14,268.3,Yes,May 1-May 7
-11694,Belle Harbor-Neponsit/Rockaway Park,11694,40.577599,-73.844553,14.29,287,41,211.7,No,May 1-May 7
-11697,Breezy Point,11697,40.55907,-73.907199,16.44,73,12,265.3,Yes,May 1-May 7
+10001,Chelsea/NoMad/West Chelsea,"10001, 10118",40.750693,-73.997137,13.23,635,84,391.1,Yes,May 2-May 8
+10002,Chinatown/Lower East Side,10002,40.715781,-73.986176,11.11,1512,168,408.9,Yes,May 2-May 8
+10003,East Village/Gramercy/Greenwich Village,10003,40.731825,-73.989164,13.53,1560,211,511.3,Yes,May 2-May 8
+10004,Financial District,10004,40.703675,-74.013106,12.5,72,9,437.4,Yes,May 2-May 8
+10005,Financial District,10005,40.706092,-74.008861,12.04,191,23,468.2,Yes,May 2-May 8
+10006,Financial District,10006,40.709651,-74.013044,13.25,83,11,414,Yes,May 2-May 8
+10007,TriBeCa,10007,40.713923,-74.007546,9.23,195,18,543.5,Yes,May 2-May 8
+10009,Alphabet City/East Village/Stuyvesant Town-Cooper Village,10009,40.72638,-73.978704,10.37,1177,122,355.2,Yes,May 2-May 8
+10010,Flatiron/Gramercy/Kips Bay,10010,40.739119,-73.982544,9.54,1017,97,572.7,Yes,May 2-May 8
+10011,Chelsea,10011,40.741707,-74.000062,11.97,1111,133,438.2,Yes,May 2-May 8
+10012,Greenwich Village/SoHo,10012,40.725576,-73.998078,10.93,567,62,423.3,Yes,May 2-May 8
+10013,Hudson Square/Little Italy/SoHo/TriBeCa,10013,40.720096,-74.004763,13.37,688,92,444.2,Yes,May 2-May 8
+10014,Hudson Square/Meatpacking District/West Village,10014,40.73402,-74.006314,12.44,603,75,362.6,Yes,May 2-May 8
+10016,Kips Bay/Murray Hill/NoMad,10016,40.745174,-73.978319,14.3,1161,166,434.1,Yes,May 2-May 8
+10017,East Midtown/Murray Hill,10017,40.752543,-73.973037,10.18,383,39,429.1,Yes,May 2-May 8
+10018,Hell's Kitchen/Midtown Manhattan,10018,40.755191,-73.992667,10.33,242,25,373.2,Yes,May 2-May 8
+10019,Hell's Kitchen/Midtown Manhattan,"10019, 10020",40.76528,-73.985974,10.89,1350,147,602,Yes,May 2-May 8
+10021,Lenox Hill/Upper East Side,10021,40.769474,-73.958771,12.78,1025,131,396.7,Yes,May 2-May 8
+10022,East Midtown,10022,40.758676,-73.968098,10.57,738,78,391.6,Yes,May 2-May 8
+10023,Lincoln Square,10023,40.775901,-73.982658,13.59,1442,196,394.9,Yes,May 2-May 8
+10024,Upper West Side,10024,40.792085,-73.974871,12.3,1342,165,366.4,Yes,May 2-May 8
+10025,Manhattan Valley/Morningside Heights/Upper West Side,10025,40.798651,-73.966585,8.62,2426,209,479.2,Yes,May 2-May 8
+10026,Central Harlem (South),10026,40.802341,-73.952521,8.56,771,66,344,Yes,May 2-May 8
+10027,Central Harlem (South)/Morningside Heights/West Harlem,10027,40.8118,-73.953204,5.86,1554,91,411.7,Yes,May 2-May 8
+10028,Upper East Side/Yorkville,10028,40.776432,-73.953509,10.14,1026,104,386.3,Yes,May 2-May 8
+10029,East Harlem,10029,40.791777,-73.943969,5.89,1578,93,337.5,Yes,May 2-May 8
+10030,Central Harlem (North),10030,40.818326,-73.942842,6.12,539,33,321.1,Yes,May 2-May 8
+10031,Hamilton Heights/West Harlem,10031,40.825278,-73.950037,7.33,1078,79,340.5,Yes,May 2-May 8
+10032,Washington Heights (South),10032,40.838768,-73.942824,5.62,997,56,245.8,No,May 2-May 8
+10033,Washington Heights (North)/Washington Heights (South),10033,40.850497,-73.934007,5.48,913,50,258,No,May 2-May 8
+10034,Inwood/Washington Heights (North),10034,40.867168,-73.924048,6.29,525,33,213.1,No,May 2-May 8
+10035,East Harlem,10035,40.791,-73.924596,7.18,808,58,363.2,Yes,May 2-May 8
+10036,Hell's Kitchen/Midtown Manhattan,10036,40.75916,-73.989705,9.48,802,76,543.3,Yes,May 2-May 8
+10037,Central Harlem (North)/East Harlem,10037,40.812957,-73.937419,9.01,344,31,312.6,Yes,May 2-May 8
+10038,Chinatown/Financial District,10038,40.709696,-74.002391,8.69,541,47,376.1,Yes,May 2-May 8
+10039,Central Harlem (North)/Washington Heights (South),10039,40.830807,-73.936247,6.36,472,30,356.9,Yes,May 2-May 8
+10040,Washington Heights (North),10040,40.85831,-73.93049,5.84,616,36,204.7,No,May 2-May 8
+10044,Roosevelt Island,10044,40.761931,-73.949924,12.68,276,35,317,Yes,May 2-May 8
+10065,Lenox Hill/Upper East Side,10065,40.764616,-73.963135,11.79,1043,123,681,Yes,May 2-May 8
+10069,Lincoln Square,10069,40.775924,-73.990256,19.51,205,40,509.2,Yes,May 2-May 8
+10075,Lenox Hill/Upper East Side,"10075, 10162",40.773132,-73.955884,15.98,657,105,533.7,Yes,May 2-May 8
+10128,Upper East Side/Yorkville,10128,40.781466,-73.950226,13.34,1267,169,315.9,Yes,May 2-May 8
+10280,Battery Park City,10280,40.709318,-74.016654,7.37,190,14,288.9,Yes,May 2-May 8
+10282,Battery Park City,10282,40.716409,-74.015077,13.76,109,15,233.3,No,May 2-May 8
+10301,Silver Lake/St. George,10301,40.628224,-74.096232,9.53,829,79,329,Yes,May 2-May 8
+10302,Elm Park,10302,40.630598,-74.137891,5.32,395,21,308.4,Yes,May 2-May 8
+10303,Graniteville/Mariner's Harbor/Port Ivory,10303,40.632135,-74.169166,6.39,563,36,294.2,Yes,May 2-May 8
+10304,New Dorp/Todt Hill,10304,40.605985,-74.0943,8.85,915,81,324.7,Yes,May 2-May 8
+10305,Arrochar/Midland Beach/Shore Acres/South Beach Ocean Breeze,10305,40.595474,-74.075437,10.65,845,90,319.7,Yes,May 2-May 8
+10306,Lighthouse Hill/Midland Beach/New Dorp/Oakwood,10306,40.571571,-74.125541,10.62,1224,130,348.4,Yes,May 2-May 8
+10307,Tottenville,10307,40.507771,-74.24227,12.5,248,31,201.2,No,May 2-May 8
+10308,Great Kills,10308,40.551574,-74.150454,14.29,602,86,305.2,Yes,May 2-May 8
+10309,Charleston/Prince's Bay/Woodrow,10309,40.531355,-74.220574,9.67,672,65,255,No,May 2-May 8
+10310,Port Richmond/Randall Manor/West Brighton,10310,40.632398,-74.11618,7.29,521,38,315.7,Yes,May 2-May 8
+10312,Annadale/Rossville,10312,40.545128,-74.18169,11.31,1247,141,316.1,Yes,May 2-May 8
+10314,Bloomfield/Freshkills Park,10314,40.599333,-74.166462,11.3,1876,212,322.1,Yes,May 2-May 8
+10451,Concourse/Melrose,10451,40.820705,-73.923865,4.26,891,38,282.9,Yes,May 2-May 8
+10452,Concourse/Highbridge,10452,40.837364,-73.923461,4.57,962,44,198.1,No,May 2-May 8
+10453,Morris Heights/Mount Hope/University Heights,10453,40.852304,-73.913578,5.14,1109,57,236.4,No,May 2-May 8
+10454,Mott Haven/Port Morris,10454,40.805487,-73.916605,2.68,1602,43,803.6,Yes,May 2-May 8
+10455,Mott Haven,10455,40.8147,-73.908583,3.4,793,27,276.9,Yes,May 2-May 8
+10456,Claremont/Morrisania,10456,40.829884,-73.908121,4.75,1347,64,240.4,No,May 2-May 8
+10457,Belmont/Claremont/Mount Hope/Tremont,10457,40.847151,-73.898676,5.01,938,47,200.8,No,May 2-May 8
+10458,Belmont/Fordham University/Kingsbridge,10458,40.862531,-73.88817,7.22,983,71,191,No,May 2-May 8
+10459,Charlotte Gardens/Hunts Point,10459,40.82584,-73.892976,3.57,868,31,307.1,Yes,May 2-May 8
+10460,Charlotte Gardens/Tremont/Van Nest/West Farms,10460,40.841753,-73.879584,5.1,1059,54,258.2,No,May 2-May 8
+10461,Morris Park/Pelham Bay/Westchester Square,10461,40.847415,-73.840601,8.36,825,69,238.3,No,May 2-May 8
+10462,Parkchester/Pelham Parkway/Van Nest/Westchester Square,10462,40.842874,-73.858772,5.81,1170,68,244.3,No,May 2-May 8
+10463,Kingsbridge/Marble Hill/Riverdale/Spuyten Duyvil,10463,40.880824,-73.906514,7.18,1087,78,252.9,No,May 2-May 8
+10464,City Island,10464,40.872311,-73.804653,10.29,68,7,233.4,No,May 2-May 8
+10465,Country Club/Throgs Neck,10465,40.823931,-73.822886,6.69,717,48,231.9,No,May 2-May 8
+10466,Edenwald/Wakefield,10466,40.890965,-73.845912,6.5,892,58,211.8,No,May 2-May 8
+10467,Allerton/Norwood/Pelham Parkway/Williamsbridge,10467,40.880939,-73.873956,8.75,1326,116,208.7,No,May 2-May 8
+10468,Fordham/Kingsbridge/University Heights,10468,40.868161,-73.899844,4.05,814,33,164.5,No,May 2-May 8
+10469,Allerton/Baychester/Pelham Gardens/Williamsbridge,10469,40.86876,-73.846984,8.55,807,69,187.3,No,May 2-May 8
+10470,Wakefield/Woodlawn,10470,40.895986,-73.86802,8.22,219,18,246.8,No,May 2-May 8
+10471,Fieldston/North Riverdale/Riverdale,10471,40.899509,-73.901518,11.92,369,44,296.6,Yes,May 2-May 8
+10472,Soundview,10472,40.829561,-73.869393,3.72,1426,53,251.5,No,May 2-May 8
+10473,Castle Hill/Clason Point/Soundview,10473,40.818135,-73.858718,4.65,1119,52,236.8,No,May 2-May 8
+10474,Hunts Point,10474,40.810595,-73.884618,4.69,192,9,217.1,No,May 2-May 8
+10475,Co-op City/Edenwald,10475,40.868941,-73.824854,6.88,480,33,177.8,No,May 2-May 8
+11004,Bellerose/Douglaston-Little Neck,"11004, 11005",40.748068,-73.710907,14.58,336,49,290.2,Yes,May 2-May 8
+11101,Astoria (South)/Long Island City/Sunnyside,11101,40.747077,-73.938586,13.45,1123,151,578.2,Yes,May 2-May 8
+11102,Astoria (North),11102,40.772498,-73.925912,8.95,726,65,429.4,Yes,May 2-May 8
+11103,Astoria (North)/Astoria (South),11103,40.762536,-73.913541,10.6,736,78,372.1,Yes,May 2-May 8
+11104,Sunnyside,11104,40.744658,-73.920205,12.06,506,61,385.3,Yes,May 2-May 8
+11105,Ditmars Steinway,11105,40.778969,-73.906286,10.46,736,77,328.8,Yes,May 2-May 8
+11106,Astoria (South),11106,40.761792,-73.931771,12.1,818,99,390.1,Yes,May 2-May 8
+11109,Long Island City,11109,40.746211,-73.956999,18.65,193,36,399.1,Yes,May 2-May 8
+11201,Brooklyn Heights/DUMBO/Downtown Brooklyn,11201,40.694609,-73.989581,11.05,1556,172,411,Yes,May 2-May 8
+11203,East Flatbush (North)/East Flatbush (South),11203,40.649576,-73.934363,9.48,1002,95,241.4,No,May 2-May 8
+11204,Bensonhurst/Mapleton,11204,40.618774,-73.984824,9.26,1490,138,299.7,Yes,May 2-May 8
+11205,Bedford-Stuyvesant (West)/Clinton Hill/Fort Greene,11205,40.694625,-73.966212,6.8,647,44,214,No,May 2-May 8
+11206,Williamsburg (South),11206,40.701957,-73.942361,10.95,1078,118,219.1,No,May 2-May 8
+11207,Cypress Hills/East New York,11207,40.670819,-73.894255,7.39,1205,89,213.4,No,May 2-May 8
+11208,Cypress Hills/East New York,11208,40.668385,-73.871084,7.49,1162,87,214.5,No,May 2-May 8
+11209,Bay Ridge/Fort Hamilton,11209,40.621811,-74.030011,13.75,1535,211,361.4,Yes,May 2-May 8
+11210,Flatlands/Midwood,11210,40.628165,-73.946316,7.82,844,66,231.4,No,May 2-May 8
+11211,East Williamsburg/Williamsburg (North)/Williamsburg (South),"11211, 11249",40.712334,-73.953851,11.97,1662,199,258.7,No,May 2-May 8
+11212,Ocean Hill-Brownsville,11212,40.662935,-73.913011,7.71,1063,82,258.2,No,May 2-May 8
+11213,Crown Heights (East),11213,40.671074,-73.93633,7.09,1029,73,308,Yes,May 2-May 8
+11214,Bath Beach/Bensonhurst/Gravesend,11214,40.598729,-73.99621,9.56,1988,190,331.8,Yes,May 2-May 8
+11215,Gowanus/Park Slope/Windsor Terrace,11215,40.66252,-73.986872,10.29,2293,236,573.1,Yes,May 2-May 8
+11216,Bedford-Stuyvesant (West)/Crown Heights (West),11216,40.680785,-73.94931,8.14,1044,85,339.3,Yes,May 2-May 8
+11217,Boerum Hill/Park Slope,"11217, 11243",40.682417,-73.97938,11.4,1026,117,450.2,Yes,May 2-May 8
+11218,Kensington/Windsor Terrace,11218,40.64348,-73.976044,9.22,1790,165,406.8,Yes,May 2-May 8
+11219,Borough Park,11219,40.632662,-73.996666,9.24,1547,143,283.1,Yes,May 2-May 8
+11220,Sunset Park,11220,40.641081,-74.016495,8.81,2010,177,383.8,Yes,May 2-May 8
+11221,Bedford-Stuyvesant (East)/Bushwick,11221,40.691339,-73.927885,9.68,1301,126,278.7,Yes,May 2-May 8
+11222,Greenpoint,11222,40.728292,-73.947562,11.76,850,100,390.3,Yes,May 2-May 8
+11223,Gravesend/Homecrest,11223,40.597169,-73.973422,8.84,1662,147,344.8,Yes,May 2-May 8
+11224,Brighton Beach/Coney Island/Seagate,11224,40.57666,-73.988581,9.61,895,86,272.3,Yes,May 2-May 8
+11225,Crown Heights (West)/Prospect Lefferts Gardens,11225,40.663056,-73.954226,8.47,885,75,283.4,Yes,May 2-May 8
+11226,Flatbush/Prospect Lefferts Gardens,11226,40.646456,-73.956654,7.88,1649,130,297.9,Yes,May 2-May 8
+11228,Bath Beach/Dyker Heights,11228,40.616715,-74.013054,13.81,1043,144,311.2,Yes,May 2-May 8
+11229,Gerritsen Beach/Homecrest/Sheepshead Bay,11229,40.601175,-73.944465,10.98,1148,126,249,No,May 2-May 8
+11230,Midwood,11230,40.622164,-73.965096,7.63,1520,116,285.7,Yes,May 2-May 8
+11231,Carroll Gardens/Cobble Hill/Red Hook,11231,40.677562,-74.004445,9.58,887,85,409.3,Yes,May 2-May 8
+11232,Sunset Park,11232,40.655984,-74.005304,9.97,602,60,358.1,Yes,May 2-May 8
+11233,Bedford-Stuyvesant (East)/Ocean Hill-Brownsville,11233,40.678302,-73.919931,7.11,1013,72,262.4,Yes,May 2-May 8
+11234,Bergen Beach/Flatlands/Marine Park/Mill Basin,11234,40.60758,-73.910513,10.79,1261,136,213.7,No,May 2-May 8
+11235,Brighton Beach/Manhattan Beach/Sheepshead Bay,11235,40.583915,-73.949669,9.82,1355,133,234,No,May 2-May 8
+11236,Canarsie,11236,40.640004,-73.901459,10.19,1217,124,216.2,No,May 2-May 8
+11237,Bushwick/East Williamsburg,11237,40.704153,-73.920883,9.54,650,62,237.5,No,May 2-May 8
+11238,Clinton Hill/Prospect Heights,11238,40.679179,-73.963804,10.17,1357,138,455.7,Yes,May 2-May 8
+11239,East New York,11239,40.64753,-73.882398,16.84,196,33,245.7,No,May 2-May 8
+11354,Flushing/Murray Hill,11354,40.76863,-73.827229,18.14,1108,201,306,Yes,May 2-May 8
+11355,Flushing/Murray Hill/Queensboro Hill,11355,40.751459,-73.821014,15.08,1638,247,282.8,Yes,May 2-May 8
+11356,College Point,11356,40.784867,-73.841495,8.37,526,44,267.4,Yes,May 2-May 8
+11357,Whitestone,11357,40.78639,-73.810964,12.56,876,110,307.4,Yes,May 2-May 8
+11358,Auburndale/Murray Hill,11358,40.760475,-73.79637,14.95,856,128,322,Yes,May 2-May 8
+11360,Bayside (North),11360,40.78205,-73.7808,13.04,391,51,304.5,Yes,May 2-May 8
+11361,Bayside (North)/Bayside (South),11361,40.763748,-73.772419,12.27,644,79,390.6,Yes,May 2-May 8
+11362,Douglaston-Little Neck,11362,40.756533,-73.736995,12.71,417,53,364.6,Yes,May 2-May 8
+11363,Douglaston-Little Neck,11363,40.772803,-73.746444,12,150,18,356.3,Yes,May 2-May 8
+11364,Bayside (South)/Oakland Gardens,11364,40.745279,-73.760578,13.26,837,111,347.5,Yes,May 2-May 8
+11365,Auburndale/Fresh Meadows/Pomonok/Utopia,11365,40.739775,-73.794806,8.21,1047,86,404,Yes,May 2-May 8
+11366,Fresh Meadows/Hillcrest,11366,40.728136,-73.784981,12.42,306,38,309.7,Yes,May 2-May 8
+11367,Kew Gardens Hills/Pomonok,11367,40.730383,-73.826297,11.42,762,87,272.9,Yes,May 2-May 8
+11368,Corona/North Corona,11368,40.749594,-73.852604,6.39,1362,87,207.5,No,May 2-May 8
+11369,Airport/East Elmhurst,11369,40.768944,-73.872812,4.55,638,29,246.8,No,May 2-May 8
+11370,Jackson Heights/Rikers Island,11370,40.763466,-73.891021,5.81,499,29,245.5,No,May 2-May 8
+11372,Jackson Heights,11372,40.75169,-73.883634,8.35,1269,106,326.3,Yes,May 2-May 8
+11373,Elmhurst,11373,40.738823,-73.8785,14.6,1247,182,241.1,No,May 2-May 8
+11374,Rego Park,11374,40.726441,-73.861497,7.99,876,70,343,Yes,May 2-May 8
+11375,Forest Hills,11375,40.720931,-73.846184,10.68,1723,184,370.4,Yes,May 2-May 8
+11377,Woodside,11377,40.744823,-73.90516,9.61,1321,127,266.5,Yes,May 2-May 8
+11378,Maspeth,11378,40.724768,-73.909399,10.49,515,54,262.8,Yes,May 2-May 8
+11379,Middle Village,11379,40.716758,-73.879597,14.26,519,74,259.3,No,May 2-May 8
+11385,Glendale/Ridgewood,11385,40.701058,-73.890159,12.52,1270,159,207.5,No,May 2-May 8
+11411,Cambria Heights,11411,40.694202,-73.735998,7.24,373,27,299.4,Yes,May 2-May 8
+11412,St. Albans,11412,40.698095,-73.758984,4.27,773,33,383.2,Yes,May 2-May 8
+11413,Laurelton/Rosedale,11413,40.669738,-73.750842,5.49,893,49,291.6,Yes,May 2-May 8
+11414,Hamilton Beach/Howard Beach/Lindenwood,11414,40.658266,-73.844905,14.44,547,79,317.4,Yes,May 2-May 8
+11415,Kew Gardens,11415,40.708323,-73.828212,13.99,386,54,312.6,Yes,May 2-May 8
+11416,Ozone Park,11416,40.684652,-73.849549,6.35,520,33,291.8,Yes,May 2-May 8
+11417,Ozone Park,11417,40.676457,-73.844522,7.38,596,44,241.6,No,May 2-May 8
+11418,Richmond Hill,11418,40.700236,-73.836062,7.66,731,56,292.7,Yes,May 2-May 8
+11419,Richmond Hill/South Ozone Park,11419,40.688676,-73.822901,6.19,872,54,303.1,Yes,May 2-May 8
+11420,South Ozone Park,11420,40.673518,-73.817812,6.69,882,59,244.6,No,May 2-May 8
+11421,Woodhaven,11421,40.69405,-73.85867,11,709,78,277.2,Yes,May 2-May 8
+11422,Rosedale,11422,40.660819,-73.73608,6.22,675,42,240.8,No,May 2-May 8
+11423,Hollis/Holliswood,11423,40.71491,-73.767865,7.89,659,52,379,Yes,May 2-May 8
+11426,Bellerose,11426,40.736521,-73.722384,15.75,419,66,342.2,Yes,May 2-May 8
+11427,Bellerose/Hollis Hills/Holliswood,11427,40.730915,-73.745611,7.23,470,34,364.8,Yes,May 2-May 8
+11428,Queens Village,11428,40.721015,-73.742206,7.18,390,28,274.5,Yes,May 2-May 8
+11429,Queens Village,11429,40.709772,-73.738731,4.04,619,25,406.3,Yes,May 2-May 8
+11432,Hillcrest/Jamaica Estates/Jamaica Hills,11432,40.715359,-73.793064,6.66,1201,80,344,Yes,May 2-May 8
+11433,Jamaica,11433,40.69823,-73.787095,3.66,737,27,334,Yes,May 2-May 8
+11434,Airport/South Jamaica/Springfield Gardens/St. Albans,11434,40.656866,-73.783386,6.29,1351,85,389.4,Yes,May 2-May 8
+11435,Briarwood/Jamaica,11435,40.701291,-73.809618,6.96,1063,74,339,Yes,May 2-May 8
+11436,South Jamaica/South Ozone Park,11436,40.675819,-73.796618,5.39,408,22,254.5,No,May 2-May 8
+11691,Edgemere/Far Rockaway,11691,40.60133,-73.761357,6.04,1077,65,246.8,No,May 2-May 8
+11692,Arverne/Edgemere,11692,40.592794,-73.792203,5.84,377,22,266.3,Yes,May 2-May 8
+11693,Arverne/Broad Channel,11693,40.603699,-73.821926,6.94,216,15,268.3,Yes,May 2-May 8
+11694,Belle Harbor-Neponsit/Rockaway Park,11694,40.577599,-73.844553,14.13,283,40,216.6,No,May 2-May 8
+11697,Breezy Point,11697,40.55907,-73.907199,17.81,73,13,265.3,Yes,May 2-May 8
