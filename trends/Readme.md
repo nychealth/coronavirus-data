@@ -289,26 +289,6 @@ Indicators include:
 
 Note that one person can have more than one test during different weeks. Therefore, the sum of counts across weeks may not match summary values. 
 
-### testing-turnaround.csv
-
-This file contains test-level information on molecular tests, stratified by week. Please see the technical notes for a description of the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
-
-Molecular tests are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a nasal swab collected for molecular testing on Monday, October 12, 2020 would be categorized as tested during the week ending October 17, 2020.
-
-This file includes data since the week ending March 7, 2020 based on when the Health Department started to receive a higher volume of molecular tests following the start of the COVID-19 outbreak in NYC.
-
-| Variable Name | Definition | Timeframe |   
-| -------------------|-----------------------------------------------------------------------|-----------|   
-| WEEK_END | Week-ending date | |       
-| TESTS | Number of molecular tests conducted | Week |        
-| PERCENT_24HR | Percent of molecular tests with results reported within 24 hours  | Full week preceding the week-ending date |     
-| PERCENT_48HR | Percent of molecular tests with results reported within 48 hours | Full week preceding the week-ending date |     
-| LAG_MEDIAN | Median turnaround time (half of molecular tests have results reported faster than this time), in days | Full week preceding the week-ending date |  
-| LAG_25TH_PERCENTILE | 25th percentile turnaround time (1 out of 4 molecular tests have results reported *faster* than this time), in days | Full week preceding the week-ending date | 
-| LAG_75TH_PERCENTILE | 75th percentile turnaround time (1 out of 4 molecular tests have results reported *slower* than this time), in days | Full week preceding the week-ending date | 
-
-Note that one person can have more than one test on different days. Therefore, the number of tests conducted in a week will differ from the number of people tested (as reported in other files) for the same week.
-
 ### testrate-by-modzcta.csv 
 
 This file contains the rate of molecular testing per 100,000 people, stratified by week and three different geographies: citywide, borough, and MODZCTA. The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a [description of MODZCTA](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas), and the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
