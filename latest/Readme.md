@@ -119,16 +119,17 @@ This file contains summary information, including the cut-off date and time for 
 
 Indicators include: 
 
-| Variable Name | Definition | Timeframe | 
-|-----------------------|----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|
-| MEASURE | Indicator of interest | |        
-| DAILY_AVG_7DAY | *For percent positivity:* Percentage of people with a molecular test who tested positive in the last 7 days; *For others:* daily average of the counts of cases, hospitalizations, and deaths in the last 7 days | Most recent day and previous 6 days |  
-| DAILY_AVG_28DAY | *For percent positivity:* Percentage of people with a molecular test who tested positive in the last 28 days; *For others:* daily average of the counts of cases, hospitalizations, and deaths in the last 28 days | Average across most recent day and previous 27 days | 
-| LAST_7_DAY | Percent positivity for the molecular test and counts of cases, hospitalizations, and deaths in the last 7 days | Most recent day and previous 6 days |   
-| WEEKLY_AVG_LAST_4_WKS | Weekly average of percent positivity for the molecular test and counts of cases, hospitalizations, and deaths in the last 28 days | Average across most recent day and previous 27 days | 
-| TOTAL | Cumulative counts of cases, hospitalizations, and deaths | Cumulative |   
+| Measure Name | Definition | 
+|-----------------------|----------------------------------------------------------------------------------------------------------------------|
+| Current alert level | Current NYC alert level status |        
+| Percent_Positive | Percentage of people with a molecular test who tested positive in the last 7 days |        
+| Cases_7_day_avg | Daily average of the counts of cases in the last 7 days | 
+| Case_rate | Rate of cases in the last 7 days per 100,000 people | 
+| Hosp_7_day_avg | Daily average of the counts of hospitalizations in the last 7 days |   
+| Hosp_rate | Rate of hospitalizations in the last 7 days per 100,000 people | 
+| Deaths_7_day_avg | Daily average of the counts of deaths in the last 7 days |   
 
-Hospitalization counts reflect the total number of people with COVID-19 ever admitted to a hospital, not the number of people currently admitted. Death counts reflect confirmed classifications, and case counts reflect both confirmed and probable classifications, separately. 
+Hospitalization counts reflect the total number of people with COVID-19 ever admitted to a hospital, not the number of people currently admitted. Death counts reflect confirmed classifications, and case counts reflect both confirmed and probable cases. 
 
 ### now-testing-by-age.csv 
 
