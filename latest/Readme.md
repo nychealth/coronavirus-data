@@ -120,8 +120,7 @@ This file contains summary information, including the cut-off date and time for 
 Indicators include: 
 
 | Measure Name | Definition | 
-|-----------------------|----------------------------------------------------------------------------------------------------------------------|
-| Current alert level | Current NYC alert level status |        
+|-----------------------|----------------------------------------------------------------------------------------------------------------------|       
 | Percent_Positive | Percentage of people with a molecular test who tested positive in the last 7 days |        
 | Cases_7_day_avg | Daily average of the counts of cases in the last 7 days | 
 | Case_rate | Rate of cases in the last 7 days per 100,000 people | 
