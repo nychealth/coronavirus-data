@@ -126,9 +126,10 @@ Indicators include:
 | Case_rate | Rate of cases in the last 7 days per 100,000 people | 
 | Hosp_7_day_avg | Daily average of the counts of hospitalizations in the last 7 days |   
 | Hosp_rate | Rate of hospitalizations in the last 7 days per 100,000 people | 
+| Inpatient COVID bed occupancy | Daily average of the percent of inpatient beds occupied by COVID-19 patients in the last 7 days | 
 | Deaths_7_day_avg | Daily average of the counts of deaths in the last 7 days |   
 
-Hospitalization counts reflect the total number of people with COVID-19 ever admitted to a hospital, not the number of people currently admitted. Death counts reflect confirmed classifications, and case counts reflect both confirmed and probable cases. 
+Hospitalization counts reflect the total number of people with COVID-19 ever admitted to a hospital, not the number of people currently admitted. Death counts reflect confirmed classifications, and case counts reflect both confirmed and probable cases. The percent of inpatient beds occupied represent the current strain on the healthcare system. These data come from NYS’s Health Electronic Response Data System (HERDS) and can be accessed [from the State’s data portal](https://health.data.ny.gov/Health/New-York-State-Statewide-COVID-19-Hospitalizations/jw46-jpb7). 
 
 ### now-testing-by-age.csv 
 
