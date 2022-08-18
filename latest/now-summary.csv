@@ -1,9 +1,9 @@
-"Measure","Last 7 days"
-Percent_positive,9.65
-Cases_7_day_avg,2743
-case_rate,230.28
-Hosp_7_day_avg,91
-hosp_rate,14.27403288
-Inpatient COVID bed occupancy,7.83
-deaths_7_day_avg,10
-"Updated: August 17, 2022",
+"Measure","Last 7 days","Trend"
+Percent Positivity,10.12,Decreasing
+Total Cases,2603,Decreasing
+case_rate,218.57,
+Hospitalizations,87,Decreasing
+hosp_rate,14.05,
+Inpatient COVID bed occupancy,7.81,
+Confirmed Deaths,9,Decreasing
+"Updated: August 18, 2022",,
