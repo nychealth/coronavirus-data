@@ -44,7 +44,7 @@ Note that sum of counts in this file may not match values in citywide tables bec
 
 ### variant-epi-data.csv
 
-This file contains the counts and percentages of confirmed cases, by SARS-CoV-2 variant. The SARS-CoV-2 variant and measure of interest (count or percent) are indicated in each column heading. The variants specified in this file represent the most common ones identified in NYC on the date of posting, and will be updated based on emerging genomic sequencing and epidemiologic data.
+This file contains the counts and percentages of confirmed cases, by SARS-CoV-2 variant. The SARS-CoV-2 variant and measure of interest (count or percent) are indicated in each column heading. The variants specified in this file represent the most common ones identified in NYC on the date of posting, and will be updated based on emerging genomic sequencing and epidemiologic data. Subvariants are included with the parent lineage unless or until it becomes clearly emergent in the data. 
 
 Please see the technical notes for a description of the different [definitions of SARS-CoV-2 variants](https://github.com/nychealth/coronavirus-data#variants-of-the-sars-cov-2-virus).
 
