@@ -4,7 +4,7 @@ This folder contains files with data that focus on the most recent period of the
 
 ## Files 
 ### breakthrough-summary.csv
-This file contains cumulative counts and average weekly rates of cases, hospitalizations, and deaths by vaccination status,  since January 17, 2021. Data are updated on Thursdays containing data through the Saturday 12 days prior. As of 1/6/2022, data include children age 5-11 years.
+This file contains cumulative counts and average weekly rates of cases, hospitalizations, and deaths by vaccination status,  since January 17, 2021. Data are updated on Thursdays containing data through the Saturday 19 days prior. As of 1/6/2022, data include children age 5-11 years.
 
 It includes the following definitions:
 - "Vaccinated" means people age 5 and over who are fully vaccinated at the time of case diagnosis: 14 days after the administration of the 2nd dose in a 2-dose series, or after the administration of a single-dose vaccine. 
