@@ -248,7 +248,7 @@ The Health Department imports information on hospitalization status from a numbe
 
 Note that hospitalization information can be missing or incomplete from a number of facilities, which is a limitation for any analysis considering hospitalization status by geography (e.g., borough).  
 
-With the November 9, 2020 update, we revised the definition of a COVID-19 hospitalization and removed people who were hospitalized more than 14 days before or after their COVID-19 diagnosis from our count. 
+With the November 9, 2020 update, we revised the definition of a COVID-19 hospitalization and removed people who were hospitalized more than 14 days before or after their COVID-19 diagnosis from our count. Starting October 6, 2022, we revised the definition of a COVID-19 hospitalization to prospectively include those diagnosed 14 days before through 3 days after their hospitalization. 
 
 Hospitalizations are among confirmed or probable cases of COVID-19.
 
