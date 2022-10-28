@@ -28,6 +28,10 @@ Alternatively, you can download a single file. Click on a file you would like to
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
 ***
+## Update on October 28, 2022
+
+The Health Department uploaded historical probable deaths among NYC residents recently reported from other jurisdictions. These were cases where COVID was listed on the death certificate but without a corresponding positive lab and took place in 2020, 2021, and early 2022.  
+
 ## Update on September 14, 2021
 - Antibody-by-age, -by-boro, -by-poverty, and -by-sex data are now found in antibody-by-group.csv. The other files will no longer be updated.
 - by-age, by-boro, by-poverty, by-race, and by-sex will no longer be updated. Those data are now found in by-group.csv.
