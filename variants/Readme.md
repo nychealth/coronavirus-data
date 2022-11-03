@@ -38,15 +38,18 @@ Indicators include:
 | NAME | Variant label per [World Health Organization (WHO) nomenclature](https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/) | | 
 | COUNT | Number of confirmed cases by SARS-CoV-2 variant | Cumulative across most recent 4-week period | 
 | TOTAL | Number of confirmed cases with a specimen submitted to a NYC laboratory for sequencing | Cumulative across most recent 4-week period | 
+| CLASSIFICATION | Variant classification per [CDC definitions](https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/variant-surveillance/variant-info.html) | | 
 | PERCENT_IN_NYC | Percentage of confirmed cases by SARS-CoV-2 variant | Cumulative across most recent 4-week period | 
 
 Note that sum of counts in this file may not match values in citywide tables because of records with missing data.
 
 ### variant-epi-data.csv
 
-This file contains the counts and percentages of confirmed cases, by SARS-CoV-2 variant. The SARS-CoV-2 variant and measure of interest (count or percent) are indicated in each column heading. The variants specified in this file represent the most common ones identified in NYC on the date of posting, and will be updated based on emerging genomic sequencing and epidemiologic data. Subvariants are included with the parent lineage unless or until it becomes clearly emergent in the data. 
+This file contains the counts and percentages of confirmed cases, by SARS-CoV-2 variant. The SARS-CoV-2 variant and measure of interest (count or percent) are indicated in each column heading. The variants specified in this file represent the most common ones identified in NYC on the date of posting, and will be updated based on emerging genomic sequencing and epidemiologic data.
 
 Please see the technical notes for a description of the different [definitions of SARS-CoV-2 variants](https://github.com/nychealth/coronavirus-data#variants-of-the-sars-cov-2-virus).
+
+Variants outlined in this file generally include all subsequent sublineages. Exceptions to this rule are: BA.2.12.1 and BA.2.75, which are shown separately from other BA.2; BA.4.6 which is shown separately from BA.4; and BF.7, BQ.1, and BQ.1.1 which are shown separately from BA.5. 
 
 People with confirmed COVID-19 are categorized based on the date of collection of the sequenced specimen, and are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person whose specimen was sequenced on Monday, May 3, 2021 would be categorized as sequenced during the week ending May 8, 2021. 
 
