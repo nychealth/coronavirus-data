@@ -49,7 +49,7 @@ This file contains the counts and percentages of confirmed cases, by SARS-CoV-2 
 
 Please see the technical notes for a description of the different [definitions of SARS-CoV-2 variants](https://github.com/nychealth/coronavirus-data#variants-of-the-sars-cov-2-virus).
 
-Variants outlined in this file generally include all subsequent sublineages. Exceptions to this rule are: BA.2.12.1 and BA.2.75, which are shown separately from other BA.2; BA.4.6 which is shown separately from BA.4; and BF.7, BQ.1, and BQ.1.1 which are shown separately from BA.5. 
+Variants outlined in this file generally include all subsequent sublineages. Exceptions to this rule are: BA.2.12.1 and BA.2.75, which are shown separately from other BA.2; BA.4.6 which is shown separately from BA.4; BF.7, BQ.1, and BQ.1.1 which are shown separately from BA.5; and XBB.1.5 which is shown separately from XBB. 
 
 People with confirmed COVID-19 are categorized based on the date of collection of the sequenced specimen, and are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person whose specimen was sequenced on Monday, May 3, 2021 would be categorized as sequenced during the week ending May 8, 2021. 
 
