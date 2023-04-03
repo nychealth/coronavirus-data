@@ -4,7 +4,7 @@ This repository contains data on Coronavirus Disease 2019 (COVID-19) in New York
 
 You can view visualizations of these data on the [Health Department’s COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page). Additional data related to COVID-19 are available via [NYC Open Data](https://data.cityofnewyork.us/browse?category=Health&q=covid). 
 
-Data are preliminary and subject to change. Information on this page will change as data and documentation are updated. Tables are updated either every weekday (at a 3-day lag), weekly on Thursday (with data through the previous Saturday), or monthly (at a 14-day lag).
+Data are preliminary and subject to change. Information on this page will change as data and documentation are updated. Tables are updated either weekly on Thursday (at a 3-day lag or with data through the previous Saturday) or monthly (at a 14-day lag).
 
 ***
 
@@ -28,6 +28,10 @@ Alternatively, you can download a single file. Click on a file you would like to
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
 ***
+## Update on April 3, 2023
+
+Starting the week of April 3, 2023, the Health Department will update data in this repository and on the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) weekly on Thursdays. 
+
 ## Update on October 28, 2022
 
 The Health Department uploaded historical probable deaths among NYC residents recently reported from other jurisdictions. These were cases where COVID was listed on the death certificate but without a corresponding positive lab and took place in 2020, 2021, and early 2022.  
@@ -124,7 +128,7 @@ In order to support an update to the [Health Department’s COVID-19 Data webpag
 ## Public health reporting  
 ### Reporting lag 
 
-Our data are updated either daily (at a 3-day lag), weekly on Thursday (with data through the previous Saturday), or monthly (at a 14-day lag). For example, a 3-day lag means that the most recent data in today's update are from three days before. These lags are due to standard delays (up to several days) in reporting a new test, case, hospitalization or death to the Health Department, and are a common limitation of surveillance data. Given the delay, our counts of what has happened in the most recent few days are artificially small. We delay publishing these data until more reports have come in and the data are more complete.
+Our data are updated either weekly on Thursday (at a 3-day lag or with data through the previous Saturday) or monthly (at a 14-day lag). For example, a 3-day lag means that the most recent data in the update are from three days before. These lags are due to standard delays (up to several days) in reporting a new test, case, hospitalization or death to the Health Department, and are a common limitation of surveillance data. Given the delay, our counts of what has happened in the most recent few days are artificially small. We delay publishing these data until more reports have come in and the data are more complete.
 
 ### Report date versus date of event 
 
@@ -294,7 +298,7 @@ Rates for annual citywide-, borough-, ZIP code tabulation areas-, and demographi
 
 Please note that population estimates were updated on November 9, 2020 to reflect annual population estimates for all New Yorkers as of July 1, 2019. These estimates are prior to the COVID-19 outbreak, and therefore, do not represent any changes to NYC’s population as a result of COVID-related migration. 
 
-Rates of cases, hospitalizations, and deaths for poverty and race/ethnicity groups were calculated using direct standardization for age at diagnosis and weighting by [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf).   
+Rates of cases, hospitalizations, and deaths for poverty and race/ethnicity groups were calculated using direct standardization for age at diagnosis, hospitalization, or death and weighting by [the US 2000 standard population](https://www.cdc.gov/nchs/data/statnt/statnt20.pdf).   
 
 ## Demographic characteristics
 ### Geography: ZIP codes and ZCTAs  
