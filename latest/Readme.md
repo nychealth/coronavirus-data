@@ -11,7 +11,7 @@ It includes the following definitions:
 - "Vaccinated, boosted" means people age 5 and over who have received a booster dose at the time of case diagnosis: 14 days after the administration of a booster dose following completion of their primary series (≥150 days for a 2-dose vaccine; ≥60 days for a single-dose vaccine).
 - "Unvaccinated" means people age 5 and over with no record of vaccination status.
 - Cases, hospitalization, and deaths: defined per this repository's common standards.
-- Rates are per 100,000 people. Hospitalization and death rates are age-adjusted. The denominator for average weekly rates for vaccinated people is the count of NYC residents recorded as fully vaccinated by the week of an event (case, hospitalization, or death) included in the rate; the denominator for unvaccinated people is the total city population minus the number of fully or partially vaccinated people  as of the week of event. 
+- Rates are per 100,000 people. Hospitalization and death rates are age-adjusted. The denominator for average weekly rates for vaccinated people is the count of NYC residents recorded as fully vaccinated by the week of an event (case, hospitalization, or death) included in the rate; the denominator for unvaccinated people is the total city population minus the number of fully or partially vaccinated people as of the week of event. 
 
 ### now-weekly-breakthrough.csv
 This file contains weekly counts and rates of cases and hospitalizations by vaccination status, and citywide. Data are updated on Thursdays containing data through the Saturday 12 days prior. As of 1/6/2022, data from the week of 12/18/2021 onward include children age 5-11 years. Recent data may be incomplete due to delays in processing the surge in cases and linking to vaccination and hospitalization data.  
@@ -122,14 +122,14 @@ Indicators include:
 | Measure Name | Definition | 
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|       
 | Percent Positivity | Percentage of people with a molecular test who tested positive in the last 7 days |        
-| Total Cases | Daily average of the counts of cases in the last 7 days | 
-| Case_rate | Rate of cases in the last 7 days per 100,000 people | 
+| Total cases | Daily average of the counts of cases in the last 7 days | 
+| Total case rate | Rate of cases in the last 7 days per 100,000 people | 
 | Hospitalizations | Daily average of the counts of hospitalizations in the last 7 days |   
-| Hosp_rate | Rate of hospitalizations in the last 7 days per 100,000 people | 
-| Inpatient COVID bed occupancy | Daily average of the percent of inpatient beds occupied by COVID-19 patients in the last 7 days | 
-| Confirmed deaths | Daily average of the counts of deaths in the last 7 days |   
+| Hospitalization rate | Rate of hospitalizations in the last 7 days per 100,000 people | 
+| Total deaths | Daily average of the counts of deaths in the last 7 days |   
+| Total death rate | Rate of deaths in the last 7 days per 100,000 people | 
 
-Hospitalization counts reflect the total number of people with COVID-19 ever admitted to a hospital, not the number of people currently admitted. Death counts reflect confirmed classifications, and case counts reflect both confirmed and probable cases. The percent of inpatient beds occupied represent the current strain on the healthcare system. These data come from NYS’s Health Electronic Response Data System (HERDS) and can be accessed [from the State’s data portal](https://health.data.ny.gov/Health/New-York-State-Statewide-COVID-19-Hospitalizations/jw46-jpb7). 
+Hospitalization counts reflect the total number of people with COVID-19 ever admitted to a hospital, not the number of people currently admitted. Death counts reflect total counts, and case counts reflect both confirmed and probable cases.  
 
 Trend is based on the daily average of counts in the last 7 days compared with the daily average of counts in the past 28 days. 
 
