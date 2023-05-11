@@ -28,6 +28,15 @@ Alternatively, you can download a single file. Click on a file you would like to
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
 ***
+## Update on May 11, 2023
+
+The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on May 11, 2023. These include:
+* We are applying a revised the COVID-19 death definition and COVID-19 deaths will no longer be classified as confirmed or probable. Deaths from April 3, 2023, will be counted as a COVID-19 death if: 
+  - the death certificate lists COVID-19 or an equivalent term as the underlying or a contributing cause of death, or 
+  - a case investigation for a confirmed, probable, or suspect COVID-19 case determined that COVID-19 was the cause of death or contributed to the death.
+* In line with the death definition change change, total deaths will be presented instead of confirmed and probable deaths in all graphs and tables. 
+* We have revised the tables for weekly hospitalization and death rates by age and race/ethnicity to correctly categorize people with COVID-19 based on date of event (hospital admission or death). These files previously categorized people with COVID-19 based on date of COVID-19 diagnosis. Trends using the updated data remain the same. 
+
 ## Update on April 3, 2023
 
 Starting the week of April 3, 2023, the Health Department will update data in this repository and on the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) weekly on Thursdays. 
@@ -264,15 +273,20 @@ Hospitalizations are among confirmed or probable cases of COVID-19.
 
 COVID-19 deaths are reported from March 11, 2020 as this was the first date of death for a patient with confirmed COVID-19.   
 
-There are two classifications of COVID-19 deaths reported:   
+Starting April 3, 2023, COVID-19 deaths are no longer classified as confirmed or probable. Deaths are counted as a COVID-19 death if: 
 
-- A death is classified as **confirmed** if the decedent was a NYC resident who had a positive molecular test for the virus that causes COVID-19 and did not die of external causes such as gunshot wounds or drug overdoses.   
+- the death certificate lists COVID-19 or an equivalent term as the underlying or a contributing cause of death, or 
 
-- A death is classified as **probable** if the decedent was a NYC resident (or residency pending) who had no known positive molecular test for the virus that causes COVID-19 but the death certificate lists “COVID-19” or an equivalent as a cause of death.   
+- a case investigation for a confirmed, probable, or suspect COVID-19 case determined that COVID-19 was the cause of death or contributed to the death.
 
-As new information becomes available, some deaths previously classified as probable may be reclassified as confirmed. This may lead to a reduction in the number of probable deaths in daily reporting. 
+Prior to April 3, 2023, there were two classifications of COVID-19 deaths reported:   
 
-Starting in June 2020, people who died more than 60 days after their COVID-19 diagnosis and starting August 3, 2021, people who died more than 30 days after their COVID-19 diagnosis who did not have "COVID" or similar listed on their death certificate are removed from the death count. This is to address instances in which a person was diagnosed with COVID-19 and survived, but later died, likely of other causes.
+- A death was classified as **confirmed** if the decedent was a NYC resident who had a positive molecular (PCR) test* for the virus that causes COVID-19 and did not die of external causes such as gunshot wounds or drug overdoses.   
+
+- A death was classified as **probable** if the decedent was a NYC resident (or residency pending) who had no known positive molecular test for the virus that causes COVID-19 but the death certificate lists “COVID-19” or an equivalent as a cause of death.   
+
+Starting in June 2020, people who died more than 60 days after their COVID-19 diagnosis and starting August 3, 2021, people who died more than 30 days after their COVID-19 diagnosis who did not have "COVID" or similar listed on their death certificate were removed from the death count. This was to address instances in which a person was diagnosed with COVID-19 and survived, but later died, likely of other causes.
+
 
 **Differences between death counts between NYC and New York State:** Data on deaths reported by NYC are derived from the Health Department’s surveillance database and will be different from data reported by the New York State Department of Health. The State Department of Health reports data on deaths from:   
 
