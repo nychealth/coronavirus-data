@@ -68,12 +68,12 @@ Indicators include:
 | CONFIRMED_CASE_RATE | Rate of confirmed cases per 100,000 people by age group | Cumulative | 
 | CASE_RATE | Rate of confirmed and probable cases per 100,000 people by age group | Cumulative | 
 | HOSPITALIZED_RATE | Rate of hospitalized confirmed and probable cases per 100,000 people by age group | Cumulative | 
-| DEATH_RATE | Rate of confirmed and probable deaths per 100,000 people by age group | Cumulative | 
+| DEATH_RATE | Rate of total deaths per 100,000 people by age group | Cumulative | 
 | CONFIRMED_CASE_COUNT | Number of confirmed cases by age group | Cumulative | 
 | PROBABLE_CASE_COUNT | Number of probable cases by age group | Cumulative | 
 | CASE_COUNT | Number of confirmed and probable cases by age group | Cumulative | 
 | HOSPITALIZED_COUNT | Number of hospitalized confirmed and probable cases by age group | Cumulative | 
-| DEATH_COUNT | Number of confirmed and probable deaths by age group | Cumulative | 
+| DEATH_COUNT | Number of total deaths by age group | Cumulative | 
 
 Note that sum of counts in this file may not match citywide values because of records with missing demographic information. 
 
@@ -106,11 +106,8 @@ Indicators include:
 | COVID_CONFIRMED_CASE_RATE | Rate of confirmed cases per 100,000 people by MODZCTA | Cumulative | 
 | COVID_CASE_RATE | Rate of confirmed and probable cases per 100,000 people by MODZCTA | Cumulative | 
 | POP_DENOMINATOR | Population denominators for MODZCTA derived from intercensal estimates by the Bureau of Epidemiology Services (see “Rates per 100,000 people” for more details) | | 
-| COVID_CONFIRMED_DEATH_COUNT | Number of confirmed deaths by MODZCTA | Cumulative | 
-| COVID_PROBABLE_DEATH_COUNT | Number of probable deaths by MODZCTA | Cumulative | 
-| COVID_DEATH_COUNT | Number of confirmed and probable deaths by MODZCTA | Cumulative | 
-| COVID_CONFIRMED_DEATH_RATE | Rate of confirmed deaths per 100,000 people by MODZCTA | Cumulative | 
-| COVID_DEATH_RATE | Rate of confirmed and probable deaths per 100,000 people by MODZCTA | Cumulative | 
+| COVID_DEATH_COUNT | Number of total deaths by MODZCTA | Cumulative | 
+| COVID_DEATH_RATE | Rate of total deaths per 100,000 people by MODZCTA | Cumulative | 
 | PERCENT_POSITIVE | Percentage of people ever tested for COVID-19 with a molecular test who tested positive by MODZCTA | Cumulative | 
 | TOTAL_COVID_TESTS | Number of people tested for COVID-19 with a molecular test by MODZCTA | Cumulative | 
 
@@ -350,4 +347,4 @@ Note that sum of counts in this file may not match citywide values because of re
 
 This file contains cumulative summary information, including the cut-off date and time for data included in the most recent update, and several citywide indicators.  
 
-Hospitalization counts reflect the total number of people with COVID-19 ever admitted to a hospital, not the number of people currently admitted. Case and death counts reflect both confirmed and probable classifications, separately.
+Hospitalization counts reflect the total number of people with COVID-19 ever admitted to a hospital, not the number of people currently admitted. Case and death counts reflect totals, separately.
