@@ -148,7 +148,7 @@ This file contains the same data as cases-by-day.csv, hosp-by-day.csv, and death
 
 This file contains the rate of deaths per 100,000 people, stratified by month and three different geographies: citywide, borough, and MODZCTA. The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a [description of MODZCTA](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas).
 
-Deaths are aggregated by the date of death. This file is updated on the Monday following the 14th day of each month at a 14-day lag to address delays in reporting.
+Deaths are aggregated by the date of death. This file is updated on the third Thursday each month with data through the end of the previous month to address delays in reporting.
 
 The rate of deaths per 100,000 people is suppressed for a specific geography when the count of deaths is between 1 and 4 due to imprecise and unreliable estimates and also to protect patient confidentiality. 
 
@@ -158,7 +158,7 @@ Note that sum of counts in this file may not match values in citywide tables bec
    
 ### deaths-by-day.csv  
 
-This file contains citywide and borough-specific daily counts of probable and confirmed deaths. Deaths are aggregated by the date of death. To address variation in the number of cases diagnosed per day, we have included a 7-day average (mean). This is calculated as the average of number of cases on that day and the previous 6 days.
+This file contains citywide and borough-specific daily counts of total deaths. Deaths are aggregated by the date of death. To address variation in the number of cases diagnosed per day, we have included a 7-day average (mean). This is calculated as the average of number of deaths on that day and the previous 6 days.
 
 This file includes data since February 29, 2020 based on the date that the Health Department classifies as the start of the COVID-19 outbreak in NYC (date of the first laboratory-confirmed case).  
 
@@ -167,30 +167,18 @@ Indicators include:
 | Variable name | Definition | Timeframe | 
 |--------------------------------|---------------------------------------------------------------|---------------------------------| 
 | DATE_OF_INTEREST | Date of death | |  
-| DEATH_COUNT | Count of confirmed deaths citywide | Day | 
-| PROBABLE_DEATH_COUNT | Count of probable deaths citywide | Day | 
-| DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed deaths citywide | Current day and previous 6 days | 
-| ALL_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed and probable deaths citywide | Current day and previous 6 days | 
-| BX_DEATH_COUNT | Count of confirmed deaths in the Bronx | Day | 
-| BX_PROBABLE_DEATH_COUNT | Count of probable deaths in the Bronx | Day | 
-| BX_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed deaths in the Bronx | Current day and previous 6 days | 
-| BX_ALL_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed and probable deaths in the Bronx | Current day and previous 6 days | 
-| BK_DEATH_COUNT | Count of confirmed deaths in Brooklyn | Day |  
-| BK_PROBABLE_DEATH_COUNT | Count of probable deaths in Brooklyn | Day | 
-| BK_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed deaths in Brooklyn  | Current day and previous 6 days | 
-| BK_ALL_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed and probable deaths in Brooklyn | Current day and previous 6 days | 
-| MN_DEATH_COUNT | Count of confirmed deaths in Manhattan | Day |  
-| MN_PROBABLE_DEATH_COUNT | Count of probable deaths in Manhattan | Day | 
-| MN_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed deaths in Manhattan | Current day and previous 6 days |
-| MN_ALL_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed and probable deaths in Manhattan | Current day and previous 6 days |
-| QN_DEATH_COUNT | Count of confirmed deaths in Queens | Day |
-| QN_PROBABLE_DEATH_COUNT | Count of probable deaths in Queens | Day | 
-| QN_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed deaths in Queens | Current day and previous 6 days | 
-| QN_ALL_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed and probable deaths in Queens | Current day and previous 6 days |
-| SI_DEATH_COUNT | Count of confirmed deaths in Staten Island | Day |  
-| SI_PROBABLE_DEATH_COUNT | Count of probable deaths in Staten Island | Day | 
-| SI_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed deaths in Staten Island | Current day and previous 6 days | 
-| SI_ALL_DEATH_COUNT_7DAY_AVG | 7-day average of count of confirmed and probable deaths in Staten Island  | Current day and previous 6 days |
+| DEATH_COUNT | Count of total deaths citywide | Day | 
+| DEATH_COUNT_7DAY_AVG | 7-day average of count of total deaths citywide | Current day and previous 6 days | 
+| BX_DEATH_COUNT | Count of total deaths in the Bronx | Day | 
+| BX_DEATH_COUNT_7DAY_AVG | 7-day average of count of total deaths in the Bronx | Current day and previous 6 days | 
+| BK_DEATH_COUNT | Count of total deaths in Brooklyn | Day |  
+| BK_DEATH_COUNT_7DAY_AVG | 7-day average of count of total deaths in Brooklyn  | Current day and previous 6 days | 
+| MN_DEATH_COUNT | Count of total deaths in Manhattan | Day |  
+| MN_DEATH_COUNT_7DAY_AVG | 7-day average of count of total deaths in Manhattan | Current day and previous 6 days |
+| QN_DEATH_COUNT | Count of total deaths in Queens | Day |
+| QN_DEATH_COUNT_7DAY_AVG | 7-day average of count of total deaths in Queens | Current day and previous 6 days | 
+| SI_DEATH_COUNT | Count of total deaths in Staten Island | Day |  
+| SI_DEATH_COUNT_7DAY_AVG | 7-day average of count of total deaths in Staten Island | Current day and previous 6 days | 
 | INCOMPLETE | Used for display purposes only | | 
 
 Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information.
@@ -226,7 +214,7 @@ Note that sum of counts in this file may not match values in citywide tables bec
 
 This file contains the rate of hospitalized cases per 100,000 people, stratified by month and three different geographies: citywide, borough, and MODZCTA. The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)).
 
-Hospitalizations are aggregated by the date of admission. This file is updated on the Monday following the 14th day of each month at a 14-day lag to address delays in reporting.
+Hospitalizations are aggregated by the date of admission. This file is updated on the third Thursday each month with data through the end of the previous month to address delays in reporting.
 
 The rate of hospitalized cases per 100,000 people is suppressed for a specific geography when the count of hospitalized deaths is between 1 and 4 due to imprecise and unreliable estimates. 
 
