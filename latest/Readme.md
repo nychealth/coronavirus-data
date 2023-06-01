@@ -1,6 +1,6 @@
 # latest/ 
 
-This folder contains files with data that focus on the most recent period of the outbreak. It includes daily 7-day cumulative percent positivity for the molecular test by modified ZIP Code Tabulation Areas (MODZCTA), daily 28-day counts and rates of hospitalizations and deaths by MODZCTA, and trend data that cover the most recent 90 days.
+This folder contains files with data that focus on the most recent period of the outbreak. It includes daily 28-day counts and rates of hospitalizations and deaths by MODZCTA, and trend data that cover the most recent 90 days.
 
 ## Files 
 ### breakthrough-summary.csv
@@ -71,32 +71,6 @@ Note that sum of counts in this file may not match values in citywide tables bec
 * Records with missing geographic information
 * Cells that are suppressed due to imprecise and unreliable estimates or for the protection of patient confidentiality
 
-### last7days-by-modzcta.csv
-
-This file contains person-level information on molecular testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the median rate of testing per 100,000 people, stratified by MODZCTA. Please see the technical notes for a [description of MODZCTA](https://github.com/nychealth/coronavirus-data#geography), the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing), and details on the [calculation of percent positivity](https://github.com/nychealth/coronavirus-data#calculation-of-percent-positivity). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test). Please note that the number of people with positive results does not include people who previously tested positive.
-
-Indicators include:
-
-| Variable Name | Definition | Timeframe  | 
-|-------------------------|------------------------------------------------------------------------------------|---------------------------------------------| 
-| MODZCTA | MODZCTA | |          
-| MODZCTA_NAME | Neighborhood name of the MODZCTA | |  
-| LABEL | List of the ZCTAs that are bundled into the MODZCTA | |   
-| LAT | Latitude of the central point within the MODZCTA | | 
-| LONG | Longitude of the central point within the MODZCTA | |   
-| PERCENTPOSITIVITY_7DAY | Percentage of people with a molecular test who tested positive by MODZCTA | Cumulative across current day and 6 previous days |
-| PEOPLE_TESTED | Number of people who received a molecular test by MODZCTA | Cumulative across current day and 6 previous days | 
-| PEOPLE_POSITIVE | Number of people with a positive result on a molecular test by MODZCTA | Cumulative across current day and 6 previous days | 
-| MEDIAN_DAILY_TEST_RATE | Median rate of molecular testing per 100,000 people by MODZCTA | Median across current day and 6 previous days | 
-| ADEQUATELY_TESTED | Indicator used by NYC to identify MODZCTA where the MEDIAN_DAILY_TEST_RATE exceeds 260 per 100,000 people | | 
-| DATERANGE | Range of dates included in the most recent 7 days | | 
-
-Neighborhood names represent the [Neighborhood Organizing Census Committee](https://www1.nyc.gov/site/census/index.page) boundaries, which were recently developed by the U.S. Census Bureau with input from community groups
-
-Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information.
-
-Unlike other data in this repository, this file excludes patients in congregate facilities to better track community transmission.
-
 ### now-cases-by-day.csv 
 
 This file contains the same data as cases-by-day.csv, but limited to the most recent 90 days. For details, please visit [Trends/Readme/cases-by-day.csv](https://github.com/nychealth/coronavirus-data/tree/master/trends#cases-by-daycsv) 
@@ -121,7 +95,6 @@ Indicators include:
 
 | Measure Name | Definition | 
 |-----------------------|----------------------------------------------------------------------------------------------------------------------|       
-| Percent Positivity | Percentage of people with a molecular test who tested positive in the last 7 days |        
 | Total cases | Daily average of the counts of cases in the last 7 days | 
 | Total case rate | Rate of cases in the last 7 days per 100,000 people | 
 | Hospitalizations | Daily average of the counts of hospitalizations in the last 7 days |   
@@ -131,29 +104,11 @@ Indicators include:
 
 Hospitalization counts reflect the total number of people with COVID-19 ever admitted to a hospital, not the number of people currently admitted. Death counts reflect total counts, and case counts reflect both confirmed and probable cases.  
 
-Trend is based on the daily average of counts in the last 7 days compared with the daily average of counts in the past 28 days. 
-
-### now-testing-by-age.csv 
-
-This file contains the same data as testing-by-age.csv, but limited to the most recent 90 days. For details, please visit [Trends/Readme/testing-by-age.csv](https://github.com/nychealth/coronavirus-data/blob/master/trends/Readme.md#testing-by-agecsv) 
-
-### now-tests.csv 
-
-This file contains the same data as tests.csv, but limited to the most recent 90 days. For details, please visit [Trends/Readme/tests.csv](https://github.com/nychealth/coronavirus-data/blob/master/trends/Readme.md#testscsv) 
-
 ### now-weekly-case-rate-age.csv, now-weekly-hosp-rate-age.csv, now-weekly-death-rate-age.csv
 These files contain weekly case, hospitalization, and death rates by age over the last 12 weeks. For details see [documentation at Trends](https://github.com/nychealth/coronavirus-data/blob/master/trends/Readme.md#weekly-case-rate-agecsv).
 
 ### now-weekly-case-rate-race.csv, now-weekly-hosp-rate-race.csv, now-weekly-death-rate-race.csv
 These files contain weekly case, hospitalization, and death rates by race/ethnicity over the last 12 weeks. For details see [documentation at Trends](https://github.com/nychealth/coronavirus-data/blob/master/trends/Readme.md#weekly-case-rate-racecsv).
-
-### pp-by-modzcta.csv 
-
-This file contains person-level information on molecular testing: the percentage of people tested who tested positive in the 7 days preceding the indicated “end date,” stratified by day and by three different geographies: citywide, borough, MODZCTA. The level of geography is indicated in each column heading.
-
-Please see the technical notes for a [description of MODZCTA](https://github.com/nychealth/coronavirus-data#geography), the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing), and details on the [calculation of percent positivity](https://github.com/nychealth/coronavirus-data#calculation-of-percent-positivity). The data shown in this table are displayed by the date of specimen collection (i.e., when someone went to a healthcare provider for a test) for a molecular test.
-
-Unlike other data in this repository, this file excludes patients in congregate facilities, and people who previously tested positive, to better track community transmission.
 
 ### 7day-transmission-rate.csv
 
