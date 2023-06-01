@@ -4,26 +4,6 @@ This folder contains files with daily, weekly, and monthly data shown across tim
 
 ## Files 
 
-### antibody-by-week.csv   
-
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, stratified by week. Please see the technical notes  for a description of the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
-
-People with an antibody test are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person whose blood was collected for antibody testing on Monday, October 12, 2020 would be categorized as tested during the week ending October 17, 2020. A person tested twice in one week would only be counted once in that week. 
-
-This file includes data since the week ending April 11, 2020 based on when the Health Department started to receive a higher volume of antibody tests following the start of the COVID-19 outbreak in NYC.
-
-Indicators include: 
-
-| Variable Name | Definition | Timeframe |   
-|-----------------|----------------------------------------------------------------------------|------------------------------------------| 
-| WEEKDATE | Week-ending date | |       
-| NUM_PEOP_TEST | Number of people who received an antibody test | Full week preceding the week-ending date |        
-| NUM_PEOP_POS | Number of people with a positive result on an antibody test | Full week preceding the week-ending date  |     
-| PERCENT_POSITIVE | Percentage of people tested with an antibody test who tested positive | Full week preceding the week-ending date |     
-| INCOMPLETE | Used for display purposes only | |    
-
-Note that one person can have more than one test during different weeks. Therefore, the sum of counts across weeks may not match summary values.  
-
 ### caserate-by-modzcta.csv 
 
 This file contains the rate of cases per 100,000 people, stratified by week and three different geographies: citywide, borough, and modified ZIP Code Tabulation Area (MODZCTA). The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a [description of MODZCTA](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas).
@@ -221,90 +201,6 @@ The rate of hospitalized cases per 100,000 people is suppressed for a specific g
 Note that sum of counts in this file may not match values in citywide tables because of:
 * Records with missing geographic information
 * Cells that are suppressed due to imprecise and unreliable estimates
-
-### percentpositive-by-modzcta.csv 
-
-This file contains the percentage of people tested for COVID-19 with a molecular test who tested positive, stratified by week and three different geographies: citywide, borough, and MODZCTA. The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a [description of MODZCTA](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas), the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing), and details on the [calculation of percent positivity](https://github.com/nychealth/coronavirus-data#calculation-of-percent-positivity). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
-
-People with a molecular test are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who had a nasal swab collected for molecular testing on Monday, October 12, 2020 would be categorized as tested during the week ending October 17, 2020. A person tested twice in one week would only be counted once in that week. Therefore, the number of tests conducted in a week will differ from the number of people tested (as reported in other files) for the same week.
-  
-### testing-by-age.csv  
-
-This file contains person-level information on molecular testing: the number of people who received a test, the percentage of people tested who tested positive and the rate of testing per 100,000 people, stratified by week and age group. Please see the technical notes for a description of the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
-
-People with a molecular test are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who had a nasal swab collected for molecular testing on Monday, October 12, 2020 would be categorized as tested during the week ending October 17, 2020. A person tested twice in one week would only be counted once in that week. 
-
-This file includes data since the week ending March 7, 2020 based on when the Health Department started to receive a higher volume of molecular tests following the start of the COVID-19 outbreak in NYC.
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe |  
-|-------------------|----------------------------------------------------------------------------------|------------------------------------------| 
-| WEEK_ENDING | Week-ending date | | 
-| PERPOS_ALL_AGEG | Percentage of people tested with a molecular test who tested positive among people of all ages | Full week preceding the week-ending date | 
-| TESTRATE_ALL_AGEG | Rate of molecular testing per 100,000 among people of all ages | Full week preceding the week-ending date | 
-| NUMTEST_ALL_AGEG | Number of people who received a molecular test among people of all ages | Full week preceding the week-ending date | 
-| PERPOS_0_4 | Percentage of people aged 0-4 years tested with a molecular test who tested positive | Full week preceding the week-ending date |
-| TESTRATE_0_4 | Rate of molecular testing per 100,000 people aged 0-4 years | Full week preceding the week-ending date | 
-| NUMTEST_0_4 | Number of people aged 0-4 years who received a molecular test | Full week preceding the week-ending date | 
-| PERPOS_5_12 | Percentage of people aged 5-12 years tested with a molecular test who tested positive | Full week preceding the week-ending date |
-| TESTRATE_5_12 | Rate of molecular testing per 100,000 people aged 5-12 years | Full week preceding the week-ending date | 
-| NUMTEST_5_12 | Number of people aged 5-12 years who received a molecular test | Full week preceding the week-ending date | 
-| PERPOS_13_17 | Percentage of people aged 13-17 years tested with a molecular test who tested positive | Full week preceding the week-ending date | 
-| TESTRATE_13_17 | Rate of molecular testing per 100,000 people aged 13-17 years | Full week preceding the week-ending date | 
-| NUMTEST_13_17 | Number of people aged 13-17 years who received a molecular test | Full week preceding the week-ending date | 
-| PERPOS_18_24 | Percentage of people aged 18-24 years tested with a molecular test who tested positive | Full week preceding the week-ending date | 
-| TESTRATE_18_24 | Rate of molecular testing per 100,000 people aged 18-24 years | Full week preceding the week-ending date | 
-| NUMTEST_18_24 | Number of people aged 18-24 years who received a molecular test | Full week preceding the week-ending date | 
-| PERPOS_25_34 | Percentage of people aged 25-34 years tested with a molecular test who tested positive | Full week preceding the week-ending date |
-| TESTRATE_25_34 | Rate of molecular testing per 100,000 people aged 25-34 years | Full week preceding the week-ending date | 
-| NUMTEST_25_34 | Number of people aged 25-34 years who received a molecular test | Full week preceding the week-ending date | 
-| PERPOS_35_44 | Percentage of people aged 35-44 years tested with a molecular test who tested positive | Full week preceding the week-ending date | 
-| TESTRATE_35_44 | Rate of molecular testing per 100,000 people aged 35-44 years | Full week preceding the week-ending date | 
-| NUMTEST_35_44 | Number of people aged 35-44 years who received a molecular test | Full week preceding the week-ending date | 
-| PERPOS_45_54 | Percentage of people aged 45-54 years tested with a molecular test who tested positive | Full week preceding the week-ending date | 
-| TESTRATE_45_54 | Rate of molecular testing per 100,000 people aged 45-54 years | Full week preceding the week-ending date | 
-| NUMTEST_45_54 | Number of people aged 45-54 years who received a molecular test | Full week preceding the week-ending date | 
-| PERPOS_55_64 | Percentage of people aged 55-64 years tested with a molecular test who tested positive | Full week preceding the week-ending date | 
-| TESTRATE_55_64 | Rate of molecular testing per 100,000 people aged 55-64 years | Full week preceding the week-ending date | 
-| NUMTEST_55_64 | Number of people aged 55-64 years who received a molecular test | Full week preceding the week-ending date | 
-| PERPOS_65_74 | Percentage of people aged 65-74 years tested with a molecular test who tested positive | Full week preceding the week-ending date | 
-| TESTRATE_65_74 | Rate of molecular testing per 100,000 people aged 65-74 years | Full week preceding the week-ending date | 
-| NUMTEST_65_74 | Number of people aged 65-74 years who received a molecular test | Full week preceding the week-ending date | 
-| PERPOS_75UP | Percentage of people aged 75+ years tested with a molecular test who tested positive | Full week preceding the week-ending date |
-| TESTRATE_75UP | Rate of molecular testing per 100,000 people aged 75+ years | Full week preceding the week-ending date | 
-| NUMTEST_75UP4 | Number of people aged 75+ years who received a molecular test | Full week preceding the week-ending date | 
-
-Note that one person can have more than one test during different weeks. Therefore, the sum of counts across weeks may not match summary values. 
-
-### testrate-by-modzcta.csv 
-
-This file contains the rate of molecular testing per 100,000 people, stratified by week and three different geographies: citywide, borough, and MODZCTA. The level of geography is indicated following the underscore (_) in each column heading. Please see the technical notes for a [description of MODZCTA](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas), and the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
-
-People with a molecular test are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who had a nasal swab collected for molecular testing on Monday, October 12, 2020 would be categorized as tested during the week ending October 17, 2020. A person tested twice in one week would only be counted once in that week. Therefore, the number of tests conducted in a week will differ from the number of people tested (as reported in other files) for the same week.
-
-### tests.csv   
-
-This file contains person-level information on molecular and antigen testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, stratified by day and test type. Please see the technical notes for a description of the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing), and details on the [calculation of percent positivity](https://github.com/nychealth/coronavirus-data#calculation-of-percent-positivity). The dates shown in this table reflect the date of specimen collection (i.e., when someone went to a healthcare provider for a test).
-
-This file includes data since March 3, 2020 based on when the Health Department started to receive a higher volume of molecular tests following the start of the COVID-19 outbreak in NYC. Please note that antigen testing started to become more widely available in NYC in October 2020. The Health Department consistently receives electronic reports *only* for COVID-19 tests that are conducted in laboratories, and tests that are conducted at point-of-care (e.g., antigen tests) may not be routinely reported to the Health Department, especially if the test result is negative.
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe |  
-| -------------------------|----------------------------------------------------------------------------------|-------------------------------| 
-| DATE | Date of specimen collection | | 
-| TOTAL_TESTS | Number of people who received a molecular test  | Day | 
-| POSTITIVE_TESTS | Number of people with a positive result on a molecular test | Day | 
-| PERCENT_POSITIVE | Percentage of people tested with a molecular test who tested positive |  Day | 
-| TOTAL_TESTS_7DAYS_AVG | 7-day average of number of people who received a molecular test | Current day and previous 6 days | 
-| POSITIVE_TESTS_7DAYS_AVG | 7-day average of number of people with a positive result on a molecular test | Current day and previous 6 days | 
-| PERCENT_POSITIVE_7DAYS_AVG | 7-day average of percentage of people tested with a molecular test who tested positive | Current day and 6 previous days | 
-| TOTAL_ANTIGEN_TESTS | Number of people who received an antigen test  | Day | 
-| TOTAL_ANTIGEN_TESTS_7DAYS_AVG | 7-day average of number of people who received an antigen test | Current day and previous 6 days | 
-| INCOMPLETE | Used for display purposes only | | 
-
-Note that one person can have more than one test on different days. Therefore, the number of positive persons every day will be different from the counts of confirmed or probable cases, which will count people only on the first day they test positive.  
 
 ### weekly-breakthrough.csv 
 
