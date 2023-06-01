@@ -4,52 +4,6 @@ This folder contains cumulative totals since the start of the COVID-19 outbreak 
 
 ## Files 
 
-### antibody-by-group.csv
-
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of testing per 100,000 people, stratified by age, sex, borough of residence, and neighborhood poverty group (low, medium, high, very high). 
-
-Demograhic information is based on what is reported to the Health Department by laboratories. Due to the small number of cases among transgender and gender-nonconforming people, data on these cases are not included in this table at this time. 
-
-Please see the technical notes for a description of methods for determining neighborhood poverty ([Poverty Groups](https://github.com/nychealth/coronavirus-data#poverty-groups)), and the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing).
-
-Indicators include: 
-| Variable Name | Definition | Timeframe | 
-|------------------|----------------------------------------------------------------------------------------------------|------------|  
-| group | Population group category | |     
-| subgroup | Population subgroup: age group in years, sex, borough of residence, or neighborhood poverty group| |     
-| NUM_PEOP_TEST | Number of people who received an antibody test by borough of residence | Cumulative |      
-| NUM_PEOP_POS | Number of people with a positive result on an antibody test by borough of residence | Cumulative |   
-| PERCENT_POSITIVE | Percentage of people tested with an antibody test who tested positive by borough of residence | Cumulative |
-| TEST_RATE | Rate of antibody testing per 100,000 people by borough of residence | Cumulative | 
-
-The sum of counts may not match summary values because of records with missing geographic information.
-
-Note: this file replaces antibody-by-age.csv, antibody-by-boro.csv, antibody-by-poverty.csv, and antibody-by-sex.csv. Those files are no longer being updated.
-
-
-### antibody-by-modzcta.csv   
-
-This file contains person-level information on antibody testing: the number of people who received a test, the number of people with positive results, the percentage of people tested who tested positive, and the rate of antibody testing per 100,000 people, stratified by modified ZIP code tabulation areas (MODZCTA). Please see the technical notes for a description of MODZCTA ([Geography: Zip codes and ZCTAs](https://github.com/nychealth/coronavirus-data#geography-zip-codes-and-zctas)), and the different [types of COVID-19 laboratory tests](https://github.com/nychealth/coronavirus-data#laboratory-testing).
-
-Indicators include: 
-
-| Variable Name | Definition | Timeframe | 
-|------------------|---------------------------------------------------------------------------------------------|------------|
-| MODZCTA_FIRST| MODZCTA | |     
-| NEIGHBORHOOD_NAME | Neighborhood name of the MODZCTA | |   
-| LABEL | List of the ZIP Code Tabulation Areas (ZCTAs) that are bundled into the MODZCTA | |   
-| LAT | Latitude of the central point within the MODZCTA | | 
-| LONG | Longitude of the central point within the MODZCTA | |  
-| NUM_PEOP_TEST | Number of people who received an antibody test by MODZCTA | Cumulative |      
-| NUM_PEOP_POS | Number of people with a positive result on an antibody test by MODZCTA | Cumulative |   
-| PERCENT_POSITIVE | Percentage of people tested with an antibody test who tested positive by MODZCTA | Cumulative |   
-| TEST_RATE | Rate of antibody testing per 100,000 people by MODZCTA | Cumulative |   
-
-Neighborhood names represent the [Neighborhood Organizing Census Committee](https://www1.nyc.gov/site/census/index.page) boundaries, which were recently developed by the U.S. Census Bureau with input from community groups. 
-
-The sum of counts may not match summary values because of records with missing geographic information.
-
-
 ### by-group.csv
 
 This file contains counts and rates of cases, hospitalizations, and deaths, stratified by age, sex, borough, race/ethnicity, and neighborhood poverty (low, medium, high, very high). Methods for determining neighborhood poverty are outlined in the technical notes ([Poverty Groups](https://github.com/nychealth/coronavirus-data#poverty-groups)). 
@@ -84,7 +38,6 @@ Due to the small number of cases reported among transgender and gender-nonconfor
 Differences in health outcomes among racial and ethnic groups are due to long-term institutional and personal biases against people of color. There is no evidence that these health inequities are due to personal traits. Lasting racism and an inequitable distribution of resources needed for wellness cause these health inequities. These resources include quality jobs, housing, health care and food, among others. The greater impact of the COVID-19 pandemic on people of color shows how these inequities influence health outcomes.
 
 Note: this file replaces by-age.csv, by-boro.csv, by-poverty.csv, by-race.csv, and by-sex.csv. Those files are no longer being updated.
-
 
 ### data-by-modzcta.csv   
 
@@ -160,20 +113,6 @@ This file contains rates of deaths, by age group and race/ethnicity group. Rates
 Data on people identified as American Indian/Alaska Native, two or more races, or certain other races/ethnicities not listed are not included in this table. The Hispanic/Latino category includes people of any race. Race/ethnicity information is most complete for people who have been hospitalized or have died. There are much less data currently available on race/ethnicity for people who have not been hospitalized.
 
 Differences in health outcomes among racial and ethnic groups are due to long-term institutional and personal biases against people of color. There is no evidence that these health inequities are due to personal traits. Lasting racism and an inequitable distribution of resources needed for wellness cause these health inequities. These resources include quality jobs, housing, health care and food, among others. The greater impact of the COVID-19 pandemic on people of color shows how these inequities influence health outcomes.
-
-### deaths-by-underlying-condition.csv   
-
-This file contains cumulative counts, by age group and whether underlying conditions were present, absent, or not known. Underlying conditions currently include diabetes, lung disease, cancer, immunodeficiency, heart disease, hypertension, asthma, kidney disease, gastrointestinal/liver disease, and obesity. “Pending” refers to cases that are still under investigation. 
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe | 
-|-----------------------------|------------------------------------------------------------------------------------------------|------------| 
-| AGE_GROUP | Age group in years | |          
-| DEATH_COUNT_TOTAL | Number of deaths by age group | Cumulative | 
-| DEATH_COUNT_ILLNESS | Number of deaths among people with underlying conditions by age group | Cumulative | 
-| DEATH_COUNT_NO_ILLNESS | Number of deaths among people with no underlying conditions by age group | Cumulative | 
-| DEATH_COUNT_PENDING_ILLNESS | Number of deaths among people under investigation for underlying illness by age group | Cumulative |
 
 ### group-cases-by-boro.csv 
 
@@ -266,82 +205,6 @@ Rates for race/ethnicity groups (Asian/Pacific-Islander, Black/African-American,
 Due to the small number of cases among transgender and gender-nonconforming people, data on these cases are not included in this table at this time. 
 
 Note that sum of counts in this file may not match values in citywide tables because of records with missing demographic or geographic information.
-
-### probable-confirmed-by-age.csv   
-
-This file contains counts of confirmed and probable deaths, by age group. Data on probable deaths that are missing demographic information are classified as “Data pending.”
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe | 
-|-----------------|----------------------------------------|------------| 
-| AGE_GROUP | Age group in years | |          
-| CONFIRMED_DEATH | Number of confirmed deaths by age group | Cumulative | 
-| PROBABLE_DEATH | Number of probable deaths by age group | Cumulative | 
-
- Note that sum of counts in this file may not match citywide values because of records with missing demographic information.  
-
-### probable-confirmed-by-boro.csv   
-
-This file contains counts of confirmed and probable deaths, by borough of residence. Data on probable deaths that are missing demographic information are classified as “Data pending.” 
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe | 
-|-----------------|---------------------------------------------------|------------| 
-| BOROUGH_GROUP | Borough of residence | |          
-| CONFIRMED_DEATH | Number of confirmed deaths by borough of residence | Cumulative | 
-| PROBABLE_DEATH | Number of probable deaths by borough of residence | Cumulative | 
-
-Note that sum of counts in this file may not match citywide values because of records with missing demographic information.   
-
-### probable-confirmed-by-location.csv   
-
-This file contains counts of confirmed and probable deaths, by location of death. The “Hospital/Emergency room” category includes any hospital-associated death, including deaths that occurred in the emergency department, an inpatient ward, or intensive care unit. The “Nursing home/Hospice” category includes any death that occurred in an assisted living or long-term care facility. The “Other/Unknown” category includes deaths that occurred in any setting not listed in this table, including patients who were dead on arrival at the hospital or for whom information on location of death is unknown.
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe | 
-|-------------------|------------------------------------------------|------------| 
-| LOCATION_OF_DEATH | Location of death | |          
-| CONFIRMED_DEATH | Number of confirmed deaths by location of death | Cumulative | 
-| PROBABLE_DEATH | Number of probable deaths by location of death | Cumulative | 
-
-Note that sum of counts in this file may not match citywide values because of records with missing information.  
-
-### probable-confirmed-by-race.csv   
-
-This file contains counts of confirmed and probable deaths, by race/ethnicity group. Data on probable deaths that are missing demographic information are classified as “Data pending.”
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe | 
-|-----------------|---------------------------------------------------|------------| 
-| RACE_GROUP | Race/ethnicity group | |          
-| CONFIRMED_DEATH | Number of confirmed deaths by race/ethnicity group | Cumulative | 
-| PROBABLE_DEATH | Number of probable deaths by race/ethnicity group | Cumulative | 
-
-Data on people identified as American Indian/Alaska Native, two or more races, or another race/ethnicity not listed are included in the “Other/Unknown” category. The Hispanic/Latino category includes people of any race.    
-
-Note that sum of counts in this file may not match citywide values because of records with missing demographic information.
-
-Differences in health outcomes among racial and ethnic groups are due to long-term institutional and personal biases against people of color. There is no evidence that these health inequities are due to personal traits. Lasting racism and an inequitable distribution of resources needed for wellness cause these health inequities. These resources include quality jobs, housing, health care and food, among others. The greater impact of the COVID-19 pandemic on people of color shows how these inequities influence health outcomes.  
-
-### probable-confirmed-by-sex.csv   
-
-This file contains counts of confirmed and probable deaths, by sex as reported to the Health Department. Data on probable deaths that are missing demographic information are classified as “Data pending.”
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe | 
-|-----------------|----------------------------------|------------| 
-| SEX | Sex reported to the Health Department | |           
-| CONFIRMED_DEATH | Number of confirmed deaths by sex | Cumulative | 
-| PROBABLE_DEATH | Number of probable deaths by sex | Cumulative | 
-
-Due to the small number of cases among transgender and gender-nonconforming people, data on these cases are not included in this table at this time.
-
-Note that sum of counts in this file may not match citywide values because of records with missing demographic information.  
 
 ### summary.csv   
 
