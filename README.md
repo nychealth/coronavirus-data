@@ -28,6 +28,21 @@ Alternatively, you can download a single file. Click on a file you would like to
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
 ***
+## Update on June 1, 2023
+
+Because the federal public health emergency for COVID-19 has ended, labs are no longer required to report negative SARS-CoV-2 test results. Multiple labs have stopped reporting these results, so we are no longer able to accurately calculate percent positivity and testing rates for COVID-19. The following tables will no longer be updated: 
+- antibody-by-group.csv
+- antibody-by-modzcta.csv   
+- antibody-by-week.csv   
+- last7days-by-modzcta.csv
+- now-testing-by-age.csv
+- now-tests.csv
+- pp-by-modzcta.csv
+- percentpositive-by-modzcta.csv
+- testing-by-age.csv  
+- testrate-by-modzcta.csv
+- tests.csv   
+
 ## Update on May 11, 2023
 
 The Health Department made several changes to this repository and the [COVID-19 Data webpage](https://www1.nyc.gov/site/doh/covid/covid-19-data.page) on May 11, 2023. These include:
@@ -184,7 +199,7 @@ Pneumonia is defined as mention or diagnosis of pneumonia. Since the signs and s
 
 #### Reportable disease surveillance 
 
-The Health Department receives electronic laboratory reports for a number of infectious diseases, including COVID-19, as required by law in the [NYC Health Code](https://www1.nyc.gov/site/doh/providers/reporting-and-services/notifiable-diseases-and-conditions-reporting-central.page). When a specimen is collected from a patient for SARS-CoV-2 laboratory testing, the laboratory must report all results, whether positive, negative, or inconclusive, to the Health Department. Limited demographic information on the person being tested is reported to the Health Department, including name, address, and date of birth. 
+The Health Department receives electronic laboratory reports for a number of infectious diseases, including COVID-19, as required by law in the [NYC Health Code](https://www1.nyc.gov/site/doh/providers/reporting-and-services/notifiable-diseases-and-conditions-reporting-central.page). When a specimen is collected from a patient for SARS-CoV-2 laboratory testing, the laboratory must report all results to the Health Department. As of May 11, 2023, labs are only required to submit positive diagnostic SARS-CoV-2 test results to the Health Department. Limited demographic information on the person being tested is reported to the Health Department, including name, address, and date of birth. 
 
 ## Laboratory testing
 ### Types of COVID-19 laboratory tests
@@ -223,26 +238,6 @@ There are three main types of COVID-19 tests that are reported to the Health Dep
 
 - These data are based on electronic laboratory reports, which often lack information on demographic and clinical characteristics of interest, such as race and ethnicity, co-occurring medical conditions, presence and onset date of COVID-19 symptoms, reason for testing, and occupation. 
 
-### Calculation of percent positivity
-
-**Citywide percent positivity** values are currently calculated as follows: 
-
-| Value | Definition | 
-|-------|------------| 
-| Daily values | The numerator includes all people with positive results on each specimen collection date, and the denominator includes all people who received a test on each specimen collection date | 
-| 7-day average | The numerator includes all people with positive results in the last 7 days, and the denominator includes all people who received a test in the last 7 days. If a person is tested more than one time, they are only counted once. If a person tests both positive and negative in the same 7-day period, the positive result is counted. | 
-| 28-day average | The numerator includes all people with positive results in the last 28 days, and the denominator includes all people who received a test in the last 28 days. If a person is tested more than one time, they are only counted once. If a person tests both positive and negative in the same 28-day period, the positive result is counted. |
-
-These values are inclusive of people who previously tested positive. These values are inclusive of persons who reside in long term care facilities and correctional facilities.
-
-**Modified ZIP Code Tabulation Area (MODZCTA)-level percent positivity** values are currently calculated as follows: 
-
-| Value | Definition | 
-|-------|------------| 
-| Daily values | Within each MODZCTA, the numerator includes all people with positive results on each specimen collection date, and the denominator includes all people who received a test on each specimen collection date | 
-| 7-day average | Within each MODZCTA, the numerator includes all people with positive results in the last 7 days, and the denominator includes all people who received a test in the last 7 days. If a person is tested more than one time, they are only counted once. If a person tests both positive and negative in the same 7-day period, the positive result is counted. | 
-
-These values exclude people who previously tested positive. These values exclude persons who reside in long term care facilities and correctional facilities.
 
 ## Counting COVID-19 cases, hospitalizations, and deaths
 ### Case definitions for COVID-19
@@ -387,7 +382,7 @@ The Health Department is continuing to investigate the emergence of variants of 
 
 ### latest/ 
 
-This folder contains files with data that focus on the most recent period of the outbreak. It includes daily 7-day cumulative percent positivity for the molecular test by MODZCTA, daily 28-day counts and rates of hospitalizations and deaths by MODZCTA, and trend data that cover the most recent 90 days. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/latest#latest) for a detailed description of its contents.  
+This folder contains files with data that focus on the most recent period of the outbreak. It includes daily 28-day counts and rates of hospitalizations and deaths by MODZCTA, and trend data that cover the most recent 90 days. See this folder’s [Readme](https://github.com/nychealth/coronavirus-data/tree/master/latest#latest) for a detailed description of its contents.  
 
 ### totals/ 
 
