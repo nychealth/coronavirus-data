@@ -28,6 +28,9 @@ Alternatively, you can download a single file. Click on a file you would like to
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
 ***
+## Update on October 5, 2023
+Due to changes in reporting requirements, vaccination data are incomplete. We will no longer be presenting data by vaccination status, and we will be discontinuing updates to our now-weekly-breakthrough file. 
+
 ## Update on June 1, 2023
 
 Because the federal public health emergency for COVID-19 has ended, labs are no longer required to report negative SARS-CoV-2 test results. Multiple labs have stopped reporting these results, so we are no longer able to accurately calculate percent positivity and testing rates for COVID-19. The following tables will no longer be updated: 
