@@ -10,6 +10,12 @@ This file contains the rate of cases per 100,000 people, stratified by week and 
 
 People with COVID-19 are categorized based on the date of diagnosis, and are aggregated by full-weeks starting each Sunday and ending on Saturday. For example, a person who was diagnosed with COVID-19 on Monday, October 12, 2020 would be categorized as diagnosed during the week ending October 17, 2020. Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information.
 
+The rate of cases per 100,000 people is suppressed for a specific geography when the count of deaths is greater than 0 and less than 5 due to imprecise and unreliable estimates and also to protect patient confidentiality. 
+
+Note that sum of counts in this file may not match values in citywide tables because of:
+* Records with missing geographic information
+* Cells that are suppressed due to imprecise and unreliable estimates or for the protection of patient confidentiality
+
 ### cases-by-day.csv  
 
 This file contains citywide and borough-specific daily counts of probable and confirmed cases. Cases are aggregated by the date of diagnosis. To address variation in the number of cases diagnosed per day, we have included a 7-day average (mean). This is calculated as the average of number of cases on that day and the previous 6 days.
@@ -130,7 +136,7 @@ This file contains the rate of deaths per 100,000 people, stratified by month an
 
 Deaths are aggregated by the date of death. This file is updated on the third Thursday each month with data through the end of the previous month to address delays in reporting.
 
-The rate of deaths per 100,000 people is suppressed for a specific geography when the count of deaths is between 1 and 4 due to imprecise and unreliable estimates and also to protect patient confidentiality. 
+The rate of deaths per 100,000 people is suppressed for a specific geography when the count of deaths is greater than 0 and less than 5 due to imprecise and unreliable estimates and also to protect patient confidentiality. 
 
 Note that sum of counts in this file may not match values in citywide tables because of:
 * Records with missing geographic information
@@ -196,15 +202,11 @@ This file contains the rate of hospitalized cases per 100,000 people, stratified
 
 Hospitalizations are aggregated by the date of admission. This file is updated on the third Thursday each month with data through the end of the previous month to address delays in reporting.
 
-The rate of hospitalized cases per 100,000 people is suppressed for a specific geography when the count of hospitalized deaths is between 1 and 4 due to imprecise and unreliable estimates. 
+The rate of hospitalized cases per 100,000 people is suppressed for a specific geography when the count of hospitalized deaths is greater than 0 and less than 5 due to imprecise and unreliable estimates. 
 
 Note that sum of counts in this file may not match values in citywide tables because of:
 * Records with missing geographic information
 * Cells that are suppressed due to imprecise and unreliable estimates
-
-### weekly-breakthrough.csv 
-
-This file contains the same data as now-weekly-breakthrough.csv with data beginning January 17, 2021, when the first New Yorkers were fully vaccinated. For details, please visit [Latest/Readme/now-weekly-breakthrough.csv](https://github.com/nychealth/coronavirus-data/tree/master/latest#now-weekly-breakthroughcsv) 
 
 ### weekly-case-rate-age.csv 
 
