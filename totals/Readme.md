@@ -68,28 +68,6 @@ Neighborhood names represent the [Neighborhood Organizing Census Committee](http
 
 Note that sum of counts in this file may not match values in citywide tables because of records with missing geographic information.
 
-### deaths-by-boro-age.csv   
-
-This file contains rates of deaths, by age group and borough of residence. Rates are:   
-
-- Cumulative since the start of the outbreak   
-
-- Per 100,000 people by age group and borough of residence  
-
-Indicators include: 
-
-| Variable name | Definition | Timeframe | 
-|---------------|---------------------------------------------------------------------------------------------------|------------| 
-| BOROUGH_GROUP | Borough of residence | |          
-| AGE_0_17_YRS  | Rate of deaths among people aged 0-17 years per 100,000 people by borough of residence | Cumulative | 
-| AGE_18_24_YRS | Rate of deaths among people aged 18-24 years per 100,000 people by borough of residence | Cumulative | 
-| AGE_25_34_YRS | Rate of deaths among people aged 25-34 years per 100,000 people by borough of residence | Cumulative | 
-| AGE_35_44_YRS | Rate of deaths among people aged 35-44 years per 100,000 people by borough of residence | Cumulative | 
-| AGE_45_54_YRS | Rate of deaths among people aged 45-54 years per 100,000 people by borough of residence | Cumulative | 
-| AGE_55_64_YRS | Rate of deaths among people aged 55-64 years per 100,000 people by borough of residence | Cumulative | 
-| AGE_65_74_YRS | Rate of deaths among people aged 65-74 years per 100,000 people by borough of residence | Cumulative | 
-| AGE_GE_75_YRS | Rate of deaths among people aged 75+ years per 100,000 people by borough of residence | Cumulative |
-  
 ### deaths-by-race-age.csv    
 
 This file contains rates of deaths, by age group and race/ethnicity group. Rates are:   
