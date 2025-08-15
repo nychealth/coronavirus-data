@@ -28,6 +28,14 @@ Alternatively, you can download a single file. Click on a file you would like to
 **Questions and custom requests**: We will try to answer questions about the data in this repository as we are able to. If you have a question, please search the [Issues](https://github.com/nychealth/coronavirus-data/issues?q=) to see if it’s already been addressed. Please understand that we are responding to a pandemic and we might not be able to address all questions in a timely manner.  We are not able to accommodate custom data requests placed via Github.  
 
 ***
+## Update on August 14, 2025
+With a substantial decrease in the number of COVID-19 cases tested for SARS-CoV-2 variants, these data are no longer representative of all COVID-19 cases in New York City. We will no longer present SARS-CoV-2 variant data and will discontinue updates to the below tables. 
+- cases-sequenced.csv 
+- now-cases-sequenced.csv 
+- now-variant-epi-data.csv 
+- variant-classification.csv 
+- variant-epi-data.csv 
+
 ## Update on October 5, 2023
 Due to changes in reporting requirements, vaccination data are incomplete. We will no longer be presenting data by vaccination status, and we will be discontinuing updates to our now-weekly-breakthrough file. 
 
