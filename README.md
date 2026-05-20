@@ -1,3 +1,9 @@
+# New NYC Respiratory Illness Data Page
+
+This page shows historical data on COVID-19 in New York City, dating from March 17, 2020, to October 15, 2025. For current data, see the [new Respiratory Illness Data Github repository](https://github.com/nychealth/respiratory-illness-data).
+
+***
+
 # NYC Coronavirus Disease 2019 (COVID-19) Data   
 
 This repository contains data on Coronavirus Disease 2019 (COVID-19) in New York City (NYC). The Health Department classifies the start of the COVID-19 outbreak in NYC as the date of the first laboratory-confirmed case, February 29, 2020.   
